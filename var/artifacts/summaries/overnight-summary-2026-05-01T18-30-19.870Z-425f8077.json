@@ -1,0 +1,24 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-05-01T18:30:18.802Z",
+  "completedAt": "2026-05-01T18:30:19.870Z",
+  "publishEnabled": true,
+  "targetsFile": "config/overnight-targets.json",
+  "scanPath": null,
+  "status": "soft-failed",
+  "error": "Scan did not clear the minimum independent source gate (2).",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2
+  },
+  "targetSummary": {
+    "total": 0,
+    "eligible": 0,
+    "skipped": 0
+  },
+  "actions": [],
+  "skippedTargets": [],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json"
+}
