@@ -6,16 +6,8 @@ export async function collectGithubSignals(config, topic) {
     return [];
   }
 
-  const query = encodeURIComponent(`${topic} in:title,body is:issue OR is:discussion`);
-  const url = `https://api.github.com/search/issues?q=${query}&sort=updated&order=desc&per_page=${config.scan.githubLimit}`;
-  const payload = await fetchJson(url, {
-    headers: {
-      authorization: `Bearer ${config.github.token}`,
-      "x-github-api-version": "2022-11-28",
-    },
-  });
-
-  return payload.items.map((item) => ({
+  const items = await searchGithubIssues(config, topic);
+  return items.map((item) => ({
     provider: "github",
     sourceType: item.pull_request ? "pull_request" : "issue_or_discussion",
     title: item.title,
@@ -29,4 +21,49 @@ export async function collectGithubSignals(config, topic) {
     },
     mediaCandidates: [],
   }));
+}
+
+async function searchGithubIssues(config, topic) {
+  const queries = buildGithubQueries(topic);
+  const seen = new Set();
+  const items = [];
+
+  for (const query of queries) {
+    const payload = await fetchJson(
+      `https://api.github.com/search/issues?q=${encodeURIComponent(query)}&sort=updated&order=desc&per_page=${config.scan.githubLimit}`,
+      {
+        headers: {
+          authorization: `Bearer ${config.github.token}`,
+          "x-github-api-version": "2022-11-28",
+        },
+      }
+    );
+
+    for (const item of payload.items ?? []) {
+      if (seen.has(item.html_url)) {
+        continue;
+      }
+
+      seen.add(item.html_url);
+      items.push(item);
+
+      if (items.length >= config.scan.githubLimit) {
+        return items;
+      }
+    }
+  }
+
+  return items;
+}
+
+function buildGithubQueries(topic) {
+  const exact = `${topic} in:title,body (is:issue OR is:discussion)`;
+  const keywords = extractKeywords(topic, 8).filter((word) => word.length >= 4);
+  const keywordQuery =
+    keywords.length >= 2
+      ? `${keywords.map((word) => `"${word}"`).join(" OR ")} in:title,body (is:issue OR is:discussion)`
+      : null;
+  const laneFallback = `"codex" OR "claude code" OR "ai coding" OR "mcp" OR "plugin" OR "agent workflow" in:title,body (is:issue OR is:discussion)`;
+
+  return [exact, keywordQuery, laneFallback].filter(Boolean);
 }
