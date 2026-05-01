@@ -58,12 +58,13 @@ async function searchGithubIssues(config, topic) {
 
 function buildGithubQueries(topic) {
   const exact = `${topic} in:title,body (is:issue OR is:discussion)`;
-  const keywords = extractKeywords(topic, 8).filter((word) => word.length >= 4);
-  const keywordQuery =
-    keywords.length >= 2
-      ? `${keywords.map((word) => `"${word}"`).join(" OR ")} in:title,body (is:issue OR is:discussion)`
-      : null;
-  const laneFallback = `"codex" OR "claude code" OR "ai coding" OR "mcp" OR "plugin" OR "agent workflow" in:title,body (is:issue OR is:discussion)`;
+  const keywordFallbacks = extractKeywords(topic, 8)
+    .filter((word) => word.length >= 4)
+    .slice(0, 3)
+    .map((word) => `"${word}" in:title,body (is:issue OR is:discussion)`);
+  const laneFallbacks = ["codex", "claude code", "mcp", "plugin", "agent workflow"].map(
+    (term) => `"${term}" in:title,body (is:issue OR is:discussion)`
+  );
 
-  return [exact, keywordQuery, laneFallback].filter(Boolean);
+  return [exact, ...keywordFallbacks, ...laneFallbacks];
 }
