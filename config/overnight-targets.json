@@ -1,0 +1,34 @@
+{
+  "allowedAuthors": {
+    "threads": [
+      "claudeai",
+      "openai",
+      "anthropicai"
+    ],
+    "x": [
+      "coreyganim",
+      "andrewjiang",
+      "pepicrft",
+      "alphasignalai"
+    ]
+  },
+  "harvest": {
+    "enabled": true,
+    "providers": [
+      "reddit",
+      "hackernews",
+      "github"
+    ],
+    "allowedDomains": [
+      "reddit.com",
+      "www.reddit.com",
+      "news.ycombinator.com",
+      "github.com"
+    ],
+    "maxTargets": 8,
+    "maxPerProvider": 3,
+    "minimumSignalScore": 70,
+    "minimumActivityScore": 1
+  },
+  "targets": []
+}

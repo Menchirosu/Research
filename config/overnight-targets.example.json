@@ -1,0 +1,49 @@
+{
+  "allowedAuthors": {
+    "threads": [
+      "claudeai",
+      "openai",
+      "anthropicai"
+    ],
+    "x": [
+      "coreyganim",
+      "andrewjiang",
+      "pepicrft",
+      "alphasignalai"
+    ]
+  },
+  "harvest": {
+    "enabled": true,
+    "providers": [
+      "reddit",
+      "hackernews",
+      "github"
+    ],
+    "allowedDomains": [
+      "reddit.com",
+      "www.reddit.com",
+      "news.ycombinator.com",
+      "github.com"
+    ],
+    "maxTargets": 8,
+    "maxPerProvider": 3,
+    "minimumSignalScore": 70,
+    "minimumActivityScore": 1
+  },
+  "targets": [
+    {
+      "id": "claude-hackathon-quote",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DU_5tZrEoi-",
+      "postId": "17878614390475240",
+      "text": "Our latest Claude Code hackathon is officially a wrap. 500 builders spent a week exploring what they could do with Opus 4.6 and Claude Code. Meet the winners:",
+      "publishedAt": "2026-02-21T00:00:00Z",
+      "activityScore": 2,
+      "priority": 10,
+      "active": false,
+      "isReplyToUs": false
+    }
+  ]
+}

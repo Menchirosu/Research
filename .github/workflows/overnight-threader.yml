@@ -1,0 +1,126 @@
+name: Overnight Threader
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 17 * * *"
+    - cron: "0 20 * * *"
+    - cron: "0 23 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: overnight-threader
+  cancel-in-progress: false
+
+jobs:
+  overnight:
+    runs-on: ubuntu-latest
+    env:
+      TOPIC: hot AI coding workflows right now
+      TARGETS_FILE: config/overnight-targets.json
+      BOT_STATE_BRANCH: bot-state
+      THREADS_APP_ID: ${{ secrets.THREADS_APP_ID }}
+      THREADS_APP_SECRET: ${{ secrets.THREADS_APP_SECRET }}
+      THREADS_REDIRECT_URI: ${{ secrets.THREADS_REDIRECT_URI }}
+      THREADS_SCOPES: threads_basic,threads_content_publish,threads_manage_insights
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      THREADS_LONG_LIVED_ACCESS_TOKEN: ${{ secrets.THREADS_LONG_LIVED_ACCESS_TOKEN }}
+      THREADS_PUBLISH_ENABLED: "true"
+      THREADS_REPLY_CONTROL: everyone
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+
+      - name: Restore bot state branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "${BOT_STATE_BRANCH}:${BOT_STATE_BRANCH}" || true
+
+          if git show-ref --verify --quiet "refs/heads/${BOT_STATE_BRANCH}"; then
+            git worktree add .bot-state "${BOT_STATE_BRANCH}"
+            mkdir -p var
+            if [ -d ".bot-state/var" ]; then
+              rsync -a --delete .bot-state/var/ var/
+            fi
+          else
+            mkdir -p var
+          fi
+
+      - name: Write runtime .env
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > .env <<EOF
+          THREADS_APP_ID=${THREADS_APP_ID}
+          THREADS_APP_SECRET=${THREADS_APP_SECRET}
+          THREADS_REDIRECT_URI=${THREADS_REDIRECT_URI}
+          THREADS_SCOPES=${THREADS_SCOPES}
+          THREADS_ACCESS_TOKEN=${THREADS_ACCESS_TOKEN}
+          THREADS_LONG_LIVED_ACCESS_TOKEN=${THREADS_LONG_LIVED_ACCESS_TOKEN}
+          THREADS_PUBLISH_ENABLED=${THREADS_PUBLISH_ENABLED}
+          THREADS_REPLY_CONTROL=${THREADS_REPLY_CONTROL}
+          GITHUB_TOKEN=${GITHUB_TOKEN}
+          EOF
+
+      - name: Run overnight cycle
+        run: npm run overnight -- --topic="${TOPIC}" --targets-file="${TARGETS_FILE}"
+
+      - name: Persist state branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ ! -d ".bot-state/.git" ]; then
+            git worktree add --detach .bot-state
+            (
+              cd .bot-state
+              git checkout --orphan "${BOT_STATE_BRANCH}"
+              git rm -rf . >/dev/null 2>&1 || true
+            )
+          fi
+
+          mkdir -p .bot-state
+          rm -rf .bot-state/var
+          mkdir -p .bot-state/var
+
+          if [ -d "var" ]; then
+            rsync -a var/ .bot-state/var/
+          fi
+
+          cat > .bot-state/README.md <<EOF
+          This branch stores persistent bot runtime state for GitHub Actions.
+          It is managed automatically by the overnight-threader workflow.
+          EOF
+
+          (
+            cd .bot-state
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit -m "bot-state: update overnight runtime"
+              git push origin HEAD:${BOT_STATE_BRANCH}
+            fi
+          )
+
+      - name: Upload summaries
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: overnight-summaries
+          path: |
+            var/artifacts/summaries/**
+            var/artifacts/receipts/**
+          if-no-files-found: ignore

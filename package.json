@@ -1,0 +1,22 @@
+{
+  "name": "research-trend-threader",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scan public builder communities, draft short Threads posts, and publish with receipts.",
+  "scripts": {
+    "auth:url": "node src/cli.js auth url",
+    "auth:status": "node src/cli.js auth status",
+    "auth:callback": "node src/callback-server.js",
+    "scan": "node src/cli.js scan",
+    "overnight": "node src/cli.js overnight",
+    "draft": "node src/cli.js draft",
+    "delete": "node src/cli.js delete",
+    "publish": "node src/cli.js publish",
+    "run": "node src/cli.js run",
+    "history": "node src/cli.js history"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
