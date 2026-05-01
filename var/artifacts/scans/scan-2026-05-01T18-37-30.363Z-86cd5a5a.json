@@ -1,0 +1,82 @@
+{
+  "topic": "hot AI coding workflows right now",
+  "collectedAt": "2026-05-01T18:37:30.363Z",
+  "startedAt": "2026-05-01T18:37:29.379Z",
+  "providerErrors": [
+    "github: HTTP 422 for https://api.github.com/search/issues?q=%22codex%22%20OR%20%22claude%20code%22%20OR%20%22ai%20coding%22%20OR%20%22mcp%22%20OR%20%22plugin%22%20OR%20%22agent%20workflow%22%20in%3Atitle%2Cbody%20(is%3Aissue%20OR%20is%3Adiscussion)&sort=updated&order=desc&per_page=6: {\"message\":\"Validation Failed\",\"errors\":[{\"message\":\"More than five AND / OR / NOT operators were used.\",\"resource\":\"Search\",\"field\":\"q\",\"code\":\"invalid\"}],\"documentation_url\":\"https://docs.github.com/v3/search/\",\"status\":\"422\"}"
+  ],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "rejected",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": "HTTP 422 for https://api.github.com/search/issues?q=%22codex%22%20OR%20%22claude%20code%22%20OR%20%22ai%20coding%22%20OR%20%22mcp%22%20OR%20%22plugin%22%20OR%20%22agent%20workflow%22%20in%3Atitle%2Cbody%20(is%3Aissue%20OR%20is%3Adiscussion)&sort=updated&order=desc&per_page=6: {\"message\":\"Validation Failed\",\"errors\":[{\"message\":\"More than five AND / OR / NOT operators were used.\",\"resource\":\"Search\",\"field\":\"q\",\"code\":\"invalid\"}],\"documentation_url\":\"https://docs.github.com/v3/search/\",\"status\":\"422\"}"
+    }
+  ],
+  "sources": [
+    {
+      "provider": "hackernews",
+      "sourceType": "story",
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "discussionUrl": "https://news.ycombinator.com/item?id=47950283",
+      "publishedAt": "2026-04-29T16:01:51Z",
+      "score": 99,
+      "commentSummary": "Thank you for sharing benchmark. However, the results are selective. Why no Opus 4.7? Why Gemini 3.1 Pro is missing? If there is some other criterion (e.g. models within certain time or budget), great - just make it explicit. When I see &quot;Top 5 at a glance&quot; and it missed",
+      "keywords": [
+        "hn",
+        "new",
+        "benchmark",
+        "testing",
+        "llms",
+        "deterministic",
+        "outputs",
+        "thank",
+        "sharing",
+        "however"
+      ],
+      "engagement": {
+        "points": 58,
+        "comments": 24
+      },
+      "mediaCandidates": [
+        {
+          "url": "https://interfaze.ai/favicon.ico",
+          "source": "hackernews-linked-site",
+          "rank": 4
+        }
+      ],
+      "signalTags": [
+        "verification",
+        "cost",
+        "tooling"
+      ],
+      "signalScore": 153,
+      "ageHours": 50.6,
+      "ageDays": 2.1
+    }
+  ],
+  "topSignals": [],
+  "mediaCandidates": [],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ]
+}
