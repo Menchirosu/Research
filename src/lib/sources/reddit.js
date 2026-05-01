@@ -25,8 +25,15 @@ export async function collectRedditSignals(config, topic) {
           return matchesTopic(textBlob, topic);
         })
         .slice(0, config.scan.redditThreadFetchPerFeed);
+      const selectedPosts =
+        matches.length > 0
+          ? matches
+          : children
+              .map((child) => child.data)
+              .filter(Boolean)
+              .slice(0, Math.max(2, Math.min(config.scan.redditThreadFetchPerFeed, 3)));
 
-      for (const post of matches) {
+      for (const post of selectedPosts) {
         if (seenPermalinks.has(post.permalink)) {
           continue;
         }
