@@ -45,6 +45,7 @@ const LOW_SIGNAL_TITLE_PATTERNS = [
 export async function runScan(config, input) {
   const topic = input.topic;
   const startedAt = new Date().toISOString();
+  const providers = ["reddit", "hackernews", "github"];
 
   const [reddit, hn, github] = await Promise.allSettled([
     collectRedditSignals(config, topic),
@@ -52,15 +53,18 @@ export async function runScan(config, input) {
     collectGithubSignals(config, topic),
   ]);
 
-  const providerResults = [reddit, hn, github]
+  const settledResults = [reddit, hn, github];
+  const providerResults = settledResults
     .filter((result) => result.status === "fulfilled")
     .flatMap((result) => result.value);
 
-  const providerErrors = [reddit, hn, github]
-    .filter((result) => result.status === "rejected")
-    .map((result) => result.reason?.message ?? String(result.reason));
-
   const sources = filterAndRankSources(config, topic, dedupeSources(providerResults));
+  const providerDiagnostics = providers.map((provider, index) =>
+    buildProviderDiagnostic(provider, settledResults[index], sources)
+  );
+  const providerErrors = providerDiagnostics
+    .filter((row) => row.status === "rejected")
+    .map((row) => `${row.provider}: ${row.error}`);
   const mediaCandidates = await pickMediaCandidates(config, sources);
   const topSignals = rankSignals(topic, sources);
 
@@ -69,6 +73,7 @@ export async function runScan(config, input) {
     collectedAt: new Date().toISOString(),
     startedAt,
     providerErrors,
+    providerDiagnostics,
     sources,
     topSignals,
     mediaCandidates,
@@ -123,6 +128,26 @@ function buildCoverage(sources) {
     provider,
     count,
   }));
+}
+
+function buildProviderDiagnostic(provider, result, filteredSources) {
+  if (!result || result.status === "rejected") {
+    return {
+      provider,
+      status: "rejected",
+      rawCount: 0,
+      filteredCount: 0,
+      error: result?.reason?.message ?? String(result?.reason ?? "Unknown provider error"),
+    };
+  }
+
+  return {
+    provider,
+    status: "fulfilled",
+    rawCount: Array.isArray(result.value) ? result.value.length : 0,
+    filteredCount: filteredSources.filter((source) => source.provider === provider).length,
+    error: null,
+  };
 }
 
 function filterAndRankSources(config, topic, sources) {

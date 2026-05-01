@@ -21,8 +21,8 @@ export async function runOvernightCycle(config, options) {
     scan = await runScan(config, {
       topic: options.topic,
     });
-    validateScanForDraft(config, scan);
     scanPath = saveArtifact(config.paths.scansDir, "scan", scan);
+    validateScanForDraft(config, scan);
   } catch (error) {
     scanError = String(error?.message ?? error);
   }
@@ -38,12 +38,18 @@ export async function runOvernightCycle(config, options) {
       scanPath,
       status: "soft-failed",
       error: scanError,
+      providerErrors: scan?.providerErrors ?? [],
+      providerDiagnostics: scan?.providerDiagnostics ?? [],
+      coverage: scan?.coverage ?? [],
+      sourceCount: scan?.sources?.length ?? 0,
       caps: {
         runsPerWindow: config.posting.overnightRunsPerWindow,
         maxPostActionsPerRun: config.posting.overnightMaxPostActionsPerRun,
         maxReplyActionsPerRun: config.posting.overnightMaxReplyActionsPerRun,
       },
       targetSummary: {
+        manual: targetConfig.targets.length,
+        harvested: 0,
         total: targetConfig.targets.length,
         eligible: 0,
         skipped: 0,
