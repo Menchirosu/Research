@@ -1,0 +1,110 @@
+{
+  "topic": "hot AI coding workflows right now",
+  "collectedAt": "2026-05-01T18:43:19.809Z",
+  "startedAt": "2026-05-01T18:43:17.153Z",
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 6,
+      "filteredCount": 1,
+      "error": null
+    }
+  ],
+  "sources": [
+    {
+      "provider": "hackernews",
+      "sourceType": "story",
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "discussionUrl": "https://news.ycombinator.com/item?id=47950283",
+      "publishedAt": "2026-04-29T16:01:51Z",
+      "score": 99,
+      "commentSummary": "Thank you for sharing benchmark. However, the results are selective. Why no Opus 4.7? Why Gemini 3.1 Pro is missing? If there is some other criterion (e.g. models within certain time or budget), great - just make it explicit. When I see &quot;Top 5 at a glance&quot; and it missed",
+      "keywords": [
+        "hn",
+        "new",
+        "benchmark",
+        "testing",
+        "llms",
+        "deterministic",
+        "outputs",
+        "thank",
+        "sharing",
+        "however"
+      ],
+      "engagement": {
+        "points": 58,
+        "comments": 24
+      },
+      "mediaCandidates": [
+        {
+          "url": "https://interfaze.ai/favicon.ico",
+          "source": "hackernews-linked-site",
+          "rank": 4
+        }
+      ],
+      "signalTags": [
+        "verification",
+        "cost",
+        "tooling"
+      ],
+      "signalScore": 153,
+      "ageHours": 50.7,
+      "ageDays": 2.1
+    },
+    {
+      "provider": "github",
+      "sourceType": "repository",
+      "title": "AbdurRafayHammad/wumpus-agent",
+      "url": "https://github.com/AbdurRafayHammad/wumpus-agent",
+      "publishedAt": "2026-05-01T18:43:14Z",
+      "score": 35,
+      "commentSummary": "0 stars. wumpus agent",
+      "keywords": [
+        "abdurrafayhammad",
+        "wumpus-agent",
+        "wumpus",
+        "agent"
+      ],
+      "engagement": {
+        "stars": 0,
+        "openIssues": 0
+      },
+      "mediaCandidates": [],
+      "signalTags": [
+        "agents"
+      ],
+      "signalScore": 71,
+      "ageHours": 0,
+      "ageDays": 0
+    }
+  ],
+  "topSignals": [],
+  "mediaCandidates": [],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    },
+    {
+      "provider": "github",
+      "count": 1
+    }
+  ]
+}
