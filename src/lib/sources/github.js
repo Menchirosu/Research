@@ -25,21 +25,23 @@ export async function collectGithubSignals(config, topic) {
   }
 
   const repositories = await searchGithubRepositories(config, topic);
-  return repositories.map((item) => ({
-    provider: "github",
-    sourceType: "repository",
-    title: item.full_name,
-    url: item.html_url,
-    publishedAt: item.updated_at,
-    score: 35 + Math.min(item.stargazers_count ?? 0, 25) + Math.min(item.open_issues_count ?? 0, 10),
-    commentSummary: `${item.stargazers_count ?? 0} stars. ${(item.description ?? "").trim()}`.slice(0, 280),
-    keywords: extractKeywords(`${item.full_name} ${item.description ?? ""}`),
-    engagement: {
-      stars: item.stargazers_count ?? 0,
-      openIssues: item.open_issues_count ?? 0,
-    },
-    mediaCandidates: [],
-  }));
+  return repositories
+    .filter(isUsefulGithubRepository)
+    .map((item) => ({
+      provider: "github",
+      sourceType: "repository",
+      title: item.full_name,
+      url: item.html_url,
+      publishedAt: item.updated_at,
+      score: 35 + Math.min(item.stargazers_count ?? 0, 25) + Math.min(item.open_issues_count ?? 0, 10),
+      commentSummary: `${item.stargazers_count ?? 0} stars. ${(item.description ?? "").trim()}`.slice(0, 280),
+      keywords: extractKeywords(`${item.full_name} ${item.description ?? ""}`),
+      engagement: {
+        stars: item.stargazers_count ?? 0,
+        openIssues: item.open_issues_count ?? 0,
+      },
+      mediaCandidates: [],
+    }));
 }
 
 async function searchGithubIssues(config, topic) {
@@ -132,4 +134,18 @@ function buildGithubRepositoryQueries(topic) {
   );
 
   return [exact, ...keywordFallbacks, ...laneFallbacks];
+}
+
+function isUsefulGithubRepository(item) {
+  const stars = Number(item.stargazers_count ?? 0);
+  const openIssues = Number(item.open_issues_count ?? 0);
+  const blob = `${item.full_name ?? ""} ${item.description ?? ""}`.toLowerCase();
+  const strongLanePattern =
+    /\bcodex\b|\bclaude\b|\bmcp\b|\bplugin\b|\bbenchmark\b|\btesting\b|\bvalidation\b|\bsecurity\b|\btoken\b|\bprompt\b|\bllm\b/;
+
+  if (!strongLanePattern.test(blob)) {
+    return false;
+  }
+
+  return stars >= 3 || openIssues >= 1;
 }
