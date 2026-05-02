@@ -315,10 +315,19 @@ function escapeRegExp(value) {
 function extractMediaIdMap(html) {
   const map = new Map();
   const scriptPattern = /<script\b[^>]*>([\s\S]*?)<\/script>/gi;
+  const pkPattern = /"id":"(\d+_\d+)"[\s\S]{0,800}?"pk":"(\d+)"[\s\S]{0,4000}?"code":"([A-Za-z0-9_-]+)"/g;
   const idPattern = /"id":"(\d+_\d+)"[\s\S]{0,4000}?"code":"([A-Za-z0-9_-]+)"/g;
 
   for (const scriptMatch of html.matchAll(scriptPattern)) {
     const scriptBody = scriptMatch[1] ?? "";
+    for (const match of scriptBody.matchAll(pkPattern)) {
+      const mediaId = match[2];
+      const shortcode = match[3];
+      if (mediaId && shortcode && !map.has(shortcode)) {
+        map.set(shortcode, mediaId);
+      }
+    }
+
     for (const match of scriptBody.matchAll(idPattern)) {
       const mediaId = match[1];
       const shortcode = match[2];
