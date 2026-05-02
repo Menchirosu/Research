@@ -18,6 +18,7 @@ export function getConfig() {
     paths: {
       envFile,
       runtimeDir,
+      cacheDir: path.join(runtimeDir, "cache"),
       scansDir: path.join(runtimeDir, "artifacts", "scans"),
       draftsDir: path.join(runtimeDir, "artifacts", "drafts"),
       receiptsDir: path.join(runtimeDir, "artifacts", "receipts"),
@@ -37,6 +38,8 @@ export function getConfig() {
       authorizationHost: "https://threads.net/oauth/authorize",
       appId: env.THREADS_APP_ID ?? "",
       appSecret: env.THREADS_APP_SECRET ?? "",
+      browserPath: env.THREADS_BROWSER_PATH ?? "",
+      publicDiscoveryMode: env.THREADS_PUBLIC_DISCOVERY_MODE ?? "rendered-first",
       redirectUri: env.THREADS_REDIRECT_URI ?? "http://localhost:8787/callback",
       scopes: (
         env.THREADS_SCOPES ??

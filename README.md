@@ -126,7 +126,21 @@ Rules:
 
 - `primary` accounts can be quoted overnight and can allow one-hop replies
 - `secondary` accounts only get hit when the post looks active enough
-- the bot fetches recent public posts from these usernames using the official Threads profile-posts endpoint
+- `maxCandidatesPerRun` caps how many fresh candidates the bot keeps per account per cycle
+- by default the bot now prefers a rendered public Threads profile-page fallback and only hits the official discovery API if that fallback comes up empty
+
+Optional env:
+
+```env
+THREADS_PUBLIC_DISCOVERY_MODE=rendered-first
+```
+
+Supported values:
+
+- `rendered-first`
+- `rendered-only`
+- `api-first`
+- `api-only`
 
 `config/seeded-posts.json` is the one-hop queue for exact Threads posts you want the bot to consider overnight.
 
@@ -234,3 +248,4 @@ Important:
 - on a **private repo**, GitHub Actions uses your included minutes and can bill past quota
 - the workflow keeps state in a separate `bot-state` branch because GitHub-hosted runners are ephemeral
 - if you want Threads watchlist discovery to work reliably, your token should include `threads_profile_discovery`
+- if Meta still blocks public discovery at the app level, the overnight watchlist can still work through rendered public Threads profile pages as long as a browser is available on the runner

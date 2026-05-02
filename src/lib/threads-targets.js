@@ -1,5 +1,6 @@
 import crypto from "node:crypto";
 import { loadJsonIfExists, sanitizeFileName } from "./fs.js";
+import { harvestPublicWatchlistPosts } from "./threads-public-web.js";
 import { listPublicProfilePosts } from "./threads-api.js";
 
 export function loadThreadsWatchlist(filePath) {
@@ -15,6 +16,13 @@ export function loadThreadsWatchlist(filePath) {
         lane: typeof account.lane === "string" ? account.lane.trim() : "ai-builder",
         allowReplies: account.allowReplies === true,
         enabled: account.enabled !== false,
+        profileUrl:
+          typeof account.profileUrl === "string" && account.profileUrl.trim()
+            ? account.profileUrl.trim()
+            : `https://www.threads.com/@${String(account.username ?? "").trim().replace(/^@/, "").toLowerCase()}`,
+        maxCandidatesPerRun: Number.isFinite(account.maxCandidatesPerRun)
+          ? Math.max(1, Math.min(5, Number(account.maxCandidatesPerRun)))
+          : 2,
       }))
       .filter((account) => account.username),
   };
@@ -62,22 +70,76 @@ export async function buildWatchlistTargets(config, watchlist) {
       continue;
     }
 
-    try {
-      const posts = await listPublicProfilePosts(config, account.username, 5);
-      for (const post of posts) {
-        const built = buildTargetsFromWatchlistPost(config, account, post);
-        results.push(...built);
-      }
-    } catch (error) {
+    const discovery = await discoverAccountPosts(config, account);
+    for (const post of discovery.posts.slice(0, account.maxCandidatesPerRun)) {
+      const built = buildTargetsFromWatchlistPost(config, account, post);
+      results.push(...built);
+    }
+
+    if (discovery.errors.length > 0 && discovery.posts.length === 0) {
       errors.push({
         username: account.username,
-        error: String(error?.message ?? error),
+        errors: discovery.errors,
+        fallbackDiagnostics: discovery.diagnostics,
       });
     }
   }
 
   return {
     targets: dedupeTargets(results),
+    errors,
+  };
+}
+
+async function discoverAccountPosts(config, account) {
+  const mode = String(config.threads.publicDiscoveryMode ?? "rendered-first").toLowerCase();
+  const diagnostics = [];
+  const errors = [];
+
+  const tryRendered = async () => {
+    const rendered = await harvestPublicWatchlistPosts(config, account);
+    diagnostics.push(...rendered.diagnostics);
+    if (rendered.posts.length > 0) {
+      return rendered.posts;
+    }
+
+    errors.push({
+      source: "rendered",
+      message: "No public posts were extracted from the rendered profile view.",
+    });
+    return [];
+  };
+
+  const tryApi = async () => {
+    try {
+      return await listPublicProfilePosts(config, account.username, 5);
+    } catch (error) {
+      errors.push({
+        source: "api",
+        message: String(error?.message ?? error),
+      });
+      return [];
+    }
+  };
+
+  let posts = [];
+  if (mode === "api-first") {
+    posts = await tryApi();
+    if (posts.length === 0) {
+      posts = await tryRendered();
+    }
+  } else if (mode === "api-only") {
+    posts = await tryApi();
+  } else {
+    posts = await tryRendered();
+    if (posts.length === 0 && mode !== "rendered-only") {
+      posts = await tryApi();
+    }
+  }
+
+  return {
+    posts,
+    diagnostics,
     errors,
   };
 }
@@ -105,7 +167,7 @@ function buildTargetsFromWatchlistPost(config, account, post) {
     priority: deriveWatchlistPriority(account, post),
     targetOrigin: "watchlist",
     sourceProvider: "threads",
-    sourceType: "profile_post",
+    sourceType: post.sourceType ?? "profile_post",
     sourceHost: "www.threads.com",
     tier: account.tier,
     allowReplies: account.allowReplies,
@@ -140,12 +202,22 @@ function buildTargetsFromWatchlistPost(config, account, post) {
 
 function deriveWatchlistActivity(account, post) {
   const base = account.tier === "primary" ? 2 : 1;
-  return post.has_replies === true ? Math.min(base + 1, 3) : base;
+  const visibleEngagement =
+    Number(post.commentCount ?? 0) +
+    Number(post.repostCount ?? 0) +
+    Number(post.likeCount ?? 0) / 25;
+  const bonus = visibleEngagement >= 8 ? 2 : visibleEngagement >= 2 ? 1 : 0;
+  return Math.max(base, Math.min(base + bonus, 4));
 }
 
 function deriveWatchlistPriority(account, post) {
   const base = account.tier === "primary" ? 140 : 105;
-  return base + (post.has_replies === true ? 10 : 0) + (post.is_verified === true ? 5 : 0);
+  const replyPenalty = post.sourceType === "rendered_profile_reply" ? 15 : 0;
+  const engagementBonus =
+    Number(post.commentCount ?? 0) >= 5 || Number(post.repostCount ?? 0) >= 3 || Number(post.likeCount ?? 0) >= 100
+      ? 10
+      : 0;
+  return base + (post.has_replies === true ? 10 : 0) + (post.is_verified === true ? 5 : 0) + engagementBonus - replyPenalty;
 }
 
 function dedupeTargets(targets) {

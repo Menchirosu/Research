@@ -26,6 +26,7 @@ jobs:
       THREADS_APP_SECRET: ${{ secrets.THREADS_APP_SECRET }}
       THREADS_REDIRECT_URI: ${{ secrets.THREADS_REDIRECT_URI }}
       THREADS_SCOPES: threads_basic,threads_content_publish,threads_manage_insights,threads_profile_discovery
+      THREADS_PUBLIC_DISCOVERY_MODE: rendered-first
       THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
       THREADS_LONG_LIVED_ACCESS_TOKEN: ${{ secrets.THREADS_LONG_LIVED_ACCESS_TOKEN }}
       THREADS_PUBLISH_ENABLED: "true"
@@ -67,12 +68,19 @@ jobs:
           THREADS_APP_SECRET=${THREADS_APP_SECRET}
           THREADS_REDIRECT_URI=${THREADS_REDIRECT_URI}
           THREADS_SCOPES=${THREADS_SCOPES}
+          THREADS_PUBLIC_DISCOVERY_MODE=${THREADS_PUBLIC_DISCOVERY_MODE}
           THREADS_ACCESS_TOKEN=${THREADS_ACCESS_TOKEN}
           THREADS_LONG_LIVED_ACCESS_TOKEN=${THREADS_LONG_LIVED_ACCESS_TOKEN}
           THREADS_PUBLISH_ENABLED=${THREADS_PUBLISH_ENABLED}
           THREADS_REPLY_CONTROL=${THREADS_REPLY_CONTROL}
           GITHUB_TOKEN=${GITHUB_TOKEN}
           EOF
+
+      - name: Check browser availability
+        shell: bash
+        run: |
+          set -euo pipefail
+          google-chrome --version || chromium-browser --version || chromium --version || microsoft-edge --version || true
 
       - name: Run overnight cycle
         run: npm run overnight -- --topic="${TOPIC}" --watchlist-file="${WATCHLIST_FILE}" --seeded-posts-file="${SEEDED_POSTS_FILE}"
