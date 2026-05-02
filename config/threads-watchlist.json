@@ -1,0 +1,32 @@
+{
+  "accounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "allowReplies": true,
+      "enabled": true
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "allowReplies": true,
+      "enabled": true
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "allowReplies": true,
+      "enabled": true
+    },
+    {
+      "username": "threads",
+      "tier": "secondary",
+      "lane": "platform",
+      "allowReplies": false,
+      "enabled": false
+    }
+  ]
+}

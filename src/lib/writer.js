@@ -35,6 +35,14 @@ export async function buildDraftFromScan(config, scan, options = {}) {
     voiceMode: postCount === 1 ? "single-post" : postCount === 2 ? "two-post-thread" : "thread",
     runMode: options.overnightMode ? "overnight" : "default",
     target,
+    analysis: {
+      themeKeys: themes.map((theme) => theme.key),
+      themeCount: themes.length,
+      motifFlags: Object.entries(motifs)
+        .filter(([, value]) => value === true)
+        .map(([key]) => key),
+      originalStrength: assessOriginalStrength(themes, motifs, target),
+    },
     posts,
     sources: scan.sources.slice(0, 8).map((source) => ({
       provider: source.provider,
@@ -163,6 +171,38 @@ function buildThirdPost(themes, motifs, target) {
   }
 
   return "the hype cycle is cooked anyway";
+}
+
+function assessOriginalStrength(themes, motifs, target) {
+  if (target && target.mode !== "original") {
+    return "targeted";
+  }
+
+  if (
+    motifs.deletedUsers ||
+    motifs.taxes ||
+    motifs.claudeMd ||
+    motifs.remoteCodex ||
+    motifs.securityBlocking ||
+    (motifs.guiPraise && motifs.tokenDrain)
+  ) {
+    return "strong";
+  }
+
+  if (
+    (hasTheme(themes, "verification") && hasTheme(themes, "cost")) ||
+    (hasTheme(themes, "plugins") && hasTheme(themes, "agents")) ||
+    (hasTheme(themes, "verification") && hasTheme(themes, "tooling")) ||
+    (hasTheme(themes, "verification") && hasTheme(themes, "agents"))
+  ) {
+    return "strong";
+  }
+
+  if (themes.length >= 3) {
+    return "strong";
+  }
+
+  return "weak";
 }
 
 function toDraftMedia(candidate) {

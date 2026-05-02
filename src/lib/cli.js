@@ -39,7 +39,7 @@ export function printUsage() {
   node src/cli.js auth long-lived
   node src/cli.js auth refresh
   node src/cli.js auth status
-  node src/cli.js overnight --topic="..." [--targets-file=config/overnight-targets.json] [--stretch-budget] [--allow-older-target]
+  node src/cli.js overnight --topic="..." [--watchlist-file=config/threads-watchlist.json] [--seeded-posts-file=config/seeded-posts.json] [--stretch-budget] [--allow-older-target]
   node src/cli.js targets harvest --scan=var/artifacts/scans/<file>.json [--targets-file=config/overnight-targets.json]
   node src/cli.js targets harvest --topic="..." [--targets-file=config/overnight-targets.json]
   node src/cli.js scan --topic="..."

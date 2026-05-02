@@ -1,17 +1,4 @@
 {
-  "allowedAuthors": {
-    "threads": [
-      "claudeai",
-      "openai",
-      "anthropicai"
-    ],
-    "x": [
-      "coreyganim",
-      "andrewjiang",
-      "pepicrft",
-      "alphasignalai"
-    ]
-  },
   "harvest": {
     "enabled": true,
     "providers": [

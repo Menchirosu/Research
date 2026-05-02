@@ -1,6 +1,7 @@
 param(
   [string]$Topic = "hot AI coding workflows right now",
-  [string]$TargetsFile = "config/overnight-targets.json",
+  [string]$WatchlistFile = "config/threads-watchlist.json",
+  [string]$SeededPostsFile = "config/seeded-posts.json",
   [switch]$StretchBudget,
   [switch]$AllowOlderTarget
 )
@@ -15,7 +16,8 @@ $args = @(
   "src/cli.js",
   "overnight",
   "--topic=$Topic",
-  "--targets-file=$TargetsFile"
+  "--watchlist-file=$WatchlistFile",
+  "--seeded-posts-file=$SeededPostsFile"
 )
 
 if ($StretchBudget) {

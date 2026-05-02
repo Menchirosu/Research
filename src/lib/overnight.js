@@ -1,17 +1,20 @@
 import path from "node:path";
 import { saveArtifact, loadJsonIfExists, writeJson } from "./fs.js";
 import { initDatabase, recordPublishReceipt } from "./history.js";
-import { buildHarvestedTargets, inferTargetPlatform, loadOvernightTargets, mergeOvernightTargets } from "./overnight-targets.js";
+import { inferTargetPlatform, mergeOvernightTargets } from "./overnight-targets.js";
 import { publishDraft } from "./publisher.js";
 import { runScan } from "./scan.js";
+import { loadSeededPosts, loadThreadsWatchlist, buildWatchlistTargets } from "./threads-targets.js";
 import { validateDraftForPublish, validateScanForDraft } from "./validators.js";
 import { buildDraftFromScan } from "./writer.js";
 
 export async function runOvernightCycle(config, options) {
   const startedAt = new Date().toISOString();
   const db = initDatabase(config);
-  const targetFile = options.targetsFile ?? config.paths.overnightTargetsFile;
-  const targetConfig = loadOvernightTargets(targetFile);
+  const watchlistFile = options.watchlistFile ?? config.paths.threadsWatchlistFile;
+  const seededPostsFile = options.seededPostsFile ?? config.paths.seededPostsFile;
+  const watchlist = loadThreadsWatchlist(watchlistFile);
+  const seededPosts = loadSeededPosts(seededPostsFile);
   const touchedLedger = loadTouchedLedger(config);
   let scan = null;
   let scanPath = null;
@@ -34,7 +37,8 @@ export async function runOvernightCycle(config, options) {
       startedAt,
       completedAt: new Date().toISOString(),
       publishEnabled: config.threads.publishEnabled,
-      targetsFile: targetFile,
+      watchlistFile,
+      seededPostsFile,
       scanPath,
       status: "soft-failed",
       error: scanError,
@@ -48,12 +52,15 @@ export async function runOvernightCycle(config, options) {
         maxReplyActionsPerRun: config.posting.overnightMaxReplyActionsPerRun,
       },
       targetSummary: {
-        manual: targetConfig.targets.length,
+        watchlistAccounts: watchlist.accounts.length,
+        seeded: seededPosts.posts.length,
+        discovered: 0,
         harvested: 0,
-        total: targetConfig.targets.length,
+        total: seededPosts.posts.length,
         eligible: 0,
         skipped: 0,
       },
+      discoveryErrors: [],
       actions: [],
       skippedTargets: [],
       touchedLedgerPath: buildTouchedLedgerPath(config),
@@ -66,9 +73,9 @@ export async function runOvernightCycle(config, options) {
     };
   }
 
-  const harvestedTargets = buildHarvestedTargets(config, scan, targetConfig);
-  const combinedTargets = mergeOvernightTargets(targetConfig.targets, harvestedTargets);
-  const evaluation = evaluateTargets(config, combinedTargets, targetConfig.allowedAuthors, targetConfig.harvest, touchedLedger);
+  const watchlistDiscovery = await buildWatchlistTargets(config, watchlist);
+  const combinedTargets = mergeOvernightTargets(seededPosts.posts, watchlistDiscovery.targets);
+  const evaluation = evaluateTargets(config, combinedTargets, touchedLedger);
   const selectedPostTarget = pickPostTarget(config, evaluation.eligible);
   const selectedReplyTargets = pickReplyTargets(config, evaluation.eligible, touchedLedger, selectedPostTarget);
 
@@ -144,7 +151,8 @@ export async function runOvernightCycle(config, options) {
     startedAt,
     completedAt: new Date().toISOString(),
     publishEnabled: config.threads.publishEnabled,
-    targetsFile: targetFile,
+    watchlistFile,
+    seededPostsFile,
     scanPath,
     caps: {
       runsPerWindow: config.posting.overnightRunsPerWindow,
@@ -155,13 +163,16 @@ export async function runOvernightCycle(config, options) {
       interactionBudget: options.stretchBudget ? config.posting.stretchInteractionBudget : config.posting.defaultInteractionBudget,
     },
     targetSummary: {
-      manual: targetConfig.targets.length,
-      harvested: harvestedTargets.length,
+      watchlistAccounts: watchlist.accounts.length,
+      seeded: seededPosts.posts.length,
+      discovered: watchlistDiscovery.targets.length,
+      harvested: 0,
       total: combinedTargets.length,
       eligible: evaluation.eligible.length,
       skipped: evaluation.skipped.length,
     },
-    harvestedTargets,
+    discoveryErrors: watchlistDiscovery.errors,
+    discoveredTargets: watchlistDiscovery.targets,
     selected: {
       postTarget: selectedPostTarget,
       replyTargets: selectedReplyTargets,
@@ -186,6 +197,16 @@ async function executeAction(config, db, scan, options) {
       forceSinglePost: true,
       disableMedia: true,
     });
+
+    if (options.kind === "original" && draft.analysis?.originalStrength !== "strong") {
+      return {
+        kind: options.kind,
+        status: "skipped",
+        error: "Overnight original was too bland to post without a strong Threads target.",
+        target: options.target,
+      };
+    }
+
     const draftPath = saveArtifact(config.paths.draftsDir, "draft", draft);
 
     validateDraftForPublish(config, draft, {
@@ -225,12 +246,12 @@ async function executeAction(config, db, scan, options) {
   }
 }
 
-function evaluateTargets(config, targets, allowedAuthors, harvestConfig, touchedLedger) {
+function evaluateTargets(config, targets, touchedLedger) {
   const eligible = [];
   const skipped = [];
 
   for (const target of targets) {
-    const reason = getTargetSkipReason(config, target, allowedAuthors, harvestConfig, touchedLedger);
+    const reason = getTargetSkipReason(config, target, touchedLedger);
     if (reason) {
       skipped.push({
         target,
@@ -248,9 +269,13 @@ function evaluateTargets(config, targets, allowedAuthors, harvestConfig, touched
   };
 }
 
-function getTargetSkipReason(config, target, allowedAuthors, harvestConfig, touchedLedger) {
+function getTargetSkipReason(config, target, touchedLedger) {
   if (!target.active) {
     return "inactive";
+  }
+
+  if (target.platform !== "threads") {
+    return "overnight interactions are threads-native only";
   }
 
   if (!target.author) {
@@ -269,20 +294,19 @@ function getTargetSkipReason(config, target, allowedAuthors, harvestConfig, touc
     return "second-hop replies are disabled overnight";
   }
 
-  if (target.activityScore < 1) {
+  if (target.activityScore < 1 && !(target.targetOrigin === "seeded" && target.thresholdOverride === true)) {
     return "target is not marked as live enough";
   }
 
   const author = target.author.toLowerCase().replace(/^@/, "");
-  if (target.autoHarvested) {
-    if (!isAllowedHarvestTarget(target, harvestConfig)) {
-      return "harvested target is outside the overnight harvest allowlist";
+  if (target.targetOrigin === "watchlist") {
+    if (target.mode === "reply" && (!target.allowReplies || target.tier !== "primary")) {
+      return "watchlist reply target is not allowed for this account tier";
     }
+  } else if (target.targetOrigin === "seeded") {
+    // Seeded posts are explicitly approved for one-hop overnight use.
   } else {
-    const allowlist = allowedAuthors[target.platform] ?? [];
-    if (!allowlist.includes(author)) {
-      return "author is not on the overnight allowlist";
-    }
+    return "target is not from the Threads watchlist or seeded-post queue";
   }
 
   const targetAgeHours = ageHours(config.now, target.publishedAt);
@@ -290,26 +314,15 @@ function getTargetSkipReason(config, target, allowedAuthors, harvestConfig, touc
     return "target is too old for overnight mode";
   }
 
+  if (target.targetOrigin === "watchlist" && target.tier === "secondary" && target.activityScore < 2) {
+    return "secondary watchlist post is not active enough yet";
+  }
+
   if (hasTouchedAuthorRecently(config, touchedLedger, author, target.platform)) {
     return "author was already touched in the last 24 hours";
   }
 
   return null;
-}
-
-function isAllowedHarvestTarget(target, harvestConfig) {
-  if (!harvestConfig?.enabled) {
-    return false;
-  }
-
-  const provider = String(target.sourceProvider ?? "").toLowerCase();
-  const host = String(target.sourceHost ?? "").toLowerCase();
-
-  if (!harvestConfig.providers.includes(provider)) {
-    return false;
-  }
-
-  return harvestConfig.allowedDomains.some((domain) => host === domain || host.endsWith(`.${domain}`));
 }
 
 function pickPostTarget(config, targets) {

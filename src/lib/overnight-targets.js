@@ -134,6 +134,11 @@ function normalizeTargets(targets) {
       sourceType: typeof target.sourceType === "string" ? target.sourceType.trim() : null,
       sourceHost: typeof target.sourceHost === "string" ? target.sourceHost.trim().toLowerCase() : null,
       referenceUrl: typeof target.referenceUrl === "string" ? target.referenceUrl.trim() : null,
+      targetOrigin: typeof target.targetOrigin === "string" ? target.targetOrigin.trim().toLowerCase() : null,
+      tier: target.tier === "secondary" ? "secondary" : "primary",
+      allowReplies: target.allowReplies === true,
+      thresholdOverride: target.thresholdOverride === true,
+      reason: typeof target.reason === "string" ? target.reason.trim() : null,
     }));
 }
 
@@ -174,6 +179,11 @@ function buildHarvestTarget(source) {
     sourceType: source.sourceType ?? null,
     sourceHost,
     referenceUrl,
+    targetOrigin: "scan-harvested",
+    tier: "secondary",
+    allowReplies: false,
+    thresholdOverride: false,
+    reason: null,
   };
 }
 
@@ -281,15 +291,16 @@ function deriveHarvestAuthor(source, sourceHost) {
 }
 
 function buildTargetDedupKey(target) {
+  const mode = String(target.mode ?? "quote").toLowerCase();
   if (target.postId) {
-    return `post:${target.postId}`;
+    return `post:${target.postId}:${mode}`;
   }
 
   if (target.url) {
-    return `url:${target.url.toLowerCase()}`;
+    return `url:${target.url.toLowerCase()}:${mode}`;
   }
 
-  return `id:${target.id}`;
+  return `id:${target.id}:${mode}`;
 }
 
 function buildHarvestTargetId(provider, url) {

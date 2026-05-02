@@ -19,7 +19,7 @@ This first cut is local-first and optimized for the workflow you locked in:
 - no Threads.com scraping
 - short thread output, max 3 posts
 - SQLite history via Node's built-in `node:sqlite`
-- overnight mode with local target allowlist, touched ledger, and summary artifacts
+- overnight mode with Threads-native watchlist targeting, seeded-post queue, touched ledger, and summary artifacts
 
 ## Setup
 
@@ -61,7 +61,7 @@ node src/cli.js run --topic="what's hot in AI coding right now"
 Or run the overnight scheduler-friendly flow:
 
 ```bash
-node src/cli.js overnight --topic="hot AI coding workflows right now" --targets-file=config/overnight-targets.json
+node src/cli.js overnight --topic="hot AI coding workflows right now" --watchlist-file=config/threads-watchlist.json --seeded-posts-file=config/seeded-posts.json
 ```
 
 Or preview the auto-harvested overnight target queue from an existing scan:
@@ -97,21 +97,77 @@ node src/cli.js targets harvest --scan=var/artifacts/scans/<file>.json --targets
   - max `2` reply actions per run
   - one touch per target account per rolling `24h`
   - target-based posts require `publishedAt`
-  - manual reply/quote targets come from `config/overnight-targets.json`
-  - fresh scan hits are auto-harvested into safe `react` targets each run
+  - overnight interactions are Threads-native only
+  - quote/reply targets come from the Threads watchlist and seeded-post queue
+  - external scan sources are support context for originals, not overnight interaction targets
+  - bland overnight originals are skipped instead of being forced out
 
-## Overnight Targets
+## Threads Watchlist And Seeded Posts
 
-`config/overnight-targets.json` is the local allowlist and queue for autonomous quote/reply actions. It also controls the automatic harvest rules for fresh scan sources.
+`config/threads-watchlist.json` is the curated list of notable Threads accounts the bot is allowed to monitor overnight.
 
 Basic shape:
 
 ```json
 {
-  "allowedAuthors": {
-    "threads": ["claudeai", "openai"],
-    "x": ["coreyganim"]
-  },
+  "accounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "allowReplies": true,
+      "enabled": true
+    }
+  ]
+}
+```
+
+Rules:
+
+- `primary` accounts can be quoted overnight and can allow one-hop replies
+- `secondary` accounts only get hit when the post looks active enough
+- the bot fetches recent public posts from these usernames using the official Threads profile-posts endpoint
+
+`config/seeded-posts.json` is the one-hop queue for exact Threads posts you want the bot to consider overnight.
+
+Basic shape:
+
+```json
+{
+  "posts": [
+    {
+      "id": "claude-launch-quote",
+      "mode": "quote",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/...",
+      "postId": "18000000000000000",
+      "text": "target post text",
+      "publishedAt": "2026-05-02T09:30:00Z",
+      "activityScore": 2,
+      "priority": 125,
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": true,
+      "active": true,
+      "isReplyToUs": false,
+      "reason": "fresh launch post worth hitting even before it fully moves"
+    }
+  ]
+}
+```
+
+Rules:
+
+- seeded posts must be real Threads permalinks with real `postId` and `publishedAt`
+- `thresholdOverride: true` lets a manually seeded post bypass the usual live-activity floor for one cycle
+- replies are still one-hop only overnight
+
+## External Harvest Preview
+
+`config/overnight-targets.json` still exists, but it is now only for previewing external scan harvests with:
+
+```json
+{
   "harvest": {
     "enabled": true,
     "providers": ["reddit", "hackernews", "github"],
@@ -121,33 +177,15 @@ Basic shape:
     "minimumSignalScore": 70,
     "minimumActivityScore": 1
   },
-  "targets": [
-    {
-      "id": "unique-id",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "claudeai",
-      "url": "https://www.threads.com/@claudeai/post/...",
-      "postId": "17878614390475240",
-      "text": "target post text",
-      "publishedAt": "2026-05-02T09:30:00Z",
-      "activityScore": 2,
-      "priority": 10,
-      "active": true,
-      "isReplyToUs": false
-    }
-  ]
+  "targets": []
 }
 ```
 
-Use `activityScore >= 1` for targets that are still live enough to hit overnight. Leave `active` false or remove the target when it goes stale.
-
 How it works now:
 
-- `targets[]` is still where native Threads `reply` and `quote` actions live, because those need real post IDs.
-- each overnight run also turns fresh scan sources into temporary `react` targets automatically
-- harvested targets are limited by `harvest.providers`, `harvest.allowedDomains`, freshness, and signal score
-- if you want to inspect the generated queue before a scheduled run, use:
+- external harvest preview is still useful for research and original-post support
+- overnight interactions no longer react directly to Reddit, Hacker News, or GitHub URLs
+- if you want to inspect what the scan would have harvested from external sources, use:
 
 ```bash
 node src/cli.js targets harvest --scan=var/artifacts/scans/<file>.json
@@ -195,3 +233,4 @@ Important:
 - this works best for a **public repo**, because GitHub-hosted Actions are free there
 - on a **private repo**, GitHub Actions uses your included minutes and can bill past quota
 - the workflow keeps state in a separate `bot-state` branch because GitHub-hosted runners are ephemeral
+- if you want Threads watchlist discovery to work reliably, your token should include `threads_profile_discovery`

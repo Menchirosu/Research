@@ -29,6 +29,8 @@ export function getConfig() {
       styleFile: path.join(repoRoot, "config", "threads-style.md"),
       overnightTargetsFile: path.join(repoRoot, "config", "overnight-targets.json"),
       overnightTargetsExampleFile: path.join(repoRoot, "config", "overnight-targets.example.json"),
+      threadsWatchlistFile: path.join(repoRoot, "config", "threads-watchlist.json"),
+      seededPostsFile: path.join(repoRoot, "config", "seeded-posts.json"),
     },
     threads: {
       apiHost: "https://graph.threads.net",
@@ -36,7 +38,10 @@ export function getConfig() {
       appId: env.THREADS_APP_ID ?? "",
       appSecret: env.THREADS_APP_SECRET ?? "",
       redirectUri: env.THREADS_REDIRECT_URI ?? "http://localhost:8787/callback",
-      scopes: (env.THREADS_SCOPES ?? "threads_basic,threads_content_publish,threads_manage_insights")
+      scopes: (
+        env.THREADS_SCOPES ??
+        "threads_basic,threads_content_publish,threads_manage_insights,threads_profile_discovery"
+      )
         .split(",")
         .map((value) => value.trim())
         .filter(Boolean),
@@ -89,6 +94,7 @@ export function getConfig() {
       overnightMaxReplyActionsPerRun: 2,
       overnightAutoReactMinimumPriority: 90,
       overnightAutoReactMinimumActivity: 2,
+      overnightPrimaryReplyMaxAgeHours: 24,
     },
   };
 }

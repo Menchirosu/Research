@@ -12,7 +12,10 @@ export async function runOvernightCommand(flags) {
 
   const result = await runOvernightCycle(config, {
     topic,
-    targetsFile: typeof flags["targets-file"] === "string" ? flags["targets-file"] : config.paths.overnightTargetsFile,
+    watchlistFile:
+      typeof flags["watchlist-file"] === "string" ? flags["watchlist-file"] : config.paths.threadsWatchlistFile,
+    seededPostsFile:
+      typeof flags["seeded-posts-file"] === "string" ? flags["seeded-posts-file"] : config.paths.seededPostsFile,
     stretchBudget: flags["stretch-budget"] === true,
     allowOlderTarget: flags["allow-older-target"] === true,
   });

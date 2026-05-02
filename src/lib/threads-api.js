@@ -114,6 +114,38 @@ export async function listRecentThreads(config, limit = 10) {
   return fetchJson(url.toString());
 }
 
+export async function listPublicProfilePosts(config, username, limit = 10) {
+  const token = getBearerToken(config);
+  const url = new URL(`${config.threads.apiHost}/profile_posts`);
+  url.searchParams.set("access_token", token);
+  url.searchParams.set("username", username);
+  url.searchParams.set(
+    "fields",
+    "id,permalink,username,text,timestamp,shortcode,media_type,has_replies,is_quote_post,quoted_post,is_verified,profile_picture_url"
+  );
+  url.searchParams.set("limit", String(limit));
+  const payload = await fetchJson(url.toString());
+  return payload.data ?? [];
+}
+
+export async function searchThreadsPosts(config, query, options = {}) {
+  const token = getBearerToken(config);
+  const url = new URL(`${config.threads.apiHost}/keyword_search`);
+  url.searchParams.set("access_token", token);
+  url.searchParams.set("q", query);
+  url.searchParams.set("search_type", options.searchType ?? "TOP");
+  url.searchParams.set("search_mode", options.searchMode ?? "KEYWORD");
+  url.searchParams.set(
+    "fields",
+    "id,permalink,username,text,timestamp,shortcode,media_type,has_replies,is_quote_post,quoted_post,is_verified,profile_picture_url,topic_tag"
+  );
+  url.searchParams.set("limit", String(options.limit ?? 10));
+  if (options.since) {
+    url.searchParams.set("since", options.since);
+  }
+  return fetchJson(url.toString()).then((payload) => payload.data ?? []);
+}
+
 export async function deleteThread(config, threadId) {
   const token = getBearerToken(config);
   const url = new URL(`${config.threads.apiHost}/${threadId}`);
