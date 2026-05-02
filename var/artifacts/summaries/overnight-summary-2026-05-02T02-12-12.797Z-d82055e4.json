@@ -1,0 +1,61 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-05-02T02:12:10.420Z",
+  "completedAt": "2026-05-02T02:12:12.797Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-05-02T02-12-12.796Z-02518a47.json",
+  "status": "soft-failed",
+  "error": "Scan did not clear the minimum independent source gate (2).",
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ],
+  "sourceCount": 1,
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2
+  },
+  "targetSummary": {
+    "watchlistAccounts": 4,
+    "seeded": 0,
+    "discovered": 0,
+    "harvested": 0,
+    "total": 0,
+    "eligible": 0,
+    "skipped": 0
+  },
+  "discoveryErrors": [],
+  "actions": [],
+  "skippedTargets": [],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json"
+}
