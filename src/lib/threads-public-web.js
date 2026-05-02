@@ -315,23 +315,28 @@ function escapeRegExp(value) {
 function extractMediaIdMap(html) {
   const map = new Map();
   const scriptPattern = /<script\b[^>]*>([\s\S]*?)<\/script>/gi;
-  const pkPattern = /"id":"(\d+_\d+)"[\s\S]{0,800}?"pk":"(\d+)"[\s\S]{0,4000}?"code":"([A-Za-z0-9_-]+)"/g;
-  const idPattern = /"id":"(\d+_\d+)"[\s\S]{0,4000}?"code":"([A-Za-z0-9_-]+)"/g;
+  const codePattern = /"code":"([A-Za-z0-9_-]+)"/g;
 
   for (const scriptMatch of html.matchAll(scriptPattern)) {
     const scriptBody = scriptMatch[1] ?? "";
-    for (const match of scriptBody.matchAll(pkPattern)) {
-      const mediaId = match[2];
-      const shortcode = match[3];
-      if (mediaId && shortcode && !map.has(shortcode)) {
-        map.set(shortcode, mediaId);
+    for (const match of scriptBody.matchAll(codePattern)) {
+      const shortcode = match[1] ?? null;
+      if (!shortcode || map.has(shortcode)) {
+        continue;
       }
-    }
 
-    for (const match of scriptBody.matchAll(idPattern)) {
-      const mediaId = match[1];
-      const shortcode = match[2];
-      if (mediaId && shortcode && !map.has(shortcode)) {
+      const codeIndex = match.index ?? 0;
+      const windowStart = Math.max(0, codeIndex - 250_000);
+      const windowEnd = Math.min(scriptBody.length, codeIndex + 1_000);
+      const windowSlice = scriptBody.slice(windowStart, windowEnd);
+      const anchorIndex = windowSlice.lastIndexOf('"post":{"id":"');
+      const scopedSlice = windowSlice.slice(anchorIndex >= 0 ? anchorIndex : 0);
+      const interactionMediaId = lastMatchGroup(scopedSlice, /XDTTextPostAppMediaInfo:(\d+)/g);
+      const postPk = matchGroup(scopedSlice, /"post":\{"id":"\d+_\d+"[\s\S]{0,1200}?"pk":"(\d+)"/);
+      const rawId = matchGroup(scopedSlice, /"post":\{"id":"(\d+_\d+)"/);
+      const mediaId = interactionMediaId ?? postPk ?? rawId;
+
+      if (mediaId) {
         map.set(shortcode, mediaId);
       }
     }
@@ -345,6 +350,12 @@ function stripNonContentBlocks(html) {
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<template[\s\S]*?<\/template>/gi, " ")
     .replace(/<!--[\s\S]*?-->/g, " ");
+}
+
+function lastMatchGroup(value, pattern) {
+  const matches = [...value.matchAll(pattern)];
+  const last = matches.at(-1);
+  return last?.[1] ?? null;
 }
 
 function extractArticleSnippet(html, fallbackStart, fallbackEnd) {
