@@ -155,6 +155,7 @@ function buildProfileUrl(username, tab) {
 }
 
 function extractRenderedPosts(html, username, tab) {
+  const mediaIdMap = extractMediaIdMap(html);
   const renderHtml = stripNonContentBlocks(html);
   const permalinkPattern = new RegExp(`/@${escapeRegExp(username)}/post/([A-Za-z0-9_-]+)`, "g");
   const matches = [...renderHtml.matchAll(permalinkPattern)];
@@ -192,7 +193,8 @@ function extractRenderedPosts(html, username, tab) {
     const isReplying = /Replying to\s*@/i.test(text);
 
     posts.push({
-      id: postId,
+      id: mediaIdMap.get(postId) ?? postId,
+      shortcode: postId,
       permalink: `https://www.threads.com/@${username}/post/${postId}`,
       username,
       text: text || null,
@@ -308,6 +310,25 @@ function dedupePosts(posts) {
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function extractMediaIdMap(html) {
+  const map = new Map();
+  const scriptPattern = /<script\b[^>]*>([\s\S]*?)<\/script>/gi;
+  const idPattern = /"id":"(\d+_\d+)"[\s\S]{0,4000}?"code":"([A-Za-z0-9_-]+)"/g;
+
+  for (const scriptMatch of html.matchAll(scriptPattern)) {
+    const scriptBody = scriptMatch[1] ?? "";
+    for (const match of scriptBody.matchAll(idPattern)) {
+      const mediaId = match[1];
+      const shortcode = match[2];
+      if (mediaId && shortcode && !map.has(shortcode)) {
+        map.set(shortcode, mediaId);
+      }
+    }
+  }
+
+  return map;
 }
 
 function stripNonContentBlocks(html) {
