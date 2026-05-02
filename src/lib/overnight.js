@@ -18,19 +18,33 @@ export async function runOvernightCycle(config, options) {
   const touchedLedger = loadTouchedLedger(config);
   let scan = null;
   let scanPath = null;
-  let scanError = null;
+  let scanWarning = null;
+  let scanFailure = null;
 
   try {
     scan = await runScan(config, {
       topic: options.topic,
     });
     scanPath = saveArtifact(config.paths.scansDir, "scan", scan);
-    validateScanForDraft(config, scan);
   } catch (error) {
-    scanError = String(error?.message ?? error);
+    scanFailure = String(error?.message ?? error);
   }
 
-  if (scanError) {
+  if (!scanFailure && scan) {
+    try {
+      validateScanForDraft(config, scan);
+    } catch (error) {
+      scanWarning = String(error?.message ?? error);
+    }
+  }
+
+  const watchlistDiscovery = await buildWatchlistTargets(config, watchlist);
+  const combinedTargets = mergeOvernightTargets(seededPosts.posts, watchlistDiscovery.targets);
+  const evaluation = evaluateTargets(config, combinedTargets, touchedLedger);
+  const selectedPostTarget = pickPostTarget(config, evaluation.eligible);
+  const selectedReplyTargets = pickReplyTargets(config, evaluation.eligible, touchedLedger, selectedPostTarget);
+
+  if (scanFailure || (!scan && (selectedPostTarget || selectedReplyTargets.length > 0))) {
     const summary = {
       mode: "overnight",
       topic: options.topic,
@@ -41,7 +55,7 @@ export async function runOvernightCycle(config, options) {
       seededPostsFile,
       scanPath,
       status: "soft-failed",
-      error: scanError,
+      error: scanFailure ?? "Scan failed before drafting could start.",
       providerErrors: scan?.providerErrors ?? [],
       providerDiagnostics: scan?.providerDiagnostics ?? [],
       coverage: scan?.coverage ?? [],
@@ -54,15 +68,15 @@ export async function runOvernightCycle(config, options) {
       targetSummary: {
         watchlistAccounts: watchlist.accounts.length,
         seeded: seededPosts.posts.length,
-        discovered: 0,
+        discovered: watchlistDiscovery.targets.length,
         harvested: 0,
-        total: seededPosts.posts.length,
-        eligible: 0,
-        skipped: 0,
+        total: combinedTargets.length,
+        eligible: evaluation.eligible.length,
+        skipped: evaluation.skipped.length,
       },
-      discoveryErrors: [],
+      discoveryErrors: watchlistDiscovery.errors,
       actions: [],
-      skippedTargets: [],
+      skippedTargets: evaluation.skipped,
       touchedLedgerPath: buildTouchedLedgerPath(config),
     };
 
@@ -72,12 +86,6 @@ export async function runOvernightCycle(config, options) {
       summary,
     };
   }
-
-  const watchlistDiscovery = await buildWatchlistTargets(config, watchlist);
-  const combinedTargets = mergeOvernightTargets(seededPosts.posts, watchlistDiscovery.targets);
-  const evaluation = evaluateTargets(config, combinedTargets, touchedLedger);
-  const selectedPostTarget = pickPostTarget(config, evaluation.eligible);
-  const selectedReplyTargets = pickReplyTargets(config, evaluation.eligible, touchedLedger, selectedPostTarget);
 
   const actions = [];
   const ledgerEntries = [];
@@ -94,16 +102,18 @@ export async function runOvernightCycle(config, options) {
       })
     );
   } else {
-    actions.push(
-      await executeAction(config, db, scan, {
-        topic: options.topic,
-        scanPath,
-        kind: "original",
-        target: null,
-        stretchBudget: options.stretchBudget,
-        allowOlderTarget: options.allowOlderTarget,
-      })
-    );
+    if (!scanWarning) {
+      actions.push(
+        await executeAction(config, db, scan, {
+          topic: options.topic,
+          scanPath,
+          kind: "original",
+          target: null,
+          stretchBudget: options.stretchBudget,
+          allowOlderTarget: options.allowOlderTarget,
+        })
+      );
+    }
   }
 
   for (const target of selectedReplyTargets) {
@@ -154,6 +164,7 @@ export async function runOvernightCycle(config, options) {
     watchlistFile,
     seededPostsFile,
     scanPath,
+    scanWarning,
     caps: {
       runsPerWindow: config.posting.overnightRunsPerWindow,
       maxPostActionsPerRun: config.posting.overnightMaxPostActionsPerRun,

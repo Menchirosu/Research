@@ -32,7 +32,11 @@ export function validateDraftForPublish(config, draft, options = {}) {
   validateTargetFreshness(config, draft, options);
 
   const distinctProviders = new Set(draft.sources.map((source) => source.provider));
-  if (distinctProviders.size < config.scan.minimumIndependentSources) {
+  if (draft.target?.platform === "threads") {
+    if (draft.sources.length < 1) {
+      throw new CliError("Threads-targeted drafts still need at least one supporting scan source.");
+    }
+  } else if (distinctProviders.size < config.scan.minimumIndependentSources) {
     throw new CliError("Draft does not meet the minimum independent source gate.");
   }
 
