@@ -87,6 +87,8 @@ export function getConfig() {
       overnightRunsPerWindow: 3,
       overnightMaxPostActionsPerRun: 1,
       overnightMaxReplyActionsPerRun: 2,
+      overnightAutoReactMinimumPriority: 90,
+      overnightAutoReactMinimumActivity: 2,
     },
   };
 }

@@ -138,6 +138,10 @@ function normalizeTargets(targets) {
 }
 
 function buildHarvestTarget(source) {
+  if (!isHarvestableSource(source)) {
+    return null;
+  }
+
   const discussionUrl = typeof source.discussionUrl === "string" ? source.discussionUrl.trim() : null;
   const primaryUrl = typeof source.url === "string" ? source.url.trim() : null;
   const targetUrl = discussionUrl || primaryUrl;
@@ -171,6 +175,18 @@ function buildHarvestTarget(source) {
     sourceHost,
     referenceUrl,
   };
+}
+
+function isHarvestableSource(source) {
+  const provider = String(source.provider ?? "").toLowerCase();
+  const sourceType = String(source.sourceType ?? "").toLowerCase();
+
+  // Repository pages are useful scan support, but they are weak overnight react targets.
+  if (provider === "github" && sourceType === "repository") {
+    return false;
+  }
+
+  return true;
 }
 
 function getHarvestSkipReason(config, source, harvestConfig, providerCounts) {

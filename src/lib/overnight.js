@@ -69,7 +69,7 @@ export async function runOvernightCycle(config, options) {
   const harvestedTargets = buildHarvestedTargets(config, scan, targetConfig);
   const combinedTargets = mergeOvernightTargets(targetConfig.targets, harvestedTargets);
   const evaluation = evaluateTargets(config, combinedTargets, targetConfig.allowedAuthors, targetConfig.harvest, touchedLedger);
-  const selectedPostTarget = pickPostTarget(evaluation.eligible);
+  const selectedPostTarget = pickPostTarget(config, evaluation.eligible);
   const selectedReplyTargets = pickReplyTargets(config, evaluation.eligible, touchedLedger, selectedPostTarget);
 
   const actions = [];
@@ -312,9 +312,20 @@ function isAllowedHarvestTarget(target, harvestConfig) {
   return harvestConfig.allowedDomains.some((domain) => host === domain || host.endsWith(`.${domain}`));
 }
 
-function pickPostTarget(targets) {
-  const candidates = targets.filter((target) => target.mode === "quote" || target.mode === "react");
-  return candidates[0] ?? null;
+function pickPostTarget(config, targets) {
+  const quotes = targets.filter((target) => target.mode === "quote");
+  if (quotes[0]) {
+    return quotes[0];
+  }
+
+  const manualReacts = targets.filter((target) => target.mode === "react" && !target.autoHarvested);
+  if (manualReacts[0]) {
+    return manualReacts[0];
+  }
+
+  const harvestedReacts = targets.filter((target) => target.mode === "react" && target.autoHarvested);
+  const strongHarvestedReact = harvestedReacts.find((target) => isStrongAutoReactTarget(config, target));
+  return strongHarvestedReact ?? null;
 }
 
 function pickReplyTargets(config, targets, touchedLedger, selectedPostTarget) {
@@ -361,6 +372,22 @@ function compareTargets(left, right) {
     right.priority - left.priority ||
     right.activityScore - left.activityScore ||
     ageSortValue(left.publishedAt) - ageSortValue(right.publishedAt)
+  );
+}
+
+function isStrongAutoReactTarget(config, target) {
+  const priority = Number(target.priority ?? 0);
+  const activity = Number(target.activityScore ?? 0);
+  const provider = String(target.sourceProvider ?? "").toLowerCase();
+  const sourceType = String(target.sourceType ?? "").toLowerCase();
+
+  if (provider === "github" && sourceType === "repository") {
+    return false;
+  }
+
+  return (
+    priority >= config.posting.overnightAutoReactMinimumPriority &&
+    activity >= config.posting.overnightAutoReactMinimumActivity
   );
 }
 
