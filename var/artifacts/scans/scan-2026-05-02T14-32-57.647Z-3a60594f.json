@@ -1,0 +1,80 @@
+{
+  "topic": "hot AI coding workflows right now",
+  "collectedAt": "2026-05-02T14:32:57.647Z",
+  "startedAt": "2026-05-02T14:32:55.575Z",
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "sources": [
+    {
+      "provider": "hackernews",
+      "sourceType": "story",
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "discussionUrl": "https://news.ycombinator.com/item?id=47950283",
+      "publishedAt": "2026-04-29T16:01:51Z",
+      "score": 100,
+      "commentSummary": "Thank you for sharing benchmark. However, the results are selective. Why no Opus 4.7? Why Gemini 3.1 Pro is missing? If there is some other criterion (e.g. models within certain time or budget), great - just make it explicit. When I see &quot;Top 5 at a glance&quot; and it missed",
+      "keywords": [
+        "hn",
+        "new",
+        "benchmark",
+        "testing",
+        "llms",
+        "deterministic",
+        "outputs",
+        "thank",
+        "sharing",
+        "however"
+      ],
+      "engagement": {
+        "points": 58,
+        "comments": 28
+      },
+      "mediaCandidates": [
+        {
+          "url": "https://interfaze.ai/favicon.ico",
+          "source": "hackernews-linked-site",
+          "rank": 4
+        }
+      ],
+      "signalTags": [
+        "verification",
+        "cost",
+        "tooling"
+      ],
+      "signalScore": 154,
+      "ageHours": 70.5,
+      "ageDays": 2.9
+    }
+  ],
+  "topSignals": [],
+  "mediaCandidates": [],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ]
+}
