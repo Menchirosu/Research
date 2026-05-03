@@ -8,7 +8,10 @@ const repoRoot = path.resolve(__dirname, "..");
 
 export function getConfig() {
   const envFile = path.join(repoRoot, ".env");
-  const env = readEnvFile(envFile);
+  const env = {
+    ...readEnvFile(envFile),
+    ...process.env,
+  };
 
   const runtimeDir = path.join(repoRoot, "var");
 
