@@ -6,7 +6,10 @@
       "lane": "ai-builder",
       "allowReplies": true,
       "enabled": true,
-      "maxCandidatesPerRun": 2
+      "maxCandidatesPerRun": 2,
+      "verifiedExpected": true,
+      "manualWeight": 10,
+      "notes": "strong Claude Code and builder-discourse source"
     },
     {
       "username": "openai",
@@ -14,7 +17,10 @@
       "lane": "ai-builder",
       "allowReplies": true,
       "enabled": true,
-      "maxCandidatesPerRun": 2
+      "maxCandidatesPerRun": 2,
+      "verifiedExpected": true,
+      "manualWeight": 10,
+      "notes": "core model and product-launch account"
     },
     {
       "username": "anthropicai",
@@ -22,15 +28,21 @@
       "lane": "ai-builder",
       "allowReplies": true,
       "enabled": true,
-      "maxCandidatesPerRun": 2
+      "maxCandidatesPerRun": 2,
+      "verifiedExpected": true,
+      "manualWeight": 8,
+      "notes": "lab account; often relevant even when public Threads activity is sparse"
     },
     {
       "username": "threads",
-      "tier": "secondary",
+      "tier": "candidate",
       "lane": "platform",
       "allowReplies": false,
       "enabled": false,
-      "maxCandidatesPerRun": 1
+      "maxCandidatesPerRun": 1,
+      "verifiedExpected": true,
+      "manualWeight": 4,
+      "notes": "platform account to watch for product changes, not default overnight engagement"
     }
   ]
 }

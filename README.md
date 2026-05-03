@@ -70,6 +70,12 @@ Or preview the auto-harvested overnight target queue from an existing scan:
 node src/cli.js targets harvest --scan=var/artifacts/scans/<file>.json --targets-file=config/overnight-targets.json
 ```
 
+Or rank the current Threads watchlist by freshness, engagement, and usefulness:
+
+```bash
+node src/cli.js targets watchlist --watchlist-file=config/threads-watchlist.json
+```
+
 ## Commands
 
 - `auth url`
@@ -79,6 +85,7 @@ node src/cli.js targets harvest --scan=var/artifacts/scans/<file>.json --targets
 - `auth status`
 - `overnight --topic="..."`
 - `targets harvest --scan=...`
+- `targets watchlist`
 - `node src/callback-server.js`
 - `scan --topic="..."`
 - `draft --scan=...`
@@ -116,7 +123,10 @@ Basic shape:
       "tier": "primary",
       "lane": "ai-builder",
       "allowReplies": true,
-      "enabled": true
+      "enabled": true,
+      "verifiedExpected": true,
+      "manualWeight": 10,
+      "notes": "strong Claude Code and builder-discourse source"
     }
   ]
 }
@@ -126,8 +136,34 @@ Rules:
 
 - `primary` accounts can be quoted overnight and can allow one-hop replies
 - `secondary` accounts only get hit when the post looks active enough
+- `candidate` accounts are watch-only until they earn promotion
 - `maxCandidatesPerRun` caps how many fresh candidates the bot keeps per account per cycle
+- `verifiedExpected` is a hint, not a hard requirement; notable means `verified OR in-lane + strong engagement`
+- `manualWeight` lets you bias an account upward without breaking the evidence-based scoring
 - by default the bot now prefers a rendered public Threads profile-page fallback and only hits the official discovery API if that fallback comes up empty
+
+The watchlist report scores each enabled account using:
+
+- fresh profile posts
+- fresh replies
+- weighted engagement where comments/reposts matter more than likes
+- whether the account is observed as verified
+- whether the account is producing quote/reply-worthy targets
+
+Statuses currently emitted:
+
+- `rising`
+- `stable`
+- `stale`
+- `demotion-risk`
+
+Recommendations currently emitted:
+
+- `keep`
+- `promote-to-secondary`
+- `promote-to-primary`
+- `review-primary`
+- `demote-to-candidate`
 
 Optional env:
 

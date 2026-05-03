@@ -12,7 +12,7 @@ export function loadThreadsWatchlist(filePath) {
       .filter((account) => account && typeof account === "object")
       .map((account) => ({
         username: String(account.username ?? "").trim().replace(/^@/, "").toLowerCase(),
-        tier: account.tier === "secondary" ? "secondary" : "primary",
+        tier: normalizeTier(account.tier),
         lane: typeof account.lane === "string" ? account.lane.trim() : "ai-builder",
         allowReplies: account.allowReplies === true,
         enabled: account.enabled !== false,
@@ -23,6 +23,9 @@ export function loadThreadsWatchlist(filePath) {
         maxCandidatesPerRun: Number.isFinite(account.maxCandidatesPerRun)
           ? Math.max(1, Math.min(5, Number(account.maxCandidatesPerRun)))
           : 2,
+        verifiedExpected: typeof account.verifiedExpected === "boolean" ? account.verifiedExpected : null,
+        manualWeight: Number.isFinite(account.manualWeight) ? Number(account.manualWeight) : 0,
+        notes: typeof account.notes === "string" ? account.notes.trim() : null,
       }))
       .filter((account) => account.username),
   };
@@ -64,6 +67,7 @@ export function loadSeededPosts(filePath) {
 export async function buildWatchlistTargets(config, watchlist) {
   const results = [];
   const errors = [];
+  const accounts = [];
 
   for (const account of watchlist.accounts ?? []) {
     if (!account.enabled) {
@@ -75,6 +79,7 @@ export async function buildWatchlistTargets(config, watchlist) {
       const built = buildTargetsFromWatchlistPost(config, account, post);
       results.push(...built);
     }
+    accounts.push(evaluateWatchlistAccount(config, account, discovery.posts, results));
 
     if (discovery.errors.length > 0 && discovery.posts.length === 0) {
       errors.push({
@@ -87,7 +92,24 @@ export async function buildWatchlistTargets(config, watchlist) {
 
   return {
     targets: dedupeTargets(results),
+    accounts: sortWatchlistReports(accounts),
     errors,
+  };
+}
+
+export async function buildWatchlistReport(config, watchlist) {
+  const discovery = await buildWatchlistTargets(config, watchlist);
+  return {
+    generatedAt: new Date().toISOString(),
+    mode: "threads-watchlist-report",
+    counts: {
+      accounts: watchlist.accounts.filter((account) => account.enabled).length,
+      targets: discovery.targets.length,
+      errors: discovery.errors.length,
+    },
+    accounts: discovery.accounts,
+    targets: discovery.targets,
+    errors: discovery.errors,
   };
 }
 
@@ -145,6 +167,10 @@ async function discoverAccountPosts(config, account) {
 }
 
 function buildTargetsFromWatchlistPost(config, account, post) {
+  if (account.tier === "candidate") {
+    return [];
+  }
+
   if (!post?.id || !post?.permalink || !post?.timestamp) {
     return [];
   }
@@ -163,6 +189,7 @@ function buildTargetsFromWatchlistPost(config, account, post) {
     publishedAt: String(post.timestamp),
     activityScore: deriveWatchlistActivity(account, post),
     active: true,
+    isVerified: post.is_verified === true,
     isReplyToUs: false,
     priority: deriveWatchlistPriority(account, post),
     targetOrigin: "watchlist",
@@ -201,7 +228,7 @@ function buildTargetsFromWatchlistPost(config, account, post) {
 }
 
 function deriveWatchlistActivity(account, post) {
-  const base = account.tier === "primary" ? 2 : 1;
+  const base = account.tier === "primary" ? 2 : account.tier === "secondary" ? 1 : 0;
   const visibleEngagement =
     Number(post.commentCount ?? 0) +
     Number(post.repostCount ?? 0) +
@@ -211,13 +238,20 @@ function deriveWatchlistActivity(account, post) {
 }
 
 function deriveWatchlistPriority(account, post) {
-  const base = account.tier === "primary" ? 140 : 105;
+  const base = account.tier === "primary" ? 140 : account.tier === "secondary" ? 112 : 90;
   const replyPenalty = post.sourceType === "rendered_profile_reply" ? 15 : 0;
   const engagementBonus =
     Number(post.commentCount ?? 0) >= 5 || Number(post.repostCount ?? 0) >= 3 || Number(post.likeCount ?? 0) >= 100
       ? 10
       : 0;
-  return base + (post.has_replies === true ? 10 : 0) + (post.is_verified === true ? 5 : 0) + engagementBonus - replyPenalty;
+  return (
+    base +
+    Number(account.manualWeight ?? 0) +
+    (post.has_replies === true ? 10 : 0) +
+    (post.is_verified === true ? 5 : 0) +
+    engagementBonus -
+    replyPenalty
+  );
 }
 
 function dedupeTargets(targets) {
@@ -240,6 +274,180 @@ function dedupeTargets(targets) {
 function buildTargetId(username, postId, mode) {
   const hash = crypto.createHash("sha1").update(`${username}:${postId}:${mode}`).digest("hex").slice(0, 10);
   return `threads-${sanitizeFileName(username)}-${mode}-${hash}`;
+}
+
+function evaluateWatchlistAccount(config, account, posts, allTargets) {
+  const freshPosts = posts.filter((post) => isFreshPost(config, post.timestamp));
+  const freshProfilePosts = freshPosts.filter((post) => post.sourceType === "rendered_profile_post");
+  const freshReplyPosts = freshPosts.filter((post) => post.sourceType === "rendered_profile_reply");
+  const visibleEngagement = freshPosts.reduce((total, post) => total + weightedEngagement(post), 0);
+  const engagementScore = Math.min(100, Math.round(visibleEngagement));
+  const observedVerified = posts.some((post) => post.is_verified === true);
+  const accountTargets = allTargets.filter((target) => target.author === account.username);
+  const quoteTargetCount = accountTargets.filter((target) => target.mode === "quote").length;
+  const replyTargetCount = accountTargets.filter((target) => target.mode === "reply").length;
+  const promotionScore = computePromotionScore(account, {
+    observedVerified,
+    freshProfilePosts: freshProfilePosts.length,
+    freshReplyPosts: freshReplyPosts.length,
+    engagementScore,
+    quoteTargetCount,
+    replyTargetCount,
+  });
+  const demotionRisk = computeDemotionRisk({
+    freshProfilePosts: freshProfilePosts.length,
+    freshReplyPosts: freshReplyPosts.length,
+    engagementScore,
+  });
+
+  return {
+    username: account.username,
+    tier: account.tier,
+    lane: account.lane,
+    enabled: account.enabled,
+    verifiedExpected: account.verifiedExpected,
+    verifiedObserved: observedVerified,
+    notes: account.notes,
+    profileUrl: account.profileUrl,
+    freshProfilePosts: freshProfilePosts.length,
+    freshReplyPosts: freshReplyPosts.length,
+    harvestedPosts: posts.length,
+    quoteTargetCount,
+    replyTargetCount,
+    engagementScore,
+    promotionScore,
+    demotionRisk,
+    status: classifyWatchlistStatus(account, {
+      freshProfilePosts: freshProfilePosts.length,
+      freshReplyPosts: freshReplyPosts.length,
+      engagementScore,
+      promotionScore,
+      demotionRisk,
+    }),
+    recommendation: classifyWatchlistRecommendation(account, {
+      promotionScore,
+      demotionRisk,
+      freshProfilePosts: freshProfilePosts.length,
+      quoteTargetCount,
+    }),
+    latestFreshPost: describeLatestFreshPost(freshPosts),
+  };
+}
+
+function describeLatestFreshPost(posts) {
+  const latest = [...posts].sort((left, right) => Date.parse(right.timestamp) - Date.parse(left.timestamp))[0];
+  if (!latest) {
+    return null;
+  }
+
+  return {
+    permalink: latest.permalink,
+    publishedAt: latest.timestamp,
+    sourceType: latest.sourceType,
+    likeCount: latest.likeCount ?? 0,
+    commentCount: latest.commentCount ?? 0,
+    repostCount: latest.repostCount ?? 0,
+    shareCount: latest.shareCount ?? 0,
+    text: latest.text ? latest.text.slice(0, 220) : null,
+  };
+}
+
+function computePromotionScore(account, input) {
+  let score = 0;
+  if (input.observedVerified || account.verifiedExpected === true) {
+    score += 25;
+  }
+  if (input.freshProfilePosts > 0) {
+    score += 30;
+  }
+  if (input.freshReplyPosts > 0) {
+    score += 10;
+  }
+  if (input.quoteTargetCount > 0) {
+    score += 10;
+  }
+  if (input.replyTargetCount > 0) {
+    score += 5;
+  }
+
+  score += Math.min(20, Math.round(input.engagementScore / 5));
+  score += Math.min(10, Math.max(0, Number(account.manualWeight ?? 0)));
+  return Math.max(0, Math.min(100, score));
+}
+
+function computeDemotionRisk(input) {
+  if (input.freshProfilePosts === 0 && input.freshReplyPosts === 0) {
+    return "high";
+  }
+  if (input.freshProfilePosts === 0 || input.engagementScore < 15) {
+    return "medium";
+  }
+  return "low";
+}
+
+function classifyWatchlistStatus(account, input) {
+  if (input.freshProfilePosts === 0 && input.freshReplyPosts === 0) {
+    return "stale";
+  }
+  if (input.promotionScore >= 75) {
+    return "rising";
+  }
+  if (input.demotionRisk === "high") {
+    return "demotion-risk";
+  }
+  return "stable";
+}
+
+function classifyWatchlistRecommendation(account, input) {
+  if (account.tier === "candidate" && input.promotionScore >= 65 && input.freshProfilePosts > 0) {
+    return "promote-to-secondary";
+  }
+  if (account.tier === "secondary" && input.promotionScore >= 80 && input.freshProfilePosts > 0 && input.quoteTargetCount > 0) {
+    return "promote-to-primary";
+  }
+  if (account.tier === "primary" && input.demotionRisk === "high") {
+    return "review-primary";
+  }
+  if (account.tier === "secondary" && input.demotionRisk === "high") {
+    return "demote-to-candidate";
+  }
+  return "keep";
+}
+
+function weightedEngagement(post) {
+  return (
+    Number(post.commentCount ?? 0) * 4 +
+    Number(post.repostCount ?? 0) * 3 +
+    Number(post.shareCount ?? 0) * 2 +
+    Number(post.likeCount ?? 0) / 20
+  );
+}
+
+function isFreshPost(config, timestamp) {
+  const ageHours = getAgeHours(config.now, timestamp);
+  return Number.isFinite(ageHours) && ageHours <= config.posting.maxTargetAgeHours;
+}
+
+function sortWatchlistReports(accounts) {
+  return [...accounts].sort((left, right) => {
+    return (
+      right.promotionScore - left.promotionScore ||
+      right.engagementScore - left.engagementScore ||
+      right.freshProfilePosts - left.freshProfilePosts ||
+      right.quoteTargetCount - left.quoteTargetCount ||
+      left.username.localeCompare(right.username)
+    );
+  });
+}
+
+function normalizeTier(value) {
+  if (value === "candidate") {
+    return "candidate";
+  }
+  if (value === "secondary") {
+    return "secondary";
+  }
+  return "primary";
 }
 
 function getAgeHours(now, value) {

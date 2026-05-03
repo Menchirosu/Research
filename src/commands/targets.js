@@ -3,12 +3,21 @@ import { CliError, printJson } from "../lib/cli.js";
 import { loadJson, saveArtifact } from "../lib/fs.js";
 import { buildHarvestedTargets, loadOvernightTargets, mergeOvernightTargets } from "../lib/overnight-targets.js";
 import { runScan } from "../lib/scan.js";
+import { buildWatchlistReport, loadThreadsWatchlist } from "../lib/threads-targets.js";
 
 export async function runTargetsCommand(subcommand, flags) {
-  if (subcommand !== "harvest") {
-    throw new CliError('Unknown targets subcommand. Use "targets harvest".');
+  if (subcommand === "harvest") {
+    return runTargetsHarvest(flags);
   }
 
+  if (subcommand === "watchlist") {
+    return runTargetsWatchlist(flags);
+  }
+
+  throw new CliError('Unknown targets subcommand. Use "targets harvest" or "targets watchlist".');
+}
+
+async function runTargetsHarvest(flags) {
   const config = getConfig();
   const targetsFile = typeof flags["targets-file"] === "string" ? flags["targets-file"] : config.paths.overnightTargetsFile;
   const targetConfig = loadOvernightTargets(targetsFile);
@@ -52,5 +61,19 @@ export async function runTargetsCommand(subcommand, flags) {
   printJson({
     artifactPath,
     preview,
+  });
+}
+
+async function runTargetsWatchlist(flags) {
+  const config = getConfig();
+  const watchlistFile =
+    typeof flags["watchlist-file"] === "string" ? flags["watchlist-file"] : config.paths.threadsWatchlistFile;
+  const watchlist = loadThreadsWatchlist(watchlistFile);
+  const report = await buildWatchlistReport(config, watchlist);
+  const artifactPath = saveArtifact(config.paths.summariesDir, "threads-watchlist", report);
+
+  printJson({
+    artifactPath,
+    report,
   });
 }

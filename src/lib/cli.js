@@ -42,6 +42,7 @@ export function printUsage() {
   node src/cli.js overnight --topic="..." [--watchlist-file=config/threads-watchlist.json] [--seeded-posts-file=config/seeded-posts.json] [--stretch-budget] [--allow-older-target]
   node src/cli.js targets harvest --scan=var/artifacts/scans/<file>.json [--targets-file=config/overnight-targets.json]
   node src/cli.js targets harvest --topic="..." [--targets-file=config/overnight-targets.json]
+  node src/cli.js targets watchlist [--watchlist-file=config/threads-watchlist.json]
   node src/cli.js scan --topic="..."
   node src/cli.js draft --scan=var/artifacts/scans/<file>.json [--target-text="..."] [--target-author="..."] [--target-url="..."] [--target-published-at=ISO8601] [--reply-to-id=<id>|--quote-post-id=<id>] [--thread=2|3]
   node src/cli.js delete --id=<thread_id>

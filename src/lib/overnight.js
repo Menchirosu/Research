@@ -74,6 +74,7 @@ export async function runOvernightCycle(config, options) {
         eligible: evaluation.eligible.length,
         skipped: evaluation.skipped.length,
       },
+      watchlistAccounts: watchlistDiscovery.accounts ?? [],
       discoveryErrors: watchlistDiscovery.errors,
       actions: [],
       skippedTargets: evaluation.skipped,
@@ -182,6 +183,7 @@ export async function runOvernightCycle(config, options) {
       eligible: evaluation.eligible.length,
       skipped: evaluation.skipped.length,
     },
+    watchlistAccounts: watchlistDiscovery.accounts ?? [],
     discoveryErrors: watchlistDiscovery.errors,
     discoveredTargets: watchlistDiscovery.targets,
     selected: {
