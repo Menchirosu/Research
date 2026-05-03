@@ -76,6 +76,24 @@ Or rank the current Threads watchlist by freshness, engagement, and usefulness:
 node src/cli.js targets watchlist --watchlist-file=config/threads-watchlist.json
 ```
 
+Or browse a public Threads profile directly:
+
+```bash
+node src/cli.js targets profile --username=claudeai
+```
+
+Or inspect a specific public Threads post and its surrounding thread context:
+
+```bash
+node src/cli.js targets post --url=https://www.threads.com/@claudeai/post/DXzXzJakdPh
+```
+
+Or discover notable current posts across a set of public Threads accounts:
+
+```bash
+node src/cli.js targets discover --usernames=claudeai,github,grok --limit=10
+```
+
 ## Commands
 
 - `auth url`
@@ -86,6 +104,9 @@ node src/cli.js targets watchlist --watchlist-file=config/threads-watchlist.json
 - `overnight --topic="..."`
 - `targets harvest --scan=...`
 - `targets watchlist`
+- `targets profile --username=...`
+- `targets post --url=...`
+- `targets discover [--usernames=...]`
 - `node src/callback-server.js`
 - `scan --topic="..."`
 - `draft --scan=...`
