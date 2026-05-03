@@ -34,6 +34,61 @@
       "notes": "lab account; often relevant even when public Threads activity is sparse"
     },
     {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "allowReplies": true,
+      "enabled": true,
+      "maxCandidatesPerRun": 2,
+      "verifiedExpected": true,
+      "manualWeight": 8,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach"
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "allowReplies": false,
+      "enabled": true,
+      "maxCandidatesPerRun": 1,
+      "verifiedExpected": true,
+      "manualWeight": 6,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back"
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "allowReplies": false,
+      "enabled": true,
+      "maxCandidatesPerRun": 1,
+      "verifiedExpected": true,
+      "manualWeight": 5,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows"
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "allowReplies": false,
+      "enabled": true,
+      "maxCandidatesPerRun": 1,
+      "verifiedExpected": true,
+      "manualWeight": 5,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based"
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "allowReplies": false,
+      "enabled": true,
+      "maxCandidatesPerRun": 1,
+      "verifiedExpected": true,
+      "manualWeight": 4,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies"
+    },
+    {
       "username": "threads",
       "tier": "candidate",
       "lane": "platform",
