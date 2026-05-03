@@ -19,6 +19,7 @@ export function getConfig() {
       envFile,
       runtimeDir,
       cacheDir: path.join(runtimeDir, "cache"),
+      queuesDir: path.join(runtimeDir, "queues"),
       scansDir: path.join(runtimeDir, "artifacts", "scans"),
       draftsDir: path.join(runtimeDir, "artifacts", "drafts"),
       receiptsDir: path.join(runtimeDir, "artifacts", "receipts"),
@@ -32,6 +33,7 @@ export function getConfig() {
       overnightTargetsExampleFile: path.join(repoRoot, "config", "overnight-targets.example.json"),
       threadsWatchlistFile: path.join(repoRoot, "config", "threads-watchlist.json"),
       seededPostsFile: path.join(repoRoot, "config", "seeded-posts.json"),
+      discoveredPostsFile: path.join(runtimeDir, "queues", "threads-discovered-posts.json"),
     },
     threads: {
       apiHost: "https://graph.threads.net",
@@ -98,6 +100,13 @@ export function getConfig() {
       overnightAutoReactMinimumPriority: 90,
       overnightAutoReactMinimumActivity: 2,
       overnightPrimaryReplyMaxAgeHours: 24,
+      discoveredTargetWindowHours: 24,
+      discoveredMinimumLikeCount: 25,
+      discoveredMinimumConversationCount: 5,
+      discoveredMinimumPriority: 105,
+      discoveredSourceRootLimit: 4,
+      discoveredMaxTargetsPerRun: 8,
+      discoveredMaxPerRoot: 2,
     },
   };
 }

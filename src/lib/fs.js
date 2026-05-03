@@ -9,6 +9,7 @@ export function ensureDir(dirPath) {
 }
 
 export function ensureRuntimeDirs(config) {
+  ensureDir(config.paths.queuesDir);
   ensureDir(config.paths.scansDir);
   ensureDir(config.paths.draftsDir);
   ensureDir(config.paths.receiptsDir);

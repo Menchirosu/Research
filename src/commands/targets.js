@@ -3,7 +3,13 @@ import { CliError, printJson } from "../lib/cli.js";
 import { loadJson, saveArtifact } from "../lib/fs.js";
 import { buildHarvestedTargets, loadOvernightTargets, mergeOvernightTargets } from "../lib/overnight-targets.js";
 import { runScan } from "../lib/scan.js";
-import { buildWatchlistReport, loadThreadsWatchlist } from "../lib/threads-targets.js";
+import {
+  buildDiscoveredQueueFromTargets,
+  buildWatchlistReport,
+  loadDiscoveredPosts,
+  loadThreadsWatchlist,
+  saveDiscoveredPosts,
+} from "../lib/threads-targets.js";
 import {
   browsePublicThreadsPost,
   browsePublicThreadsProfile,
@@ -131,6 +137,10 @@ async function runTargetsDiscover(flags) {
   const config = getConfig();
   const watchlistFile =
     typeof flags["watchlist-file"] === "string" ? flags["watchlist-file"] : config.paths.threadsWatchlistFile;
+  const discoveredPostsFile =
+    typeof flags["discovered-posts-file"] === "string"
+      ? flags["discovered-posts-file"]
+      : config.paths.discoveredPostsFile;
   const watchlist = loadThreadsWatchlist(watchlistFile);
   const usernames = parseUsernames(flags.usernames);
   const accounts = buildDiscoveryAccounts(watchlist.accounts, usernames);
@@ -142,9 +152,40 @@ async function runTargetsDiscover(flags) {
   const report = await discoverPublicThreadsProfiles(config, accounts, {
     limit,
   });
+  const sourceTargets = report.posts.map((post, index) => ({
+    id: `discover-source-${index + 1}`,
+    mode: "quote",
+    platform: "threads",
+    author: post.username ?? post.account,
+    url: post.permalink,
+    postId: post.id ? String(post.id) : null,
+    text: post.text ?? null,
+    publishedAt: post.timestamp,
+    activityScore: 2,
+    active: true,
+    priority: Number(post.notableScore ?? 0),
+    sourceProvider: "threads",
+    sourceType: post.sourceType ?? "discovery-profile-post",
+    targetOrigin: "watchlist",
+    tier: post.tier ?? "candidate",
+    allowReplies: false,
+  }));
+  const previousQueue = loadDiscoveredPosts(discoveredPostsFile);
+  const discoveredQueue = await buildDiscoveredQueueFromTargets(config, sourceTargets, {
+    excludedAuthors: accounts.map((account) => account.username),
+  });
+  const mergedQueue = {
+    ...discoveredQueue,
+    posts: mergeOvernightTargets(previousQueue.posts, discoveredQueue.posts)
+      .filter((target) => isFreshTarget(config, target.publishedAt, config.posting.discoveredTargetWindowHours))
+      .slice(0, config.posting.discoveredMaxTargetsPerRun),
+  };
+  saveDiscoveredPosts(discoveredPostsFile, mergedQueue);
   const artifactPath = saveArtifact(config.paths.summariesDir, "threads-discovery", report);
   printJson({
     artifactPath,
+    discoveredPostsFile,
+    discoveredQueue: mergedQueue,
     report,
   });
 }
@@ -196,4 +237,13 @@ function buildDiscoveryAccounts(existingAccounts, usernames) {
   }
 
   return accounts.filter((account) => account.enabled);
+}
+
+function isFreshTarget(config, publishedAt, maxAgeHours) {
+  const timestamp = new Date(publishedAt);
+  if (Number.isNaN(timestamp.valueOf())) {
+    return false;
+  }
+
+  return (config.now.getTime() - timestamp.getTime()) / (1000 * 60 * 60) <= maxAgeHours;
 }

@@ -16,6 +16,10 @@ export async function runOvernightCommand(flags) {
       typeof flags["watchlist-file"] === "string" ? flags["watchlist-file"] : config.paths.threadsWatchlistFile,
     seededPostsFile:
       typeof flags["seeded-posts-file"] === "string" ? flags["seeded-posts-file"] : config.paths.seededPostsFile,
+    discoveredPostsFile:
+      typeof flags["discovered-posts-file"] === "string"
+        ? flags["discovered-posts-file"]
+        : config.paths.discoveredPostsFile,
     stretchBudget: flags["stretch-budget"] === true,
     allowOlderTarget: flags["allow-older-target"] === true,
   });

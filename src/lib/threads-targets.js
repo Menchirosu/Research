@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
-import { loadJsonIfExists, sanitizeFileName } from "./fs.js";
-import { harvestPublicWatchlistPosts } from "./threads-public-web.js";
+import { loadJsonIfExists, sanitizeFileName, writeJson } from "./fs.js";
+import { browsePublicThreadsPost, browsePublicThreadsProfile, harvestPublicWatchlistPosts } from "./threads-public-web.js";
 import { listPublicProfilePosts } from "./threads-api.js";
 
 export function loadThreadsWatchlist(filePath) {
@@ -33,35 +33,39 @@ export function loadThreadsWatchlist(filePath) {
 
 export function loadSeededPosts(filePath) {
   const payload = loadJsonIfExists(filePath) ?? {};
-  const posts = Array.isArray(payload.posts) ? payload.posts : [];
-
   return {
-    posts: posts
-      .filter((post) => post && typeof post === "object")
-      .map((post, index) => ({
-        id: post.id ?? `seeded-post-${index + 1}`,
-        mode: post.mode === "reply" ? "reply" : "quote",
-        platform: "threads",
-        author: typeof post.author === "string" ? post.author.trim().replace(/^@/, "").toLowerCase() : null,
-        url: typeof post.url === "string" ? post.url.trim() : null,
-        postId: typeof post.postId === "string" ? post.postId.trim() : post.postId ? String(post.postId) : null,
-        text: typeof post.text === "string" ? post.text.trim() : null,
-        publishedAt: typeof post.publishedAt === "string" ? post.publishedAt.trim() : null,
-        activityScore: Number.isFinite(post.activityScore) ? post.activityScore : 1,
-        active: post.active !== false,
-        isReplyToUs: post.isReplyToUs === true,
-        priority: Number.isFinite(post.priority) ? post.priority : 110,
-        targetOrigin: "seeded",
-        sourceProvider: "threads",
-        sourceType: "seeded-post",
-        sourceHost: "www.threads.com",
-        tier: post.tier === "secondary" ? "secondary" : "primary",
-        allowReplies: post.allowReplies === true || post.mode === "reply",
-        thresholdOverride: post.thresholdOverride === true,
-        reason: typeof post.reason === "string" ? post.reason.trim() : null,
-      }))
-      .filter((post) => post.author && post.url && post.postId && post.publishedAt),
+    posts: normalizeThreadsQueuePosts(payload.posts, {
+      targetOrigin: "seeded",
+      sourceType: "seeded-post",
+      defaultPriority: 110,
+      defaultActivityScore: 1,
+      allowReplyMode: true,
+    }),
   };
+}
+
+export function loadDiscoveredPosts(filePath) {
+  const payload = loadJsonIfExists(filePath) ?? {};
+  return {
+    generatedAt: typeof payload.generatedAt === "string" ? payload.generatedAt : null,
+    sourceAccounts: normalizeStringArray(payload.sourceAccounts),
+    roots: Array.isArray(payload.roots) ? payload.roots.filter((entry) => entry && typeof entry === "object") : [],
+    diagnostics: Array.isArray(payload.diagnostics)
+      ? payload.diagnostics.filter((entry) => entry && typeof entry === "object")
+      : [],
+    posts: normalizeThreadsQueuePosts(payload.posts, {
+      targetOrigin: "discovered",
+      sourceType: "discovered-related-post",
+      defaultPriority: 105,
+      defaultActivityScore: 2,
+      allowReplyMode: false,
+    }),
+  };
+}
+
+export function saveDiscoveredPosts(filePath, payload) {
+  writeJson(filePath, payload);
+  return filePath;
 }
 
 export async function buildWatchlistTargets(config, watchlist) {
@@ -110,6 +114,85 @@ export async function buildWatchlistReport(config, watchlist) {
     accounts: discovery.accounts,
     targets: discovery.targets,
     errors: discovery.errors,
+  };
+}
+
+export async function buildDiscoveredQueueFromTargets(config, sourceTargets, options = {}) {
+  const excludedAuthors = new Set(
+    normalizeStringArray(options.excludedAuthors).map((value) => value.replace(/^@/, "").toLowerCase())
+  );
+  const maxRoots = Number.isFinite(options.maxRoots)
+    ? Math.max(1, Number(options.maxRoots))
+    : config.posting.discoveredSourceRootLimit;
+  const maxTargets = Number.isFinite(options.maxTargets)
+    ? Math.max(1, Number(options.maxTargets))
+    : config.posting.discoveredMaxTargetsPerRun;
+  const maxPerRoot = Number.isFinite(options.maxPerRoot)
+    ? Math.max(1, Number(options.maxPerRoot))
+    : config.posting.discoveredMaxPerRoot;
+  const roots = [];
+  const diagnostics = [];
+  const discoveredTargets = [];
+  const candidateSeeds = [];
+  const eligibleSources = dedupeSourceTargets(sourceTargets)
+    .filter((target) => target?.platform === "threads" && target?.url && target?.author && target?.publishedAt)
+    .sort((left, right) => Number(right.priority ?? 0) - Number(left.priority ?? 0))
+    .slice(0, maxRoots);
+
+  for (const sourceTarget of eligibleSources) {
+    const page = await browsePublicThreadsPost(config, sourceTarget.url);
+    diagnostics.push(
+      ...page.diagnostics.map((entry) => ({
+        ...entry,
+        sourceAuthor: sourceTarget.author,
+        sourceUrl: sourceTarget.url,
+      }))
+    );
+
+    const rankedRelatedPosts = rankDiscoveredRelatedPosts(config, page.relatedPosts, sourceTarget, excludedAuthors)
+      .slice(0, maxPerRoot);
+    candidateSeeds.push(...collectCandidateAuthorSeeds(config, page.relatedPosts, sourceTarget, excludedAuthors));
+    roots.push({
+      author: sourceTarget.author,
+      sourceUrl: sourceTarget.url,
+      sourcePostId: sourceTarget.postId ?? null,
+      sourcePriority: sourceTarget.priority ?? 0,
+      relatedPostCount: page.relatedPosts.length,
+      queuedCount: rankedRelatedPosts.length,
+      rootResolved: page.rootPost?.permalink === sourceTarget.url || page.rootPost?.id === sourceTarget.postId,
+    });
+
+    for (const target of rankedRelatedPosts) {
+      discoveredTargets.push(target);
+      if (discoveredTargets.length >= maxTargets) {
+        break;
+      }
+    }
+
+    if (discoveredTargets.length >= maxTargets) {
+      break;
+    }
+  }
+
+  if (discoveredTargets.length < maxTargets) {
+    const candidateProfiles = await buildDiscoveredTargetsFromCandidateProfiles(
+      config,
+      candidateSeeds,
+      excludedAuthors,
+      maxTargets - discoveredTargets.length
+    );
+    discoveredTargets.push(...candidateProfiles.posts);
+    diagnostics.push(...candidateProfiles.diagnostics);
+  }
+
+  const posts = dedupeTargets(discoveredTargets).slice(0, maxTargets);
+  return {
+    generatedAt: new Date().toISOString(),
+    mode: "threads-discovered-queue",
+    sourceAccounts: [...new Set(eligibleSources.map((target) => target.author.toLowerCase().replace(/^@/, "")))],
+    roots,
+    diagnostics,
+    posts,
   };
 }
 
@@ -261,6 +344,23 @@ function dedupeTargets(targets) {
   for (const target of targets) {
     const key = `${target.mode}:${target.postId}`;
     if (seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    results.push(target);
+  }
+
+  return results;
+}
+
+function dedupeSourceTargets(targets) {
+  const seen = new Set();
+  const results = [];
+
+  for (const target of targets ?? []) {
+    const key = String(target?.url ?? target?.postId ?? target?.id ?? "");
+    if (!key || seen.has(key)) {
       continue;
     }
 
@@ -448,6 +548,310 @@ function normalizeTier(value) {
     return "secondary";
   }
   return "primary";
+}
+
+function normalizeThreadsQueuePosts(posts, options) {
+  if (!Array.isArray(posts)) {
+    return [];
+  }
+
+  return posts
+    .filter((post) => post && typeof post === "object")
+    .map((post, index) => ({
+      id: post.id ?? `${options.targetOrigin}-post-${index + 1}`,
+      mode:
+        options.allowReplyMode && post.mode === "reply"
+          ? "reply"
+          : post.mode === "react"
+            ? "react"
+            : "quote",
+      platform: "threads",
+      author: typeof post.author === "string" ? post.author.trim().replace(/^@/, "").toLowerCase() : null,
+      url: typeof post.url === "string" ? post.url.trim() : null,
+      postId: typeof post.postId === "string" ? post.postId.trim() : post.postId ? String(post.postId) : null,
+      text: typeof post.text === "string" ? post.text.trim() : null,
+      publishedAt: typeof post.publishedAt === "string" ? post.publishedAt.trim() : null,
+      activityScore: Number.isFinite(post.activityScore) ? post.activityScore : options.defaultActivityScore,
+      active: post.active !== false,
+      isReplyToUs: post.isReplyToUs === true,
+      priority: Number.isFinite(post.priority) ? post.priority : options.defaultPriority,
+      autoHarvested: post.autoHarvested !== false,
+      sourceProvider: "threads",
+      sourceType: typeof post.sourceType === "string" ? post.sourceType.trim() : options.sourceType,
+      sourceHost: "www.threads.com",
+      referenceUrl: typeof post.referenceUrl === "string" ? post.referenceUrl.trim() : null,
+      targetOrigin: options.targetOrigin,
+      tier: post.tier === "secondary" ? "secondary" : "primary",
+      allowReplies: post.allowReplies === true || (options.allowReplyMode && post.mode === "reply"),
+      thresholdOverride: post.thresholdOverride === true,
+      reason: typeof post.reason === "string" ? post.reason.trim() : null,
+    }))
+    .filter((post) => post.author && post.url && post.postId && post.publishedAt);
+}
+
+function normalizeStringArray(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value.map((entry) => String(entry).trim()).filter(Boolean);
+}
+
+function rankDiscoveredRelatedPosts(config, posts, sourceTarget, excludedAuthors) {
+  return [...(posts ?? [])]
+    .filter((post) => shouldIncludeDiscoveredRelatedPost(config, post, sourceTarget, excludedAuthors))
+    .map((post) => buildDiscoveredTarget(config, post, sourceTarget))
+    .sort((left, right) => {
+      return (
+        Number(right.priority ?? 0) - Number(left.priority ?? 0) ||
+        Number(right.activityScore ?? 0) - Number(left.activityScore ?? 0) ||
+        Date.parse(right.publishedAt) - Date.parse(left.publishedAt)
+      );
+    });
+}
+
+function shouldIncludeDiscoveredRelatedPost(config, post, sourceTarget, excludedAuthors) {
+  const author = String(post?.username ?? "").trim().replace(/^@/, "").toLowerCase();
+  if (!author || excludedAuthors.has(author)) {
+    return false;
+  }
+
+  if (author === String(sourceTarget.author ?? "").trim().replace(/^@/, "").toLowerCase()) {
+    return false;
+  }
+
+  if (!post?.id || !post?.permalink || !post?.timestamp) {
+    return false;
+  }
+
+  const ageHours = getAgeHours(config.now, post.timestamp);
+  if (!Number.isFinite(ageHours) || ageHours > config.posting.discoveredTargetWindowHours) {
+    return false;
+  }
+
+  const text = typeof post.text === "string" ? post.text.trim() : "";
+  if (!text || text.length < 18) {
+    return false;
+  }
+
+  if (!looksInLane(text) || looksLikePromoOrFiller(text)) {
+    return false;
+  }
+
+  const likeCount = Number(post.likeCount ?? 0);
+  const conversationCount = Number(post.commentCount ?? 0) + Number(post.repostCount ?? 0);
+  if (
+    likeCount < config.posting.discoveredMinimumLikeCount &&
+    conversationCount < config.posting.discoveredMinimumConversationCount
+  ) {
+    return false;
+  }
+
+  return true;
+}
+
+function buildDiscoveredTarget(config, post, sourceTarget) {
+  const author = String(post.username ?? "").trim().replace(/^@/, "").toLowerCase();
+  const activityScore = deriveDiscoveredActivity(post);
+  const priority = deriveDiscoveredPriority(config, post, sourceTarget);
+  return {
+    id: buildTargetId(author, post.id, "quote"),
+    mode: "quote",
+    platform: "threads",
+    author,
+    url: String(post.permalink).trim(),
+    postId: String(post.id),
+    text: typeof post.text === "string" ? post.text.trim() : null,
+    publishedAt: String(post.timestamp),
+    activityScore,
+    active: true,
+    isVerified: post.is_verified === true,
+    isReplyToUs: false,
+    priority,
+    autoHarvested: true,
+    sourceProvider: "threads",
+    sourceType: `discovered_${post.sourceType ?? "related_post"}`,
+    sourceHost: "www.threads.com",
+    referenceUrl: sourceTarget.url,
+    targetOrigin: "discovered",
+    tier: "secondary",
+    allowReplies: false,
+    thresholdOverride: false,
+    reason: `discovered near @${sourceTarget.author}`,
+  };
+}
+
+function deriveDiscoveredActivity(post) {
+  const likeCount = Number(post.likeCount ?? 0);
+  const conversationCount = Number(post.commentCount ?? 0) + Number(post.repostCount ?? 0);
+  if (conversationCount >= 10 || likeCount >= 100) {
+    return 3;
+  }
+  if (conversationCount >= 5 || likeCount >= 25) {
+    return 2;
+  }
+  return 1;
+}
+
+function deriveDiscoveredPriority(config, post, sourceTarget) {
+  const ageHours = getAgeHours(config.now, post.timestamp);
+  const freshnessBonus = Math.max(0, 30 - Math.round(ageHours * 1.5));
+  const engagementScore =
+    Number(post.commentCount ?? 0) * 6 +
+    Number(post.repostCount ?? 0) * 5 +
+    Number(post.shareCount ?? 0) * 3 +
+    Number(post.likeCount ?? 0) / 8;
+  const verificationBonus = post.is_verified === true ? 10 : 0;
+  const sourceLift = Math.max(0, Math.min(15, Math.round(Number(sourceTarget.priority ?? 0) / 12)));
+  return Math.round(70 + freshnessBonus + Math.min(35, engagementScore / 4) + verificationBonus + sourceLift);
+}
+
+function looksInLane(text) {
+  return /\b(ai|agent|agents|model|models|claude|gpt|openai|anthropic|copilot|prompt|token|mcp|plugin|ship|shipping|code|coding|dev|developer|repo|workflow|benchmark|tool|tools|builder|vibe)\b/i.test(
+    text
+  );
+}
+
+function looksLikePromoOrFiller(text) {
+  return /\b(we'?re hiring|apply now|sign up|join us live|register now|link in bio|newsletter|webinar|conference|event recap|announcement)\b/i.test(
+    text
+  );
+}
+
+function collectCandidateAuthorSeeds(config, posts, sourceTarget, excludedAuthors) {
+  const candidates = new Map();
+
+  for (const post of posts ?? []) {
+    const author = String(post?.username ?? "").trim().replace(/^@/, "").toLowerCase();
+    if (!author || excludedAuthors.has(author)) {
+      continue;
+    }
+
+    if (author === String(sourceTarget.author ?? "").trim().replace(/^@/, "").toLowerCase()) {
+      continue;
+    }
+
+    if (!post?.timestamp || !post?.permalink) {
+      continue;
+    }
+
+    const ageHours = getAgeHours(config.now, post.timestamp);
+    const text = typeof post.text === "string" ? post.text.trim() : "";
+    if (!Number.isFinite(ageHours) || ageHours > config.posting.discoveredTargetWindowHours || !looksInLane(text) || looksLikePromoOrFiller(text)) {
+      continue;
+    }
+
+    const triggerScore =
+      Number(post.commentCount ?? 0) * 4 +
+      Number(post.repostCount ?? 0) * 3 +
+      Number(post.shareCount ?? 0) * 2 +
+      Number(post.likeCount ?? 0) / 10;
+    const existing = candidates.get(author);
+    if (existing && existing.triggerScore >= triggerScore) {
+      continue;
+    }
+
+    candidates.set(author, {
+      username: author,
+      sourceAuthor: sourceTarget.author,
+      sourceUrl: sourceTarget.url,
+      triggerUrl: post.permalink,
+      triggerPostId: post.id ? String(post.id) : null,
+      triggerScore,
+    });
+  }
+
+  return [...candidates.values()].sort((left, right) => right.triggerScore - left.triggerScore);
+}
+
+async function buildDiscoveredTargetsFromCandidateProfiles(config, seeds, excludedAuthors, remainingSlots) {
+  const diagnostics = [];
+  const posts = [];
+  const maxProfiles = Math.max(1, Math.min(config.posting.discoveredSourceRootLimit, remainingSlots));
+
+  for (const seed of dedupeCandidateSeeds(seeds).slice(0, maxProfiles)) {
+    const profile = await browsePublicThreadsProfile(config, seed.username, {
+      includeReplies: false,
+    });
+    diagnostics.push(
+      ...profile.diagnostics.map((entry) => ({
+        ...entry,
+        discoveryAuthor: seed.username,
+        discoveredVia: seed.sourceAuthor,
+      }))
+    );
+
+    const rankedPosts = rankNotablePosts(config, profile.profilePosts, {
+      username: seed.username,
+      tier: "candidate",
+      manualWeight: 0,
+    })
+      .filter((post) => shouldIncludeCandidateProfilePost(config, post, excludedAuthors))
+      .slice(0, 1);
+
+    for (const post of rankedPosts) {
+      posts.push(
+        buildDiscoveredTarget(config, post, {
+          author: seed.sourceAuthor,
+          url: seed.triggerUrl ?? seed.sourceUrl,
+          priority: Math.max(90, Number(post.notableScore ?? 0)),
+        })
+      );
+      if (posts.length >= remainingSlots) {
+        break;
+      }
+    }
+
+    if (posts.length >= remainingSlots) {
+      break;
+    }
+  }
+
+  return {
+    posts,
+    diagnostics,
+  };
+}
+
+function dedupeCandidateSeeds(seeds) {
+  const seen = new Set();
+  const results = [];
+
+  for (const seed of seeds ?? []) {
+    if (!seed?.username || seen.has(seed.username)) {
+      continue;
+    }
+
+    seen.add(seed.username);
+    results.push(seed);
+  }
+
+  return results;
+}
+
+function shouldIncludeCandidateProfilePost(config, post, excludedAuthors) {
+  const author = String(post?.username ?? "").trim().replace(/^@/, "").toLowerCase();
+  if (!author || excludedAuthors.has(author)) {
+    return false;
+  }
+
+  if (post?.sourceType !== "rendered_profile_post") {
+    return false;
+  }
+
+  const ageHours = getAgeHours(config.now, post.timestamp);
+  if (!Number.isFinite(ageHours) || ageHours > config.posting.discoveredTargetWindowHours) {
+    return false;
+  }
+
+  const text = typeof post.text === "string" ? post.text.trim() : "";
+  if (text.length < 24 || !looksInLane(text) || looksLikePromoOrFiller(text)) {
+    return false;
+  }
+
+  const likeCount = Number(post.likeCount ?? 0);
+  const conversationCount = Number(post.commentCount ?? 0) + Number(post.repostCount ?? 0);
+  return likeCount >= 5 || conversationCount >= 2;
 }
 
 function getAgeHours(now, value) {

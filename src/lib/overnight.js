@@ -4,7 +4,14 @@ import { initDatabase, recordPublishReceipt } from "./history.js";
 import { inferTargetPlatform, mergeOvernightTargets } from "./overnight-targets.js";
 import { publishDraft } from "./publisher.js";
 import { runScan } from "./scan.js";
-import { loadSeededPosts, loadThreadsWatchlist, buildWatchlistTargets } from "./threads-targets.js";
+import {
+  buildDiscoveredQueueFromTargets,
+  buildWatchlistTargets,
+  loadDiscoveredPosts,
+  loadSeededPosts,
+  loadThreadsWatchlist,
+  saveDiscoveredPosts,
+} from "./threads-targets.js";
 import { validateDraftForPublish, validateScanForDraft } from "./validators.js";
 import { buildDraftFromScan } from "./writer.js";
 
@@ -13,8 +20,10 @@ export async function runOvernightCycle(config, options) {
   const db = initDatabase(config);
   const watchlistFile = options.watchlistFile ?? config.paths.threadsWatchlistFile;
   const seededPostsFile = options.seededPostsFile ?? config.paths.seededPostsFile;
+  const discoveredPostsFile = options.discoveredPostsFile ?? config.paths.discoveredPostsFile;
   const watchlist = loadThreadsWatchlist(watchlistFile);
   const seededPosts = loadSeededPosts(seededPostsFile);
+  const previousDiscoveredPosts = loadDiscoveredPosts(discoveredPostsFile);
   const touchedLedger = loadTouchedLedger(config);
   let scan = null;
   let scanPath = null;
@@ -39,7 +48,24 @@ export async function runOvernightCycle(config, options) {
   }
 
   const watchlistDiscovery = await buildWatchlistTargets(config, watchlist);
-  const combinedTargets = mergeOvernightTargets(seededPosts.posts, watchlistDiscovery.targets);
+  const discoveredQueue = await buildDiscoveredQueueFromTargets(
+    config,
+    watchlistDiscovery.targets.filter((target) => target.mode === "quote"),
+    {
+      excludedAuthors: watchlist.accounts.map((account) => account.username),
+    }
+  );
+  const mergedDiscoveredQueue = {
+    ...discoveredQueue,
+    posts: mergeOvernightTargets(previousDiscoveredPosts.posts, discoveredQueue.posts)
+      .filter((target) => isFreshDiscoveredTarget(config, target.publishedAt))
+      .slice(0, config.posting.discoveredMaxTargetsPerRun),
+  };
+  saveDiscoveredPosts(discoveredPostsFile, mergedDiscoveredQueue);
+  const combinedTargets = mergeOvernightTargets(
+    mergeOvernightTargets(seededPosts.posts, watchlistDiscovery.targets),
+    mergedDiscoveredQueue.posts
+  );
   const evaluation = evaluateTargets(config, combinedTargets, touchedLedger);
   const selectedPostTarget = pickPostTarget(config, evaluation.eligible);
   const selectedReplyTargets = pickReplyTargets(config, evaluation.eligible, touchedLedger, selectedPostTarget);
@@ -53,6 +79,7 @@ export async function runOvernightCycle(config, options) {
       publishEnabled: config.threads.publishEnabled,
       watchlistFile,
       seededPostsFile,
+      discoveredPostsFile,
       scanPath,
       status: "soft-failed",
       error: scanFailure ?? "Scan failed before drafting could start.",
@@ -68,7 +95,8 @@ export async function runOvernightCycle(config, options) {
       targetSummary: {
         watchlistAccounts: watchlist.accounts.length,
         seeded: seededPosts.posts.length,
-        discovered: watchlistDiscovery.targets.length,
+        watchlistTargets: watchlistDiscovery.targets.length,
+        discovered: mergedDiscoveredQueue.posts.length,
         harvested: 0,
         total: combinedTargets.length,
         eligible: evaluation.eligible.length,
@@ -76,6 +104,7 @@ export async function runOvernightCycle(config, options) {
       },
       watchlistAccounts: watchlistDiscovery.accounts ?? [],
       discoveryErrors: watchlistDiscovery.errors,
+      discoveredQueue: mergedDiscoveredQueue,
       actions: [],
       skippedTargets: evaluation.skipped,
       touchedLedgerPath: buildTouchedLedgerPath(config),
@@ -164,6 +193,7 @@ export async function runOvernightCycle(config, options) {
     publishEnabled: config.threads.publishEnabled,
     watchlistFile,
     seededPostsFile,
+    discoveredPostsFile,
     scanPath,
     scanWarning,
     caps: {
@@ -177,7 +207,8 @@ export async function runOvernightCycle(config, options) {
     targetSummary: {
       watchlistAccounts: watchlist.accounts.length,
       seeded: seededPosts.posts.length,
-      discovered: watchlistDiscovery.targets.length,
+      watchlistTargets: watchlistDiscovery.targets.length,
+      discovered: mergedDiscoveredQueue.posts.length,
       harvested: 0,
       total: combinedTargets.length,
       eligible: evaluation.eligible.length,
@@ -186,6 +217,7 @@ export async function runOvernightCycle(config, options) {
     watchlistAccounts: watchlistDiscovery.accounts ?? [],
     discoveryErrors: watchlistDiscovery.errors,
     discoveredTargets: watchlistDiscovery.targets,
+    discoveredQueue: mergedDiscoveredQueue,
     selected: {
       postTarget: selectedPostTarget,
       replyTargets: selectedReplyTargets,
@@ -316,15 +348,29 @@ function getTargetSkipReason(config, target, touchedLedger) {
     if (target.mode === "reply" && (!target.allowReplies || target.tier !== "primary")) {
       return "watchlist reply target is not allowed for this account tier";
     }
+  } else if (target.targetOrigin === "discovered") {
+    if (target.mode !== "quote") {
+      return "discovered targets are quote-only overnight";
+    }
+    if ((target.activityScore ?? 0) < 2) {
+      return "discovered target is not active enough";
+    }
+    if ((target.priority ?? 0) < config.posting.discoveredMinimumPriority) {
+      return "discovered target priority is too low";
+    }
   } else if (target.targetOrigin === "seeded") {
     // Seeded posts are explicitly approved for one-hop overnight use.
   } else {
-    return "target is not from the Threads watchlist or seeded-post queue";
+    return "target is not from the Threads watchlist, discovered queue, or seeded-post queue";
   }
 
   const targetAgeHours = ageHours(config.now, target.publishedAt);
   if (!Number.isFinite(targetAgeHours) || targetAgeHours > config.posting.maxTargetAgeHours) {
     return "target is too old for overnight mode";
+  }
+
+  if (target.targetOrigin === "discovered" && targetAgeHours > config.posting.discoveredTargetWindowHours) {
+    return "discovered target is outside the random-notable freshness window";
   }
 
   if (target.targetOrigin === "watchlist" && target.tier === "secondary" && target.activityScore < 2) {
@@ -452,6 +498,15 @@ function ageHours(now, value) {
   }
 
   return (now.getTime() - timestamp.getTime()) / (1000 * 60 * 60);
+}
+
+function isFreshDiscoveredTarget(config, publishedAt) {
+  const timestamp = new Date(publishedAt);
+  if (Number.isNaN(timestamp.valueOf())) {
+    return false;
+  }
+
+  return (config.now.getTime() - timestamp.getTime()) / (1000 * 60 * 60) <= config.posting.discoveredTargetWindowHours;
 }
 
 function loadTouchedLedger(config) {
