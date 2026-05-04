@@ -1,10 +1,20 @@
 {
-  "generatedAt": "2026-05-04T18:23:02.468Z",
+  "generatedAt": "2026-05-04T21:02:16.727Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DX7UxvgjP0p",
+      "sourcePostId": "18048030740529505",
+      "sourcePriority": 155,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DX4rmAHCCGE",
@@ -13,18 +23,18 @@
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DX2cBnbDyll",
-      "sourcePostId": "18081805490112313",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
+    {
+      "url": "https://www.threads.com/@claudeai/post/DX7UxvgjP0p",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dx7uxvgjp0p.html",
+      "postCount": 6,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DX7UxvgjP0p"
+    },
     {
       "url": "https://www.threads.com/@github/post/DX4rmAHCCGE",
       "status": "ok",
@@ -33,15 +43,6 @@
       "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DX4rmAHCCGE"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DX2cBnbDyll",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx2cbnbdyll.html",
-      "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DX2cBnbDyll"
     }
   ],
   "posts": []
