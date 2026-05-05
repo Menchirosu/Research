@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T00:44:46.950Z",
+  "generatedAt": "2026-05-05T18:18:58.528Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -17,19 +17,19 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DX4rmAHCCGE",
-      "sourcePostId": "18004201436865620",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourceUrl": "https://www.threads.com/@github/post/DX9Q9iKjK3b",
+      "sourcePostId": "3890340249729795306",
+      "sourcePriority": 145,
+      "relatedPostCount": 19,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DX7zO1WArZg",
-      "sourcePostId": "18093492080182142",
+      "sourceUrl": "https://www.threads.com/@github/post/DX9Q9hgjITq",
+      "sourcePostId": "3889928022886889056_63446883908",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 18,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -45,22 +45,22 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DX7UxvgjP0p"
     },
     {
-      "url": "https://www.threads.com/@github/post/DX4rmAHCCGE",
+      "url": "https://www.threads.com/@github/post/DX9Q9iKjK3b",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx4rmahccge.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx9q9ikjk3b.html",
+      "postCount": 19,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DX4rmAHCCGE"
+      "sourceUrl": "https://www.threads.com/@github/post/DX9Q9iKjK3b"
     },
     {
-      "url": "https://www.threads.com/@github/post/DX7zO1WArZg",
+      "url": "https://www.threads.com/@github/post/DX9Q9hgjITq",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx7zo1warzg.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx9q9hgjitq.html",
+      "postCount": 18,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DX7zO1WArZg"
+      "sourceUrl": "https://www.threads.com/@github/post/DX9Q9hgjITq"
     }
   ],
   "posts": []
