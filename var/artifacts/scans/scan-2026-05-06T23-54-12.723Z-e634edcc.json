@@ -1,0 +1,33 @@
+{
+  "topic": "hot AI coding workflows right now",
+  "collectedAt": "2026-05-06T23:54:12.723Z",
+  "startedAt": "2026-05-06T23:54:09.064Z",
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "sources": [],
+  "topSignals": [],
+  "mediaCandidates": [],
+  "coverage": []
+}
