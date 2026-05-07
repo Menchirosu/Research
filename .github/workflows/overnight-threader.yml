@@ -18,6 +18,7 @@ jobs:
   overnight:
     runs-on: ubuntu-latest
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       TOPIC: hot AI coding workflows right now
       WATCHLIST_FILE: config/threads-watchlist.json
       SEEDED_POSTS_FILE: config/seeded-posts.json
