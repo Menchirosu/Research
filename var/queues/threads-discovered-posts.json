@@ -1,26 +1,16 @@
 {
-  "generatedAt": "2026-05-07T18:50:15.628Z",
+  "generatedAt": "2026-05-07T21:01:01.263Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYAcK5KmAs9",
-      "sourcePostId": "18338600896169702",
-      "sourcePriority": 175,
-      "relatedPostCount": 8,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DX-Rxz7FNTz",
       "sourcePostId": "18084600998617403",
       "sourcePriority": 135,
-      "relatedPostCount": 0,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -36,20 +26,11 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DYAcK5KmAs9",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyack5kmas9.html",
-      "postCount": 8,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYAcK5KmAs9"
-    },
-    {
       "url": "https://www.threads.com/@github/post/DX-Rxz7FNTz",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx-rxz7fntz.html",
-      "postCount": 0,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DX-Rxz7FNTz"
     },
@@ -61,16 +42,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYA7vNRDImX"
-    },
-    {
-      "username": "andrealbg_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/andrealbg_-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "andrealbg_",
-      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
