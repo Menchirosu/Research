@@ -1,6 +1,11 @@
 import crypto from "node:crypto";
 import { loadJsonIfExists, sanitizeFileName, writeJson } from "./fs.js";
-import { browsePublicThreadsPost, browsePublicThreadsProfile, harvestPublicWatchlistPosts } from "./threads-public-web.js";
+import {
+  browsePublicThreadsPost,
+  browsePublicThreadsProfile,
+  harvestPublicWatchlistPosts,
+  rankNotablePosts,
+} from "./threads-public-web.js";
 import { listPublicProfilePosts } from "./threads-api.js";
 
 export function loadThreadsWatchlist(filePath) {

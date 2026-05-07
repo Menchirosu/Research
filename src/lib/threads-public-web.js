@@ -514,7 +514,7 @@ function pickRootPost(url, posts) {
     ?? null;
 }
 
-function rankNotablePosts(config, posts, account) {
+export function rankNotablePosts(config, posts, account) {
   return [...posts]
     .filter((post) => isFreshEnough(config, post.timestamp))
     .map((post) => ({
