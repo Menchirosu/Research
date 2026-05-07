@@ -85,6 +85,68 @@ jobs:
       - name: Run overnight cycle
         run: npm run overnight -- --topic="${TOPIC}" --watchlist-file="${WATCHLIST_FILE}" --seeded-posts-file="${SEEDED_POSTS_FILE}"
 
+      - name: Surface overnight health
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'EOF'
+          const fs = require('node:fs');
+          const path = require('node:path');
+
+          const summariesDir = path.join(process.cwd(), 'var', 'artifacts', 'summaries');
+          if (!fs.existsSync(summariesDir)) {
+            console.log('No summaries directory found.');
+            process.exit(0);
+          }
+
+          const files = fs.readdirSync(summariesDir)
+            .filter((name) => name.startsWith('overnight-summary-') && name.endsWith('.json'))
+            .map((name) => ({
+              name,
+              fullPath: path.join(summariesDir, name),
+              mtimeMs: fs.statSync(path.join(summariesDir, name)).mtimeMs,
+            }))
+            .sort((left, right) => right.mtimeMs - left.mtimeMs);
+
+          if (files.length === 0) {
+            console.log('No overnight summary artifacts found.');
+            process.exit(0);
+          }
+
+          const summary = JSON.parse(fs.readFileSync(files[0].fullPath, 'utf8'));
+          const health = summary.health ?? {};
+          const degradedStages = Array.isArray(health.morningReport?.degradedStages)
+            ? health.morningReport.degradedStages
+            : [];
+          const needsAttention = Array.isArray(health.morningReport?.needsAttention)
+            ? health.morningReport.needsAttention
+            : [];
+
+          const lines = [
+            `status: ${summary.status ?? 'unknown'}`,
+            `scanned: ${String(Boolean(health.morningReport?.scanned))}`,
+            `discoveredTargets: ${Number(health.morningReport?.discoveredTargets ?? 0)}`,
+            `posted: ${String(Boolean(health.morningReport?.posted))}`,
+            `degradedStages: ${degradedStages.length > 0 ? degradedStages.join(', ') : 'none'}`,
+            `needsAttention: ${needsAttention.length > 0 ? needsAttention.map((entry) => `${entry.stage}(${entry.consecutiveRuns})`).join(', ') : 'none'}`,
+          ];
+
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Overnight Health\n\n${lines.map((line) => `- ${line}`).join('\n')}\n`);
+
+          if ((summary.status ?? '').toLowerCase() === 'failed') {
+            console.log(`::error title=Overnight health failed::${lines.join(' | ')}`);
+            process.exit(0);
+          }
+
+          if (needsAttention.length > 0 || (summary.status ?? '').toLowerCase() === 'degraded') {
+            console.log(`::warning title=Overnight health degraded::${lines.join(' | ')}`);
+            process.exit(0);
+          }
+
+          console.log(`::notice title=Overnight health ok::${lines.join(' | ')}`);
+          EOF
+
       - name: Persist state branch
         if: always()
         shell: bash
