@@ -105,7 +105,15 @@ jobs:
           mkdir -p .bot-state/var
 
           if [ -d "var" ]; then
-            rsync -a var/ .bot-state/var/
+            rsync -a --delete \
+              --include='artifacts/' \
+              --include='artifacts/receipts/***' \
+              --include='artifacts/summaries/***' \
+              --include='db/***' \
+              --include='ledgers/***' \
+              --include='queues/***' \
+              --exclude='*' \
+              var/ .bot-state/var/
           fi
 
           cat > .bot-state/README.md <<EOF

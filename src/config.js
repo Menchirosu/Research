@@ -110,6 +110,7 @@ export function getConfig() {
       discoveredSourceRootLimit: 4,
       discoveredMaxTargetsPerRun: 8,
       discoveredMaxPerRoot: 2,
+      overnightNeedsAttentionThreshold: 3,
     },
   };
 }
