@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-07T04:00:03.736Z",
+  "generatedAt": "2026-05-07T04:04:20.411Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai"
+    "claudeai",
+    "github"
   ],
   "roots": [
     {
@@ -12,6 +13,24 @@
       "sourcePriority": 175,
       "relatedPostCount": 0,
       "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYA7vNRDImX",
+      "sourcePostId": "17890407717469997",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DX-Rxz7FNTz",
+      "sourcePostId": "18084600998617403",
+      "sourcePriority": 125,
+      "relatedPostCount": 4,
+      "queuedCount": 1,
       "rootResolved": true
     }
   ],
@@ -24,7 +43,61 @@
       "postCount": 0,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYAcK5KmAs9"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DYA7vNRDImX",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dya7vnrdimx.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYA7vNRDImX"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DX-Rxz7FNTz",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dx-rxz7fntz.html",
+      "postCount": 4,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DX-Rxz7FNTz"
+    },
+    {
+      "username": "mediumboi",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mediumboi-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "mediumboi",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-mediumboi-quote-51ffb3ee73",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "mediumboi",
+      "url": "https://www.threads.com/@mediumboi/post/DYA77vdj3QT",
+      "postId": "18081560873561131",
+      "text": "\"RFK Jr. has fired every single CDC Vessel Sanitation Program inspector, who investigate cruise ship outbreaks. This comes as the deadly Hantavirus rapidly spreads on a cruise ship at sea.\" THEY WANT US ALL DEAD. WAKE UP.",
+      "publishedAt": "2026-05-06T22:51:52.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 147,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@github/post/DX-Rxz7FNTz",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
