@@ -1,0 +1,800 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-05-08T23:58:06.078Z",
+  "completedAt": "2026-05-08T23:59:06.192Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-05-08T23-58-09.734Z-2c4cd55e.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 1,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 6,
+    "discovered": 1,
+    "harvested": 1,
+    "total": 7,
+    "eligible": 4,
+    "skipped": 3
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 6,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 1,
+      "engagementScore": 100,
+      "promotionScore": 100,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+        "publishedAt": "2026-05-08T16:17:00.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 398,
+        "commentCount": 20,
+        "repostCount": 35,
+        "shareCount": 17,
+        "text": "Claude can do a few new things. Here’s everything we released last month: Claude Design by Anthropic Labs Claude Code desktop redesign Claude Code routines Live Artifacts in Cowork Claude for creative work Connectors for"
+      }
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 8,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 13,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 100,
+      "promotionScore": 80,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "promote-to-secondary",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@perplexity/post/DYFZT2ZGjId",
+        "publishedAt": "2026-05-08T16:25:36.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 2,
+        "commentCount": 1,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "Zen of Python: Special cases aren't special enough to break the rules. Zen of Skills: Gotchas ARE the special cases (they're the highest-value content)."
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
+        "publishedAt": "2026-05-08T17:23:07.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@openai/post/DYFf5mVG1QL\" role=\"link\" tabindex=\"0\"> 6h When you’re ready for fewer rate limits and interruptions, just complete the agent import flow in onboarding or go to Settings → General and press “Import agent set"
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 3,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 6,
+      "promotionScore": 74,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+        "publishedAt": "2026-05-08T17:55:06.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@github/post/DYFjjnIlZEe\" role=\"link\" tabindex=\"0\"> 6h Of course GitHub will be at Microsoft Build. 🎉 Dive into real code, real systems, and real workflows with the teams building and scaling AI. Join us for exclusive "
+      }
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 61,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@windsurf/post/DYEf5aakX6X",
+        "publishedAt": "2026-05-08T08:03:50.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "㊗️創業80周年おめでとうございます。SONY80周年エッセイ書いてみました。 open.substack.com/pub/c… @ sony_jp #sony Translate chriskus.substack.com 創業80周年を迎えたSONYが世界に与えたもの"
+      }
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "fetch failed"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+      "postId": "17994586568778455",
+      "text": "Claude can do a few new things. Here’s everything we released last month: Claude Design by Anthropic Labs Claude Code desktop redesign Claude Code routines Live Artifacts in Cowork Claude for creative work Connectors for everyday life Claude Opus 4.7 Claude for Microsoft 365 Download the Claude desktop app to give them a try: claude.com/downl…",
+      "publishedAt": "2026-05-08T16:17:00.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-c925b25a53",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+      "postId": "17994586568778455",
+      "text": "Claude can do a few new things. Here’s everything we released last month: Claude Design by Anthropic Labs Claude Code desktop redesign Claude Code routines Live Artifacts in Cowork Claude for creative work Connectors for everyday life Claude Opus 4.7 Claude for Microsoft 365 Download the Claude desktop app to give them a try: claude.com/downl…",
+      "publishedAt": "2026-05-08T16:17:00.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 170,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-reply-d02b4ff1fa",
+      "mode": "reply"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
+      "postId": "18108320590906658",
+      "text": "/@claudeai/post/DYDNIhPoAIM\" role=\"link\" tabindex=\"0\"> 1d Anthropic researchers studied how Claude responds when people ask for personal guidance. In certain domains, like relationships, it was more likely to tell people what they wanted to hear, but that might not really be helpful. The findings informed the training of the newest Claude models, which show much lower rates of sycophancy. Read the full study: anthropic.com/resea… <img draggable=\"false\" height=\"1350\" width=\"1080\" class=\"xl1xv1r x15mokao x1ga7v0g x16uus16 xbiv7yw x9f619 x1lliihq xmz0i5r x193iq5w x47corl x87ps6o x1ey2m1c xtijo5x x1o0tod x10l6tqk x13vifvy x5yr21d xh8yej3\" alt=\"\" referrerpolicy=\"origin-when-cross-origin\" sizes=\"224px\" srcset=\"https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/691588262_18001360307917032_6854340230694841790_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzg5MjAxMjI0NzIxMzQ3MTg5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=x9XEUUjy0JwQ7kNvwFz-ET9&_nc_oc=AdpnApTxje6Rj4vPkxTOiS-l70bqwSVvbnhC9KHVRc1Io3dent3zjsv9vrqluTChQHQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=H13oIh59lFln7gTEXrX_Sw&_nc_ss=7a22e&oh=00_Af5S6KnZka9d8PCcPUoxM92eVrkCwpwatI-QhWLV8VUm-A&oe=6A044558 1080w,https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/691588262_18001360307917032_6854340230694841790_n.jpg?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=106&ig_cache_key=Mzg5MjAxMjI0NzIxMzQ3MTg5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=x9XEUUjy0JwQ7kNvwFz-ET9&_nc_oc=AdpnApTxje6Rj4vPkxTOiS-l70bqwSVvbnhC9KHVRc1Io3dent3zjsv9vrqluTChQHQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=H13oIh59lFln7gTEXrX_Sw&_nc_ss=7a22e&oh=00_Af5q2XooZ4MMhD7j5dLtnHSWarSj6P3vukpOrd7f-wX8Zw&oe=6A044558 720w,https://scontent-iad6-1.cdninstagram.com/v/t51.8",
+      "publishedAt": "2026-05-07T20:00:38.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-ac47de9345",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
+      "postId": "18089725937253183",
+      "text": "/@openai/post/DYFf5mVG1QL\" role=\"link\" tabindex=\"0\"> 6h When you’re ready for fewer rate limits and interruptions, just complete the agent import flow in onboarding or go to Settings → General and press “Import agent setup.” <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-05-08T17:23:07.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-6ddfbbcf2c",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+      "postId": "17916905007161919",
+      "text": "/@github/post/DYFjjnIlZEe\" role=\"link\" tabindex=\"0\"> 6h Of course GitHub will be at Microsoft Build. 🎉 Dive into real code, real systems, and real workflows with the teams building and scaling AI. Join us for exclusive events like: • Lots of GitHub sessions • GitHub Social Club • OpenClaw meetup at GitHub HQ Not registered for the event yet? 👀 Don't wait. Sign up now. 👇 github.com/resou… <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-05-08T17:55:06.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-d4211150b6",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DYDprHxlU4I",
+      "postId": "18111962308849263",
+      "text": "/@github/post/DYDprHxlU4I\" role=\"link\" tabindex=\"0\"> 23h Tomorrow on Open Source Friday 👇 We're breaking down Spec Kit: what it is, the problems it solves, and how clear specs make collaboration actually work. Principal Software Engineer Manfred Riem explains live. Set a reminder. 🔔 gh.io/spec… <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-05-08T00:10:04.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-b2ecfaeb68",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-05-08T23:59:06.187Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "openai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+        "sourcePostId": "17994586568778455",
+        "sourcePriority": 175,
+        "relatedPostCount": 20,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
+        "sourcePostId": "18108320590906658",
+        "sourcePriority": 155,
+        "relatedPostCount": 13,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
+        "sourcePostId": "18089725937253183",
+        "sourcePriority": 155,
+        "relatedPostCount": 10,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+        "sourcePostId": "17916905007161919",
+        "sourcePriority": 125,
+        "relatedPostCount": 5,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyfyvacdgp.html",
+        "postCount": 20,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dydnihpoaim.html",
+        "postCount": 13,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM"
+      },
+      {
+        "url": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dyff5mvg1ql.html",
+        "postCount": 10,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyfjjnilzee.html",
+        "postCount": 5,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DYFjjnIlZEe"
+      },
+      {
+        "username": "alienmilian",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/alienmilian-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "alienmilian",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "dmythro",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/dmythro-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "dmythro",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "pytech_be",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/pytech_be-threads-rendered.html",
+        "postCount": 9,
+        "discoveryAuthor": "pytech_be",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "matt_m12311",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/matt_m12311-threads-rendered.html",
+        "postCount": 0,
+        "discoveryAuthor": "matt_m12311",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": [
+      {
+        "id": "threads-pytech_be-quote-00f0cb4d94",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "pytech_be",
+        "url": "https://www.threads.com/@pytech_be/post/DYFa9DCjAOx",
+        "postId": "3892635995799815325_63227329997",
+        "text": "Quick update on what's cooking at PyTech. The immediate focus is QR.MG — dynamic QR codes built for francophone SMEs who care where their data lives. Not \"another QR generator.\" The bet: scan analytics, redirection logic and customer intelligence belong on EU infrastructure, RGPD-by-design, not on US trackers dressed up as marketing tools. MVP-first. Behind it sits the longer play, the SNE Intelligence Platform — a multi-tenant CRM with local LLM inference (Qwen3, Mistral) running on-prem.",
+        "publishedAt": "2026-05-08T16:39:53.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 113,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@pytech_be/post/DYFY2FwjDJ3",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      }
+    ]
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+      "postId": "17994586568778455",
+      "text": "Claude can do a few new things. Here’s everything we released last month: Claude Design by Anthropic Labs Claude Code desktop redesign Claude Code routines Live Artifacts in Cowork Claude for creative work Connectors for everyday life Claude Opus 4.7 Claude for Microsoft 365 Download the Claude desktop app to give them a try: claude.com/downl…",
+      "publishedAt": "2026-05-08T16:17:00.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-c925b25a53",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-05-08T23-59-06.190Z-04110e35.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "claudeai",
+        "url": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+        "postId": "17994586568778455",
+        "text": "Claude can do a few new things. Here’s everything we released last month: Claude Design by Anthropic Labs Claude Code desktop redesign Claude Code routines Live Artifacts in Cowork Claude for creative work Connectors for everyday life Claude Opus 4.7 Claude for Microsoft 365 Download the Claude desktop app to give them a try: claude.com/downl…",
+        "publishedAt": "2026-05-08T16:17:00.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-claudeai-quote-c925b25a53",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+        "postId": "17916905007161919",
+        "text": "/@github/post/DYFjjnIlZEe\" role=\"link\" tabindex=\"0\"> 6h Of course GitHub will be at Microsoft Build. 🎉 Dive into real code, real systems, and real workflows with the teams building and scaling AI. Join us for exclusive events like: • Lots of GitHub sessions • GitHub Social Club • OpenClaw meetup at GitHub HQ Not registered for the event yet? 👀 Don't wait. Sign up now. 👇 github.com/resou… <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+        "publishedAt": "2026-05-08T17:55:06.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-d4211150b6",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DYDprHxlU4I",
+        "postId": "18111962308849263",
+        "text": "/@github/post/DYDprHxlU4I\" role=\"link\" tabindex=\"0\"> 23h Tomorrow on Open Source Friday 👇 We're breaking down Spec Kit: what it is, the problems it solves, and how clear specs make collaboration actually work. Principal Software Engineer Manfred Riem explains live. Set a reminder. 🔔 gh.io/spec… <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+        "publishedAt": "2026-05-08T00:10:04.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-b2ecfaeb68",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "id": "threads-pytech_be-quote-00f0cb4d94",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "pytech_be",
+        "url": "https://www.threads.com/@pytech_be/post/DYFa9DCjAOx",
+        "postId": "3892635995799815325_63227329997",
+        "text": "Quick update on what's cooking at PyTech. The immediate focus is QR.MG — dynamic QR codes built for francophone SMEs who care where their data lives. Not \"another QR generator.\" The bet: scan analytics, redirection logic and customer intelligence belong on EU infrastructure, RGPD-by-design, not on US trackers dressed up as marketing tools. MVP-first. Behind it sits the longer play, the SNE Intelligence Platform — a multi-tenant CRM with local LLM inference (Qwen3, Mistral) running on-prem.",
+        "publishedAt": "2026-05-08T16:39:53.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 113,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@pytech_be/post/DYFY2FwjDJ3",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; fetch failed"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 9
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 9
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 1,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 9
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 9
+        }
+      ]
+    }
+  }
+}

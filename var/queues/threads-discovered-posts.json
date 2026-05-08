@@ -1,30 +1,152 @@
 {
-  "generatedAt": "2026-05-08T20:52:45.046Z",
+  "generatedAt": "2026-05-08T23:59:06.187Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "openai"
+    "claudeai",
+    "openai",
+    "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+      "sourcePostId": "17994586568778455",
+      "sourcePriority": 175,
+      "relatedPostCount": 20,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
+      "sourcePostId": "18108320590906658",
+      "sourcePriority": 155,
+      "relatedPostCount": 13,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
       "sourcePostId": "18089725937253183",
       "sourcePriority": 155,
-      "relatedPostCount": 0,
+      "relatedPostCount": 10,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+      "sourcePostId": "17916905007161919",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyfyvacdgp.html",
+      "postCount": 20,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dydnihpoaim.html",
+      "postCount": 13,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM"
+    },
+    {
       "url": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dyff5mvg1ql.html",
-      "postCount": 0,
+      "postCount": 10,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DYFjjnIlZEe",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyfjjnilzee.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYFjjnIlZEe"
+    },
+    {
+      "username": "alienmilian",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/alienmilian-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "alienmilian",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "dmythro",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dmythro-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "dmythro",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "pytech_be",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/pytech_be-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "pytech_be",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "matt_m12311",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/matt_m12311-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "matt_m12311",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-pytech_be-quote-00f0cb4d94",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "pytech_be",
+      "url": "https://www.threads.com/@pytech_be/post/DYFa9DCjAOx",
+      "postId": "3892635995799815325_63227329997",
+      "text": "Quick update on what's cooking at PyTech. The immediate focus is QR.MG — dynamic QR codes built for francophone SMEs who care where their data lives. Not \"another QR generator.\" The bet: scan analytics, redirection logic and customer intelligence belong on EU infrastructure, RGPD-by-design, not on US trackers dressed up as marketing tools. MVP-first. Behind it sits the longer play, the SNE Intelligence Platform — a multi-tenant CRM with local LLM inference (Qwen3, Mistral) running on-prem.",
+      "publishedAt": "2026-05-08T16:39:53.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 113,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@pytech_be/post/DYFY2FwjDJ3",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
