@@ -1,8 +1,30 @@
 {
-  "generatedAt": "2026-05-08T18:16:50.414Z",
+  "generatedAt": "2026-05-08T20:52:45.046Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [],
-  "roots": [],
-  "diagnostics": [],
+  "sourceAccounts": [
+    "openai"
+  ],
+  "roots": [
+    {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
+      "sourcePostId": "18089725937253183",
+      "sourcePriority": 155,
+      "relatedPostCount": 0,
+      "queuedCount": 0,
+      "rootResolved": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dyff5mvg1ql.html",
+      "postCount": 0,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL"
+    }
+  ],
   "posts": []
 }
