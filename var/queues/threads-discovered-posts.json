@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-05-09T17:56:46.465Z",
+  "generatedAt": "2026-05-09T20:38:28.837Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai",
     "github"
   ],
   "roots": [
@@ -12,25 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-",
       "sourcePostId": "17994586568778455",
       "sourcePriority": 175,
-      "relatedPostCount": 25,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
-      "sourcePostId": "18108320590906658",
-      "sourcePriority": 155,
-      "relatedPostCount": 17,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
-      "sourcePostId": "18089725937253183",
-      "sourcePriority": 155,
-      "relatedPostCount": 0,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -38,6 +19,15 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYFjjnIlZEe",
       "sourcePostId": "17916905007161919",
+      "sourcePriority": 125,
+      "relatedPostCount": 3,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYDprHxlU4I",
+      "sourcePostId": "18111962308849263",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -50,77 +40,64 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyfyvacdgp.html",
-      "postCount": 25,
+      "postCount": 6,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYFYVaCDgP-"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dydnihpoaim.html",
-      "postCount": 17,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYDNIhPoAIM"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DYFf5mVG1QL",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dyff5mvg1ql.html",
-      "postCount": 0,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DYFf5mVG1QL"
     },
     {
       "url": "https://www.threads.com/@github/post/DYFjjnIlZEe",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyfjjnilzee.html",
-      "postCount": 5,
+      "postCount": 3,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYFjjnIlZEe"
     },
     {
-      "username": "he1k0p0pe1k0",
-      "tab": "threads",
+      "url": "https://www.threads.com/@github/post/DYDprHxlU4I",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/he1k0p0pe1k0-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "he1k0p0pe1k0",
-      "discoveredVia": "claudeai"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dydprhxlu4i.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYDprHxlU4I"
     },
     {
-      "username": "matt_m12311",
+      "username": "jjackyliang",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/matt_m12311-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "matt_m12311",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "danylo.klyhin",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/danylo.klyhin-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "danylo.klyhin",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "aitech_verse",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aitech_verse-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "aitech_verse",
-      "discoveredVia": "claudeai"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jjackyliang-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "jjackyliang",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-jjackyliang-quote-a96560bd46",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "jjackyliang",
+      "url": "https://www.threads.com/@jjackyliang/post/DYIUdWmGvl2",
+      "postId": "17865524271653633",
+      "text": "one thing openrouter isn't talking abt enough is that when you work here, you get unlimited tokens to 600+ models, including claude code + opus 4.6 this is a benefit not many companies will offer lol",
+      "publishedAt": "2026-05-09T19:40:51.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 124,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@jjackyliang/post/DYGsuqnDX8Y",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
