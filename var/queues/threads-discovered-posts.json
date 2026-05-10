@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T17:57:43.713Z",
+  "generatedAt": "2026-05-10T20:41:17.925Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,49 +7,42 @@
   "roots": [
     {
       "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk",
+      "sourcePostId": "18123738550625757",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYIer5Blnk8",
       "sourcePostId": "18099248272844685",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 3,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@github/post/DYK1JwOlHFk",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyk1jwolhfk.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DYIer5Blnk8",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyier5blnk8.html",
-      "postCount": 5,
+      "postCount": 3,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYIer5Blnk8"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-jjackyliang-quote-a96560bd46",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "jjackyliang",
-      "url": "https://www.threads.com/@jjackyliang/post/DYIUdWmGvl2",
-      "postId": "17865524271653633",
-      "text": "one thing openrouter isn't talking abt enough is that when you work here, you get unlimited tokens to 600+ models, including claude code + opus 4.6 this is a benefit not many companies will offer lol",
-      "publishedAt": "2026-05-09T19:40:51.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 124,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@jjackyliang/post/DYGsuqnDX8Y",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @github"
-    }
-  ]
+  "posts": []
 }
