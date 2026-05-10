@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T20:41:17.925Z",
+  "generatedAt": "2026-05-10T23:55:49.248Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYIer5Blnk8",
       "sourcePostId": "18099248272844685",
       "sourcePriority": 125,
-      "relatedPostCount": 3,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyier5blnk8.html",
-      "postCount": 3,
+      "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYIer5Blnk8"
     }
