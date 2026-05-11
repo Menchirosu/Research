@@ -1,67 +1,8 @@
 {
-  "generatedAt": "2026-05-11T19:04:11.958Z",
+  "generatedAt": "2026-05-11T21:13:21.207Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [
-    "claudeai",
-    "github"
-  ],
-  "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNKK4UkZ95",
-      "sourcePostId": "18082172903635487",
-      "sourcePriority": 175,
-      "relatedPostCount": 10,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk",
-      "sourcePostId": "18123738550625757",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYIer5Blnk8",
-      "sourcePostId": "18099248272844685",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    }
-  ],
-  "diagnostics": [
-    {
-      "url": "https://www.threads.com/@claudeai/post/DYNKK4UkZ95",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dynkk4ukz95.html",
-      "postCount": 10,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNKK4UkZ95"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DYK1JwOlHFk",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyk1jwolhfk.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DYIer5Blnk8",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyier5blnk8.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYIer5Blnk8"
-    }
-  ],
+  "sourceAccounts": [],
+  "roots": [],
+  "diagnostics": [],
   "posts": []
 }
