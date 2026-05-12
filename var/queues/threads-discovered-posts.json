@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T19:03:24.258Z",
+  "generatedAt": "2026-05-12T21:13:25.656Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,8 +20,8 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
       "sourcePostId": "17937992085232278",
       "sourcePriority": 175,
-      "relatedPostCount": 0,
-      "queuedCount": 0,
+      "relatedPostCount": 26,
+      "queuedCount": 2,
       "rootResolved": true
     },
     {
@@ -30,15 +30,6 @@
       "sourcePostId": "18145107703496563",
       "sourcePriority": 125,
       "relatedPostCount": 6,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk",
-      "sourcePostId": "18123738550625757",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -58,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dynj5pceqgh.html",
-      "postCount": 0,
+      "postCount": 26,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH"
     },
@@ -72,14 +63,121 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5"
     },
     {
-      "url": "https://www.threads.com/@github/post/DYK1JwOlHFk",
+      "username": "testingcatalog",
+      "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyk1jwolhfk.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/testingcatalog-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "testingcatalog",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "sebkrogh",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/sebkrogh-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "sebkrogh",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "luca.restagno.dev",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/luca.restagno.dev-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "luca.restagno.dev",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "datascientist.py",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/datascientist.py-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "datascientist.py",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-testingcatalog-quote-d0fcb175a4",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "testingcatalog",
+      "url": "https://www.threads.com/@testingcatalog/post/DYNuw34jVIb",
+      "postId": "18017429486836305",
+      "text": "Anthropic released Agent View in Claude Code CLI, from where users can observe and interact with parallel-running agents. It looks like preparation for a future in which agents will pursue broader long-term goals. Claude's mobile app is being prepared for that as well.",
+      "publishedAt": "2026-05-11T22:07:27.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 130,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-datascientist.py-quote-835b4130a1",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "datascientist.py",
+      "url": "https://www.threads.com/@datascientist.py/post/DYNyjV8iuVe",
+      "postId": "18131329495561227",
+      "text": "Please stop shipping so fast I need to sleep 🥲",
+      "publishedAt": "2026-05-11T22:40:01.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 98,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-testingcatalog-quote-593b57b700",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "testingcatalog",
+      "url": "https://www.threads.com/@testingcatalog/post/DYQMNqrDaQ2",
+      "postId": "18055997531709662",
+      "text": "META 🔥: Muse Spark will be available within a new Voice Mode and a Live Camera view on the Meta AI app. There, it can generate images, show places on the map, pull data from Reels, and more. Additionally, new features were added to Shopping Mode, including the ability to search Facebook Marketplace.",
+      "publishedAt": "2026-05-12T21:03:21.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 120,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@testingcatalog/post/DYNuw34jVIb",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
