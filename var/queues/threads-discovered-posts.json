@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T00:01:52.264Z",
+  "generatedAt": "2026-05-12T19:03:24.258Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,19 +8,28 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
-      "sourcePostId": "17937992085232278",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+      "sourcePostId": "18109123297909003",
       "sourcePriority": 175,
-      "relatedPostCount": 19,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNmAYVG28e",
-      "sourcePostId": "3894936435775207483_63442222226",
-      "sourcePriority": 165,
-      "relatedPostCount": 9,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+      "sourcePostId": "17937992085232278",
+      "sourcePriority": 175,
+      "relatedPostCount": 0,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5",
+      "sourcePostId": "18145107703496563",
+      "sourcePriority": 125,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -36,22 +45,31 @@
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyptrtiiiju.html",
+      "postCount": 10,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU"
+    },
+    {
       "url": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dynj5pceqgh.html",
-      "postCount": 19,
+      "postCount": 0,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DYNmAYVG28e",
+      "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dynmayvg28e.html",
-      "postCount": 9,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNmAYVG28e"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyokazklrs5.html",
+      "postCount": 6,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5"
     },
     {
       "url": "https://www.threads.com/@github/post/DYK1JwOlHFk",
@@ -61,46 +79,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYK1JwOlHFk"
-    },
-    {
-      "username": "sebkrogh",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/sebkrogh-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "sebkrogh",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "carter.k.richard",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/carter.k.richard-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "carter.k.richard",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "datascientist.py",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/datascientist.py-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "datascientist.py",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "bennywaitwhat",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/bennywaitwhat-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "bennywaitwhat",
-      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
