@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T00:02:57.800Z",
+  "generatedAt": "2026-05-13T19:02:27.290Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,16 +11,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
       "sourcePostId": "18109123297909003",
       "sourcePriority": 175,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
-      "sourcePostId": "17937992085232278",
-      "sourcePriority": 175,
-      "relatedPostCount": 26,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
+      "sourcePostId": "17974661487044517",
+      "sourcePriority": 165,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,18 +40,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyptrtiiiju.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+      "url": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dynj5pceqgh.html",
-      "postCount": 26,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyszykkipvq.html",
+      "postCount": 9,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq"
     },
     {
       "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
@@ -63,43 +63,23 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5"
     },
     {
-      "username": "luca.restagno.dev",
+      "username": "mktpavlenko",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/luca.restagno.dev-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mktpavlenko-threads-rendered.html",
       "postCount": 7,
-      "discoveryAuthor": "luca.restagno.dev",
+      "discoveryAuthor": "mktpavlenko",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "nathanmercer.openai",
+      "username": "augustincaz",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nathanmercer.openai-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/augustincaz-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "nathanmercer.openai",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "bogdanosinnyi",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/bogdanosinnyi-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "bogdanosinnyi",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "hunhee.ax",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/hunhee.ax-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "hunhee.ax",
+      "discoveryAuthor": "augustincaz",
       "discoveredVia": "claudeai"
     }
   ],
@@ -129,24 +109,24 @@
       "reason": "discovered near @claudeai"
     },
     {
-      "id": "threads-nathanmercer.openai-quote-21af87988b",
+      "id": "threads-mktpavlenko-quote-2fcfdbde35",
       "mode": "quote",
       "platform": "threads",
-      "author": "nathanmercer.openai",
-      "url": "https://www.threads.com/@nathanmercer.openai/post/DYO0FCrkS4T",
-      "postId": "18128814370598378",
-      "text": "Thinking Machines, run by Myra Murati, just revealed 'Interaction Models'—a real-time model that interacts like a human: listening, speaking, seeing, thinking, interjecting, and using tools all at once. Unlike older voice AIs that felt like stitched-together systems (text conversion, turn-taking, response generation), this model natively learns the interaction itself.",
-      "publishedAt": "2026-05-12T08:13:04.000Z",
+      "author": "mktpavlenko",
+      "url": "https://www.threads.com/@mktpavlenko/post/DYQJ22EjGgl",
+      "postId": "18577031686015409",
+      "text": "anthropic just shipped fast mode for opus 4.7. same model, 2.5x output speed, 6x the price. speed got unbundled from intelligence. for anyone running agentic loops, latency now has its own line item on the invoice.",
+      "publishedAt": "2026-05-12T20:42:08.000Z",
       "activityScore": 1,
       "active": true,
       "isVerified": true,
       "isReplyToUs": false,
-      "priority": 97,
+      "priority": 91,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@nathanmercer.openai/post/DYOq7KQE4ly",
+      "referenceUrl": "https://www.threads.com/@mktpavlenko/post/DYShJRQDM-M",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
