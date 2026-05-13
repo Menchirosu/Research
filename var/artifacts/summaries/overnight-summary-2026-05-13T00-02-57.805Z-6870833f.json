@@ -1,0 +1,759 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-05-13T00:02:03.472Z",
+  "completedAt": "2026-05-13T00:02:57.804Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-05-13T00-02-05.895Z-17c84293.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 1,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 1,
+      "filteredCount": 1,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "github",
+      "count": 1
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 4,
+    "discovered": 2,
+    "harvested": 2,
+    "total": 6,
+    "eligible": 3,
+    "skipped": 3
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 5,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 9,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 1,
+      "engagementScore": 100,
+      "promotionScore": 100,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+        "publishedAt": "2026-05-12T16:35:57.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 133,
+        "commentCount": 6,
+        "repostCount": 5,
+        "shareCount": 10,
+        "text": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things they built."
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 8,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DYOKAzklRS5",
+        "publishedAt": "2026-05-12T02:05:03.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 16,
+        "commentCount": 0,
+        "repostCount": 1,
+        "shareCount": 2,
+        "text": "Find out what vulnerabilities are lurking in your code. 👀 GitHub's new Code Security Risk Assessment scans your organization's code and delivers a vulnerability dashboard broken down by severity, language, and repo. No "
+      }
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 4,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 14,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 13,
+      "promotionScore": 63,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@perplexity/post/DYPd8HqmrOS",
+        "publishedAt": "2026-05-12T14:18:28.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 3,
+        "commentCount": 1,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "This NVIDIA remains the strongest platform for large-model inference at scale. Prefill/decode disaggregation, Blackwell-native quantization, custom kernels, and rack-scale NVLink turn GB200 into faster answers lower serv"
+      }
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 61,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@windsurf/post/DYO9rrlj0xV",
+        "publishedAt": "2026-05-12T09:36:33.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "Screen off. Ocean on🤙#surfandturf #beachlife"
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 35,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Application does not have permission for this action\",\"type\":\"THApiException\",\"code\":10,\"fbtrace_id\":\"A1XhRKK_vfxy-RBYGCH3udR\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+      "postId": "18109123297909003",
+      "text": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things they built.",
+      "publishedAt": "2026-05-12T16:35:57.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-d91c5f3686",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+      "postId": "18109123297909003",
+      "text": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things they built.",
+      "publishedAt": "2026-05-12T16:35:57.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 170,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-reply-71e19de8b8",
+      "mode": "reply"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+      "postId": "17937992085232278",
+      "text": "New in Claude Code: agent view. One list of all your sessions, available today as a research preview.",
+      "publishedAt": "2026-05-11T20:50:18.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-b38be8ac16",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
+      "postId": "18145107703496563",
+      "text": "Find out what vulnerabilities are lurking in your code. 👀 GitHub's new Code Security Risk Assessment scans your organization's code and delivers a vulnerability dashboard broken down by severity, language, and repo. No config, no commitment. Run your free assessment now. github.blog/secur… github.blog How exposed is your code? Find out in minutes—for free",
+      "publishedAt": "2026-05-12T02:05:03.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-bc56dd33a7",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-05-13T00:02:57.800Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+        "sourcePostId": "18109123297909003",
+        "sourcePriority": 175,
+        "relatedPostCount": 10,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+        "sourcePostId": "17937992085232278",
+        "sourcePriority": 175,
+        "relatedPostCount": 26,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5",
+        "sourcePostId": "18145107703496563",
+        "sourcePriority": 125,
+        "relatedPostCount": 6,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyptrtiiiju.html",
+        "postCount": 10,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dynj5pceqgh.html",
+        "postCount": 26,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DYNj5PcEQGH"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyokazklrs5.html",
+        "postCount": 6,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5"
+      },
+      {
+        "username": "luca.restagno.dev",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/luca.restagno.dev-threads-rendered.html",
+        "postCount": 7,
+        "discoveryAuthor": "luca.restagno.dev",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "nathanmercer.openai",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/nathanmercer.openai-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "nathanmercer.openai",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "bogdanosinnyi",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/bogdanosinnyi-threads-rendered.html",
+        "postCount": 6,
+        "discoveryAuthor": "bogdanosinnyi",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "hunhee.ax",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/hunhee.ax-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "hunhee.ax",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": [
+      {
+        "id": "threads-testingcatalog-quote-593b57b700",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "testingcatalog",
+        "url": "https://www.threads.com/@testingcatalog/post/DYQMNqrDaQ2",
+        "postId": "18055997531709662",
+        "text": "META 🔥: Muse Spark will be available within a new Voice Mode and a Live Camera view on the Meta AI app. There, it can generate images, show places on the map, pull data from Reels, and more. Additionally, new features were added to Shopping Mode, including the ability to search Facebook Marketplace.",
+        "publishedAt": "2026-05-12T21:03:21.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isReplyToUs": false,
+        "priority": 120,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@testingcatalog/post/DYNuw34jVIb",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      {
+        "id": "threads-nathanmercer.openai-quote-21af87988b",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "nathanmercer.openai",
+        "url": "https://www.threads.com/@nathanmercer.openai/post/DYO0FCrkS4T",
+        "postId": "18128814370598378",
+        "text": "Thinking Machines, run by Myra Murati, just revealed 'Interaction Models'—a real-time model that interacts like a human: listening, speaking, seeing, thinking, interjecting, and using tools all at once. Unlike older voice AIs that felt like stitched-together systems (text conversion, turn-taking, response generation), this model natively learns the interaction itself.",
+        "publishedAt": "2026-05-12T08:13:04.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 97,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@nathanmercer.openai/post/DYOq7KQE4ly",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      }
+    ]
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+      "postId": "18109123297909003",
+      "text": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things they built.",
+      "publishedAt": "2026-05-12T16:35:57.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-d91c5f3686",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-05-13T00-02-57.803Z-79d264c3.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "claudeai",
+        "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+        "postId": "18109123297909003",
+        "text": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things they built.",
+        "publishedAt": "2026-05-12T16:35:57.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-claudeai-quote-d91c5f3686",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
+        "postId": "18145107703496563",
+        "text": "Find out what vulnerabilities are lurking in your code. 👀 GitHub's new Code Security Risk Assessment scans your organization's code and delivers a vulnerability dashboard broken down by severity, language, and repo. No config, no commitment. Run your free assessment now. github.blog/secur… github.blog How exposed is your code? Find out in minutes—for free",
+        "publishedAt": "2026-05-12T02:05:03.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-bc56dd33a7",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "id": "threads-testingcatalog-quote-593b57b700",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "testingcatalog",
+        "url": "https://www.threads.com/@testingcatalog/post/DYQMNqrDaQ2",
+        "postId": "18055997531709662",
+        "text": "META 🔥: Muse Spark will be available within a new Voice Mode and a Live Camera view on the Meta AI app. There, it can generate images, show places on the map, pull data from Reels, and more. Additionally, new features were added to Shopping Mode, including the ability to search Facebook Marketplace.",
+        "publishedAt": "2026-05-12T21:03:21.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isReplyToUs": false,
+        "priority": 120,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@testingcatalog/post/DYNuw34jVIb",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    },
+    {
+      "target": {
+        "id": "threads-nathanmercer.openai-quote-21af87988b",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "nathanmercer.openai",
+        "url": "https://www.threads.com/@nathanmercer.openai/post/DYO0FCrkS4T",
+        "postId": "18128814370598378",
+        "text": "Thinking Machines, run by Myra Murati, just revealed 'Interaction Models'—a real-time model that interacts like a human: listening, speaking, seeing, thinking, interjecting, and using tools all at once. Unlike older voice AIs that felt like stitched-together systems (text conversion, turn-taking, response generation), this model natively learns the interaction itself.",
+        "publishedAt": "2026-05-12T08:13:04.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 97,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@nathanmercer.openai/post/DYOq7KQE4ly",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Application does not have permission for this action\",\"type\":\"THApiException\",\"code\":10,\"fbtrace_id\":\"A1XhRKK_vfxy-RBYGCH3udR\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 21
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 21
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 3
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 2,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 21
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 21
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 3
+        }
+      ]
+    }
+  }
+}
