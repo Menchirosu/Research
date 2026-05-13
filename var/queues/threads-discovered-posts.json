@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-05-13T19:02:27.290Z",
+  "generatedAt": "2026-05-13T21:21:24.115Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
     "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
+      "sourcePostId": "17974661487044517",
+      "sourcePriority": 175,
+      "relatedPostCount": 10,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
@@ -16,11 +25,11 @@
       "rootResolved": true
     },
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
-      "sourcePostId": "17974661487044517",
-      "sourcePriority": 165,
-      "relatedPostCount": 9,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYSssdIlKRt",
+      "sourcePostId": "18110772577846038",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -36,6 +45,15 @@
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyszykkipvq.html",
+      "postCount": 10,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq"
+    },
+    {
       "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
       "status": "ok",
       "error": null,
@@ -45,13 +63,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
+      "url": "https://www.threads.com/@github/post/DYSssdIlKRt",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyszykkipvq.html",
-      "postCount": 9,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dysssdilkrt.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYSssdIlKRt"
     },
     {
       "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
@@ -68,7 +86,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/mktpavlenko-threads-rendered.html",
-      "postCount": 7,
+      "postCount": 8,
       "discoveryAuthor": "mktpavlenko",
       "discoveredVia": "claudeai"
     },
@@ -85,43 +103,19 @@
   ],
   "posts": [
     {
-      "id": "threads-testingcatalog-quote-593b57b700",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "testingcatalog",
-      "url": "https://www.threads.com/@testingcatalog/post/DYQMNqrDaQ2",
-      "postId": "18055997531709662",
-      "text": "META 🔥: Muse Spark will be available within a new Voice Mode and a Live Camera view on the Meta AI app. There, it can generate images, show places on the map, pull data from Reels, and more. Additionally, new features were added to Shopping Mode, including the ability to search Facebook Marketplace.",
-      "publishedAt": "2026-05-12T21:03:21.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 120,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@testingcatalog/post/DYNuw34jVIb",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-mktpavlenko-quote-2fcfdbde35",
+      "id": "threads-mktpavlenko-quote-4295dba0a3",
       "mode": "quote",
       "platform": "threads",
       "author": "mktpavlenko",
-      "url": "https://www.threads.com/@mktpavlenko/post/DYQJ22EjGgl",
-      "postId": "18577031686015409",
-      "text": "anthropic just shipped fast mode for opus 4.7. same model, 2.5x output speed, 6x the price. speed got unbundled from intelligence. for anyone running agentic loops, latency now has its own line item on the invoice.",
-      "publishedAt": "2026-05-12T20:42:08.000Z",
+      "url": "https://www.threads.com/@mktpavlenko/post/DYSrMBKDM8o",
+      "postId": "3896366569857270791_63286648622",
+      "text": "Anthropic shipped /goal in Claude Code today. The shift nobody's pointing out: you don't write the task. You write acceptance criteria. That's a PRD. They just made the PM the prompt engineer.",
+      "publishedAt": "2026-05-13T20:11:52.000Z",
       "activityScore": 1,
       "active": true,
       "isVerified": true,
       "isReplyToUs": false,
-      "priority": 91,
+      "priority": 119,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
