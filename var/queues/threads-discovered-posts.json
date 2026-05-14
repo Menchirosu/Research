@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T18:59:48.637Z",
+  "generatedAt": "2026-05-14T21:05:56.279Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -73,54 +73,5 @@
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-mktpavlenko-quote-4295dba0a3",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "mktpavlenko",
-      "url": "https://www.threads.com/@mktpavlenko/post/DYSrMBKDM8o",
-      "postId": "3896366569857270791_63286648622",
-      "text": "Anthropic shipped /goal in Claude Code today. The shift nobody's pointing out: you don't write the task. You write acceptance criteria. That's a PRD. They just made the PM the prompt engineer.",
-      "publishedAt": "2026-05-13T20:11:52.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 119,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@mktpavlenko/post/DYShJRQDM-M",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-mktpavlenko-quote-967faba7dd",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "mktpavlenko",
-      "url": "https://www.threads.com/@mktpavlenko/post/DYSrMBKDM8o",
-      "postId": "3896366569857270791",
-      "text": "Anthropic shipped /goal in Claude Code today. The shift nobody's pointing out: you don't write the task. You write acceptance criteria. That's a PRD. They just made the PM the prompt engineer.",
-      "publishedAt": "2026-05-13T20:11:52.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 118,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@mktpavlenko/post/DYShJRQDM-M",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
