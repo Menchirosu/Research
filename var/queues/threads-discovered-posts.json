@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T00:48:01.145Z",
+  "generatedAt": "2026-05-14T18:59:48.637Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,19 +8,19 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
-      "sourcePostId": "17974661487044517",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYUzBVDDo5s",
+      "sourcePostId": "17946095451177450",
       "sourcePriority": 175,
-      "relatedPostCount": 10,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
-      "sourcePostId": "18109123297909003",
-      "sourcePriority": 175,
-      "relatedPostCount": 14,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYU1lArDGRY",
+      "sourcePostId": "17861012343690135",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -32,35 +32,26 @@
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5",
-      "sourcePostId": "18145107703496563",
-      "sourcePriority": 125,
-      "relatedPostCount": 6,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq",
+      "url": "https://www.threads.com/@claudeai/post/DYUzBVDDo5s",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyszykkipvq.html",
-      "postCount": 10,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyuzbvddo5s.html",
+      "postCount": 6,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYSZyKkiPvq"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYUzBVDDo5s"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU",
+      "url": "https://www.threads.com/@github/post/DYU1lArDGRY",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyptrtiiiju.html",
-      "postCount": 14,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYPtrtiIIjU"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyu1lardgry.html",
+      "postCount": 6,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYU1lArDGRY"
     },
     {
       "url": "https://www.threads.com/@github/post/DYSssdIlKRt",
@@ -72,32 +63,13 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYSssdIlKRt"
     },
     {
-      "url": "https://www.threads.com/@github/post/DYOKAzklRS5",
+      "username": "art.seabra",
+      "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyokazklrs5.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/art.seabra-threads-rendered.html",
       "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYOKAzklRS5"
-    },
-    {
-      "username": "mktpavlenko",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mktpavlenko-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "mktpavlenko",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "augustincaz",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/augustincaz-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "augustincaz",
+      "discoveryAuthor": "art.seabra",
       "discoveredVia": "claudeai"
     }
   ],
@@ -137,7 +109,6 @@
       "publishedAt": "2026-05-13T20:11:52.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 118,
       "autoHarvested": true,
