@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T00:00:30.524Z",
+  "generatedAt": "2026-05-15T18:26:58.496Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -19,8 +19,8 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYU1lArDGRY",
       "sourcePostId": "17861012343690135",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourcePriority": 145,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyu1lardgry.html",
-      "postCount": 6,
+      "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYU1lArDGRY"
     },
@@ -61,16 +61,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYSssdIlKRt"
-    },
-    {
-      "username": "art.seabra",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/art.seabra-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "art.seabra",
-      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
