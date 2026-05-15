@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:55:49.713Z",
+  "generatedAt": "2026-05-15T23:57:26.096Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -23,6 +23,15 @@
       "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYX-TFtj3oP",
+      "sourcePostId": "18154000309464575",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -43,6 +52,15 @@
       "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYU1lArDGRY"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DYX-TFtj3oP",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyx-tftj3op.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYX-TFtj3oP"
     }
   ],
   "posts": []
