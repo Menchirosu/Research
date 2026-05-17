@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T18:03:21.573Z",
+  "generatedAt": "2026-05-17T20:42:08.597Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -16,10 +16,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYX-TFtj3oP",
-      "sourcePostId": "18154000309464575",
+      "sourceUrl": "https://www.threads.com/@github/post/DYc1kwNlIQA",
+      "sourcePostId": "18115666207696447",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -35,50 +35,14 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYaMxbElKWV"
     },
     {
-      "url": "https://www.threads.com/@github/post/DYX-TFtj3oP",
+      "url": "https://www.threads.com/@github/post/DYc1kwNlIQA",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyx-tftj3op.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyc1kwnliqa.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYX-TFtj3oP"
-    },
-    {
-      "username": "dianartcls",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dianartcls-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "dianartcls",
-      "discoveredVia": "github"
+      "sourceUrl": "https://www.threads.com/@github/post/DYc1kwNlIQA"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-dianartcls-quote-9a2fd74593",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "dianartcls",
-      "url": "https://www.threads.com/@dianartcls/post/DYaOZ1vDDAf",
-      "postId": "17895602169461772",
-      "text": "Most solo devs don’t quit because of lack of ideas. They quit because every “small system” takes 2 weeks. Inventory. Save system. Combat state machine. Dialogue tools. That’s exactly why I build reusable gameplay systems for Unity & Unreal.",
-      "publishedAt": "2026-05-16T18:34:16.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 93,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@dianartcls/post/DYaOZ1vDDAf",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @github"
-    }
-  ]
+  "posts": []
 }
