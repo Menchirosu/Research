@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T21:05:38.720Z",
+  "generatedAt": "2026-05-19T00:12:13.578Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYffxaBm97l",
       "sourcePostId": "18093339742976347",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 18,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyffxabm97l.html",
-      "postCount": 13,
+      "postCount": 18,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYffxaBm97l"
     },
@@ -83,24 +83,24 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "rarulitos",
+      "username": "projetista_no_trecho",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/rarulitos-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/projetista_no_trecho-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "rarulitos",
+      "discoveryAuthor": "projetista_no_trecho",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "mktpavlenko",
+      "username": "duskfallcrew",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mktpavlenko-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "mktpavlenko",
-      "discoveredVia": "github"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/duskfallcrew-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "duskfallcrew",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
