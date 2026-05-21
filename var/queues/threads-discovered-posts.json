@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T19:05:54.114Z",
+  "generatedAt": "2026-05-21T21:24:02.899Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9",
       "sourcePostId": "17880370740437556",
       "sourcePriority": 175,
-      "relatedPostCount": 5,
+      "relatedPostCount": 18,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
       "sourcePostId": "18350941039242665",
       "sourcePriority": 165,
-      "relatedPostCount": 5,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,7 +29,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv",
       "sourcePostId": "3902064376627827153_63446883908",
       "sourcePriority": 145,
-      "relatedPostCount": 5,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBjm5HR",
       "sourcePostId": "3902064376015477854_63446883908",
       "sourcePriority": 135,
-      "relatedPostCount": 5,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dykmw9ajud9.html",
-      "postCount": 5,
+      "postCount": 18,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9"
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dymxwkueapb.html",
-      "postCount": 5,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB"
     },
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dym6ubfm0zv.html",
-      "postCount": 5,
+      "postCount": 10,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv"
     },
@@ -76,10 +76,56 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dym6ubjm5hr.html",
-      "postCount": 5,
+      "postCount": 11,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBjm5HR"
+    },
+    {
+      "username": "superbatmarc",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/superbatmarc-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "superbatmarc",
+      "discoveredVia": "github"
+    },
+    {
+      "username": "thehandsomekvng",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/thehandsomekvng-threads-rendered.html",
+      "postCount": 10,
+      "discoveryAuthor": "thehandsomekvng",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-superbatmarc-quote-9a5f6ea3a9",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "superbatmarc",
+      "url": "https://www.threads.com/@superbatmarc/post/DYm7ZjonHhU",
+      "postId": "18121774558644873",
+      "text": "If AI isn’t going to do my laundry I don’t want it. That’s just about the only thing I’d want it to do for me.",
+      "publishedAt": "2026-05-21T16:58:20.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 114,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@superbatmarc/post/DYmqHi-nJsg",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
