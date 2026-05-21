@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-21T00:10:28.071Z",
+  "generatedAt": "2026-05-21T19:05:54.114Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai"
+    "claudeai",
+    "github"
   ],
   "roots": [
     {
@@ -10,15 +11,33 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9",
       "sourcePostId": "17880370740437556",
       "sourcePriority": 175,
-      "relatedPostCount": 17,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYhlp9Sja_L",
-      "sourcePostId": "18058946870709015",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
+      "sourcePostId": "18350941039242665",
       "sourcePriority": 165,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv",
+      "sourcePostId": "3902064376627827153_63446883908",
+      "sourcePriority": 145,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYm6uBjm5HR",
+      "sourcePostId": "3902064376015477854_63446883908",
+      "sourcePriority": 135,
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
@@ -30,48 +49,36 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dykmw9ajud9.html",
-      "postCount": 17,
+      "postCount": 5,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DYhlp9Sja_L",
+      "url": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dyhlp9sja_l.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dymxwkueapb.html",
       "postCount": 5,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYhlp9Sja_L"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB"
     },
     {
-      "username": "dany_va",
-      "tab": "threads",
+      "url": "https://www.threads.com/@github/post/DYm6uBFm0Zv",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dany_va-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "dany_va",
-      "discoveredVia": "claudeai"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dym6ubfm0zv.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv"
     },
     {
-      "username": "igsahaib",
-      "tab": "threads",
+      "url": "https://www.threads.com/@github/post/DYm6uBjm5HR",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/igsahaib-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "igsahaib",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "nemagimi",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nemagimi-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "nemagimi",
-      "discoveredVia": "claudeai"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dym6ubjm5hr.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DYm6uBjm5HR"
     }
   ],
   "posts": []
