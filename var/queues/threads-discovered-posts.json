@@ -1,26 +1,27 @@
 {
-  "generatedAt": "2026-05-22T00:06:48.441Z",
+  "generatedAt": "2026-05-22T18:59:03.544Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
+    "openai",
     "github"
   ],
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9",
-      "sourcePostId": "17880370740437556",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
+      "sourcePostId": "18350941039242665",
       "sourcePriority": 175,
-      "relatedPostCount": 19,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
-      "sourcePostId": "18350941039242665",
-      "sourcePriority": 165,
-      "relatedPostCount": 9,
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DYnvlSOmQRe",
+      "sourcePostId": "17891362041473157",
+      "sourcePriority": 155,
+      "relatedPostCount": 27,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,7 +30,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv",
       "sourcePostId": "3902064376627827153_63446883908",
       "sourcePriority": 145,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -45,29 +46,29 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dykmw9ajud9.html",
-      "postCount": 19,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DYkMw9Ajud9"
-    },
-    {
       "url": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dymxwkueapb.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB"
+    },
+    {
+      "url": "https://www.threads.com/@openai/post/DYnvlSOmQRe",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dynvlsomqre.html",
+      "postCount": 27,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DYnvlSOmQRe"
     },
     {
       "url": "https://www.threads.com/@github/post/DYm6uBFm0Zv",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dym6ubfm0zv.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv"
     },
@@ -79,32 +80,73 @@
       "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6"
+    },
+    {
+      "username": "stevenkrygger",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/stevenkrygger-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "stevenkrygger",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "seaninsound",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/seaninsound-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "seaninsound",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "maulana_uinmalang",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/maulana_uinmalang-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "maulana_uinmalang",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "graveyard_batz",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/graveyard_batz-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "graveyard_batz",
+      "discoveredVia": "github"
     }
   ],
   "posts": [
     {
-      "id": "threads-superbatmarc-quote-9a5f6ea3a9",
+      "id": "threads-maulana_uinmalang-quote-354edc8370",
       "mode": "quote",
       "platform": "threads",
-      "author": "superbatmarc",
-      "url": "https://www.threads.com/@superbatmarc/post/DYm7ZjonHhU",
-      "postId": "18121774558644873",
-      "text": "If AI isn’t going to do my laundry I don’t want it. That’s just about the only thing I’d want it to do for me.",
-      "publishedAt": "2026-05-21T16:58:20.000Z",
+      "author": "maulana_uinmalang",
+      "url": "https://www.threads.com/@maulana_uinmalang/post/DYoHxHdEQIN",
+      "postId": "17906614494422302",
+      "text": "Hi semaunya 👋 Aku sedang mengembangkan sistem AI baru bernama Antarmuka 2D. Sistem ini membuat yang kita sebut peta neural, pikiran seorang AI yang menggunakan sekumpulan node-node dan garis untuk memproses informasi di dalam pikiran si AI. Untuk di sini, kita menggunakan peta neural ini untuk menganalisis paper psikologi. Kita ingin memahami bagaimana ini bisa digunakan untuk menganalisis paper secara mendalam. Translate",
+      "publishedAt": "2026-05-22T04:05:39.000Z",
       "activityScore": 1,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 114,
+      "priority": 98,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@superbatmarc/post/DYmqHi-nJsg",
+      "referenceUrl": "https://www.threads.com/@maulana_uinmalang/post/DYoI8mPET3T",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
       "thresholdOverride": false,
-      "reason": "discovered near @github"
+      "reason": "discovered near @openai"
     }
   ]
 }
