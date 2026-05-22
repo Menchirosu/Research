@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T18:59:03.544Z",
+  "generatedAt": "2026-05-22T21:09:07.212Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
       "sourcePostId": "18350941039242665",
       "sourcePriority": 175,
-      "relatedPostCount": 11,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DYnvlSOmQRe",
       "sourcePostId": "17891362041473157",
       "sourcePriority": 155,
-      "relatedPostCount": 27,
+      "relatedPostCount": 28,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv",
       "sourcePostId": "3902064376627827153_63446883908",
       "sourcePriority": 145,
-      "relatedPostCount": 11,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -39,7 +39,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6",
       "sourcePostId": "18130652581586078",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dymxwkueapb.html",
-      "postCount": 11,
+      "postCount": 10,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB"
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dynvlsomqre.html",
-      "postCount": 27,
+      "postCount": 28,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DYnvlSOmQRe"
     },
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dym6ubfm0zv.html",
-      "postCount": 11,
+      "postCount": 10,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYm6uBFm0Zv"
     },
@@ -77,9 +77,29 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyniglhffg6.html",
-      "postCount": 6,
+      "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6"
+    },
+    {
+      "username": "jjackyliang",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jjackyliang-threads-rendered.html",
+      "postCount": 17,
+      "discoveryAuthor": "jjackyliang",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "graveyard_batz",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/graveyard_batz-threads-rendered.html",
+      "postCount": 16,
+      "discoveryAuthor": "graveyard_batz",
+      "discoveredVia": "openai"
     },
     {
       "username": "stevenkrygger",
@@ -87,7 +107,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/stevenkrygger-threads-rendered.html",
-      "postCount": 4,
+      "postCount": 15,
       "discoveryAuthor": "stevenkrygger",
       "discoveredVia": "openai"
     },
@@ -97,29 +117,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/seaninsound-threads-rendered.html",
-      "postCount": 6,
+      "postCount": 18,
       "discoveryAuthor": "seaninsound",
       "discoveredVia": "openai"
-    },
-    {
-      "username": "maulana_uinmalang",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/maulana_uinmalang-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "maulana_uinmalang",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "graveyard_batz",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/graveyard_batz-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "graveyard_batz",
-      "discoveredVia": "github"
     }
   ],
   "posts": [
@@ -134,7 +134,6 @@
       "publishedAt": "2026-05-22T04:05:39.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 98,
       "autoHarvested": true,
@@ -142,6 +141,31 @@
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@maulana_uinmalang/post/DYoI8mPET3T",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @openai"
+    },
+    {
+      "id": "threads-jjackyliang-quote-a7edddb17b",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "jjackyliang",
+      "url": "https://www.threads.com/@jjackyliang/post/DYnyqEejeip",
+      "postId": "DYnyqEejeip",
+      "text": "does ai ever get self conscious and perform worse if you're yelling at it",
+      "publishedAt": "2026-05-22T01:01:11.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 126,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@jjackyliang/post/DYn7M5ZDcP9",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
