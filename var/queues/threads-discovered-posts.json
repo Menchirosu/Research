@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T21:09:07.212Z",
+  "generatedAt": "2026-05-23T00:18:11.470Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB",
       "sourcePostId": "18350941039242665",
       "sourcePriority": 175,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -39,7 +39,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6",
       "sourcePostId": "18130652581586078",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dymxwkueapb.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DYmxWKUEapB"
     },
@@ -77,29 +77,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyniglhffg6.html",
-      "postCount": 5,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6"
-    },
-    {
-      "username": "jjackyliang",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jjackyliang-threads-rendered.html",
-      "postCount": 17,
-      "discoveryAuthor": "jjackyliang",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "graveyard_batz",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/graveyard_batz-threads-rendered.html",
-      "postCount": 16,
-      "discoveryAuthor": "graveyard_batz",
-      "discoveredVia": "openai"
     },
     {
       "username": "stevenkrygger",
@@ -107,7 +87,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/stevenkrygger-threads-rendered.html",
-      "postCount": 15,
+      "postCount": 4,
       "discoveryAuthor": "stevenkrygger",
       "discoveredVia": "openai"
     },
@@ -117,8 +97,28 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/seaninsound-threads-rendered.html",
-      "postCount": 18,
+      "postCount": 6,
       "discoveryAuthor": "seaninsound",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "epgamer84",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/epgamer84-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "epgamer84",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "maulana_uinmalang",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/maulana_uinmalang-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "maulana_uinmalang",
       "discoveredVia": "openai"
     }
   ],
@@ -158,7 +158,6 @@
       "publishedAt": "2026-05-22T01:01:11.000Z",
       "activityScore": 3,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 126,
       "autoHarvested": true,
