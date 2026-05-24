@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T20:42:01.886Z",
+  "generatedAt": "2026-05-24T00:00:27.560Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DYnvlSOmQRe",
       "sourcePostId": "17891362041473157",
       "sourcePriority": 155,
-      "relatedPostCount": 30,
+      "relatedPostCount": 28,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -23,15 +23,6 @@
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6",
-      "sourcePostId": "18130652581586078",
-      "sourcePriority": 125,
-      "relatedPostCount": 6,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -40,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dynvlsomqre.html",
-      "postCount": 30,
+      "postCount": 28,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DYnvlSOmQRe"
     },
@@ -52,25 +43,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYsO60rCUTD"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DYnigLhFfG6",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyniglhffg6.html",
-      "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYnigLhFfG6"
-    },
-    {
-      "username": "jose_manuel_camina",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jose_manuel_camina-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "jose_manuel_camina",
-      "discoveredVia": "openai"
     }
   ],
   "posts": []
