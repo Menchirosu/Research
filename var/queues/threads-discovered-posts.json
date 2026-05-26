@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T21:00:12.923Z",
+  "generatedAt": "2026-05-26T00:09:00.154Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -9,7 +9,7 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYu5bTuFb43",
       "sourcePostId": "18119375596770924",
-      "sourcePriority": 125,
+      "sourcePriority": 135,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
