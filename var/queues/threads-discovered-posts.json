@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-05-26T19:24:40.351Z",
+  "generatedAt": "2026-05-26T21:39:17.508Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DY0LHUOGqJA",
+      "sourcePostId": "18143603014512863",
+      "sourcePriority": 175,
+      "relatedPostCount": 9,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DY0ISPkme_K",
+      "sourcePostId": "18123084034726109",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYyHa27je0L",
@@ -17,6 +36,24 @@
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DY0LHUOGqJA",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy0lhuogqja.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DY0LHUOGqJA"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DY0ISPkme_K",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy0ispkme_k.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DY0ISPkme_K"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DYyHa27je0L",
       "status": "ok",
       "error": null,
@@ -24,7 +61,43 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DYyHa27je0L"
+    },
+    {
+      "username": "venseph",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/venseph-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "venseph",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-venseph-quote-c0ba2b08d3",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "venseph",
+      "url": "https://www.threads.com/@venseph/post/DYzDi3SFfe4",
+      "postId": "DYzDi3SFfe4",
+      "text": "They do it with better cooling, denser racks, smarter airflow, AI-managed load balancing, newer chips, high-efficiency power systems, and smarter siting near cheap or clean power. The gains are real. Old facilities wasted a ton of power just on cooling. Modern hyperscale centers hit 1.1 to 1.3. That means almost everything goes to actual compute. Averages dropped hard between 2007 and 2014, though the Uptime Institute says progress has plateaued around the mid-1.5 range lately.",
+      "publishedAt": "2026-05-26T10:00:24.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 104,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@venseph/post/DY0OgxQFA1p",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
