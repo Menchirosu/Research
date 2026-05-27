@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T00:09:42.054Z",
+  "generatedAt": "2026-05-27T19:31:12.879Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY0LHUOGqJA",
       "sourcePostId": "18143603014512863",
       "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,15 +19,15 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DY0ISPkme_K",
       "sourcePostId": "18123084034726109",
-      "sourcePriority": 125,
+      "sourcePriority": 135,
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYyHa27je0L",
-      "sourcePostId": "18101672537102253",
+      "sourceUrl": "https://www.threads.com/@github/post/DY2icDiDRQ4",
+      "sourcePostId": "18112412770858806",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy0lhuogqja.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY0LHUOGqJA"
     },
@@ -54,13 +54,13 @@
       "sourceUrl": "https://www.threads.com/@github/post/DY0ISPkme_K"
     },
     {
-      "url": "https://www.threads.com/@github/post/DYyHa27je0L",
+      "url": "https://www.threads.com/@github/post/DY2icDiDRQ4",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dyyha27je0l.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy2icdidrq4.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DYyHa27je0L"
+      "sourceUrl": "https://www.threads.com/@github/post/DY2icDiDRQ4"
     },
     {
       "username": "venseph",
@@ -68,35 +68,30 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/venseph-threads-rendered.html",
-      "postCount": 7,
+      "postCount": 4,
       "discoveryAuthor": "venseph",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "nikolai3d",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nikolai3d-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "nikolai3d",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "christelle.estrada",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/christelle.estrada-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "christelle.estrada",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-venseph-quote-c0ba2b08d3",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "venseph",
-      "url": "https://www.threads.com/@venseph/post/DYzDi3SFfe4",
-      "postId": "DYzDi3SFfe4",
-      "text": "They do it with better cooling, denser racks, smarter airflow, AI-managed load balancing, newer chips, high-efficiency power systems, and smarter siting near cheap or clean power. The gains are real. Old facilities wasted a ton of power just on cooling. Modern hyperscale centers hit 1.1 to 1.3. That means almost everything goes to actual compute. Averages dropped hard between 2007 and 2014, though the Uptime Institute says progress has plateaued around the mid-1.5 range lately.",
-      "publishedAt": "2026-05-26T10:00:24.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 104,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@venseph/post/DY0OgxQFA1p",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
