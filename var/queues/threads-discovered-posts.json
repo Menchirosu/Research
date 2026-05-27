@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T19:31:12.879Z",
+  "generatedAt": "2026-05-27T21:47:59.274Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -61,26 +61,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DY2icDiDRQ4"
-    },
-    {
-      "username": "venseph",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/venseph-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "venseph",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "nikolai3d",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nikolai3d-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "nikolai3d",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "christelle.estrada",
