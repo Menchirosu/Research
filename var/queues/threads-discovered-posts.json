@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T19:40:57.683Z",
+  "generatedAt": "2026-05-28T21:52:33.308Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY485EEEWZt",
       "sourcePostId": "DY485EEEWZt",
       "sourcePriority": 175,
-      "relatedPostCount": 13,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy485eeewzt.html",
-      "postCount": 13,
+      "postCount": 6,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY485EEEWZt"
     },
@@ -91,16 +91,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "impdjun",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/impdjun-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "impdjun",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "lexav_",
       "tab": "threads",
       "status": "ok",
@@ -118,6 +108,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/hemanthvasi-threads-rendered.html",
       "postCount": 0,
       "discoveryAuthor": "hemanthvasi",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "kotov_kostya1804",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kotov_kostya1804-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "kotov_kostya1804",
       "discoveredVia": "claudeai"
     }
   ],
