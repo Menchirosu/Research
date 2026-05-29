@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T21:52:33.308Z",
+  "generatedAt": "2026-05-29T00:14:33.336Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY485EEEWZt",
       "sourcePostId": "DY485EEEWZt",
       "sourcePriority": 175,
-      "relatedPostCount": 6,
+      "relatedPostCount": 13,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY484d3EajI",
       "sourcePostId": "18103415351002123",
       "sourcePriority": 155,
-      "relatedPostCount": 33,
+      "relatedPostCount": 31,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,14 +29,14 @@
       "sourceUrl": "https://www.threads.com/@github/post/DY5An4JAN9O",
       "sourcePostId": "18102351266284101",
       "sourcePriority": 135,
-      "relatedPostCount": 7,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY3uMhAlRZp",
-      "sourcePostId": "18427106776122124",
+      "sourceUrl": "https://www.threads.com/@github/post/DY5hNR-GRZx",
+      "sourcePostId": "18095282624181901",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy485eeewzt.html",
-      "postCount": 6,
+      "postCount": 13,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY485EEEWZt"
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy484d3eaji.html",
-      "postCount": 33,
+      "postCount": 31,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY484d3EajI"
     },
@@ -67,18 +67,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy5an4jan9o.html",
-      "postCount": 7,
+      "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DY5An4JAN9O"
     },
     {
-      "url": "https://www.threads.com/@github/post/DY3uMhAlRZp",
+      "url": "https://www.threads.com/@github/post/DY5hNR-GRZx",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy3umhalrzp.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy5hnr-grzx.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY3uMhAlRZp"
+      "sourceUrl": "https://www.threads.com/@github/post/DY5hNR-GRZx"
     },
     {
       "username": "mpbroadhurst",
@@ -88,6 +88,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/mpbroadhurst-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "mpbroadhurst",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "impdjun",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/impdjun-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "impdjun",
       "discoveredVia": "claudeai"
     },
     {
@@ -108,16 +118,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/hemanthvasi-threads-rendered.html",
       "postCount": 0,
       "discoveryAuthor": "hemanthvasi",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "kotov_kostya1804",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kotov_kostya1804-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "kotov_kostya1804",
       "discoveredVia": "claudeai"
     }
   ],
