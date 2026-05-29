@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T00:14:33.336Z",
+  "generatedAt": "2026-05-29T19:37:20.251Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,11 +8,11 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DY485EEEWZt",
-      "sourcePostId": "DY485EEEWZt",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
+      "sourcePostId": "18074447042660462",
       "sourcePriority": 175,
-      "relatedPostCount": 13,
-      "queuedCount": 0,
+      "relatedPostCount": 3,
+      "queuedCount": 1,
       "rootResolved": true
     },
     {
@@ -20,23 +20,23 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY484d3EajI",
       "sourcePostId": "18103415351002123",
       "sourcePriority": 155,
-      "relatedPostCount": 31,
+      "relatedPostCount": 32,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY5An4JAN9O",
-      "sourcePostId": "18102351266284101",
+      "sourceUrl": "https://www.threads.com/@github/post/DY54HI7lQjD",
+      "sourcePostId": "17887144032556548",
       "sourcePriority": 135,
-      "relatedPostCount": 8,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY5hNR-GRZx",
-      "sourcePostId": "18095282624181901",
+      "sourceUrl": "https://www.threads.com/@github/post/DY7p93SlUnv",
+      "sourcePostId": "18583629118010165",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -45,81 +45,132 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DY485EEEWZt",
+      "url": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy485eeewzt.html",
-      "postCount": 13,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy7q8lwob7i.html",
+      "postCount": 3,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DY485EEEWZt"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I"
     },
     {
       "url": "https://www.threads.com/@claudeai/post/DY484d3EajI",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy484d3eaji.html",
-      "postCount": 31,
+      "postCount": 32,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY484d3EajI"
     },
     {
-      "url": "https://www.threads.com/@github/post/DY5An4JAN9O",
+      "url": "https://www.threads.com/@github/post/DY54HI7lQjD",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy5an4jan9o.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy54hi7lqjd.html",
+      "postCount": 7,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY5An4JAN9O"
+      "sourceUrl": "https://www.threads.com/@github/post/DY54HI7lQjD"
     },
     {
-      "url": "https://www.threads.com/@github/post/DY5hNR-GRZx",
+      "url": "https://www.threads.com/@github/post/DY7p93SlUnv",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy5hnr-grzx.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy7p93slunv.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY5hNR-GRZx"
+      "sourceUrl": "https://www.threads.com/@github/post/DY7p93SlUnv"
     },
     {
-      "username": "mpbroadhurst",
+      "username": "ianthomashealy.author",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mpbroadhurst-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/ianthomashealy.author-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "ianthomashealy.author",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "arun_thevarkunnel",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/arun_thevarkunnel-threads-rendered.html",
+      "postCount": 3,
+      "discoveryAuthor": "arun_thevarkunnel",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "jhesture.studio",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jhesture.studio-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "jhesture.studio",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "clyolabs",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/clyolabs-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "mpbroadhurst",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "impdjun",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/impdjun-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "impdjun",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "lexav_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/lexav_-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "lexav_",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "hemanthvasi",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/hemanthvasi-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "hemanthvasi",
+      "discoveryAuthor": "clyolabs",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-ianthomashealy.author-quote-f296805fdb",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "ianthomashealy.author",
+      "url": "https://www.threads.com/@ianthomashealy.author/post/DY7NWDDgZF-",
+      "postId": "18104196016800075",
+      "text": "Hey y'all indie authors! Self-recommend your books for tweens and teens as we head into summer break! Make sure you include your blurb and link. Absolutely no AI! Readers, if you're looking for book recommendations, check out this list. Thanks for supporting indie authors! 😁📖👍",
+      "publishedAt": "2026-05-29T13:59:57.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 152,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-jhesture.studio-quote-4add50aa2c",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "jhesture.studio",
+      "url": "https://www.threads.com/@jhesture.studio/post/DY6ajcxlMXi",
+      "postId": "18122663866729610",
+      "text": "Nano Banana 2 just dropped a crazy new feature today: 🎥 ➜ 🖼️ Video-to-Image Now you can pass a video file or even a YouTube URL with a prompt, and Nano Banana 2 uses the video as context to generate images. Example: «“Turn this video into a cinematic comic strip”» This changes everything for creators. One clip → infinite visual styles.",
+      "publishedAt": "2026-05-29T06:36:08.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 105,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@jhesture.studio/post/DY5TNKIk64a",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
