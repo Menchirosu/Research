@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:12:00.510Z",
+  "generatedAt": "2026-05-30T18:08:02.765Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,16 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
       "sourcePostId": "18074447042660462",
       "sourcePriority": 175,
-      "relatedPostCount": 3,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DY484d3EajI",
-      "sourcePostId": "18103415351002123",
-      "sourcePriority": 155,
-      "relatedPostCount": 30,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,18 +40,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy7q8lwob7i.html",
-      "postCount": 3,
+      "postCount": 7,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DY484d3EajI",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy484d3eaji.html",
-      "postCount": 30,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DY484d3EajI"
     },
     {
       "url": "https://www.threads.com/@github/post/DY8CkwFEyFf",
@@ -79,96 +61,7 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DY7p93SlUnv"
-    },
-    {
-      "username": "arun_thevarkunnel",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/arun_thevarkunnel-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "arun_thevarkunnel",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "clyolabs",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/clyolabs-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "clyolabs",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "_surendar._5",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_surendar._5-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "_surendar._5",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "angelossfakianakis",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/angelossfakianakis-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "angelossfakianakis",
-      "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-ianthomashealy.author-quote-f296805fdb",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "ianthomashealy.author",
-      "url": "https://www.threads.com/@ianthomashealy.author/post/DY7NWDDgZF-",
-      "postId": "18104196016800075",
-      "text": "Hey y'all indie authors! Self-recommend your books for tweens and teens as we head into summer break! Make sure you include your blurb and link. Absolutely no AI! Readers, if you're looking for book recommendations, check out this list. Thanks for supporting indie authors! 😁📖👍",
-      "publishedAt": "2026-05-29T13:59:57.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 152,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-jhesture.studio-quote-4add50aa2c",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "jhesture.studio",
-      "url": "https://www.threads.com/@jhesture.studio/post/DY6ajcxlMXi",
-      "postId": "18122663866729610",
-      "text": "Nano Banana 2 just dropped a crazy new feature today: 🎥 ➜ 🖼️ Video-to-Image Now you can pass a video file or even a YouTube URL with a prompt, and Nano Banana 2 uses the video as context to generate images. Example: «“Turn this video into a cinematic comic strip”» This changes everything for creators. One clip → infinite visual styles.",
-      "publishedAt": "2026-05-29T06:36:08.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 105,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@jhesture.studio/post/DY5TNKIk64a",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
