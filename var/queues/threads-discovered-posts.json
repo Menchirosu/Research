@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-05-30T20:49:50.665Z",
+  "generatedAt": "2026-05-31T18:10:20.837Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
-      "sourcePostId": "18074447042660462",
-      "sourcePriority": 175,
-      "relatedPostCount": 7,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DY-izHnijMk",
+      "sourcePostId": "18355617298240366",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -23,26 +22,17 @@
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY7p93SlUnv",
-      "sourcePostId": "18583629118010165",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I",
+      "url": "https://www.threads.com/@github/post/DY-izHnijMk",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dy7q8lwob7i.html",
-      "postCount": 7,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DY7Q8lwoB7I"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy-izhnijmk.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DY-izHnijMk"
     },
     {
       "url": "https://www.threads.com/@github/post/DY8CkwFEyFf",
@@ -54,13 +44,14 @@
       "sourceUrl": "https://www.threads.com/@github/post/DY8CkwFEyFf"
     },
     {
-      "url": "https://www.threads.com/@github/post/DY7p93SlUnv",
+      "username": "deepdivestation_6",
+      "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy7p93slunv.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY7p93SlUnv"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/deepdivestation_6-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "deepdivestation_6",
+      "discoveredVia": "github"
     }
   ],
   "posts": []
