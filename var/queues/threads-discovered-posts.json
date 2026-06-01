@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T20:52:48.023Z",
+  "generatedAt": "2026-06-01T00:09:30.419Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -9,15 +9,6 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DY-izHnijMk",
       "sourcePostId": "18355617298240366",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY8CkwFEyFf",
-      "sourcePostId": "17888196642550052",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -33,15 +24,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DY-izHnijMk"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DY8CkwFEyFf",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dy8ckwfeyff.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DY8CkwFEyFf"
     },
     {
       "username": "deepdivestation_6",
