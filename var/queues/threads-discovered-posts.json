@@ -1,8 +1,77 @@
 {
-  "generatedAt": "2026-06-02T00:16:46.449Z",
+  "generatedAt": "2026-06-02T20:11:05.514Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [],
-  "roots": [],
-  "diagnostics": [],
+  "sourceAccounts": [
+    "openai",
+    "github"
+  ],
+  "roots": [
+    {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DZFxHdsCJDJ",
+      "sourcePostId": "17919873336369155",
+      "sourcePriority": 155,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZF69ufjHHc",
+      "sourcePostId": "17930675991279726",
+      "sourcePriority": 135,
+      "relatedPostCount": 11,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZF7VIqmMz-",
+      "sourcePostId": "17940103599229676",
+      "sourcePriority": 125,
+      "relatedPostCount": 11,
+      "queuedCount": 0,
+      "rootResolved": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://www.threads.com/@openai/post/DZFxHdsCJDJ",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzfxhdscjdj.html",
+      "postCount": 6,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DZFxHdsCJDJ"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DZF69ufjHHc",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzf69ufjhhc.html",
+      "postCount": 11,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZF69ufjHHc"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DZF7VIqmMz-",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzf7viqmmz.html",
+      "postCount": 11,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZF7VIqmMz-"
+    },
+    {
+      "username": "meliusvivere",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/meliusvivere-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "meliusvivere",
+      "discoveredVia": "github"
+    }
+  ],
   "posts": []
 }
