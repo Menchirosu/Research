@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T22:19:55.006Z",
+  "generatedAt": "2026-06-03T01:42:50.941Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -9,10 +9,10 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGQZ83Gqho",
-      "sourcePostId": "17965103820095140",
-      "sourcePriority": 175,
-      "relatedPostCount": 11,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6",
+      "sourcePostId": "17957801358133643",
+      "sourcePriority": 155,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZF69ufjHHc",
       "sourcePostId": "17930675991279726",
       "sourcePriority": 135,
-      "relatedPostCount": 11,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -39,20 +39,20 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZF7VIqmMz-",
       "sourcePostId": "17940103599229676",
       "sourcePriority": 125,
-      "relatedPostCount": 11,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DZGQZ83Gqho",
+      "url": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzgqz83gqho.html",
-      "postCount": 11,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzgtfpuokm6.html",
+      "postCount": 5,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGQZ83Gqho"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6"
     },
     {
       "url": "https://www.threads.com/@openai/post/DZFxHdsCJDJ",
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzf69ufjhhc.html",
-      "postCount": 11,
+      "postCount": 12,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZF69ufjHHc"
     },
@@ -77,7 +77,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzf7viqmmz.html",
-      "postCount": 11,
+      "postCount": 12,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZF7VIqmMz-"
     },
