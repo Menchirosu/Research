@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T20:21:15.843Z",
+  "generatedAt": "2026-06-03T22:28:46.992Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -9,8 +9,8 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6",
-      "sourcePostId": "17957801358133643",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZIbAakoP2g",
+      "sourcePostId": "18594018751014846",
       "sourcePriority": 175,
       "relatedPostCount": 8,
       "queuedCount": 0,
@@ -18,10 +18,10 @@
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZIbAakoP2g",
-      "sourcePostId": "18594018751014846",
-      "sourcePriority": 165,
-      "relatedPostCount": 8,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6",
+      "sourcePostId": "17957801358133643",
+      "sourcePriority": 175,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -46,15 +46,6 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzgtfpuokm6.html",
-      "postCount": 8,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6"
-    },
-    {
       "url": "https://www.threads.com/@claudeai/post/DZIbAakoP2g",
       "status": "ok",
       "error": null,
@@ -62,6 +53,15 @@
       "postCount": 8,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZIbAakoP2g"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzgtfpuokm6.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6"
     },
     {
       "url": "https://www.threads.com/@openai/post/DZFxHdsCJDJ",
@@ -97,7 +97,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/ginandtanic-threads-rendered.html",
-      "postCount": 5,
+      "postCount": 4,
       "discoveryAuthor": "ginandtanic",
       "discoveredVia": "claudeai"
     }
