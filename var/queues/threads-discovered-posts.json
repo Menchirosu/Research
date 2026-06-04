@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T19:28:17.157Z",
+  "generatedAt": "2026-06-04T21:29:15.709Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -26,8 +26,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZK-nrMEhvQ",
-      "sourcePostId": "18105524906476820",
+      "sourceUrl": "https://www.threads.com/@github/post/DZLTVPSmfg6",
+      "sourcePostId": "18133877443499145",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -35,8 +35,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZInAKeGfjH",
-      "sourcePostId": "18118481455688272",
+      "sourceUrl": "https://www.threads.com/@github/post/DZK-nrMEhvQ",
+      "sourcePostId": "18105524906476820",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -63,6 +63,15 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6"
     },
     {
+      "url": "https://www.threads.com/@github/post/DZLTVPSmfg6",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzltvpsmfg6.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZLTVPSmfg6"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DZK-nrMEhvQ",
       "status": "ok",
       "error": null,
@@ -70,15 +79,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZK-nrMEhvQ"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DZInAKeGfjH",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzinakegfjh.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZInAKeGfjH"
     }
   ],
   "posts": []
