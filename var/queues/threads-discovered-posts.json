@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-06-04T01:44:45.017Z",
+  "generatedAt": "2026-06-04T19:28:17.157Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai",
     "github"
   ],
   "roots": [
@@ -12,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZIbAakoP2g",
       "sourcePostId": "18594018751014846",
       "sourcePriority": 175,
-      "relatedPostCount": 8,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -26,11 +25,11 @@
       "rootResolved": true
     },
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DZFxHdsCJDJ",
-      "sourcePostId": "17919873336369155",
-      "sourcePriority": 165,
-      "relatedPostCount": 7,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZK-nrMEhvQ",
+      "sourcePostId": "18105524906476820",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -50,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzibaakop2g.html",
-      "postCount": 8,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZIbAakoP2g"
     },
@@ -64,13 +63,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZGtfpuoKM6"
     },
     {
-      "url": "https://www.threads.com/@openai/post/DZFxHdsCJDJ",
+      "url": "https://www.threads.com/@github/post/DZK-nrMEhvQ",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzfxhdscjdj.html",
-      "postCount": 7,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DZFxHdsCJDJ"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzk-nrmehvq.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZK-nrMEhvQ"
     },
     {
       "url": "https://www.threads.com/@github/post/DZInAKeGfjH",
@@ -80,63 +79,7 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZInAKeGfjH"
-    },
-    {
-      "username": "augustincaz",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/augustincaz-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "augustincaz",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "ginandtanic",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ginandtanic-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "ginandtanic",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "00rakhul",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/00rakhul-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "00rakhul",
-      "discoveredVia": "openai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-00rakhul-quote-ddeb523d8f",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "00rakhul",
-      "url": "https://www.threads.com/@00rakhul/post/DZH6McemHph",
-      "postId": "18153171940478206",
-      "text": "🧵 I gave Claude a one-page context file about my voice. Now everything it writes sounds like me, not AI. Here's the exact 7-section template (steal it):",
-      "publishedAt": "2026-06-03T12:22:45.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 102,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@00rakhul/post/DZJFT6Ukxtt",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
