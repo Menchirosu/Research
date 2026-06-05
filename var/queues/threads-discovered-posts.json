@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T19:02:24.512Z",
+  "generatedAt": "2026-06-05T21:20:11.457Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZLey5jmhaT",
       "sourcePostId": "17860423563638345",
       "sourcePriority": 175,
-      "relatedPostCount": 19,
+      "relatedPostCount": 20,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZN1ygdGv13",
+      "sourcePostId": "17969196030115479",
+      "sourcePriority": 155,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,9 +49,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzley5jmhat.html",
-      "postCount": 19,
+      "postCount": 20,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZLey5jmhaT"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DZN1ygdGv13",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzn1ygdgv13.html",
+      "postCount": 5,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZN1ygdGv13"
     },
     {
       "url": "https://www.threads.com/@github/post/DZLTVPSmfg6",
@@ -63,6 +81,16 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZLsgmpj9I1"
     },
     {
+      "username": "mojnomojjo",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mojnomojjo-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "mojnomojjo",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "kxgustavokx",
       "tab": "threads",
       "status": "ok",
@@ -73,15 +101,41 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "create.with.mani",
+      "username": "kawaiiguyofficial",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/create.with.mani-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kawaiiguyofficial-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "create.with.mani",
-      "discoveredVia": "github"
+      "discoveryAuthor": "kawaiiguyofficial",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-kawaiiguyofficial-quote-7db9a2a6fb",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "kawaiiguyofficial",
+      "url": "https://www.threads.com/@kawaiiguyofficial/post/DZNePS5m6BX",
+      "postId": "17857074207658888",
+      "text": "If the definition of Art (noun) is: the conscious use of skill and creative imagination especially in the production of aesthetic objects and works so produced What makes the use of AI instantly disqualify? Is it level of skill required? Is it the deferrance of some of those skills to computing systems? If its the training/reimaginations that are the issue, how do we feel about photo copying, junk journaling, tracing?",
+      "publishedAt": "2026-06-05T16:13:54.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 115,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@kawaiiguyofficial/post/DZNePS5m6BX",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
