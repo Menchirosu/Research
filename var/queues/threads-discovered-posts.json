@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-06T00:10:05.675Z",
+  "generatedAt": "2026-06-06T19:01:59.282Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
+    "openai",
     "github"
   ],
   "roots": [
@@ -11,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMaUsEcsm",
       "sourcePostId": "17893205499494267",
       "sourcePriority": 175,
-      "relatedPostCount": 11,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,8 +20,17 @@
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMivJm1HB",
       "sourcePostId": "18465319939106421",
+      "sourcePriority": 175,
+      "relatedPostCount": 8,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DZPwnrqGzWu",
+      "sourcePostId": "17990222828809272",
       "sourcePriority": 155,
-      "relatedPostCount": 12,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -28,15 +38,6 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZOFSxngfvo",
       "sourcePostId": "18322957783284905",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZLsgmpj9I1",
-      "sourcePostId": "18081843824334093",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -49,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzomausecsm.html",
-      "postCount": 11,
+      "postCount": 29,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMaUsEcsm"
     },
@@ -58,9 +59,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzomivjm1hb.html",
-      "postCount": 12,
+      "postCount": 8,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMivJm1HB"
+    },
+    {
+      "url": "https://www.threads.com/@openai/post/DZPwnrqGzWu",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzpwnrqgzwu.html",
+      "postCount": 9,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DZPwnrqGzWu"
     },
     {
       "url": "https://www.threads.com/@github/post/DZOFSxngfvo",
@@ -72,15 +82,6 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZOFSxngfvo"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZLsgmpj9I1",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzlsgmpj9i1.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZLsgmpj9I1"
-    },
-    {
       "username": "mrdrino",
       "tab": "threads",
       "status": "ok",
@@ -89,27 +90,58 @@
       "postCount": 4,
       "discoveryAuthor": "mrdrino",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "arrwhyee",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/arrwhyee-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "arrwhyee",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "claude.news",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/claude.news-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "claude.news",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "hassangrt8",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/hassangrt8-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "hassangrt8",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
     {
-      "id": "threads-kawaiiguyofficial-quote-7db9a2a6fb",
+      "id": "threads-arrwhyee-quote-0c5f052878",
       "mode": "quote",
       "platform": "threads",
-      "author": "kawaiiguyofficial",
-      "url": "https://www.threads.com/@kawaiiguyofficial/post/DZNePS5m6BX",
-      "postId": "17857074207658888",
-      "text": "If the definition of Art (noun) is: the conscious use of skill and creative imagination especially in the production of aesthetic objects and works so produced What makes the use of AI instantly disqualify? Is it level of skill required? Is it the deferrance of some of those skills to computing systems? If its the training/reimaginations that are the issue, how do we feel about photo copying, junk journaling, tracing?",
-      "publishedAt": "2026-06-05T16:13:54.000Z",
+      "author": "arrwhyee",
+      "url": "https://www.threads.com/@arrwhyee/post/DZOIOrcE_71",
+      "postId": "17953582968150395",
+      "text": "Super exciting news fresh off the stand with Claude Cowork usage limits doubled for the next month! We’ve been working with enterprise, SME and founders recently on adopting and using Cowork in daily workflows and systems - so this has come at such a great time! Double usage means room for bigger work: the account research that takes a morning, the campaign report that eats a Friday, the financial model you keep meaning to rebuild.",
+      "publishedAt": "2026-06-05T22:21:16.000Z",
       "activityScore": 1,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 115,
+      "priority": 90,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@kawaiiguyofficial/post/DZNePS5m6BX",
+      "referenceUrl": "https://www.threads.com/@arrwhyee/post/DZOIOrcE_71",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
