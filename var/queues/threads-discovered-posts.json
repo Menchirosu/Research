@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T19:01:59.282Z",
+  "generatedAt": "2026-06-06T20:58:06.150Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMaUsEcsm",
       "sourcePostId": "17893205499494267",
       "sourcePriority": 175,
-      "relatedPostCount": 29,
+      "relatedPostCount": 28,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,14 +30,14 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DZPwnrqGzWu",
       "sourcePostId": "17990222828809272",
       "sourcePriority": 155,
-      "relatedPostCount": 9,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZOFSxngfvo",
-      "sourcePostId": "18322957783284905",
+      "sourceUrl": "https://www.threads.com/@github/post/DZQRdyxlc8L",
+      "sourcePostId": "17863417233594253",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzomausecsm.html",
-      "postCount": 29,
+      "postCount": 28,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMaUsEcsm"
     },
@@ -68,18 +68,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzpwnrqgzwu.html",
-      "postCount": 9,
+      "postCount": 10,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DZPwnrqGzWu"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZOFSxngfvo",
+      "url": "https://www.threads.com/@github/post/DZQRdyxlc8L",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzofsxngfvo.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzqrdyxlc8l.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZOFSxngfvo"
+      "sourceUrl": "https://www.threads.com/@github/post/DZQRdyxlc8L"
     },
     {
       "username": "mrdrino",
@@ -134,7 +134,6 @@
       "publishedAt": "2026-06-05T22:21:16.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 90,
       "autoHarvested": true,
