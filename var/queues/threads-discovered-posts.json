@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T20:58:06.150Z",
+  "generatedAt": "2026-06-07T18:12:21.441Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMaUsEcsm",
       "sourcePostId": "17893205499494267",
       "sourcePriority": 175,
-      "relatedPostCount": 28,
+      "relatedPostCount": 30,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,16 +30,16 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DZPwnrqGzWu",
       "sourcePostId": "17990222828809272",
       "sourcePriority": 155,
-      "relatedPostCount": 10,
+      "relatedPostCount": 13,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZQRdyxlc8L",
-      "sourcePostId": "17863417233594253",
+      "sourceUrl": "https://www.threads.com/@github/post/DZSqPnGFLXm",
+      "sourcePostId": "17943045234215089",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzomausecsm.html",
-      "postCount": 28,
+      "postCount": 30,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZOMaUsEcsm"
     },
@@ -68,47 +68,47 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzpwnrqgzwu.html",
-      "postCount": 10,
+      "postCount": 13,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DZPwnrqGzWu"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZQRdyxlc8L",
+      "url": "https://www.threads.com/@github/post/DZSqPnGFLXm",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzqrdyxlc8l.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzsqpngflxm.html",
+      "postCount": 7,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZQRdyxlc8L"
+      "sourceUrl": "https://www.threads.com/@github/post/DZSqPnGFLXm"
     },
     {
-      "username": "mrdrino",
+      "username": "shen_yao_888pi",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mrdrino-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/shen_yao_888pi-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "mrdrino",
+      "discoveryAuthor": "shen_yao_888pi",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "arrwhyee",
+      "username": "meta.ai",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/arrwhyee-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "arrwhyee",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/meta.ai-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "meta.ai",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "claude.news",
+      "username": "thesocialalpha_",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/claude.news-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "claude.news",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/thesocialalpha_-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "thesocialalpha_",
       "discoveredVia": "claudeai"
     },
     {
@@ -122,30 +122,5 @@
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-arrwhyee-quote-0c5f052878",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "arrwhyee",
-      "url": "https://www.threads.com/@arrwhyee/post/DZOIOrcE_71",
-      "postId": "17953582968150395",
-      "text": "Super exciting news fresh off the stand with Claude Cowork usage limits doubled for the next month! We’ve been working with enterprise, SME and founders recently on adopting and using Cowork in daily workflows and systems - so this has come at such a great time! Double usage means room for bigger work: the account research that takes a morning, the campaign report that eats a Friday, the financial model you keep meaning to rebuild.",
-      "publishedAt": "2026-06-05T22:21:16.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 90,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@arrwhyee/post/DZOIOrcE_71",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
