@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T19:28:59.655Z",
+  "generatedAt": "2026-06-08T21:46:59.185Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZU-ofMoFdF",
       "sourcePostId": "17854725966679159",
       "sourcePriority": 175,
-      "relatedPostCount": 22,
+      "relatedPostCount": 24,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzu-ofmofdf.html",
-      "postCount": 22,
+      "postCount": 24,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZU-ofMoFdF"
     },
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/testingcatalog-threads-rendered.html",
-      "postCount": 8,
+      "postCount": 6,
       "discoveryAuthor": "testingcatalog",
       "discoveredVia": "claudeai"
     },
@@ -93,13 +93,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "curated.byap",
+      "username": "userban09",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/curated.byap-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/userban09-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "curated.byap",
+      "discoveryAuthor": "userban09",
       "discoveredVia": "claudeai"
     }
   ],
@@ -115,7 +115,6 @@
       "publishedAt": "2026-06-08T18:02:01.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 118,
       "autoHarvested": true,
@@ -123,6 +122,31 @@
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@ariapramesi/post/DZVOQBakfN5",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-testingcatalog-quote-e0a7df1627",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "testingcatalog",
+      "url": "https://www.threads.com/@testingcatalog/post/DZVr_nSDbR9",
+      "postId": "18037173752612406",
+      "text": "A new image Playground on iOS 27 Beta says that image model behind the scenes is from Google. However, on test prompts results look quite different from Nano Banana and Imagen. This Liquid Glass bubble is cool 👀",
+      "publishedAt": "2026-06-08T20:48:01.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 121,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@testingcatalog/post/DZVCwTTDcjQ",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
