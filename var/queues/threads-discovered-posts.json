@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T21:46:59.185Z",
+  "generatedAt": "2026-06-09T00:10:17.105Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZU-ofMoFdF",
       "sourcePostId": "17854725966679159",
       "sourcePriority": 175,
-      "relatedPostCount": 24,
+      "relatedPostCount": 26,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzu-ofmofdf.html",
-      "postCount": 24,
+      "postCount": 26,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZU-ofMoFdF"
     },
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/testingcatalog-threads-rendered.html",
-      "postCount": 6,
+      "postCount": 5,
       "discoveryAuthor": "testingcatalog",
       "discoveredVia": "claudeai"
     },
@@ -93,13 +93,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "userban09",
+      "username": "landok9edu",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/userban09-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "userban09",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/landok9edu-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "landok9edu",
       "discoveredVia": "claudeai"
     }
   ],
@@ -139,7 +139,6 @@
       "publishedAt": "2026-06-08T20:48:01.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 121,
       "autoHarvested": true,
