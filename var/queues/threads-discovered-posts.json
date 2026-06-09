@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T19:24:35.820Z",
+  "generatedAt": "2026-06-09T21:46:17.828Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZX4PclkSrN",
       "sourcePostId": "18134115475571738",
       "sourcePriority": 175,
-      "relatedPostCount": 28,
+      "relatedPostCount": 30,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZX6PrhERD2",
       "sourcePostId": "18111739534920449",
       "sourcePriority": 155,
-      "relatedPostCount": 14,
+      "relatedPostCount": 16,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzx4pclksrn.html",
-      "postCount": 28,
+      "postCount": 30,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZX4PclkSrN"
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzx6prherd2.html",
-      "postCount": 14,
+      "postCount": 16,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZX6PrhERD2"
     },
@@ -91,6 +91,16 @@
       "discoveredVia": "claudeai"
     },
     {
+      "username": "luisarpg",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/luisarpg-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "luisarpg",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "junpk13",
       "tab": "threads",
       "status": "ok",
@@ -101,45 +111,36 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "iuliaaa_cb",
+      "username": "aymanchahine",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/iuliaaa_cb-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "iuliaaa_cb",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "mhtdn__",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mhtdn__-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "mhtdn__",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aymanchahine-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "aymanchahine",
       "discoveredVia": "claudeai"
     }
   ],
   "posts": [
     {
-      "id": "threads-testingcatalog-quote-e0a7df1627",
+      "id": "threads-aymanchahine-quote-235e3d2319",
       "mode": "quote",
       "platform": "threads",
-      "author": "testingcatalog",
-      "url": "https://www.threads.com/@testingcatalog/post/DZVr_nSDbR9",
-      "postId": "18037173752612406",
-      "text": "A new image Playground on iOS 27 Beta says that image model behind the scenes is from Google. However, on test prompts results look quite different from Nano Banana and Imagen. This Liquid Glass bubble is cool 👀",
-      "publishedAt": "2026-06-08T20:48:01.000Z",
-      "activityScore": 1,
+      "author": "aymanchahine",
+      "url": "https://www.threads.com/@aymanchahine/post/DZX0daZCOnd",
+      "postId": "DZX0daZCOnd",
+      "text": "لا تقل لـ CLAUDE: «تصرف كمدير خبير لوسائل التواصل الاجتماعي». توجيه سيئ = نتيجة سيئة. هنا 6 أوامر لتنمية حساباتك على وسائل التواصل الاجتماعي كما تفعل وكالة متخصصة في هذا المجال تكلف 5000 دولار: Translate",
+      "publishedAt": "2026-06-09T16:40:29.000Z",
+      "activityScore": 2,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 121,
+      "priority": 119,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@testingcatalog/post/DZVCwTTDcjQ",
+      "referenceUrl": "https://www.threads.com/@aymanchahine/post/DZX-jeiEWU6",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
