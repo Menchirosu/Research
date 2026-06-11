@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T19:40:00.464Z",
+  "generatedAt": "2026-06-11T21:56:35.289Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZaq6EVINYH",
       "sourcePostId": "17994507137974925",
       "sourcePriority": 165,
-      "relatedPostCount": 17,
+      "relatedPostCount": 16,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzaq6evinyh.html",
-      "postCount": 17,
+      "postCount": 16,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZaq6EVINYH"
     },
@@ -111,13 +111,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "angelossfakianakis",
+      "username": "amberssteelband",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/angelossfakianakis-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "angelossfakianakis",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/amberssteelband-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "amberssteelband",
       "discoveredVia": "claudeai"
     }
   ],
