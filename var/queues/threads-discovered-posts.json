@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T00:10:59.264Z",
+  "generatedAt": "2026-06-15T00:19:22.020Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,42 +7,113 @@
   "roots": [
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZh4CUojZBC",
-      "sourcePostId": "18080982698637580",
+      "sourceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z",
+      "sourcePostId": "18008086133867390",
       "sourcePriority": 135,
-      "relatedPostCount": 6,
-      "queuedCount": 0,
+      "relatedPostCount": 7,
+      "queuedCount": 2,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z",
-      "sourcePostId": "18008086133867390",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/DZh4CUojZBC",
+      "sourcePostId": "18080982698637580",
+      "sourcePriority": 135,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DZh4CUojZBC",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzh4cuojzbc.html",
-      "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZh4CUojZBC"
-    },
-    {
       "url": "https://www.threads.com/@github/post/DZijoAcmS0Z",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzijoacms0z.html",
-      "postCount": 5,
+      "postCount": 7,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DZh4CUojZBC",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzh4cuojzbc.html",
+      "postCount": 8,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZh4CUojZBC"
+    },
+    {
+      "username": "_mironydev",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_mironydev-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "_mironydev",
+      "discoveredVia": "github"
+    },
+    {
+      "username": "sukh_saroyy",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/sukh_saroyy-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "sukh_saroyy",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-_mironydev-quote-99b90dc305",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "_mironydev",
+      "url": "https://www.threads.com/@_mironydev/post/DZjoH6IGp_6",
+      "postId": "18097166675581691",
+      "text": "This is what the average developer's git history looks like: git commit -m \"fix\" git commit -m \"fix2\" git commit -m \"please work\" git commit -m \"WHY\" git commit -m \"ok final fix\" git commit -m \"actual final fix\" Are you guilty as charged?",
+      "publishedAt": "2026-06-14T06:43:34.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 130,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    },
+    {
+      "id": "threads-sukh_saroyy-quote-36fbeb56b7",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "sukh_saroyy",
+      "url": "https://www.threads.com/@sukh_saroyy/post/DZjT8y6nVeT",
+      "postId": "18065527892443863",
+      "text": "Someone just added a live browser to Claude Code so you can click any element and edit it instantly. It’s called Vibeyard. No more describing what you want to change. Click the button, click the text, click any div.. Claude knows exactly what you’re pointing at. 100% Open Source.",
+      "publishedAt": "2026-06-14T03:47:17.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 107,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
