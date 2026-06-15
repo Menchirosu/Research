@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T20:30:05.584Z",
+  "generatedAt": "2026-06-15T22:12:55.098Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -23,15 +23,6 @@
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z",
-      "sourcePostId": "18008086133867390",
-      "sourcePriority": 135,
-      "relatedPostCount": 7,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -52,15 +43,6 @@
       "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZmsHCgCVVV"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DZijoAcmS0Z",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzijoacms0z.html",
-      "postCount": 7,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZijoAcmS0Z"
     },
     {
       "username": "groundcode.io",
