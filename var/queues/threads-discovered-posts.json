@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T20:15:22.115Z",
+  "generatedAt": "2026-06-16T22:07:33.847Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -17,10 +17,19 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZmsHCgCVVV",
-      "sourcePostId": "18070703747376059",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourceUrl": "https://www.threads.com/@github/post/DZqY2V2kwyV",
+      "sourcePostId": "18194348611375378",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZqYUEQjr6Q",
+      "sourcePostId": "18138943918535047",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -36,13 +45,22 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DZnUBBnm7Bw"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZmsHCgCVVV",
+      "url": "https://www.threads.com/@github/post/DZqY2V2kwyV",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzmshcgcvvv.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzqy2v2kwyv.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZmsHCgCVVV"
+      "sourceUrl": "https://www.threads.com/@github/post/DZqY2V2kwyV"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DZqYUEQjr6Q",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzqyueqjr6q.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZqYUEQjr6Q"
     },
     {
       "username": "growthai_media",
