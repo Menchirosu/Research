@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T01:42:37.024Z",
+  "generatedAt": "2026-06-16T20:15:22.115Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DZnUBBnm7Bw",
       "sourcePostId": "17976001572028965",
       "sourcePriority": 155,
-      "relatedPostCount": 7,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dznubbnm7bw.html",
-      "postCount": 7,
+      "postCount": 10,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DZnUBBnm7Bw"
     },
@@ -45,13 +45,13 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZmsHCgCVVV"
     },
     {
-      "username": "groundcode.io",
+      "username": "growthai_media",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/groundcode.io-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "groundcode.io",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/growthai_media-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "growthai_media",
       "discoveredVia": "openai"
     }
   ],
