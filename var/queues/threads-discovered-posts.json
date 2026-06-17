@@ -1,34 +1,44 @@
 {
-  "generatedAt": "2026-06-17T00:20:25.473Z",
+  "generatedAt": "2026-06-17T19:28:17.898Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "openai",
     "github"
   ],
   "roots": [
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DZnUBBnm7Bw",
-      "sourcePostId": "17976001572028965",
-      "sourcePriority": 155,
-      "relatedPostCount": 10,
-      "queuedCount": 0,
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZstMh2G9Ir",
+      "sourcePostId": "18124588585639721",
+      "sourcePriority": 165,
+      "relatedPostCount": 11,
+      "queuedCount": 1,
       "rootResolved": true
     },
     {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZqY2V2kwyV",
-      "sourcePostId": "18194348611375378",
-      "sourcePriority": 135,
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DZsOxQhG9NX",
+      "sourcePostId": "18121321741777644",
+      "sourcePriority": 165,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZstL-uG5q9",
+      "sourcePostId": "18104005892022932",
+      "sourcePriority": 155,
+      "relatedPostCount": 13,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZqhxsrDFoQ",
-      "sourcePostId": "17873614794616209",
-      "sourcePriority": 125,
+      "sourceUrl": "https://www.threads.com/@github/post/DZsWwgjjBvG",
+      "sourcePostId": "18156575056467573",
+      "sourcePriority": 145,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
@@ -36,42 +46,77 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@openai/post/DZnUBBnm7Bw",
+      "url": "https://www.threads.com/@claudeai/post/DZstMh2G9Ir",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dznubbnm7bw.html",
-      "postCount": 10,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzstmh2g9ir.html",
+      "postCount": 11,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZstMh2G9Ir"
+    },
+    {
+      "url": "https://www.threads.com/@openai/post/DZsOxQhG9NX",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzsoxqhg9nx.html",
+      "postCount": 6,
       "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DZnUBBnm7Bw"
+      "sourceUrl": "https://www.threads.com/@openai/post/DZsOxQhG9NX"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZqY2V2kwyV",
+      "url": "https://www.threads.com/@claudeai/post/DZstL-uG5q9",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzqy2v2kwyv.html",
-      "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZqY2V2kwyV"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzstl-ug5q9.html",
+      "postCount": 13,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DZstL-uG5q9"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZqhxsrDFoQ",
+      "url": "https://www.threads.com/@github/post/DZsWwgjjBvG",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzqhxsrdfoq.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzswwgjjbvg.html",
       "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZqhxsrDFoQ"
+      "sourceUrl": "https://www.threads.com/@github/post/DZsWwgjjBvG"
     },
     {
-      "username": "growthai_media",
+      "username": "mediumboi",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/growthai_media-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mediumboi-threads-rendered.html",
       "postCount": 8,
-      "discoveryAuthor": "growthai_media",
-      "discoveredVia": "openai"
+      "discoveryAuthor": "mediumboi",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-mediumboi-quote-e764be0e63",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "mediumboi",
+      "url": "https://www.threads.com/@mediumboi/post/DZrG8hcFIV6",
+      "postId": "17892680673536026",
+      "text": "Stop using AI. Disable it on your devices. Delete ChatGPT and other platforms. Just don't fucking use it. It's destroying the pIanet. OUR DEMAND for it is what is causing these heartIess fucks to destroy communities with data centers.",
+      "publishedAt": "2026-06-17T04:27:35.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 137,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DZstMh2G9Ir",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
