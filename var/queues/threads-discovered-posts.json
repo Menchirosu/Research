@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:56:07.257Z",
+  "generatedAt": "2026-06-18T00:18:49.383Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -13,7 +13,7 @@
       "sourcePostId": "18124588585639721",
       "sourcePriority": 165,
       "relatedPostCount": 9,
-      "queuedCount": 2,
+      "queuedCount": 0,
       "rootResolved": true
     },
     {
@@ -82,26 +82,6 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZsWwgjjBvG"
     },
     {
-      "username": "authorchelseacurto",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/authorchelseacurto-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "authorchelseacurto",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "feministajones",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/feministajones-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "feministajones",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "impdjun",
       "tab": "threads",
       "status": "ok",
@@ -119,6 +99,26 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/evanogonoski-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "evanogonoski",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "mad6on",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mad6on-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "mad6on",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "hassangrt8",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/hassangrt8-threads-rendered.html",
+      "postCount": 3,
+      "discoveryAuthor": "hassangrt8",
       "discoveredVia": "claudeai"
     }
   ],
@@ -158,7 +158,6 @@
       "publishedAt": "2026-06-17T17:38:37.000Z",
       "activityScore": 3,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 153,
       "autoHarvested": true,
@@ -183,7 +182,6 @@
       "publishedAt": "2026-06-17T12:38:49.000Z",
       "activityScore": 3,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 145,
       "autoHarvested": true,
@@ -191,6 +189,31 @@
       "sourceType": "discovered_rendered_post_page",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@claudeai/post/DZstMh2G9Ir",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-mad6on-quote-19e4b0a603",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "mad6on",
+      "url": "https://www.threads.com/@mad6on/post/DZrCWFekrag",
+      "postId": "17972753082104864",
+      "text": "3 years ago nobody had heard of Anthropic. Today they filed for an IPO at a $965 billion valuation. They passed OpenAI in enterprise market share in April. Raised $65B in a single round. From research lab to almost-trillion-dollar company in 36 months.",
+      "publishedAt": "2026-06-17T03:47:23.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 94,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@mad6on/post/DZsxqATEjLM",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
