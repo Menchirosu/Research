@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-06-19T01:45:54.603Z",
+  "generatedAt": "2026-06-19T19:02:38.118Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai"
+    "openai",
+    "github"
   ],
   "roots": [
     {
@@ -11,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZvL805EbGH",
       "sourcePostId": "18089001098640523",
       "sourcePriority": 175,
-      "relatedPostCount": 27,
+      "relatedPostCount": 32,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
       "sourcePostId": "18004915079926775",
       "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -34,11 +35,11 @@
       "rootResolved": true
     },
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DZsOxQhG9NX",
-      "sourcePostId": "18121321741777644",
-      "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZvukzgjJcg",
+      "sourcePostId": "18090853616058672",
+      "sourcePriority": 135,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -49,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzvl805ebgh.html",
-      "postCount": 27,
+      "postCount": 32,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZvL805EbGH"
     },
@@ -58,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzvmbtyg-ek.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek"
     },
@@ -72,13 +73,13 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DZu3b44myiv"
     },
     {
-      "url": "https://www.threads.com/@openai/post/DZsOxQhG9NX",
+      "url": "https://www.threads.com/@github/post/DZvukzgjJcg",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dzsoxqhg9nx.html",
-      "postCount": 9,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DZsOxQhG9NX"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzvukzgjjcg.html",
+      "postCount": 8,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZvukzgjJcg"
     },
     {
       "username": "matt.hesketh",
@@ -91,50 +92,35 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "hemanthvasi",
+      "username": "naufil.dev",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/hemanthvasi-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "hemanthvasi",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/naufil.dev-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "naufil.dev",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "rafaelcreatives",
+      "username": "franckparienti",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/rafaelcreatives-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "rafaelcreatives",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/franckparienti-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "franckparienti",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "whatifmynameisu",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/whatifmynameisu-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "whatifmynameisu",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-rafaelcreatives-quote-6fd4f52178",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "rafaelcreatives",
-      "url": "https://www.threads.com/@rafaelcreatives/post/DZu8IqeDI4Q",
-      "postId": "18076576082290669",
-      "text": "I am starting to think that prompting is not enough, it takes way too many prompts to create what you truly one. I am starting to realise that maybe pipelines are what accelerate work with Ai. What do you guys think?",
-      "publishedAt": "2026-06-18T16:10:05.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 131,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@rafaelcreatives/post/DZvOdOZDLSi",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
