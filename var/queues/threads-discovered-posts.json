@@ -1,29 +1,10 @@
 {
-  "generatedAt": "2026-06-20T18:20:14.144Z",
+  "generatedAt": "2026-06-20T21:09:26.181Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZvL805EbGH",
-      "sourcePostId": "18089001098640523",
-      "sourcePriority": 175,
-      "relatedPostCount": 29,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
-      "sourcePostId": "18004915079926775",
-      "sourcePriority": 175,
-      "relatedPostCount": 11,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZyQmusmWg8",
@@ -45,24 +26,6 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DZvL805EbGH",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzvl805ebgh.html",
-      "postCount": 29,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZvL805EbGH"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzvmbtyg-ek.html",
-      "postCount": 11,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek"
-    },
-    {
       "url": "https://www.threads.com/@github/post/DZyQmusmWg8",
       "status": "ok",
       "error": null,
@@ -79,16 +42,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZ0O4AaFcTi"
-    },
-    {
-      "username": "theaicontinuum",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/theaicontinuum-threads-rendered.html",
-      "postCount": 10,
-      "discoveryAuthor": "theaicontinuum",
-      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
@@ -103,7 +56,6 @@
       "publishedAt": "2026-06-20T03:41:35.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 101,
       "autoHarvested": true,
