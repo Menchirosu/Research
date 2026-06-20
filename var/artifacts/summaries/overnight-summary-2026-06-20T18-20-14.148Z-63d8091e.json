@@ -1,0 +1,699 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-06-20T18:19:07.672Z",
+  "completedAt": "2026-06-20T18:20:14.148Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-06-20T18-19-10.384Z-5311a9e7.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 0,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 4,
+    "discovered": 1,
+    "harvested": 1,
+    "total": 5,
+    "eligible": 2,
+    "skipped": 3
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 3,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 13,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 100,
+      "promotionScore": 95,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/DZvMBvVG-jK",
+        "publishedAt": "2026-06-18T18:28:57.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 34,
+        "commentCount": 1,
+        "repostCount": 0,
+        "shareCount": 19,
+        "text": "Artifacts draw on the full context of your session: codebase, plugins, skills, connected tools. They're private until you share them, and sharing stays inside your organization. Read more: claude.com/blog… claude.com Cla"
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 5,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 9,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 64,
+      "promotionScore": 86,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "promote-to-primary",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
+        "publishedAt": "2026-06-20T17:30:04.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 3,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "alerts ≠ better security 👀 Through collaborative research, we found how LLM-based contextual verification can improve secret scanning alert quality and reduce false positives by 75.76%. Here's what we learned 👇 github."
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 35,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Application does not have permission for this action\",\"type\":\"THApiException\",\"code\":10,\"fbtrace_id\":\"AMBF2rRwxweIPDuc1xsOro1\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DZvL805EbGH",
+      "postId": "18089001098640523",
+      "text": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans.",
+      "publishedAt": "2026-06-18T18:28:49.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-efdbb8dcba",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
+      "postId": "18004915079926775",
+      "text": "As your session keeps working, the artifact refreshes, so everyone you've shared it with is always looking at the latest version.",
+      "publishedAt": "2026-06-18T18:28:53.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-4e55aba7d9",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
+      "postId": "18111752506899266",
+      "text": "alerts ≠ better security 👀 Through collaborative research, we found how LLM-based contextual verification can improve secret scanning alert quality and reduce false positives by 75.76%. Here's what we learned 👇 github.blog/secur… github.blog Making secret scanning more trustworthy: Reducing false positives at scale",
+      "publishedAt": "2026-06-20T17:30:04.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-966b80bd20",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DZyQmusmWg8",
+      "postId": "17978409708048725",
+      "text": "If you're thinking about coming to GitHub Universe, this is your sign 💫 Save $600 on your pass ➡️ githubuniverse.com…",
+      "publishedAt": "2026-06-19T23:06:43.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 135,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-bd6977ed17",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-06-20T18:20:14.144Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DZvL805EbGH",
+        "sourcePostId": "18089001098640523",
+        "sourcePriority": 175,
+        "relatedPostCount": 29,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
+        "sourcePostId": "18004915079926775",
+        "sourcePriority": 175,
+        "relatedPostCount": 11,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DZyQmusmWg8",
+        "sourcePostId": "17978409708048725",
+        "sourcePriority": 135,
+        "relatedPostCount": 6,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
+        "sourcePostId": "18111752506899266",
+        "sourcePriority": 125,
+        "relatedPostCount": 5,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/DZvL805EbGH",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzvl805ebgh.html",
+        "postCount": 29,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DZvL805EbGH"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dzvmbtyg-ek.html",
+        "postCount": 11,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/DZyQmusmWg8",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dzyqmusmwg8.html",
+        "postCount": 6,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DZyQmusmWg8"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz0o4aafcti.html",
+        "postCount": 5,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DZ0O4AaFcTi"
+      },
+      {
+        "username": "theaicontinuum",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/theaicontinuum-threads-rendered.html",
+        "postCount": 10,
+        "discoveryAuthor": "theaicontinuum",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": [
+      {
+        "id": "threads-theaicontinuum-quote-2ce7b96782",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "theaicontinuum",
+        "url": "https://www.threads.com/@theaicontinuum/post/DZywCreDRDX",
+        "postId": "18252012121307390",
+        "text": "🎬 Palmier Brings Claude To Video Editing Palmier Pro is an AI video editor that lets you create, edit, and export videos inside a timeline. It also connects to Claude through MCP, so AI agents can read projects and make timeline edits. 🔷 AI Editing Workflow • Edit video, audio, text, and images • Generate media in the timeline • Connect Claude through MCP • Mix real footage with AI clips • Export MP4, Premiere, or DaVinci files",
+        "publishedAt": "2026-06-20T03:41:35.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 101,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@theaicontinuum/post/DZyo6cEjfVX",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      }
+    ]
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
+      "postId": "18004915079926775",
+      "text": "As your session keeps working, the artifact refreshes, so everyone you've shared it with is always looking at the latest version.",
+      "publishedAt": "2026-06-18T18:28:53.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-4e55aba7d9",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-06-20T18-20-14.147Z-9f3f63ad.json",
+      "errorStage": "draft",
+      "error": "Threads-targeted drafts still need at least one supporting scan source.",
+      "target": {
+        "platform": "threads",
+        "author": "claudeai",
+        "url": "https://www.threads.com/@claudeai/post/DZvMBTYG-ek",
+        "postId": "18004915079926775",
+        "text": "As your session keeps working, the artifact refreshes, so everyone you've shared it with is always looking at the latest version.",
+        "publishedAt": "2026-06-18T18:28:53.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-claudeai-quote-4e55aba7d9",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
+        "postId": "18111752506899266",
+        "text": "alerts ≠ better security 👀 Through collaborative research, we found how LLM-based contextual verification can improve secret scanning alert quality and reduce false positives by 75.76%. Here's what we learned 👇 github.blog/secur… github.blog Making secret scanning more trustworthy: Reducing false positives at scale",
+        "publishedAt": "2026-06-20T17:30:04.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-966b80bd20",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DZyQmusmWg8",
+        "postId": "17978409708048725",
+        "text": "If you're thinking about coming to GitHub Universe, this is your sign 💫 Save $600 on your pass ➡️ githubuniverse.com…",
+        "publishedAt": "2026-06-19T23:06:43.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 135,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-bd6977ed17",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "id": "threads-theaicontinuum-quote-2ce7b96782",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "theaicontinuum",
+        "url": "https://www.threads.com/@theaicontinuum/post/DZywCreDRDX",
+        "postId": "18252012121307390",
+        "text": "🎬 Palmier Brings Claude To Video Editing Palmier Pro is an AI video editor that lets you create, edit, and export videos inside a timeline. It also connects to Claude through MCP, so AI agents can read projects and make timeline edits. 🔷 AI Editing Workflow • Edit video, audio, text, and images • Generate media in the timeline • Connect Claude through MCP • Mix real footage with AI clips • Export MP4, Premiere, or DaVinci files",
+        "publishedAt": "2026-06-20T03:41:35.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 101,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@theaicontinuum/post/DZyo6cEjfVX",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Application does not have permission for this action\",\"type\":\"THApiException\",\"code\":10,\"fbtrace_id\":\"AMBF2rRwxweIPDuc1xsOro1\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Threads-targeted drafts still need at least one supporting scan source."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 16
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 130
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 17
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 1,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 16
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 130
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 17
+        }
+      ]
+    }
+  }
+}
