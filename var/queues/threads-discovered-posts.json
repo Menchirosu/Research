@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:11:00.338Z",
+  "generatedAt": "2026-06-21T18:23:58.243Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -44,30 +44,5 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZ0O4AaFcTi"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-theaicontinuum-quote-2ce7b96782",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "theaicontinuum",
-      "url": "https://www.threads.com/@theaicontinuum/post/DZywCreDRDX",
-      "postId": "18252012121307390",
-      "text": "🎬 Palmier Brings Claude To Video Editing Palmier Pro is an AI video editor that lets you create, edit, and export videos inside a timeline. It also connects to Claude through MCP, so AI agents can read projects and make timeline edits. 🔷 AI Editing Workflow • Edit video, audio, text, and images • Generate media in the timeline • Connect Claude through MCP • Mix real footage with AI clips • Export MP4, Premiere, or DaVinci files",
-      "publishedAt": "2026-06-20T03:41:35.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 101,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@theaicontinuum/post/DZyo6cEjfVX",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
