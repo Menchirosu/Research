@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:15:36.218Z",
+  "generatedAt": "2026-06-22T20:11:30.561Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,24 +7,33 @@
   "roots": [
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ3Agblidcx",
-      "sourcePostId": "18094955165259152",
-      "sourcePriority": 125,
+      "sourceUrl": "https://www.threads.com/@github/post/DZ4xjtijQ1A",
+      "sourcePostId": "18017268056852407",
+      "sourcePriority": 135,
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
-      "sourcePostId": "18111752506899266",
-      "sourcePriority": 125,
+      "sourceUrl": "https://www.threads.com/@github/post/DZ3Agblidcx",
+      "sourcePostId": "18094955165259152",
+      "sourcePriority": 135,
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
+    {
+      "url": "https://www.threads.com/@github/post/DZ4xjtijQ1A",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz4xjtijq1a.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DZ4xjtijQ1A"
+    },
     {
       "url": "https://www.threads.com/@github/post/DZ3Agblidcx",
       "status": "ok",
@@ -33,15 +42,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZ3Agblidcx"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DZ0O4AaFcTi",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz0o4aafcti.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ0O4AaFcTi"
     }
   ],
   "posts": []
