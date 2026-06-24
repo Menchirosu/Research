@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:56:13.644Z",
+  "generatedAt": "2026-06-24T21:19:28.498Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI",
       "sourcePostId": "18331219438248101",
       "sourcePriority": 175,
-      "relatedPostCount": 28,
+      "relatedPostCount": 26,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -26,10 +26,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ8SLholUnX",
-      "sourcePostId": "18138449266499465",
-      "sourcePriority": 135,
-      "relatedPostCount": 8,
+      "sourceUrl": "https://www.threads.com/@github/post/DZ-xxXuiuHk",
+      "sourcePostId": "18100189199239552",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dz76kz0ebsi.html",
-      "postCount": 28,
+      "postCount": 26,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI"
     },
@@ -63,13 +63,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ77VvpEXVF"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZ8SLholUnX",
+      "url": "https://www.threads.com/@github/post/DZ-xxXuiuHk",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz8slholunx.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz-xxxuiuhk.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ8SLholUnX"
+      "sourceUrl": "https://www.threads.com/@github/post/DZ-xxXuiuHk"
     },
     {
       "url": "https://www.threads.com/@github/post/DZ9t-6CFcTc",
@@ -79,16 +79,6 @@
       "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZ9t-6CFcTc"
-    },
-    {
-      "username": "weplash.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/weplash.ai-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "weplash.ai",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "somidotai",
@@ -101,16 +91,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "themacademic",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/themacademic-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "themacademic",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "mstearne",
       "tab": "threads",
       "status": "ok",
@@ -119,33 +99,29 @@
       "postCount": 4,
       "discoveryAuthor": "mstearne",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "kirill.chukhlib",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kirill.chukhlib-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "kirill.chukhlib",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "johnalmighty",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/johnalmighty-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "johnalmighty",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
-    {
-      "id": "threads-themacademic-quote-d6584d4da0",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "themacademic",
-      "url": "https://www.threads.com/@themacademic/post/DZ8TAKTEYsF",
-      "postId": "18132363370526032",
-      "text": "Getting around successful people is the cheat code we don’t talk about enough.",
-      "publishedAt": "2026-06-23T20:40:02.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 115,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@themacademic/post/DZ8NtWQkQsw",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
     {
       "id": "threads-weplash.ai-quote-3382504e49",
       "mode": "quote",
@@ -157,7 +133,6 @@
       "publishedAt": "2026-06-24T06:14:40.000Z",
       "activityScore": 3,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 141,
       "autoHarvested": true,
@@ -182,7 +157,6 @@
       "publishedAt": "2026-06-24T02:04:14.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 95,
       "autoHarvested": true,
