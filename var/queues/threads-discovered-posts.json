@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:01:51.183Z",
+  "generatedAt": "2026-06-24T18:56:13.644Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI",
       "sourcePostId": "18331219438248101",
       "sourcePriority": 175,
-      "relatedPostCount": 23,
+      "relatedPostCount": 28,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ77VvpEXVF",
       "sourcePostId": "18156195079474326",
       "sourcePriority": 175,
-      "relatedPostCount": 14,
+      "relatedPostCount": 17,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -35,10 +35,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ78hz0DzFb",
-      "sourcePostId": "17905465536437247",
+      "sourceUrl": "https://www.threads.com/@github/post/DZ9t-6CFcTc",
+      "sourcePostId": "17924083956142227",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dz76kz0ebsi.html",
-      "postCount": 23,
+      "postCount": 28,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI"
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dz77vvpexvf.html",
-      "postCount": 14,
+      "postCount": 17,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DZ77VvpEXVF"
     },
@@ -72,22 +72,32 @@
       "sourceUrl": "https://www.threads.com/@github/post/DZ8SLholUnX"
     },
     {
-      "url": "https://www.threads.com/@github/post/DZ78hz0DzFb",
+      "url": "https://www.threads.com/@github/post/DZ9t-6CFcTc",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz78hz0dzfb.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz9t-6cfctc.html",
+      "postCount": 8,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ78hz0DzFb"
+      "sourceUrl": "https://www.threads.com/@github/post/DZ9t-6CFcTc"
     },
     {
-      "username": "_ian_xyz_",
+      "username": "weplash.ai",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_ian_xyz_-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "_ian_xyz_",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/weplash.ai-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "weplash.ai",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "somidotai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/somidotai-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "somidotai",
       "discoveredVia": "claudeai"
     },
     {
@@ -101,23 +111,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "ai_with_adi_01",
+      "username": "mstearne",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ai_with_adi_01-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mstearne-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "ai_with_adi_01",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "pranav.me_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/pranav.me_-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "pranav.me_",
+      "discoveryAuthor": "mstearne",
       "discoveredVia": "claudeai"
     }
   ],
@@ -133,7 +133,6 @@
       "publishedAt": "2026-06-23T20:40:02.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 115,
       "autoHarvested": true,
@@ -141,6 +140,56 @@
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@themacademic/post/DZ8NtWQkQsw",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-weplash.ai-quote-3382504e49",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "weplash.ai",
+      "url": "https://www.threads.com/@weplash.ai/post/DZ9Uw-slvik",
+      "postId": "18057884912738582",
+      "text": "Tu foto de perfil acaba de desbloquear modo arcade. Pixel art, fondo verde intenso, vibra sprite de pelea noventero y cero energía de selfie aburrida. Prompt abajo ⬇️ Translate",
+      "publishedAt": "2026-06-24T06:14:40.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 141,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@weplash.ai/post/DZ8UtDWj8hI",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-somidotai-quote-0a889dadd9",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "somidotai",
+      "url": "https://www.threads.com/@somidotai/post/DZ84Bk1ijox",
+      "postId": "18084271823560010",
+      "text": "The 'AI video' everyone's hyped about right now? Mostly Blender. This demo gets clean camera moves and consistent characters by posing the whole shot in 3D first, then handing it to the model just to render. The impressive part is old animation skill, not the AI. tell me I'm wrong 👀",
+      "publishedAt": "2026-06-24T02:04:14.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 95,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@somidotai/post/DZ8oegbil_W",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
