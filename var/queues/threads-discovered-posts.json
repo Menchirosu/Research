@@ -1,26 +1,17 @@
 {
-  "generatedAt": "2026-06-25T00:16:36.887Z",
+  "generatedAt": "2026-06-25T19:09:38.845Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
+    "openai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI",
-      "sourcePostId": "18331219438248101",
-      "sourcePriority": 175,
-      "relatedPostCount": 26,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZ77VvpEXVF",
-      "sourcePostId": "18156195079474326",
-      "sourcePriority": 175,
-      "relatedPostCount": 17,
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DaBCX02jSMD",
+      "sourcePostId": "18094629188208731",
+      "sourcePriority": 165,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -45,22 +36,13 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI",
+      "url": "https://www.threads.com/@openai/post/DaBCX02jSMD",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dz76kz0ebsi.html",
-      "postCount": 26,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZ76kZ0EbsI"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DZ77VvpEXVF",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dz77vvpexvf.html",
-      "postCount": 17,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DZ77VvpEXVF"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dabcx02jsmd.html",
+      "postCount": 6,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DaBCX02jSMD"
     },
     {
       "url": "https://www.threads.com/@github/post/DZ-xxXuiuHk",
@@ -79,86 +61,7 @@
       "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZ9t-6CFcTc"
-    },
-    {
-      "username": "mstearne",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mstearne-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "mstearne",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "kirill.chukhlib",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kirill.chukhlib-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "kirill.chukhlib",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "johnalmighty",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/johnalmighty-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "johnalmighty",
-      "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-weplash.ai-quote-3382504e49",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "weplash.ai",
-      "url": "https://www.threads.com/@weplash.ai/post/DZ9Uw-slvik",
-      "postId": "18057884912738582",
-      "text": "Tu foto de perfil acaba de desbloquear modo arcade. Pixel art, fondo verde intenso, vibra sprite de pelea noventero y cero energía de selfie aburrida. Prompt abajo ⬇️ Translate",
-      "publishedAt": "2026-06-24T06:14:40.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 141,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@weplash.ai/post/DZ8UtDWj8hI",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-somidotai-quote-0a889dadd9",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "somidotai",
-      "url": "https://www.threads.com/@somidotai/post/DZ84Bk1ijox",
-      "postId": "18084271823560010",
-      "text": "The 'AI video' everyone's hyped about right now? Mostly Blender. This demo gets clean camera moves and consistent characters by posing the whole shot in 3D first, then handing it to the model just to render. The impressive part is old animation skill, not the AI. tell me I'm wrong 👀",
-      "publishedAt": "2026-06-24T02:04:14.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 95,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@somidotai/post/DZ8oegbil_W",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
