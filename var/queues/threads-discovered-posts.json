@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:19:28.498Z",
+  "generatedAt": "2026-06-25T00:16:36.887Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -79,16 +79,6 @@
       "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DZ9t-6CFcTc"
-    },
-    {
-      "username": "somidotai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/somidotai-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "somidotai",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "mstearne",
