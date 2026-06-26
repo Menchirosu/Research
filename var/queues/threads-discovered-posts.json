@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:25:54.245Z",
+  "generatedAt": "2026-06-26T00:13:14.076Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -17,8 +17,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaBVucPFX_I",
-      "sourcePostId": "18104196869040381",
+      "sourceUrl": "https://www.threads.com/@github/post/DaByMPJGd-6",
+      "sourcePostId": "17978627217019547",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -26,8 +26,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ-xxXuiuHk",
-      "sourcePostId": "18100189199239552",
+      "sourceUrl": "https://www.threads.com/@github/post/DaBVucPFX_I",
+      "sourcePostId": "18104196869040381",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -45,6 +45,15 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaBCX02jSMD"
     },
     {
+      "url": "https://www.threads.com/@github/post/DaByMPJGd-6",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dabympjgd-6.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DaByMPJGd-6"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DaBVucPFX_I",
       "status": "ok",
       "error": null,
@@ -52,15 +61,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaBVucPFX_I"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DZ-xxXuiuHk",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dz-xxxuiuhk.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DZ-xxXuiuHk"
     }
   ],
   "posts": []
