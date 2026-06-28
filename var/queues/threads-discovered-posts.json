@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T20:55:14.124Z",
+  "generatedAt": "2026-06-28T00:56:03.536Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -81,16 +81,6 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaGNBnxFcgf"
     },
     {
-      "username": "techpresso_news",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/techpresso_news-threads-rendered.html",
-      "postCount": 10,
-      "discoveryAuthor": "techpresso_news",
-      "discoveredVia": "openai"
-    },
-    {
       "username": "realintnews01",
       "tab": "threads",
       "status": "ok",
@@ -111,41 +101,27 @@
       "discoveredVia": "openai"
     },
     {
-      "username": "fadrick.paiva",
+      "username": "ejacson",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/fadrick.paiva-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/ejacson-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "ejacson",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "dreamer18687",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dreamer18687-threads-rendered.html",
       "postCount": 5,
-      "discoveryAuthor": "fadrick.paiva",
+      "discoveryAuthor": "dreamer18687",
       "discoveredVia": "openai"
     }
   ],
   "posts": [
-    {
-      "id": "threads-gergelyorosz_-quote-6ec126da43",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "gergelyorosz_",
-      "url": "https://www.threads.com/@gergelyorosz_/post/DaENg5UEj9O",
-      "postId": "17944793898219593",
-      "text": "Talked with a few folks inside of AI labs (OpenAI, Anthropic) about what they think of the future of software engineering. The “closer” to shipping production code engineers are, the less they believe software engineering will be “solved” fully by AI. The opposite true as well",
-      "publishedAt": "2026-06-26T22:25:59.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 126,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@github/post/DaEI40LlVrH",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @github"
-    },
     {
       "id": "threads-koltregaskes-quote-57ff3f7258",
       "mode": "quote",
@@ -212,6 +188,31 @@
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@realintnews01/post/DaE3DHTlF0f",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @openai"
+    },
+    {
+      "id": "threads-dreamer18687-quote-708165c989",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "dreamer18687",
+      "url": "https://www.threads.com/@dreamer18687/post/DaFx3IMgTKP",
+      "postId": "17990413194004326",
+      "text": "How to build agentic AI ?.",
+      "publishedAt": "2026-06-27T13:02:50.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 116,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@dreamer18687/post/DaEpPgZgcdX",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
