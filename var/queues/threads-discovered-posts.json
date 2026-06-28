@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T18:12:03.706Z",
+  "generatedAt": "2026-06-28T20:55:54.086Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -113,7 +113,6 @@
       "publishedAt": "2026-06-28T16:34:22.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 122,
       "autoHarvested": true,
