@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-06-29T19:08:18.432Z",
+  "generatedAt": "2026-06-29T21:20:02.721Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
   ],
   "roots": [
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DaLledymf-H",
+      "sourcePostId": "18080799827390250",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaLTvNmlHI2",
@@ -13,18 +22,18 @@
       "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg",
-      "sourcePostId": "18104601950090082",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
+    {
+      "url": "https://www.threads.com/@github/post/DaLledymf-H",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dalledymf-h.html",
+      "postCount": 6,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DaLledymf-H"
+    },
     {
       "url": "https://www.threads.com/@github/post/DaLTvNmlHI2",
       "status": "ok",
@@ -33,15 +42,6 @@
       "postCount": 9,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaLTvNmlHI2"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DaJWAcEgUNg",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dajwacegung.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg"
     },
     {
       "username": "deadrachelvvalking",
