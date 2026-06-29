@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T00:12:46.823Z",
+  "generatedAt": "2026-06-29T19:08:18.432Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,67 +7,52 @@
   "roots": [
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg",
-      "sourcePostId": "18104601950090082",
-      "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "sourceUrl": "https://www.threads.com/@github/post/DaLTvNmlHI2",
+      "sourcePostId": "17895030156510287",
+      "sourcePriority": 135,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaJWAaWgWHu",
-      "sourcePostId": "18095332615992463",
+      "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg",
+      "sourcePostId": "18104601950090082",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@github/post/DaLTvNmlHI2",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daltvnmlhi2.html",
+      "postCount": 9,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DaLTvNmlHI2"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DaJWAcEgUNg",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dajwacegung.html",
-      "postCount": 6,
+      "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg"
     },
     {
-      "url": "https://www.threads.com/@github/post/DaJWAaWgWHu",
+      "username": "deadrachelvvalking",
+      "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dajwaawgwhu.html",
-      "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaJWAaWgWHu"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/deadrachelvvalking-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "deadrachelvvalking",
+      "discoveredVia": "github"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-nellyrqai-quote-cca674b286",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "nellyrqai",
-      "url": "https://www.threads.com/@nellyrqai/post/DaITCdgiZEJ",
-      "postId": "17861324076641625",
-      "text": "What scientific figure generation should look like in 2026: → upload a journal reference → AI matches the style → describe the mechanism in plain English → AI searches PubMed for real evidence → publication-ready figure in 90 seconds Noah AI does exactly this. here's how:",
-      "publishedAt": "2026-06-28T16:34:22.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 122,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@nellyrqai/post/DaIRDyFHwsQ",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
