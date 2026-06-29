@@ -1,43 +1,24 @@
 {
-  "generatedAt": "2026-06-28T20:55:54.086Z",
+  "generatedAt": "2026-06-29T00:12:46.823Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "openai",
     "github"
   ],
   "roots": [
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaEHnWEkrN6",
-      "sourcePostId": "17955580169979659",
-      "sourcePriority": 175,
-      "relatedPostCount": 29,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaEHnx7ktu5",
-      "sourcePostId": "18087021125426922",
-      "sourcePriority": 175,
-      "relatedPostCount": 15,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaGhpyxCn2x",
-      "sourcePostId": "18205922680350862",
-      "sourcePriority": 145,
+      "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg",
+      "sourcePostId": "18104601950090082",
+      "sourcePriority": 125,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaGNBnxFcgf",
-      "sourcePostId": "18158992765462462",
-      "sourcePriority": 135,
+      "sourceUrl": "https://www.threads.com/@github/post/DaJWAaWgWHu",
+      "sourcePostId": "18095332615992463",
+      "sourcePriority": 125,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
@@ -45,60 +26,22 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@openai/post/DaEHnWEkrN6",
+      "url": "https://www.threads.com/@github/post/DaJWAcEgUNg",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daehnwekrn6.html",
-      "postCount": 29,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaEHnWEkrN6"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DaEHnx7ktu5",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daehnx7ktu5.html",
-      "postCount": 15,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaEHnx7ktu5"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DaGhpyxCn2x",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daghpyxcn2x.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dajwacegung.html",
       "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaGhpyxCn2x"
+      "sourceUrl": "https://www.threads.com/@github/post/DaJWAcEgUNg"
     },
     {
-      "url": "https://www.threads.com/@github/post/DaGNBnxFcgf",
+      "url": "https://www.threads.com/@github/post/DaJWAaWgWHu",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dagnbnxfcgf.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dajwaawgwhu.html",
       "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaGNBnxFcgf"
-    },
-    {
-      "username": "nellyrqai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nellyrqai-threads-rendered.html",
-      "postCount": 10,
-      "discoveryAuthor": "nellyrqai",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "meykdy",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/meykdy-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "meykdy",
-      "discoveredVia": "openai"
+      "sourceUrl": "https://www.threads.com/@github/post/DaJWAaWgWHu"
     }
   ],
   "posts": [
