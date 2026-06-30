@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-06-30T00:07:36.281Z",
+  "generatedAt": "2026-06-30T19:01:18.640Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
+      "sourcePostId": "17906031609447135",
+      "sourcePriority": 175,
+      "relatedPostCount": 28,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O",
+      "sourcePostId": "18334874785268796",
+      "sourcePriority": 155,
+      "relatedPostCount": 12,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaLledymf-H",
@@ -16,15 +35,33 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaLTvNmlHI2",
-      "sourcePostId": "17895030156510287",
-      "sourcePriority": 135,
-      "relatedPostCount": 9,
+      "sourceUrl": "https://www.threads.com/@github/post/DaOFQB9ERnr",
+      "sourcePostId": "18184841905358774",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
+    {
+      "url": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daobjgeetcn.html",
+      "postCount": 28,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daocdsikf2o.html",
+      "postCount": 12,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O"
+    },
     {
       "url": "https://www.threads.com/@github/post/DaLledymf-H",
       "status": "ok",
@@ -35,23 +72,43 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaLledymf-H"
     },
     {
-      "url": "https://www.threads.com/@github/post/DaLTvNmlHI2",
+      "url": "https://www.threads.com/@github/post/DaOFQB9ERnr",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daltvnmlhi2.html",
-      "postCount": 9,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daofqb9ernr.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaLTvNmlHI2"
+      "sourceUrl": "https://www.threads.com/@github/post/DaOFQB9ERnr"
     },
     {
-      "username": "deadrachelvvalking",
+      "username": "zwar.do",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/deadrachelvvalking-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/zwar.do-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "zwar.do",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "smartaidaily.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/smartaidaily.ai-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "deadrachelvvalking",
-      "discoveredVia": "github"
+      "discoveryAuthor": "smartaidaily.ai",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "secretasianman",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/secretasianman-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "secretasianman",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
