@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T19:01:18.640Z",
+  "generatedAt": "2026-06-30T21:24:35.165Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
       "sourcePostId": "17906031609447135",
       "sourcePriority": 175,
-      "relatedPostCount": 28,
+      "relatedPostCount": 25,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O",
       "sourcePostId": "18334874785268796",
       "sourcePriority": 155,
-      "relatedPostCount": 12,
+      "relatedPostCount": 17,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daobjgeetcn.html",
-      "postCount": 28,
+      "postCount": 25,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn"
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daocdsikf2o.html",
-      "postCount": 12,
+      "postCount": 17,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O"
     },
@@ -81,23 +81,23 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaOFQB9ERnr"
     },
     {
-      "username": "zwar.do",
+      "username": "czajski",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/zwar.do-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "zwar.do",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/czajski-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "czajski",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "smartaidaily.ai",
+      "username": "b1z1",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/smartaidaily.ai-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/b1z1-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "smartaidaily.ai",
+      "discoveryAuthor": "b1z1",
       "discoveredVia": "claudeai"
     },
     {
