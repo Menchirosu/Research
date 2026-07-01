@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-01T00:08:39.200Z",
+  "generatedAt": "2026-07-01T19:03:30.206Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
+    "openai",
     "github"
   ],
   "roots": [
@@ -11,7 +12,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
       "sourcePostId": "17906031609447135",
       "sourcePriority": 175,
-      "relatedPostCount": 24,
+      "relatedPostCount": 26,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw",
+      "sourcePostId": "18072239831507942",
+      "sourcePriority": 165,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,25 +30,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O",
       "sourcePostId": "18334874785268796",
       "sourcePriority": 155,
-      "relatedPostCount": 22,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaOcBu8jzZd",
-      "sourcePostId": "18078938027654614",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaOFQB9ERnr",
-      "sourcePostId": "18184841905358774",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/DaQiBzIjOQL",
+      "sourcePostId": "18121082983779075",
+      "sourcePriority": 135,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -49,77 +50,128 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daobjgeetcn.html",
-      "postCount": 24,
+      "postCount": 26,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn"
+    },
+    {
+      "url": "https://www.threads.com/@openai/post/DaQUzrGm8Dw",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daquzrgm8dw.html",
+      "postCount": 7,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw"
     },
     {
       "url": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daocdsikf2o.html",
-      "postCount": 22,
+      "postCount": 29,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOCdsIkf2O"
     },
     {
-      "url": "https://www.threads.com/@github/post/DaOcBu8jzZd",
+      "url": "https://www.threads.com/@github/post/DaQiBzIjOQL",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daocbu8jzzd.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaOcBu8jzZd"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DaOFQB9ERnr",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daofqb9ernr.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaOFQB9ERnr"
-    },
-    {
-      "username": "czajski",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/czajski-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "czajski",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "b1z1",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/b1z1-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "b1z1",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "jcmappstudio",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jcmappstudio-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "jcmappstudio",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "leobringasatlife",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/leobringasatlife-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daqibzijoql.html",
       "postCount": 7,
-      "discoveryAuthor": "leobringasatlife",
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DaQiBzIjOQL"
+    },
+    {
+      "username": "whai_why",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/whai_why-threads-rendered.html",
+      "postCount": 13,
+      "discoveryAuthor": "whai_why",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "growthai_media",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/growthai_media-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "growthai_media",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "choeng_919",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/choeng_919-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "choeng_919",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "luca.restagno.dev",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/luca.restagno.dev-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "luca.restagno.dev",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-whai_why-quote-cb562c765d",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "whai_why",
+      "url": "https://www.threads.com/@whai_why/post/DaO_j_Xjs7h",
+      "postId": "18018019481852428",
+      "text": "Claude 突然跨界了。 Anthropicr 剛推出 Claude Science—— 專門為「研究型工作」打造的獨立 app。 不是套個新介面那種，是從流程底層重新設計： 追蹤數據來源、管理運算環境、串接 60 幾個科學資料庫。 這種等級的工具，很多做研究的人還不知道已經開放 beta 了。👀 Translate",
+      "publishedAt": "2026-07-01T02:56:26.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 100,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@whai_why/post/DaO-bs0nD9n",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-choeng_919-quote-a9cd176238",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "choeng_919",
+      "url": "https://www.threads.com/@choeng_919/post/DaPHxA5EW6k",
+      "postId": "18090243008375431",
+      "text": "Claude Sonnet 5 隆重推出。 它能制定計劃、使用如瀏覽器和終端機等工具，並以自主方式運行，其效能僅在幾個月前還需要更大且更昂貴的模型才能實現。 Sonnet 5 在推理、工具使用、編碼以及知識工作方面，相較於 Sonnet 4.6 有顯著的進步。 其效能接近 Opus 4.8，但價格更低。 早期體驗合作夥伴發現，Sonnet 5 能夠完成先前 Sonnet 模型無法處理的複雜任務，會主動檢查自己的輸出，且以具吸引力的價格點執行所有代理工作。 現在是 Free 和 Pro 的預設模型，並可供 Max、Team 和 Enterprise 使用者使用。 它今天已在所有 Claude 應用程式和 Claude 平台上線，並提供至 8 月 31 日的API優惠價。 Translate",
+      "publishedAt": "2026-07-01T04:07:25.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 96,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@choeng_919/post/DaPHxA5EW6k",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
