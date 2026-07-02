@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:22:08.753Z",
+  "generatedAt": "2026-07-02T00:11:44.573Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaQxjkHmhDj",
       "sourcePostId": "18225640420318472",
       "sourcePriority": 175,
-      "relatedPostCount": 27,
+      "relatedPostCount": 29,
       "queuedCount": 1,
       "rootResolved": true
     },
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
       "sourcePostId": "17906031609447135",
       "sourcePriority": 175,
-      "relatedPostCount": 25,
+      "relatedPostCount": 26,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daqxjkhmhdj.html",
-      "postCount": 27,
+      "postCount": 29,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaQxjkHmhDj"
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daobjgeetcn.html",
-      "postCount": 25,
+      "postCount": 26,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn"
     },
@@ -102,6 +102,16 @@
       "discoveredVia": "claudeai"
     },
     {
+      "username": "dan_vilela_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dan_vilela_-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "dan_vilela_",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "nakam0100",
       "tab": "threads",
       "status": "ok",
@@ -109,16 +119,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/nakam0100-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "nakam0100",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "whai_why",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/whai_why-threads-rendered.html",
-      "postCount": 13,
-      "discoveryAuthor": "whai_why",
       "discoveredVia": "claudeai"
     }
   ],
@@ -182,7 +182,6 @@
       "publishedAt": "2026-07-01T19:33:18.000Z",
       "activityScore": 2,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 129,
       "autoHarvested": true,
