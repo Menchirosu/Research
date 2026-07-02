@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T18:41:26.528Z",
+  "generatedAt": "2026-07-02T20:58:14.402Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjyxgLo1",
       "sourcePostId": "18051746852535646",
       "sourcePriority": 175,
-      "relatedPostCount": 10,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw",
       "sourcePostId": "18072239831507942",
       "sourcePriority": 165,
-      "relatedPostCount": 7,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjYZgNm9",
       "sourcePostId": "18108757849769171",
       "sourcePriority": 155,
-      "relatedPostCount": 20,
+      "relatedPostCount": 4,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -39,7 +39,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb",
       "sourcePostId": "18158364355426015",
       "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "relatedPostCount": 3,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daswjyxglo1.html",
-      "postCount": 10,
+      "postCount": 6,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjyxgLo1"
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daquzrgm8dw.html",
-      "postCount": 7,
+      "postCount": 5,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw"
     },
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daswjyzgnm9.html",
-      "postCount": 20,
+      "postCount": 4,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjYZgNm9"
     },
@@ -77,7 +77,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-das-ifcd3hb.html",
-      "postCount": 6,
+      "postCount": 3,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb"
     },
@@ -87,65 +87,10 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/haekalagif-threads-rendered.html",
-      "postCount": 11,
+      "postCount": 2,
       "discoveryAuthor": "haekalagif",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "yrrah9_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/yrrah9_-threads-rendered.html",
-      "postCount": 9,
-      "discoveryAuthor": "yrrah9_",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "withkunram",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/withkunram-threads-rendered.html",
-      "postCount": 13,
-      "discoveryAuthor": "withkunram",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "verge",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/verge-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "verge",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-hansvdb-quote-779e2266e6",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "hansvdb",
-      "url": "https://www.threads.com/@hansvdb/post/DaQxuZPFVC0",
-      "postId": "17953479888177074",
-      "text": "“Available for building”, but not with code 😶",
-      "publishedAt": "2026-07-01T19:33:18.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 129,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@claudeai/post/DaQxjkHmhDj",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
