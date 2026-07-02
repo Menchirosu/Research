@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:11:44.573Z",
+  "generatedAt": "2026-07-02T18:41:26.528Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -9,19 +9,10 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DaQxjkHmhDj",
-      "sourcePostId": "18225640420318472",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjyxgLo1",
+      "sourcePostId": "18051746852535646",
       "sourcePriority": 175,
-      "relatedPostCount": 29,
-      "queuedCount": 1,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
-      "sourcePostId": "17906031609447135",
-      "sourcePriority": 175,
-      "relatedPostCount": 26,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -35,33 +26,33 @@
       "rootResolved": true
     },
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjYZgNm9",
+      "sourcePostId": "18108757849769171",
+      "sourcePriority": 155,
+      "relatedPostCount": 20,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaQ0PU3klO3",
-      "sourcePostId": "17857387017653561",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb",
+      "sourcePostId": "18158364355426015",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DaQxjkHmhDj",
+      "url": "https://www.threads.com/@claudeai/post/DaSwjyxgLo1",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daqxjkhmhdj.html",
-      "postCount": 29,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daswjyxglo1.html",
+      "postCount": 10,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DaQxjkHmhDj"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DaOBjgEETCn",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daobjgeetcn.html",
-      "postCount": 26,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DaOBjgEETCn"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjyxgLo1"
     },
     {
       "url": "https://www.threads.com/@openai/post/DaQUzrGm8Dw",
@@ -73,104 +64,65 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw"
     },
     {
-      "url": "https://www.threads.com/@github/post/DaQ0PU3klO3",
+      "url": "https://www.threads.com/@claudeai/post/DaSwjYZgNm9",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daq0pu3klo3.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daswjyzgnm9.html",
+      "postCount": 20,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DaSwjYZgNm9"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DaS-IfCD3Hb",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-das-ifcd3hb.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaQ0PU3klO3"
+      "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb"
     },
     {
-      "username": "hansvdb",
+      "username": "haekalagif",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/hansvdb-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "hansvdb",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/haekalagif-threads-rendered.html",
+      "postCount": 11,
+      "discoveryAuthor": "haekalagif",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "xxii.iv.mmxiii_",
+      "username": "yrrah9_",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/xxii.iv.mmxiii_-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "xxii.iv.mmxiii_",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/yrrah9_-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "yrrah9_",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "dan_vilela_",
+      "username": "withkunram",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dan_vilela_-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/withkunram-threads-rendered.html",
+      "postCount": 13,
+      "discoveryAuthor": "withkunram",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "verge",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/verge-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "dan_vilela_",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "nakam0100",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nakam0100-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "nakam0100",
+      "discoveryAuthor": "verge",
       "discoveredVia": "claudeai"
     }
   ],
   "posts": [
-    {
-      "id": "threads-whai_why-quote-cb562c765d",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "whai_why",
-      "url": "https://www.threads.com/@whai_why/post/DaO_j_Xjs7h",
-      "postId": "18018019481852428",
-      "text": "Claude 突然跨界了。 Anthropicr 剛推出 Claude Science—— 專門為「研究型工作」打造的獨立 app。 不是套個新介面那種，是從流程底層重新設計： 追蹤數據來源、管理運算環境、串接 60 幾個科學資料庫。 這種等級的工具，很多做研究的人還不知道已經開放 beta 了。👀 Translate",
-      "publishedAt": "2026-07-01T02:56:26.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 100,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@whai_why/post/DaO-bs0nD9n",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-choeng_919-quote-a9cd176238",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "choeng_919",
-      "url": "https://www.threads.com/@choeng_919/post/DaPHxA5EW6k",
-      "postId": "18090243008375431",
-      "text": "Claude Sonnet 5 隆重推出。 它能制定計劃、使用如瀏覽器和終端機等工具，並以自主方式運行，其效能僅在幾個月前還需要更大且更昂貴的模型才能實現。 Sonnet 5 在推理、工具使用、編碼以及知識工作方面，相較於 Sonnet 4.6 有顯著的進步。 其效能接近 Opus 4.8，但價格更低。 早期體驗合作夥伴發現，Sonnet 5 能夠完成先前 Sonnet 模型無法處理的複雜任務，會主動檢查自己的輸出，且以具吸引力的價格點執行所有代理工作。 現在是 Free 和 Pro 的預設模型，並可供 Max、Team 和 Enterprise 使用者使用。 它今天已在所有 Claude 應用程式和 Claude 平台上線，並提供至 8 月 31 日的API優惠價。 Translate",
-      "publishedAt": "2026-07-01T04:07:25.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 96,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@choeng_919/post/DaPHxA5EW6k",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
     {
       "id": "threads-hansvdb-quote-779e2266e6",
       "mode": "quote",
