@@ -1,28 +1,18 @@
 {
-  "generatedAt": "2026-07-03T00:59:29.265Z",
+  "generatedAt": "2026-07-03T18:18:44.198Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "openai",
     "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw",
-      "sourcePostId": "18072239831507942",
-      "sourcePriority": 165,
-      "relatedPostCount": 7,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
       "sourcePostId": "18089001098640523",
       "sourcePriority": 155,
-      "relatedPostCount": 8,
-      "queuedCount": 0,
+      "relatedPostCount": 13,
+      "queuedCount": 2,
       "rootResolved": true
     },
     {
@@ -30,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6",
       "sourcePostId": "18206728201346721",
       "sourcePriority": 145,
-      "relatedPostCount": 13,
+      "relatedPostCount": 23,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -38,7 +28,7 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb",
       "sourcePostId": "18158364355426015",
-      "sourcePriority": 135,
+      "sourcePriority": 145,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
@@ -46,20 +36,11 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@openai/post/DaQUzrGm8Dw",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daquzrgm8dw.html",
-      "postCount": 7,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaQUzrGm8Dw"
-    },
-    {
       "url": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-datlnrokahc.html",
-      "postCount": 8,
+      "postCount": 13,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc"
     },
@@ -68,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-datnzd4k6o6.html",
-      "postCount": 13,
+      "postCount": 23,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6"
     },
@@ -82,15 +63,96 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb"
     },
     {
-      "username": "useallovertools",
+      "username": "aiposthub",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/useallovertools-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aiposthub-threads-rendered.html",
+      "postCount": 15,
+      "discoveryAuthor": "aiposthub",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "liamjohnston.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/liamjohnston.ai-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "useallovertools",
+      "discoveryAuthor": "liamjohnston.ai",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "sahinur.jsx",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/sahinur.jsx-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "sahinur.jsx",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "hu._.1889",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/hu._.1889-threads-rendered.html",
+      "postCount": 3,
+      "discoveryAuthor": "hu._.1889",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-aiposthub-quote-845d428db9",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "aiposthub",
+      "url": "https://www.threads.com/@aiposthub/post/DaUTG0aEU_n",
+      "postId": "18115129087810085",
+      "text": "Claude Code 的 Artifacts，現在開放給 Pro 和 Max 用戶了。 這功能有點像是： 你在 Claude Code 裡做專案， 它可以直接幫你生出一個「可互動的網頁成果」。 不是只有文字回覆或程式碼片段。 Translate",
+      "publishedAt": "2026-07-03T04:24:03.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 137,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-liamjohnston.ai-quote-f945a4b166",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "liamjohnston.ai",
+      "url": "https://www.threads.com/@liamjohnston.ai/post/DaTbBNyjdD8",
+      "postId": "18149975674501666",
+      "text": "Claude Code artifacts just moved from team feature to solo-builder workflow. Pro and Max users can now ask Claude Code for a live artifact, publish it privately, and keep it updating while the agent works. The output is becoming a shareable app. Source: Anthropic",
+      "publishedAt": "2026-07-02T20:13:11.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 104,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
