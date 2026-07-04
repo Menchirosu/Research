@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T02:57:22.998Z",
+  "generatedAt": "2026-07-04T18:08:59.260Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,8 +11,8 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
       "sourcePostId": "18089001098640523",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
-      "queuedCount": 1,
+      "relatedPostCount": 14,
+      "queuedCount": 0,
       "rootResolved": true
     },
     {
@@ -20,15 +20,15 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6",
       "sourcePostId": "18206728201346721",
       "sourcePriority": 145,
-      "relatedPostCount": 25,
+      "relatedPostCount": 26,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb",
-      "sourcePostId": "18158364355426015",
-      "sourcePriority": 145,
+      "sourceUrl": "https://www.threads.com/@github/post/DaYQ23FlItR",
+      "sourcePostId": "18157042060464102",
+      "sourcePriority": 135,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-datlnrokahc.html",
-      "postCount": 13,
+      "postCount": 14,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc"
     },
@@ -49,84 +49,39 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-datnzd4k6o6.html",
-      "postCount": 25,
+      "postCount": 26,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6"
     },
     {
-      "url": "https://www.threads.com/@github/post/DaS-IfCD3Hb",
+      "url": "https://www.threads.com/@github/post/DaYQ23FlItR",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-das-ifcd3hb.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dayq23flitr.html",
       "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaS-IfCD3Hb"
+      "sourceUrl": "https://www.threads.com/@github/post/DaYQ23FlItR"
     },
     {
-      "username": "aiposthub",
+      "username": "dovakiin_dorian",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aiposthub-threads-rendered.html",
-      "postCount": 15,
-      "discoveryAuthor": "aiposthub",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dovakiin_dorian-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "dovakiin_dorian",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "sahinur.jsx",
+      "username": "bohdan.ai",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/sahinur.jsx-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "sahinur.jsx",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "hu._.1889",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/hu._.1889-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "hu._.1889",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "hcacert",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/hcacert-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/bohdan.ai-threads-rendered.html",
       "postCount": 2,
-      "discoveryAuthor": "hcacert",
+      "discoveryAuthor": "bohdan.ai",
       "discoveredVia": "github"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-aiposthub-quote-845d428db9",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "aiposthub",
-      "url": "https://www.threads.com/@aiposthub/post/DaUTG0aEU_n",
-      "postId": "18115129087810085",
-      "text": "Claude Code 的 Artifacts，現在開放給 Pro 和 Max 用戶了。 這功能有點像是： 你在 Claude Code 裡做專案， 它可以直接幫你生出一個「可互動的網頁成果」。 不是只有文字回覆或程式碼片段。 Translate",
-      "publishedAt": "2026-07-03T04:24:03.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 137,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
