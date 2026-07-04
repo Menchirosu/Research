@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T18:18:44.198Z",
+  "generatedAt": "2026-07-04T02:57:22.998Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourcePostId": "18089001098640523",
       "sourcePriority": 155,
       "relatedPostCount": 13,
-      "queuedCount": 2,
+      "queuedCount": 1,
       "rootResolved": true
     },
     {
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6",
       "sourcePostId": "18206728201346721",
       "sourcePriority": 145,
-      "relatedPostCount": 23,
+      "relatedPostCount": 25,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-datnzd4k6o6.html",
-      "postCount": 23,
+      "postCount": 25,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6"
     },
@@ -73,16 +73,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "liamjohnston.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/liamjohnston.ai-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "liamjohnston.ai",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "sahinur.jsx",
       "tab": "threads",
       "status": "ok",
@@ -98,9 +88,19 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/hu._.1889-threads-rendered.html",
-      "postCount": 3,
+      "postCount": 4,
       "discoveryAuthor": "hu._.1889",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "hcacert",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/hcacert-threads-rendered.html",
+      "postCount": 2,
+      "discoveryAuthor": "hcacert",
+      "discoveredVia": "github"
     }
   ],
   "posts": [
@@ -115,34 +115,8 @@
       "publishedAt": "2026-07-03T04:24:03.000Z",
       "activityScore": 2,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 137,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-liamjohnston.ai-quote-f945a4b166",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "liamjohnston.ai",
-      "url": "https://www.threads.com/@liamjohnston.ai/post/DaTbBNyjdD8",
-      "postId": "18149975674501666",
-      "text": "Claude Code artifacts just moved from team feature to solo-builder workflow. Pro and Max users can now ask Claude Code for a live artifact, publish it privately, and keep it updating while the agent works. The output is becoming a shareable app. Source: Anthropic",
-      "publishedAt": "2026-07-02T20:13:11.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 104,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_post_page",
