@@ -1,29 +1,10 @@
 {
-  "generatedAt": "2026-07-04T20:48:22.429Z",
+  "generatedAt": "2026-07-05T00:04:08.612Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
-      "sourcePostId": "18089001098640523",
-      "sourcePriority": 155,
-      "relatedPostCount": 14,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6",
-      "sourcePostId": "18206728201346721",
-      "sourcePriority": 145,
-      "relatedPostCount": 26,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaYQ23FlItR",
@@ -36,24 +17,6 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DaTlnROkahc",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-datlnrokahc.html",
-      "postCount": 14,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DaTlnROkahc"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DaTnZD4k6O6",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-datnzd4k6o6.html",
-      "postCount": 26,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaTnZD4k6O6"
-    },
-    {
       "url": "https://www.threads.com/@github/post/DaYQ23FlItR",
       "status": "ok",
       "error": null,
@@ -61,26 +24,6 @@
       "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaYQ23FlItR"
-    },
-    {
-      "username": "dovakiin_dorian",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dovakiin_dorian-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "dovakiin_dorian",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "bohdan.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/bohdan.ai-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "bohdan.ai",
-      "discoveredVia": "github"
     }
   ],
   "posts": []
