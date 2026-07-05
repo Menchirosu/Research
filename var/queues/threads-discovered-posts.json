@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T00:04:08.612Z",
+  "generatedAt": "2026-07-05T18:11:11.319Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -9,8 +9,8 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaYQ23FlItR",
       "sourcePostId": "18157042060464102",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourcePriority": 145,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -21,7 +21,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dayq23flitr.html",
-      "postCount": 6,
+      "postCount": 7,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DaYQ23FlItR"
     }
