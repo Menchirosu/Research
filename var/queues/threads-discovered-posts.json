@@ -1,17 +1,27 @@
 {
-  "generatedAt": "2026-07-06T21:23:46.577Z",
+  "generatedAt": "2026-07-07T00:11:20.854Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "openai",
     "github"
   ],
   "roots": [
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dad331gEVP-",
+      "sourcePostId": "18259094200305373",
+      "sourcePriority": 175,
+      "relatedPostCount": 12,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DadhQPmEuPy",
       "sourcePostId": "17985330650846799",
       "sourcePriority": 175,
-      "relatedPostCount": 11,
+      "relatedPostCount": 13,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -27,11 +37,20 @@
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/Dad331gEVP-",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dad331gevp.html",
+      "postCount": 12,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dad331gEVP-"
+    },
+    {
       "url": "https://www.threads.com/@openai/post/DadhQPmEuPy",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dadhqpmeupy.html",
-      "postCount": 11,
+      "postCount": 13,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DadhQPmEuPy"
     },
@@ -43,6 +62,26 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Daa_8_NFRoS"
+    },
+    {
+      "username": "hu._.1889",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/hu._.1889-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "hu._.1889",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "titofebus",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/titofebus-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "titofebus",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
