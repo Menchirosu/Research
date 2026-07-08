@@ -1,0 +1,790 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-07-08T18:23:02.322Z",
+  "completedAt": "2026-07-08T18:24:28.306Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-07-08T18-23-05.492Z-7f96055a.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 1,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 6,
+    "discovered": 2,
+    "harvested": 2,
+    "total": 8,
+    "eligible": 6,
+    "skipped": 2
+  },
+  "watchlistAccounts": [
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 1,
+      "engagementScore": 100,
+      "promotionScore": 100,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+        "publishedAt": "2026-07-08T15:02:29.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 159,
+        "commentCount": 14,
+        "repostCount": 17,
+        "shareCount": 8,
+        "text": "Listen up. Livestream at 10am. openai.com/live"
+      }
+    },
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 4,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 100,
+      "promotionScore": 95,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/Daf3B4SDrzE",
+        "publishedAt": "2026-07-07T16:08:15.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 36,
+        "commentCount": 2,
+        "repostCount": 2,
+        "shareCount": 0,
+        "text": "We're extending doubled Cowork usage limits through August 5, so you can delegate bigger work to Claude. Read more: claude.com/blog… claude.com Claude Cowork on web and mobile: hand off work anywhere | Claude by Anthropi"
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 17,
+      "promotionScore": 76,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DaflWLNkXOU",
+        "publishedAt": "2026-07-07T13:33:47.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 26,
+        "commentCount": 4,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "Your next collaborator might be: 🤝 sitting beside you 🤖 running on your laptop ☕ standing next to you in the coffee line Meet them at GitHub Universe. 🚨 Super Early Bird ends tomorrow, 8th July. Get in quick to save $"
+      }
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 7,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS",
+      "postId": "18112958144481054",
+      "text": "Claude Cowork is coming to mobile and web. Hand Claude a task at your desk and pick up the finished work from your phone. Close the laptop and Claude keeps going. Beta is rolling out over the next several weeks starting with the Max plan, with more plans to follow.",
+      "publishedAt": "2026-07-07T16:07:59.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-18643c01ce",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K",
+      "postId": "18071920175356174",
+      "text": "Scheduled tasks now run even with your computer off. Set client prep for 6am, and Claude works through the threads and transcripts, builds the brief, and leaves the follow-up drafted but unsent. When a decision needs your judgment, the question comes to your phone.",
+      "publishedAt": "2026-07-07T16:08:03.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-a0dc71d8b7",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+      "postId": "17933821926335082",
+      "text": "Listen up. Livestream at 10am. openai.com/live",
+      "publishedAt": "2026-07-08T15:02:29.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-26e956392f",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+      "postId": "17933821926335082",
+      "text": "Listen up. Livestream at 10am. openai.com/live",
+      "publishedAt": "2026-07-08T15:02:29.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 170,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-reply-f00c6d1c36",
+      "mode": "reply"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DahI9u-FAxu",
+      "postId": "17869121607688574",
+      "text": "/@openai/post/DahI9u-FAxu\" role=\"link\" tabindex=\"0\"> 14h GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now. <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-07-08T04:04:13.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-abc9cbfb3a",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DaflWLNkXOU",
+      "postId": "17890303899588742",
+      "text": "Your next collaborator might be: 🤝 sitting beside you 🤖 running on your laptop ☕ standing next to you in the coffee line Meet them at GitHub Universe. 🚨 Super Early Bird ends tomorrow, 8th July. Get in quick to save $600. githubuniverse.com…",
+      "publishedAt": "2026-07-07T13:33:47.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 135,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-9ce03c6999",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-07-08T18:24:28.301Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "openai"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS",
+        "sourcePostId": "18112958144481054",
+        "sourcePriority": 175,
+        "relatedPostCount": 29,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K",
+        "sourcePostId": "18071920175356174",
+        "sourcePriority": 175,
+        "relatedPostCount": 9,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+        "sourcePostId": "17933821926335082",
+        "sourcePriority": 175,
+        "relatedPostCount": 17,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DahI9u-FAxu",
+        "sourcePostId": "17869121607688574",
+        "sourcePriority": 155,
+        "relatedPostCount": 20,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daf1kmjkwvs.html",
+        "postCount": 29,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daf3azsdi-k.html",
+        "postCount": 9,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K"
+      },
+      {
+        "url": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daiulw4ctwz.html",
+        "postCount": 17,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ"
+      },
+      {
+        "url": "https://www.threads.com/@openai/post/DahI9u-FAxu",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dahi9u-faxu.html",
+        "postCount": 20,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DahI9u-FAxu"
+      },
+      {
+        "username": "yabhishekhd",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/yabhishekhd-threads-rendered.html",
+        "postCount": 6,
+        "discoveryAuthor": "yabhishekhd",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "legrt.606",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/legrt.606-threads-rendered.html",
+        "postCount": 3,
+        "discoveryAuthor": "legrt.606",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "cooljerrett",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/cooljerrett-threads-rendered.html",
+        "postCount": 6,
+        "discoveryAuthor": "cooljerrett",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "hu._.1889",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/hu._.1889-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "hu._.1889",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": [
+      {
+        "id": "threads-yabhishekhd-quote-48f422f218",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "yabhishekhd",
+        "url": "https://www.threads.com/@yabhishekhd/post/DahItakj08t",
+        "postId": "18163670470455328",
+        "text": "CLAUDE COWORK NOW AVAILABLE ON WEB & MOBILE, FABLE 5 ROLLING OUT TO ALL PAID USERS Anthropic is bringing Claude Cowork to the web, Android and iPhone. You can start a task on your computer and continue it from your phone. Even if you close your laptop, Claude keeps working in the cloud and will send you a notification when it needs your input. Cowork is rolling out to Max users first, with other paid plans getting it over the next few weeks.",
+        "publishedAt": "2026-07-08T04:03:18.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 101,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@yabhishekhd/post/DahItakj08t",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      {
+        "id": "threads-cooljerrett-quote-a336efcd75",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "cooljerrett",
+        "url": "https://www.threads.com/@cooljerrett/post/DaiUu4KG2NR",
+        "postId": "18103870130109937",
+        "text": "Meta Labs 推出首個圖像生成模型 Muse Image，已上線 Meta AI App。結合 Muse Spark 實現代理式生成：先推理提示、搜尋網路、規劃構圖，再產出高品質圖像。三大核心技術：自我精煉：模型自動優化輸出，支援多參考圖，支援中文輸出，可以多輪迭代編輯：對話修改、直接標註，測試起來蠻不錯的。 另外Muse Video 預覽即將登場。目前免費使用，逐步擴展平台。 Translate",
+        "publishedAt": "2026-07-08T15:06:17.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 117,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@cooljerrett/post/Dagu2hGApUz",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      }
+    ]
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+      "postId": "17933821926335082",
+      "text": "Listen up. Livestream at 10am. openai.com/live",
+      "publishedAt": "2026-07-08T15:02:29.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-26e956392f",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-07-08T18-24-28.305Z-b3f85048.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "openai",
+        "url": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
+        "postId": "17933821926335082",
+        "text": "Listen up. Livestream at 10am. openai.com/live",
+        "publishedAt": "2026-07-08T15:02:29.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-openai-quote-26e956392f",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "id": "threads-yabhishekhd-quote-48f422f218",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "yabhishekhd",
+        "url": "https://www.threads.com/@yabhishekhd/post/DahItakj08t",
+        "postId": "18163670470455328",
+        "text": "CLAUDE COWORK NOW AVAILABLE ON WEB & MOBILE, FABLE 5 ROLLING OUT TO ALL PAID USERS Anthropic is bringing Claude Cowork to the web, Android and iPhone. You can start a task on your computer and continue it from your phone. Even if you close your laptop, Claude keeps working in the cloud and will send you a notification when it needs your input. Cowork is rolling out to Max users first, with other paid plans getting it over the next few weeks.",
+        "publishedAt": "2026-07-08T04:03:18.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 101,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@yabhishekhd/post/DahItakj08t",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    },
+    {
+      "target": {
+        "id": "threads-cooljerrett-quote-a336efcd75",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "cooljerrett",
+        "url": "https://www.threads.com/@cooljerrett/post/DaiUu4KG2NR",
+        "postId": "18103870130109937",
+        "text": "Meta Labs 推出首個圖像生成模型 Muse Image，已上線 Meta AI App。結合 Muse Spark 實現代理式生成：先推理提示、搜尋網路、規劃構圖，再產出高品質圖像。三大核心技術：自我精煉：模型自動優化輸出，支援多參考圖，支援中文輸出，可以多輪迭代編輯：對話修改、直接標註，測試起來蠻不錯的。 另外Muse Video 預覽即將登場。目前免費使用，逐步擴展平台。 Translate",
+        "publishedAt": "2026-07-08T15:06:17.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 117,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@cooljerrett/post/Dagu2hGApUz",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 23
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 182
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 47
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 2,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 23
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 182
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 47
+        }
+      ]
+    }
+  }
+}
