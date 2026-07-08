@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T21:18:54.482Z",
+  "generatedAt": "2026-07-08T00:00:18.856Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS",
       "sourcePostId": "18112958144481054",
       "sourcePriority": 175,
-      "relatedPostCount": 32,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K",
       "sourcePostId": "18071920175356174",
       "sourcePriority": 175,
-      "relatedPostCount": 29,
+      "relatedPostCount": 27,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daf1kmjkwvs.html",
-      "postCount": 32,
+      "postCount": 29,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS"
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daf3azsdi-k.html",
-      "postCount": 29,
+      "postCount": 27,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K"
     },
@@ -112,13 +112,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "charlesdaph",
+      "username": "dovakiin_dorian",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/charlesdaph-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "charlesdaph",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dovakiin_dorian-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "dovakiin_dorian",
       "discoveredVia": "openai"
     }
   ],
