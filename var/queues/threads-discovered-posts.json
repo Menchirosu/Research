@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T18:54:29.940Z",
+  "generatedAt": "2026-07-09T21:17:35.507Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni",
       "sourcePostId": "18051032990785011",
       "sourcePriority": 175,
-      "relatedPostCount": 8,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -35,10 +35,10 @@
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DalKgmskTo2",
-      "sourcePostId": "17897303322500158",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DalarCpINCj",
+      "sourcePostId": "18054881450783359",
       "sourcePriority": 155,
-      "relatedPostCount": 9,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dak_zygkdni.html",
-      "postCount": 8,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni"
     },
@@ -72,13 +72,13 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DalKgmskTo2",
+      "url": "https://www.threads.com/@claudeai/post/DalarCpINCj",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dalkgmskto2.html",
-      "postCount": 9,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dalarcpincj.html",
+      "postCount": 5,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DalKgmskTo2"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DalarCpINCj"
     },
     {
       "username": "impdjun",
@@ -133,7 +133,6 @@
       "publishedAt": "2026-07-09T13:56:56.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 115,
       "autoHarvested": true,
