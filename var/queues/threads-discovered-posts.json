@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T00:13:54.661Z",
+  "generatedAt": "2026-07-09T18:54:29.940Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,19 +8,10 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS",
-      "sourcePostId": "18112958144481054",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni",
+      "sourcePostId": "18051032990785011",
       "sourcePriority": 175,
-      "relatedPostCount": 29,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K",
-      "sourcePostId": "18071920175356174",
-      "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaiseyPGfnu",
       "sourcePostId": "17869484268564390",
       "sourcePriority": 175,
-      "relatedPostCount": 12,
+      "relatedPostCount": 19,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -38,36 +29,36 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
       "sourcePostId": "17933821926335082",
       "sourcePriority": 175,
-      "relatedPostCount": 19,
+      "relatedPostCount": 20,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DalKgmskTo2",
+      "sourcePostId": "17897303322500158",
+      "sourcePriority": 155,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS",
+      "url": "https://www.threads.com/@claudeai/post/Dak_zYgkdni",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daf1kmjkwvs.html",
-      "postCount": 29,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dak_zygkdni.html",
+      "postCount": 8,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Daf1kMJkWVS"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daf3azsdi-k.html",
-      "postCount": 9,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Daf3AZSDi-K"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni"
     },
     {
       "url": "https://www.threads.com/@openai/post/DaiseyPGfnu",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daiseypgfnu.html",
-      "postCount": 12,
+      "postCount": 19,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DaiseyPGfnu"
     },
@@ -76,99 +67,85 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daiulw4ctwz.html",
-      "postCount": 19,
+      "postCount": 20,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ"
     },
     {
-      "username": "yabhishekhd",
+      "url": "https://www.threads.com/@claudeai/post/DalKgmskTo2",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dalkgmskto2.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DalKgmskTo2"
+    },
+    {
+      "username": "impdjun",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/yabhishekhd-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "yabhishekhd",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/impdjun-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "impdjun",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "legrt.606",
+      "username": "charlesdaph",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/legrt.606-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "legrt.606",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "cooljerrett",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/cooljerrett-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "cooljerrett",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "niagara_falls",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/niagara_falls-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/charlesdaph-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "niagara_falls",
-      "discoveredVia": "claudeai"
+      "discoveryAuthor": "charlesdaph",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "369.1986",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/369.1986-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "369.1986",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "maxim_molnar_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/maxim_molnar_-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "maxim_molnar_",
+      "discoveredVia": "openai"
     }
   ],
   "posts": [
     {
-      "id": "threads-yabhishekhd-quote-48f422f218",
+      "id": "threads-369.1986-quote-8f7a40da40",
       "mode": "quote",
       "platform": "threads",
-      "author": "yabhishekhd",
-      "url": "https://www.threads.com/@yabhishekhd/post/DahItakj08t",
-      "postId": "18163670470455328",
-      "text": "CLAUDE COWORK NOW AVAILABLE ON WEB & MOBILE, FABLE 5 ROLLING OUT TO ALL PAID USERS Anthropic is bringing Claude Cowork to the web, Android and iPhone. You can start a task on your computer and continue it from your phone. Even if you close your laptop, Claude keeps working in the cloud and will send you a notification when it needs your input. Cowork is rolling out to Max users first, with other paid plans getting it over the next few weeks.",
-      "publishedAt": "2026-07-08T04:03:18.000Z",
+      "author": "369.1986",
+      "url": "https://www.threads.com/@369.1986/post/Dakxl3gDbDh",
+      "postId": "17997502835988833",
+      "text": "two worlds, one gaze,where your universe meets mine. 🌌✨ A couple prompt capturing the soul through the eyes,his and hers, forever intertwined. Follow for daily AI art drops you won't find anywhere else 🔥 Curated by @ 369.1986 © Prompt Gram Studio t.me/Promp… #AIArt #MidjourneyPrompt #AIPortrait #GenerativeArt",
+      "publishedAt": "2026-07-09T13:56:56.000Z",
       "activityScore": 1,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 101,
+      "priority": 115,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@yabhishekhd/post/DahItakj08t",
+      "referenceUrl": "https://www.threads.com/@369.1986/post/DalDM1EDct2",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
       "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-cooljerrett-quote-a336efcd75",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "cooljerrett",
-      "url": "https://www.threads.com/@cooljerrett/post/DaiUu4KG2NR",
-      "postId": "18103870130109937",
-      "text": "Meta Labs 推出首個圖像生成模型 Muse Image，已上線 Meta AI App。結合 Muse Spark 實現代理式生成：先推理提示、搜尋網路、規劃構圖，再產出高品質圖像。三大核心技術：自我精煉：模型自動優化輸出，支援多參考圖，支援中文輸出，可以多輪迭代編輯：對話修改、直接標註，測試起來蠻不錯的。 另外Muse Video 預覽即將登場。目前免費使用，逐步擴展平台。 Translate",
-      "publishedAt": "2026-07-08T15:06:17.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 117,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@cooljerrett/post/Dagu2hGApUz",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
+      "reason": "discovered near @openai"
     }
   ]
 }
