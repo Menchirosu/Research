@@ -1,17 +1,27 @@
 {
-  "generatedAt": "2026-07-10T00:08:14.528Z",
+  "generatedAt": "2026-07-10T18:27:01.828Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai"
+    "openai",
+    "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DalarCpINCj",
+      "sourcePostId": "18054881450783359",
+      "sourcePriority": 175,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni",
       "sourcePostId": "18051032990785011",
       "sourcePriority": 175,
-      "relatedPostCount": 10,
+      "relatedPostCount": 13,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,57 +30,21 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DaiseyPGfnu",
       "sourcePostId": "17869484268564390",
       "sourcePriority": 175,
-      "relatedPostCount": 20,
+      "relatedPostCount": 21,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
-      "sourcePostId": "17933821926335082",
-      "sourcePriority": 175,
-      "relatedPostCount": 19,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DalarCpINCj",
-      "sourcePostId": "18054881450783359",
-      "sourcePriority": 165,
-      "relatedPostCount": 5,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DanuD1VmDoQ",
+      "sourcePostId": "18109884490983296",
+      "sourcePriority": 135,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
-    {
-      "url": "https://www.threads.com/@claudeai/post/Dak_zYgkdni",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dak_zygkdni.html",
-      "postCount": 10,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DaiseyPGfnu",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daiseypgfnu.html",
-      "postCount": 20,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaiseyPGfnu"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DaiULW4CtwZ",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daiulw4ctwz.html",
-      "postCount": 19,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DaiULW4CtwZ"
-    },
     {
       "url": "https://www.threads.com/@claudeai/post/DalarCpINCj",
       "status": "ok",
@@ -81,13 +55,40 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DalarCpINCj"
     },
     {
-      "username": "impdjun",
+      "url": "https://www.threads.com/@claudeai/post/Dak_zYgkdni",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dak_zygkdni.html",
+      "postCount": 13,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dak_zYgkdni"
+    },
+    {
+      "url": "https://www.threads.com/@openai/post/DaiseyPGfnu",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-daiseypgfnu.html",
+      "postCount": 21,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DaiseyPGfnu"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DanuD1VmDoQ",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-danud1vmdoq.html",
+      "postCount": 9,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DanuD1VmDoQ"
+    },
+    {
+      "username": "kimberland.tw",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/impdjun-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "impdjun",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kimberland.tw-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "kimberland.tw",
       "discoveredVia": "claudeai"
     },
     {
@@ -101,50 +102,15 @@
       "discoveredVia": "openai"
     },
     {
-      "username": "369.1986",
+      "username": "technobaboyph",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/369.1986-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "369.1986",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "maxim_molnar_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/maxim_molnar_-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "maxim_molnar_",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/technobaboyph-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "technobaboyph",
       "discoveredVia": "openai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-369.1986-quote-8f7a40da40",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "369.1986",
-      "url": "https://www.threads.com/@369.1986/post/Dakxl3gDbDh",
-      "postId": "17997502835988833",
-      "text": "two worlds, one gaze,where your universe meets mine. 🌌✨ A couple prompt capturing the soul through the eyes,his and hers, forever intertwined. Follow for daily AI art drops you won't find anywhere else 🔥 Curated by @ 369.1986 © Prompt Gram Studio t.me/Promp… #AIArt #MidjourneyPrompt #AIPortrait #GenerativeArt",
-      "publishedAt": "2026-07-09T13:56:56.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 115,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@369.1986/post/DalDM1EDct2",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
