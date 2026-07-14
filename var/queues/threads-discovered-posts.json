@@ -1,48 +1,113 @@
 {
-  "generatedAt": "2026-07-12T23:58:20.251Z",
+  "generatedAt": "2026-07-14T00:24:27.102Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "openai",
     "github"
   ],
   "roots": [
     {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaqfGP0jzd7",
-      "sourcePostId": "18196007113375088",
-      "sourcePriority": 145,
-      "relatedPostCount": 9,
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DavZAtpDTl3",
+      "sourcePostId": "18085146062181724",
+      "sourcePriority": 165,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DatCGnsE0lW",
-      "sourcePostId": "18107158412078667",
+      "sourceUrl": "https://www.threads.com/@github/post/DavaIvUm7Mq",
+      "sourcePostId": "18056202257777656",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DavaJVrG2E8",
+      "sourcePostId": "17895963702556659",
+      "sourcePriority": 125,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DaqfGP0jzd7",
+      "url": "https://www.threads.com/@openai/post/DavZAtpDTl3",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daqfgp0jzd7.html",
-      "postCount": 9,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DaqfGP0jzd7"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-davzatpdtl3.html",
+      "postCount": 8,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DavZAtpDTl3"
     },
     {
-      "url": "https://www.threads.com/@github/post/DatCGnsE0lW",
+      "url": "https://www.threads.com/@github/post/DavaIvUm7Mq",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-datcgnse0lw.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-davaivum7mq.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DatCGnsE0lW"
+      "sourceUrl": "https://www.threads.com/@github/post/DavaIvUm7Mq"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DavaJVrG2E8",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-davajvrg2e8.html",
+      "postCount": 7,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DavaJVrG2E8"
+    },
+    {
+      "username": "mariners_bb",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mariners_bb-threads-rendered.html",
+      "postCount": 1,
+      "discoveryAuthor": "mariners_bb",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "soundslikeclickclack",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/soundslikeclickclack-threads-rendered.html",
+      "postCount": 11,
+      "discoveryAuthor": "soundslikeclickclack",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-soundslikeclickclack-quote-440590c09d",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "soundslikeclickclack",
+      "url": "https://www.threads.com/@soundslikeclickclack/post/Davols6AQHi",
+      "postId": "18106769117015491",
+      "text": "A proxy-logging study ( Systima.ai ) found Claude Code sends ~33,000 tokens before you type a word — 27 tools, full scaffolding — versus OpenCode's ~7,000, a 4.7x gap that narrows to 3.3x on Fable 5. Worse: on identical tasks, Claude Code produced up to 54x more cache-write tokens because its prompt prefix isn't byte-stable across turns. Counterintuitively, aggressive tool-call batching can close the total-cost gap on complex multi-step work anyway.",
+      "publishedAt": "2026-07-13T19:09:59.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@soundslikeclickclack/post/DauBdcrE2JR",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
