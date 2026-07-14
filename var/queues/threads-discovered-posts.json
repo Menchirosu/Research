@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T18:11:10.217Z",
+  "generatedAt": "2026-07-14T20:54:07.066Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -36,8 +36,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DavaIvUm7Mq",
-      "sourcePostId": "18056202257777656",
+      "sourceUrl": "https://www.threads.com/@github/post/DayIIPtj3Sf",
+      "sourcePostId": "18208222258352383",
       "sourcePriority": 125,
       "relatedPostCount": 6,
       "queuedCount": 0,
@@ -73,13 +73,13 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DawRu9_CH6X"
     },
     {
-      "url": "https://www.threads.com/@github/post/DavaIvUm7Mq",
+      "url": "https://www.threads.com/@github/post/DayIIPtj3Sf",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-davaivum7mq.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dayiiptj3sf.html",
       "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DavaIvUm7Mq"
+      "sourceUrl": "https://www.threads.com/@github/post/DayIIPtj3Sf"
     },
     {
       "username": "passivelywealthydad",
@@ -102,16 +102,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "x7travel",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/x7travel-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "x7travel",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "canyafeeltheluv",
       "tab": "threads",
       "status": "ok",
@@ -120,51 +110,38 @@
       "postCount": 2,
       "discoveryAuthor": "canyafeeltheluv",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "brat_wombat",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/brat_wombat-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "brat_wombat",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
     {
-      "id": "threads-soundslikeclickclack-quote-440590c09d",
+      "id": "threads-passivelywealthydad-quote-2eb5852090",
       "mode": "quote",
       "platform": "threads",
-      "author": "soundslikeclickclack",
-      "url": "https://www.threads.com/@soundslikeclickclack/post/Davols6AQHi",
-      "postId": "18106769117015491",
-      "text": "A proxy-logging study ( Systima.ai ) found Claude Code sends ~33,000 tokens before you type a word — 27 tools, full scaffolding — versus OpenCode's ~7,000, a 4.7x gap that narrows to 3.3x on Fable 5. Worse: on identical tasks, Claude Code produced up to 54x more cache-write tokens because its prompt prefix isn't byte-stable across turns. Counterintuitively, aggressive tool-call batching can close the total-cost gap on complex multi-step work anyway.",
-      "publishedAt": "2026-07-13T19:09:59.000Z",
+      "author": "passivelywealthydad",
+      "url": "https://www.threads.com/@passivelywealthydad/post/DayLPNgGrkC",
+      "postId": "17902360710464390",
+      "text": "Use your Fable 5 quota now. It may be gone after July 19. Anthropic is reportedly in the final stages of preparing Claude Opus 5, with a launch possible as early as this week. The current plan appears to be: 1️⃣ No extension for Fable in subscriptions 2️⃣ Opus 5 launches as the cheaper alternative 3️⃣ A Fable 5 successor arrives in August to compete with GPT-6 In other words: Anthropic may be betting that Opus 5 can get close enough to Fable’s performance while costing far less to run.",
+      "publishedAt": "2026-07-14T18:51:10.000Z",
       "activityScore": 1,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 125,
+      "priority": 117,
       "autoHarvested": true,
       "sourceProvider": "threads",
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@soundslikeclickclack/post/DauBdcrE2JR",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @github"
-    },
-    {
-      "id": "threads-mktpavlenko-quote-f87f574897",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "mktpavlenko",
-      "url": "https://www.threads.com/@mktpavlenko/post/Davt15JGttz",
-      "postId": "18115207147839637",
-      "text": "OpenAI keeps raising rate limits after GPT-5.6 and users keep saying thank you. Let me show you what's actually happening.",
-      "publishedAt": "2026-07-13T19:56:22.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 119,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@mktpavlenko/post/DavsuhJDAt_",
+      "referenceUrl": "https://www.threads.com/@passivelywealthydad/post/Dax4GdCkcD_",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
