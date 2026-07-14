@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:54:07.066Z",
+  "generatedAt": "2026-07-14T23:55:41.926Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Daxz9z8IHLg",
       "sourcePostId": "17908209501441773",
       "sourcePriority": 175,
-      "relatedPostCount": 30,
+      "relatedPostCount": 28,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -36,10 +36,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DayIIPtj3Sf",
-      "sourcePostId": "18208222258352383",
+      "sourceUrl": "https://www.threads.com/@github/post/DaycSNNDR50",
+      "sourcePostId": "18092017859275805",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-daxz9z8ihlg.html",
-      "postCount": 30,
+      "postCount": 28,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Daxz9z8IHLg"
     },
@@ -73,23 +73,13 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DawRu9_CH6X"
     },
     {
-      "url": "https://www.threads.com/@github/post/DayIIPtj3Sf",
+      "url": "https://www.threads.com/@github/post/DaycSNNDR50",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dayiiptj3sf.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-daycsnndr50.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DayIIPtj3Sf"
-    },
-    {
-      "username": "passivelywealthydad",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/passivelywealthydad-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "passivelywealthydad",
-      "discoveredVia": "claudeai"
+      "sourceUrl": "https://www.threads.com/@github/post/DaycSNNDR50"
     },
     {
       "username": "drwesleym",
@@ -102,13 +92,23 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "canyafeeltheluv",
+      "username": "passivelywealthydad",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/canyafeeltheluv-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "canyafeeltheluv",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/passivelywealthydad-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "passivelywealthydad",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "kooseoul",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kooseoul-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "kooseoul",
       "discoveredVia": "claudeai"
     },
     {
@@ -134,7 +134,6 @@
       "publishedAt": "2026-07-14T18:51:10.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 117,
       "autoHarvested": true,
