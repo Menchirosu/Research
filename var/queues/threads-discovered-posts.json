@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:13:02.743Z",
+  "generatedAt": "2026-07-16T20:50:45.172Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,8 +11,8 @@
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
       "sourcePostId": "18210724606351079",
-      "sourcePriority": 165,
-      "relatedPostCount": 9,
+      "sourcePriority": 175,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da27aGijkJa",
       "sourcePostId": "18329786581256444",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-da0jv7pddki.html",
-      "postCount": 9,
+      "postCount": 10,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Da0jv7PDdKi"
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-da27agijkja.html",
-      "postCount": 13,
+      "postCount": 14,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da27aGijkJa"
     },
@@ -80,6 +80,16 @@
       "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Da0oubDDiIM"
+    },
+    {
+      "username": "jenniferlanewrites",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jenniferlanewrites-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "jenniferlanewrites",
+      "discoveredVia": "openai"
     },
     {
       "username": "00rakhul",

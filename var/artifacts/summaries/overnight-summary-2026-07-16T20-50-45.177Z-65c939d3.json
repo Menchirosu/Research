@@ -1,0 +1,686 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-07-16T20:49:47.023Z",
+  "completedAt": "2026-07-16T20:50:45.176Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-07-16T20-49-49.313Z-cbe4cd8e.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 1,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 5,
+    "discovered": 0,
+    "harvested": 0,
+    "total": 5,
+    "eligible": 4,
+    "skipped": 1
+  },
+  "watchlistAccounts": [
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 29,
+      "promotionScore": 81,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
+        "publishedAt": "2026-07-15T17:03:51.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 53,
+        "commentCount": 5,
+        "repostCount": 2,
+        "shareCount": 0,
+        "text": "You: holds up red card. Codex: exits you out of meeting, blocks your cal, sets your out of office, and logs you out of computer. Match on, build guide in bio: github.com/opena…"
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 10,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 12,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/Da0-28ZgXUY",
+        "publishedAt": "2026-07-15T21:00:43.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 20,
+        "commentCount": 0,
+        "repostCount": 2,
+        "shareCount": 0,
+        "text": "GitHub Copilot for @ atlassian 's Jira is now generally available. With Copilot in Jira, you can: • stream agent progress to Jira • provide follow-up instructions directly in the Jira chat panel • connect your GitHub org"
+      }
+    },
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 5,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/Da27dIzDroW",
+        "publishedAt": "2026-07-16T15:09:28.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@claudeai/post/Da27dIzDroW\" role=\"link\" tabindex=\"0\"> 5h Alan keeps a notebook for his ideas. In the morning, he picks one and spends the rest of the day getting close to it. <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy "
+      }
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 4,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 10,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 32,
+      "promotionScore": 66,
+      "demotionRisk": "low",
+      "status": "stable",
+      "recommendation": "promote-to-secondary",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@perplexity/post/Da0g4EaGpvU",
+        "publishedAt": "2026-07-15T16:38:49.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@perplexity/post/Da0g4EaGpvU\" role=\"link\" tabindex=\"0\"> 1d On identical production traffic, SPACE reduced median sandbox creation latency from 185 ms to 60 ms. P90 fell from 447 ms to 89 ms. Last week it handled million"
+      }
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: "
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Da27aGijkJa",
+      "postId": "18329786581256444",
+      "text": "/@claudeai/post/Da27aGijkJa\" role=\"link\" tabindex=\"0\"> 5h We spoke with Alan Ang about turning everyday objects into controllers for digital art. <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-07-16T15:09:03.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-5fe9860e42",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Da27a2dji2D",
+      "postId": "18156892183431321",
+      "text": "/@claudeai/post/Da27a2dji2D\" role=\"link\" tabindex=\"0\"> 5h Alan is a creative coder based in Montreal. He builds experimental software that responds to real life, like a puzzle game you play with dumbbells, or digital art you shape with your hands. <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x13dflua x12w9bfk x11xpdln xk4oym4 x1obq294 x5a5i1n xde0f50 x15x8krk x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-07-16T15:09:09.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-b5df8ac033",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
+      "postId": "18210724606351079",
+      "text": "You: holds up red card. Codex: exits you out of meeting, blocks your cal, sets your out of office, and logs you out of computer. Match on, build guide in bio: github.com/opena…",
+      "publishedAt": "2026-07-15T17:03:51.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-59ba5ba746",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/Da0-28ZgXUY",
+      "postId": "18422884396180550",
+      "text": "GitHub Copilot for @ atlassian 's Jira is now generally available. With Copilot in Jira, you can: • stream agent progress to Jira • provide follow-up instructions directly in the Jira chat panel • connect your GitHub org and repos to the Jira app faster with fewer steps at the point of setup Learn more about the new capabilities 💡 github.blog/chang…",
+      "publishedAt": "2026-07-15T21:00:43.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-3d86f47e10",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/Da0oubDDiIM",
+      "postId": "18065045450495891",
+      "text": "Beginner-friendly sessions, in multiple languages. Register now for Let's Learn GitHub Copilot app 👇 gh.io/letsl…",
+      "publishedAt": "2026-07-15T17:47:48.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 135,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-4a21a98ef3",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-07-16T20:50:45.172Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "openai",
+      "claudeai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
+        "sourcePostId": "18210724606351079",
+        "sourcePriority": 175,
+        "relatedPostCount": 10,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Da27aGijkJa",
+        "sourcePostId": "18329786581256444",
+        "sourcePriority": 155,
+        "relatedPostCount": 14,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Da27a2dji2D",
+        "sourcePostId": "18156892183431321",
+        "sourcePriority": 155,
+        "relatedPostCount": 13,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/Da0oubDDiIM",
+        "sourcePostId": "18065045450495891",
+        "sourcePriority": 135,
+        "relatedPostCount": 6,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-da0jv7pddki.html",
+        "postCount": 10,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/Da0jv7PDdKi"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/Da27aGijkJa",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-da27agijkja.html",
+        "postCount": 14,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Da27aGijkJa"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/Da27a2dji2D",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-da27a2dji2d.html",
+        "postCount": 13,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Da27a2dji2D"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/Da0oubDDiIM",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-da0oubddiim.html",
+        "postCount": 6,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/Da0oubDDiIM"
+      },
+      {
+        "username": "jenniferlanewrites",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/jenniferlanewrites-threads-rendered.html",
+        "postCount": 6,
+        "discoveryAuthor": "jenniferlanewrites",
+        "discoveredVia": "openai"
+      },
+      {
+        "username": "00rakhul",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/00rakhul-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "00rakhul",
+        "discoveredVia": "openai"
+      },
+      {
+        "username": "sxp.studio",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/sxp.studio-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "sxp.studio",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": []
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
+      "postId": "18210724606351079",
+      "text": "You: holds up red card. Codex: exits you out of meeting, blocks your cal, sets your out of office, and logs you out of computer. Match on, build guide in bio: github.com/opena…",
+      "publishedAt": "2026-07-15T17:03:51.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-59ba5ba746",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-07-16T20-50-45.175Z-4b805387.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "openai",
+        "url": "https://www.threads.com/@openai/post/Da0jv7PDdKi",
+        "postId": "18210724606351079",
+        "text": "You: holds up red card. Codex: exits you out of meeting, blocks your cal, sets your out of office, and logs you out of computer. Match on, build guide in bio: github.com/opena…",
+        "publishedAt": "2026-07-15T17:03:51.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-openai-quote-59ba5ba746",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/Da0oubDDiIM",
+        "postId": "18065045450495891",
+        "text": "Beginner-friendly sessions, in multiple languages. Register now for Let's Learn GitHub Copilot app 👇 gh.io/letsl…",
+        "publishedAt": "2026-07-15T17:47:48.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 135,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-4a21a98ef3",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5:"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 11
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 202
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 67
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 0,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 11
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 202
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 67
+        }
+      ]
+    }
+  }
+}
