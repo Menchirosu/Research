@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T20:50:45.172Z",
+  "generatedAt": "2026-07-17T00:02:08.648Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -36,10 +36,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Da0oubDDiIM",
-      "sourcePostId": "18065045450495891",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourceUrl": "https://www.threads.com/@github/post/Da3t4M_lYoL",
+      "sourcePostId": "18095529164010727",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -73,13 +73,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da27a2dji2D"
     },
     {
-      "url": "https://www.threads.com/@github/post/Da0oubDDiIM",
+      "url": "https://www.threads.com/@github/post/Da3t4M_lYoL",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-da0oubddiim.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-da3t4m_lyol.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Da0oubDDiIM"
+      "sourceUrl": "https://www.threads.com/@github/post/Da3t4M_lYoL"
     },
     {
       "username": "jenniferlanewrites",
