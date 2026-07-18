@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T18:01:08.279Z",
+  "generatedAt": "2026-07-18T20:39:58.704Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da549RDoEQS",
       "sourcePostId": "18111751036987528",
       "sourcePriority": 175,
-      "relatedPostCount": 18,
+      "relatedPostCount": 19,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-da549rdoeqs.html",
-      "postCount": 18,
+      "postCount": 19,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da549RDoEQS"
     },
@@ -61,16 +61,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Da6MYcEjpH3"
-    },
-    {
-      "username": "whoisanku",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/whoisanku-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "whoisanku",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "powns_ai",
@@ -105,7 +95,6 @@
       "publishedAt": "2026-07-18T02:38:25.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 95,
       "autoHarvested": true,
