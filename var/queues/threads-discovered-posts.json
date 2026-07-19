@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T23:56:52.136Z",
+  "generatedAt": "2026-07-19T18:02:13.462Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da549RDoEQS",
       "sourcePostId": "18111751036987528",
       "sourcePriority": 175,
-      "relatedPostCount": 19,
+      "relatedPostCount": 18,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-da549rdoeqs.html",
-      "postCount": 19,
+      "postCount": 18,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Da549RDoEQS"
     },
@@ -43,42 +43,7 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Da6MYcEjpH3"
-    },
-    {
-      "username": "jaimepinedam",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jaimepinedam-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "jaimepinedam",
-      "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-whoisanku-quote-d4efeba7f9",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "whoisanku",
-      "url": "https://www.threads.com/@whoisanku/post/Da6vFrHketp",
-      "postId": "18222295516322461",
-      "text": "Anthropic is adding Claude Fable 5 to all Max and Team Premium plans. Starting July 20, these plans will include access at 50% of current limits. Pro and Team Standard users will retain access via usage credits and will receive a one-time $100 credit.",
-      "publishedAt": "2026-07-18T02:38:25.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 95,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@whoisanku/post/Da56RCzkxcS",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
