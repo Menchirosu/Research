@@ -1,16 +1,35 @@
 {
-  "generatedAt": "2026-07-21T00:01:03.210Z",
+  "generatedAt": "2026-07-21T18:20:14.574Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
+      "sourcePostId": "18112167401294192",
+      "sourcePriority": 165,
+      "relatedPostCount": 6,
+      "queuedCount": 1,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t",
+      "sourcePostId": "18100040765239634",
+      "sourcePriority": 155,
+      "relatedPostCount": 20,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbBtcLQFW83",
       "sourcePostId": "17877815841502904",
       "sourcePriority": 145,
-      "relatedPostCount": 9,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,18 +38,36 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbBtcdQlSW_",
       "sourcePostId": "17897812371487576",
       "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbd-ju5ip0l.html",
+      "postCount": 6,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbd4txmdj_t.html",
+      "postCount": 20,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DbBtcLQFW83",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbtclqfw83.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbBtcLQFW83"
     },
@@ -39,56 +76,76 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbtcdqlsw_.html",
-      "postCount": 6,
+      "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbBtcdQlSW_"
     },
     {
-      "username": "jamesowendesign",
+      "username": "yanliudesign",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jamesowendesign-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/yanliudesign-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "jamesowendesign",
-      "discoveredVia": "github"
+      "discoveryAuthor": "yanliudesign",
+      "discoveredVia": "claudeai"
     },
     {
-      "username": "japangors",
+      "username": "thomhoffer",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/japangors-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/thomhoffer-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "thomhoffer",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "afterthedemo.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/afterthedemo.ai-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "japangors",
-      "discoveredVia": "github"
+      "discoveryAuthor": "afterthedemo.ai",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "alex_pendell",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/alex_pendell-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "alex_pendell",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
     {
-      "id": "threads-jamesowendesign-quote-aaf1124afe",
+      "id": "threads-yanliudesign-quote-0ffb149503",
       "mode": "quote",
       "platform": "threads",
-      "author": "jamesowendesign",
-      "url": "https://www.threads.com/@jamesowendesign/post/DbBgnRmifwC",
-      "postId": "17957698463982982",
-      "text": "You'll get left behind if you let AI do the thinking for you",
-      "publishedAt": "2026-07-20T17:46:34.000Z",
-      "activityScore": 1,
+      "author": "yanliudesign",
+      "url": "https://www.threads.com/@yanliudesign/post/DbCjSGuEnWF",
+      "postId": "18448837600184708",
+      "text": "Built FLUX in Claude Design — a flow field I can stir, shock, and type into. ✮ Type a word, watch 32,000 particles swarm into letterforms ✮ Particles react to your cursor ✮ Swirl, pull, push modes This is what design feels like now. Not less creative. More",
+      "publishedAt": "2026-07-21T03:29:43.000Z",
+      "activityScore": 2,
       "active": true,
       "isVerified": true,
       "isReplyToUs": false,
-      "priority": 112,
+      "priority": 121,
       "autoHarvested": true,
       "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
+      "sourceType": "discovered_rendered_post_page",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@jamesowendesign/post/DbBgnRmifwC",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
       "thresholdOverride": false,
-      "reason": "discovered near @github"
+      "reason": "discovered near @claudeai"
     }
   ]
 }
