@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T20:40:19.507Z",
+  "generatedAt": "2026-07-21T00:01:03.210Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,42 +7,88 @@
   "roots": [
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Da_DqX_DwFK",
-      "sourcePostId": "18102603296146006",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/DbBtcLQFW83",
+      "sourcePostId": "17877815841502904",
+      "sourcePriority": 145,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Da6MYcEjpH3",
-      "sourcePostId": "18079592492288464",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/DbBtcdQlSW_",
+      "sourcePostId": "17897812371487576",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/Da_DqX_DwFK",
+      "url": "https://www.threads.com/@github/post/DbBtcLQFW83",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-da_dqx_dwfk.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbtclqfw83.html",
+      "postCount": 9,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Da_DqX_DwFK"
+      "sourceUrl": "https://www.threads.com/@github/post/DbBtcLQFW83"
     },
     {
-      "url": "https://www.threads.com/@github/post/Da6MYcEjpH3",
+      "url": "https://www.threads.com/@github/post/DbBtcdQlSW_",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-da6mycejph3.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbtcdqlsw_.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Da6MYcEjpH3"
+      "sourceUrl": "https://www.threads.com/@github/post/DbBtcdQlSW_"
+    },
+    {
+      "username": "jamesowendesign",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jamesowendesign-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "jamesowendesign",
+      "discoveredVia": "github"
+    },
+    {
+      "username": "japangors",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/japangors-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "japangors",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-jamesowendesign-quote-aaf1124afe",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "jamesowendesign",
+      "url": "https://www.threads.com/@jamesowendesign/post/DbBgnRmifwC",
+      "postId": "17957698463982982",
+      "text": "You'll get left behind if you let AI do the thinking for you",
+      "publishedAt": "2026-07-20T17:46:34.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 112,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@jamesowendesign/post/DbBgnRmifwC",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
