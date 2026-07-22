@@ -1,17 +1,36 @@
 {
-  "generatedAt": "2026-07-21T23:57:49.060Z",
+  "generatedAt": "2026-07-22T18:15:33.190Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "openai",
     "github"
   ],
   "roots": [
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
+      "sourcePostId": "18112167401294192",
+      "sourcePriority": 175,
+      "relatedPostCount": 9,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
       "sourcePostId": "18060969935520861",
       "sourcePriority": 165,
-      "relatedPostCount": 7,
+      "relatedPostCount": 8,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t",
+      "sourcePostId": "18100040765239634",
+      "sourcePriority": 155,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,83 +39,114 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbESr7VDFfy",
       "sourcePostId": "17977057446071491",
       "sourcePriority": 145,
-      "relatedPostCount": 6,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbBtcLQFW83",
-      "sourcePostId": "17877815841502904",
-      "sourcePriority": 145,
-      "relatedPostCount": 9,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbd-ju5ip0l.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l"
+    },
+    {
       "url": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dbel3ped8lj.html",
-      "postCount": 7,
+      "postCount": 8,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbd4txmdj_t.html",
+      "postCount": 29,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t"
     },
     {
       "url": "https://www.threads.com/@github/post/DbESr7VDFfy",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbesr7vdffy.html",
-      "postCount": 6,
+      "postCount": 7,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbESr7VDFfy"
     },
     {
-      "url": "https://www.threads.com/@github/post/DbBtcLQFW83",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbtclqfw83.html",
-      "postCount": 9,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbBtcLQFW83"
-    },
-    {
-      "username": "zuleleeee",
+      "username": "rober_23minec",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/zuleleeee-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/rober_23minec-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "rober_23minec",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "rebelio.archive",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/rebelio.archive-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "zuleleeee",
-      "discoveredVia": "github"
+      "discoveryAuthor": "rebelio.archive",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "dickyibrohim",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dickyibrohim-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "dickyibrohim",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "cristianciuberea",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/cristianciuberea-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "cristianciuberea",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
     {
-      "id": "threads-yanliudesign-quote-0ffb149503",
+      "id": "threads-dickyibrohim-quote-885f63cff9",
       "mode": "quote",
       "platform": "threads",
-      "author": "yanliudesign",
-      "url": "https://www.threads.com/@yanliudesign/post/DbCjSGuEnWF",
-      "postId": "18448837600184708",
-      "text": "Built FLUX in Claude Design — a flow field I can stir, shock, and type into. ✮ Type a word, watch 32,000 particles swarm into letterforms ✮ Particles react to your cursor ✮ Swirl, pull, push modes This is what design feels like now. Not less creative. More",
-      "publishedAt": "2026-07-21T03:29:43.000Z",
-      "activityScore": 2,
+      "author": "dickyibrohim",
+      "url": "https://www.threads.com/@dickyibrohim/post/DbE8Zg6n9t9",
+      "postId": "17875800786529643",
+      "text": "Qwen3.8-Max-Preview tiba. 2.4 Trillion Parameters. Multimodal Capabilities. Advanced reasoning, full-stack software development, complex coding assistance, and high-level data analysis. Akankah mampu melampaui Fable 5?.",
+      "publishedAt": "2026-07-22T01:47:04.000Z",
+      "activityScore": 1,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 121,
+      "priority": 98,
       "autoHarvested": true,
       "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
+      "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
+      "referenceUrl": "https://www.threads.com/@dickyibrohim/post/DbEowGjE2bY",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
       "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
+      "reason": "discovered near @openai"
     }
   ]
 }
