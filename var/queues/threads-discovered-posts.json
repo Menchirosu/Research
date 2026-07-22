@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:15:33.190Z",
+  "generatedAt": "2026-07-22T20:58:23.774Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -134,7 +134,6 @@
       "publishedAt": "2026-07-22T01:47:04.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 98,
       "autoHarvested": true,
