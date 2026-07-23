@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T20:58:23.774Z",
+  "generatedAt": "2026-07-23T00:02:40.318Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -102,16 +102,6 @@
       "discoveredVia": "openai"
     },
     {
-      "username": "dickyibrohim",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dickyibrohim-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "dickyibrohim",
-      "discoveredVia": "openai"
-    },
-    {
       "username": "cristianciuberea",
       "tab": "threads",
       "status": "ok",
@@ -119,6 +109,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/cristianciuberea-threads-rendered.html",
       "postCount": 0,
       "discoveryAuthor": "cristianciuberea",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "afterthedemo.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/afterthedemo.ai-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "afterthedemo.ai",
       "discoveredVia": "claudeai"
     }
   ],
