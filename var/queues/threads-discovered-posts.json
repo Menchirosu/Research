@@ -1,36 +1,17 @@
 {
-  "generatedAt": "2026-07-23T00:02:40.318Z",
+  "generatedAt": "2026-07-23T18:18:30.285Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "openai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
-      "sourcePostId": "18112167401294192",
-      "sourcePriority": 175,
-      "relatedPostCount": 9,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
       "sourcePostId": "18060969935520861",
-      "sourcePriority": 165,
+      "sourcePriority": 175,
       "relatedPostCount": 8,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t",
-      "sourcePostId": "18100040765239634",
-      "sourcePriority": 155,
-      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -39,21 +20,12 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbESr7VDFfy",
       "sourcePostId": "17977057446071491",
       "sourcePriority": 145,
-      "relatedPostCount": 7,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
-    {
-      "url": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbd-ju5ip0l.html",
-      "postCount": 9,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD-JU5IP0l"
-    },
     {
       "url": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
       "status": "ok",
@@ -64,88 +36,14 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbd4txmdj_t.html",
-      "postCount": 29,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbD4tXMDj_t"
-    },
-    {
       "url": "https://www.threads.com/@github/post/DbESr7VDFfy",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbesr7vdffy.html",
-      "postCount": 7,
+      "postCount": 9,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbESr7VDFfy"
-    },
-    {
-      "username": "rober_23minec",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/rober_23minec-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "rober_23minec",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "rebelio.archive",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/rebelio.archive-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "rebelio.archive",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "cristianciuberea",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/cristianciuberea-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "cristianciuberea",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "afterthedemo.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/afterthedemo.ai-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "afterthedemo.ai",
-      "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-dickyibrohim-quote-885f63cff9",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "dickyibrohim",
-      "url": "https://www.threads.com/@dickyibrohim/post/DbE8Zg6n9t9",
-      "postId": "17875800786529643",
-      "text": "Qwen3.8-Max-Preview tiba. 2.4 Trillion Parameters. Multimodal Capabilities. Advanced reasoning, full-stack software development, complex coding assistance, and high-level data analysis. Akankah mampu melampaui Fable 5?.",
-      "publishedAt": "2026-07-22T01:47:04.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 98,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@dickyibrohim/post/DbEowGjE2bY",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
