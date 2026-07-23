@@ -1,49 +1,183 @@
 {
-  "generatedAt": "2026-07-23T18:18:30.285Z",
+  "generatedAt": "2026-07-23T20:55:23.296Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "openai",
-    "github"
+    "claudeai",
+    "openai"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbJYUWGEV8I",
+      "sourcePostId": "18017837075908951",
+      "sourcePriority": 175,
+      "relatedPostCount": 16,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
     {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
       "sourcePostId": "18060969935520861",
       "sourcePriority": 175,
-      "relatedPostCount": 8,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbESr7VDFfy",
-      "sourcePostId": "17977057446071491",
-      "sourcePriority": 145,
-      "relatedPostCount": 9,
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbJbZa2mDB7",
+      "sourcePostId": "18007375388946022",
+      "sourcePriority": 155,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DbJYUWGEV8I",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbjyuwgev8i.html",
+      "postCount": 16,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbJYUWGEV8I"
+    },
+    {
       "url": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dbel3ped8lj.html",
-      "postCount": 8,
+      "postCount": 9,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ"
     },
     {
-      "url": "https://www.threads.com/@github/post/DbESr7VDFfy",
+      "url": "https://www.threads.com/@claudeai/post/DbJbZa2mDB7",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbesr7vdffy.html",
-      "postCount": 9,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbESr7VDFfy"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbjbza2mdb7.html",
+      "postCount": 10,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbJbZa2mDB7"
+    },
+    {
+      "username": "nahiddotai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nahiddotai-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "nahiddotai",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "0mar_samad",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/0mar_samad-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "0mar_samad",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "_lucamark",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_lucamark-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "_lucamark",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "ak_prompt_studio",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/ak_prompt_studio-threads-rendered.html",
+      "postCount": 3,
+      "discoveryAuthor": "ak_prompt_studio",
+      "discoveredVia": "openai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-nahiddotai-quote-e0634d2e57",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "nahiddotai",
+      "url": "https://www.threads.com/@nahiddotai/post/DbJRH9OkQ64",
+      "postId": "18132180769713491",
+      "text": "After using Fable 5 I'm sure you've all experienced this model help you tap into your \"unknown unknowns\". I know I did.. I'm curious if Opus 5 will have that feeling 🤔",
+      "publishedAt": "2026-07-23T18:05:08.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 123,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@nahiddotai/post/DbJiYGyEtrJ",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-0mar_samad-quote-d0613d9167",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "0mar_samad",
+      "url": "https://www.threads.com/@0mar_samad/post/DbJRd8pFSLt",
+      "postId": "18008907101934143",
+      "text": "Founders using AI every day, which AI tool do you actually pay for and keep open? I’m curious what’s still worth the money after the first month.",
+      "publishedAt": "2026-07-23T18:08:12.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 119,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@0mar_samad/post/DbJe2QumYzD",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-_lucamark-quote-f78614abcf",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "_lucamark",
+      "url": "https://www.threads.com/@_lucamark/post/DbIzEGlCPSS",
+      "postId": "18222352705324144",
+      "text": "Unpopular opinion: if your codebase sucks, not even the most powerful AI models will save you",
+      "publishedAt": "2026-07-23T13:42:28.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 112,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@_lucamark/post/DbJgBR6iLK4",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
