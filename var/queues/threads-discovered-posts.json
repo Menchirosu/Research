@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-23T20:55:23.296Z",
+  "generatedAt": "2026-07-24T00:03:28.997Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai"
+    "github"
   ],
   "roots": [
     {
@@ -11,16 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbJYUWGEV8I",
       "sourcePostId": "18017837075908951",
       "sourcePriority": 175,
-      "relatedPostCount": 16,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
-      "sourcePostId": "18060969935520861",
-      "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 0,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -32,6 +23,15 @@
       "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DbJvcvRCaPE",
+      "sourcePostId": "17936573649087346",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -40,18 +40,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbjyuwgev8i.html",
-      "postCount": 16,
+      "postCount": 0,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbJYUWGEV8I"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DbEl3PeD8lJ",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dbel3ped8lj.html",
-      "postCount": 9,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DbEl3PeD8lJ"
     },
     {
       "url": "https://www.threads.com/@claudeai/post/DbJbZa2mDB7",
@@ -63,44 +54,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbJbZa2mDB7"
     },
     {
-      "username": "nahiddotai",
-      "tab": "threads",
+      "url": "https://www.threads.com/@github/post/DbJvcvRCaPE",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nahiddotai-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbjvcvrcape.html",
       "postCount": 5,
-      "discoveryAuthor": "nahiddotai",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "0mar_samad",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/0mar_samad-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "0mar_samad",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "_lucamark",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_lucamark-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "_lucamark",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "ak_prompt_studio",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ak_prompt_studio-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "ak_prompt_studio",
-      "discoveredVia": "openai"
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DbJvcvRCaPE"
     }
   ],
   "posts": [
@@ -115,7 +75,6 @@
       "publishedAt": "2026-07-23T18:05:08.000Z",
       "activityScore": 2,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 123,
       "autoHarvested": true,
@@ -140,7 +99,6 @@
       "publishedAt": "2026-07-23T18:08:12.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 119,
       "autoHarvested": true,
@@ -165,7 +123,6 @@
       "publishedAt": "2026-07-23T13:42:28.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 112,
       "autoHarvested": true,
