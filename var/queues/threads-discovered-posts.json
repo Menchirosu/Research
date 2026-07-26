@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T00:03:23.495Z",
+  "generatedAt": "2026-07-26T18:06:56.605Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,16 +12,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbL-MKeoExS",
       "sourcePostId": "18083496308215452",
       "sourcePriority": 175,
-      "relatedPostCount": 34,
+      "relatedPostCount": 33,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbLtmmFEcMh",
-      "sourcePostId": "17856228861696510",
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DbQqibvG9VN",
+      "sourcePostId": "18035553542827420",
       "sourcePriority": 175,
-      "relatedPostCount": 31,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,8 +30,8 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DbOFpG5FAkj",
       "sourcePostId": "18455164834140604",
       "sourcePriority": 155,
-      "relatedPostCount": 29,
-      "queuedCount": 0,
+      "relatedPostCount": 30,
+      "queuedCount": 1,
       "rootResolved": true
     },
     {
@@ -50,25 +50,25 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbl-mkeoexs.html",
-      "postCount": 34,
+      "postCount": 33,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbL-MKeoExS"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DbLtmmFEcMh",
+      "url": "https://www.threads.com/@openai/post/DbQqibvG9VN",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbltmmfecmh.html",
-      "postCount": 31,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbLtmmFEcMh"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dbqqibvg9vn.html",
+      "postCount": 10,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DbQqibvG9VN"
     },
     {
       "url": "https://www.threads.com/@openai/post/DbOFpG5FAkj",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dbofpg5fakj.html",
-      "postCount": 29,
+      "postCount": 30,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DbOFpG5FAkj"
     },
@@ -82,70 +82,71 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbOZ5wXj871"
     },
     {
-      "username": "jipe.ia",
+      "username": "arihantdeva",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jipe.ia-threads-rendered.html",
-      "postCount": 14,
-      "discoveryAuthor": "jipe.ia",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/arihantdeva-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "arihantdeva",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "uamax1982",
+      "username": "lov_entp",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/uamax1982-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/lov_entp-threads-rendered.html",
       "postCount": 5,
-      "discoveryAuthor": "uamax1982",
-      "discoveredVia": "claudeai"
+      "discoveryAuthor": "lov_entp",
+      "discoveredVia": "openai"
     },
     {
-      "username": "afterthedemo.ai",
+      "username": "_lucamark",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/afterthedemo.ai-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_lucamark-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "afterthedemo.ai",
-      "discoveredVia": "claudeai"
+      "discoveryAuthor": "_lucamark",
+      "discoveredVia": "openai"
     },
     {
-      "username": "runs.dash",
+      "username": "kameshcore",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/runs.dash-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kameshcore-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "runs.dash",
-      "discoveredVia": "claudeai"
+      "discoveryAuthor": "kameshcore",
+      "discoveredVia": "openai"
     }
   ],
   "posts": [
     {
-      "id": "threads-jipe.ia-quote-11c8a836e5",
+      "id": "threads-brodymartinofficial-quote-b32d998611",
       "mode": "quote",
       "platform": "threads",
-      "author": "jipe.ia",
-      "url": "https://www.threads.com/@jipe.ia/post/DbN_Am-iAPM",
-      "postId": "18073767941352576",
-      "text": "Depuis des années, on débat de \"l'IA va remplacer nos métiers\" à coups de prédictions et de citations d'execs. Anthropic vient de faire l'inverse 🧵 Translate",
-      "publishedAt": "2026-07-25T14:03:03.000Z",
-      "activityScore": 1,
+      "author": "brodymartinofficial",
+      "url": "https://www.threads.com/@brodymartinofficial/post/DbO9_5UILX4",
+      "postId": "18111484973515927",
+      "text": "wait which genuine braindead AI worshippers can’t figure out if their LAPTOP IS PLUGGED IN?! AND IT TOOK THE CLANKER 30S TO CHECK????? gtfo my planet",
+      "publishedAt": "2026-07-25T23:13:27.000Z",
+      "activityScore": 2,
       "active": true,
+      "isVerified": true,
       "isReplyToUs": false,
-      "priority": 117,
+      "priority": 96,
       "autoHarvested": true,
       "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
+      "sourceType": "discovered_rendered_post_page",
       "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@jipe.ia/post/DbNSW8KiEhV",
+      "referenceUrl": "https://www.threads.com/@openai/post/DbOFpG5FAkj",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
       "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
+      "reason": "discovered near @openai"
     }
   ]
 }
