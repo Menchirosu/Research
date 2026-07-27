@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T20:50:15.865Z",
+  "generatedAt": "2026-07-27T00:02:47.360Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -21,22 +21,13 @@
       "sourcePostId": "18455164834140604",
       "sourcePriority": 155,
       "relatedPostCount": 28,
-      "queuedCount": 1,
+      "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbOZ5wXj871",
       "sourcePostId": "18055701356685617",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbMXGvOChtm",
-      "sourcePostId": "18103497401001854",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -72,13 +63,14 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbOZ5wXj871"
     },
     {
-      "url": "https://www.threads.com/@github/post/DbMXGvOChtm",
+      "username": "techcodinz",
+      "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbmxgvochtm.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/techcodinz-threads-rendered.html",
       "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbMXGvOChtm"
+      "discoveryAuthor": "techcodinz",
+      "discoveredVia": "openai"
     },
     {
       "username": "lov_entp",
@@ -88,16 +80,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/lov_entp-threads-rendered.html",
       "postCount": 5,
       "discoveryAuthor": "lov_entp",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "techcodinz",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/techcodinz-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "techcodinz",
       "discoveredVia": "openai"
     },
     {
@@ -111,40 +93,15 @@
       "discoveredVia": "openai"
     },
     {
-      "username": "brodymartinofficial",
+      "username": "carter.gullickson",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/brodymartinofficial-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "brodymartinofficial",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/carter.gullickson-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "carter.gullickson",
       "discoveredVia": "openai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-brodymartinofficial-quote-b32d998611",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "brodymartinofficial",
-      "url": "https://www.threads.com/@brodymartinofficial/post/DbO9_5UILX4",
-      "postId": "18111484973515927",
-      "text": "wait which genuine braindead AI worshippers can’t figure out if their LAPTOP IS PLUGGED IN?! AND IT TOOK THE CLANKER 30S TO CHECK????? gtfo my planet",
-      "publishedAt": "2026-07-25T23:13:27.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 96,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@openai/post/DbOFpG5FAkj",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
