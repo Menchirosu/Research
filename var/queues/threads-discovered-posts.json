@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T18:21:13.114Z",
+  "generatedAt": "2026-07-28T21:02:47.280Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
       "sourcePostId": "17982599616046026",
       "sourcePriority": 175,
-      "relatedPostCount": 17,
+      "relatedPostCount": 19,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbTXabkFI9T",
       "sourcePostId": "18127193149677010",
       "sourcePriority": 175,
-      "relatedPostCount": 8,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbv-jrfln3g.html",
-      "postCount": 17,
+      "postCount": 19,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbV-JrflN3G"
     },
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbtxabkfi9t.html",
-      "postCount": 8,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbTXabkFI9T"
     },
@@ -91,16 +91,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "_hsh1m_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_hsh1m_-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "_hsh1m_",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "sauregurrke",
       "tab": "threads",
       "status": "ok",
@@ -108,6 +98,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/sauregurrke-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "sauregurrke",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "_hsh1m_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_hsh1m_-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "_hsh1m_",
       "discoveredVia": "claudeai"
     },
     {
