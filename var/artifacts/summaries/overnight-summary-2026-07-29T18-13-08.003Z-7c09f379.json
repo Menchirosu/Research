@@ -1,0 +1,614 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-07-29T18:11:31.231Z",
+  "completedAt": "2026-07-29T18:13:08.003Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-07-29T18-11-34.634Z-eb1d1eb1.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 2,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 2,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 2
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 3,
+    "discovered": 0,
+    "harvested": 0,
+    "total": 3,
+    "eligible": 2,
+    "skipped": 1
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 100,
+      "promotionScore": 95,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
+        "publishedAt": "2026-07-28T16:29:28.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 610,
+        "commentCount": 35,
+        "repostCount": 27,
+        "shareCount": 28,
+        "text": "We’ve spotted some friends of Clawd in the wild."
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 5,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 56,
+      "promotionScore": 84,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "promote-to-primary",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DbWddJZmZcq",
+        "publishedAt": "2026-07-28T21:03:04.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 17,
+        "commentCount": 0,
+        "repostCount": 1,
+        "shareCount": 1,
+        "text": "GitHub had 14,000+ internal repositories, but fewer than half had a clear owner. In under 45 days, we validated ownership for every active repo and archived 8,000 that were no longer used. Here’s how we made ownership du"
+      }
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 11,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 100,
+      "promotionScore": 80,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "promote-to-secondary",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@perplexity/post/DbYmtfbGhI5",
+        "publishedAt": "2026-07-29T17:02:27.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "Numbat ships as a single Go binary for macOS, Linux, and Windows. Available now under Apache 2.0: github.com/perpl… github.com GitHub - perplexityai/numbat: Endpoint visibility into AI agent activity, with local detectio"
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 35,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
+      "postId": "17982599616046026",
+      "text": "We’ve spotted some friends of Clawd in the wild.",
+      "publishedAt": "2026-07-28T16:29:28.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-2203cabc7c",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DbWddJZmZcq",
+      "postId": "18126863653680291",
+      "text": "GitHub had 14,000+ internal repositories, but fewer than half had a clear owner. In under 45 days, we validated ownership for every active repo and archived 8,000 that were no longer used. Here’s how we made ownership durable, and how you can too. 💡 github.blog/secur… github.blog How GitHub gave every repository a durable owner",
+      "publishedAt": "2026-07-28T21:03:04.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-124dfd32fc",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DbTm-ECmQSF",
+      "postId": "18607167259007275",
+      "text": "New to GitHub Copilot CLI? The fastest way to feel in control is to learn its slash commands. Type / in the prompt and you get a menu that switches models, manages context, and more all without leaving the session. Here are the more popular ones 🧵👇",
+      "publishedAt": "2026-07-27T18:28:26.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 145,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-f7e21cb9e9",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-07-29T18:13:07.998Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
+        "sourcePostId": "17982599616046026",
+        "sourcePriority": 175,
+        "relatedPostCount": 29,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DbTm-ECmQSF",
+        "sourcePostId": "18607167259007275",
+        "sourcePriority": 145,
+        "relatedPostCount": 12,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DbWddJZmZcq",
+        "sourcePostId": "18126863653680291",
+        "sourcePriority": 125,
+        "relatedPostCount": 5,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbv-jrfln3g.html",
+        "postCount": 29,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DbV-JrflN3G"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/DbTm-ECmQSF",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbtm-ecmqsf.html",
+        "postCount": 12,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DbTm-ECmQSF"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/DbWddJZmZcq",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbwddjzmzcq.html",
+        "postCount": 5,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/DbWddJZmZcq"
+      },
+      {
+        "username": "allaan.oct",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/allaan.oct-threads-rendered.html",
+        "postCount": 0,
+        "discoveryAuthor": "allaan.oct",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "ahsann.02",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/ahsann.02-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "ahsann.02",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "darjus.ai.dev",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/darjus.ai.dev-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "darjus.ai.dev",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "wchierihonda",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/wchierihonda-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "wchierihonda",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": []
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
+      "postId": "17982599616046026",
+      "text": "We’ve spotted some friends of Clawd in the wild.",
+      "publishedAt": "2026-07-28T16:29:28.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-2203cabc7c",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-07-29T18-13-08.002Z-4a03bafd.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "claudeai",
+        "url": "https://www.threads.com/@claudeai/post/DbV-JrflN3G",
+        "postId": "17982599616046026",
+        "text": "We’ve spotted some friends of Clawd in the wild.",
+        "publishedAt": "2026-07-28T16:29:28.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-claudeai-quote-2203cabc7c",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DbWddJZmZcq",
+        "postId": "18126863653680291",
+        "text": "GitHub had 14,000+ internal repositories, but fewer than half had a clear owner. In under 45 days, we validated ownership for every active repo and archived 8,000 that were no longer used. Here’s how we made ownership durable, and how you can too. 💡 github.blog/secur… github.blog How GitHub gave every repository a durable owner",
+        "publishedAt": "2026-07-28T21:03:04.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-124dfd32fc",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 500 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 236
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 26
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 0,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 236
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 26
+        }
+      ]
+    }
+  }
+}
