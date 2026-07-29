@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:02:47.280Z",
+  "generatedAt": "2026-07-29T00:00:30.411Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbTXabkFI9T",
       "sourcePostId": "18127193149677010",
       "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -35,10 +35,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbTm-gMGVoM",
-      "sourcePostId": "18163902970415720",
-      "sourcePriority": 135,
-      "relatedPostCount": 12,
+      "sourceUrl": "https://www.threads.com/@github/post/DbWddJZmZcq",
+      "sourcePostId": "18126863653680291",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbtxabkfi9t.html",
-      "postCount": 9,
+      "postCount": 8,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbTXabkFI9T"
     },
@@ -72,13 +72,13 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbTm-ECmQSF"
     },
     {
-      "url": "https://www.threads.com/@github/post/DbTm-gMGVoM",
+      "url": "https://www.threads.com/@github/post/DbWddJZmZcq",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbtm-gmgvom.html",
-      "postCount": 12,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbwddjzmzcq.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbTm-gMGVoM"
+      "sourceUrl": "https://www.threads.com/@github/post/DbWddJZmZcq"
     },
     {
       "username": "alfred.makes",
