@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T20:45:35.258Z",
+  "generatedAt": "2026-07-30T00:02:58.155Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -17,17 +17,17 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbYv0-xILrf",
-      "sourcePostId": "17900940603499611",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/DbZIUOKFYqR",
+      "sourcePostId": "18107906036106071",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbWddJZmZcq",
-      "sourcePostId": "18126863653680291",
+      "sourceUrl": "https://www.threads.com/@github/post/DbYv0-xILrf",
+      "sourcePostId": "17900940603499611",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -45,6 +45,15 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbV-JrflN3G"
     },
     {
+      "url": "https://www.threads.com/@github/post/DbZIUOKFYqR",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbziuokfyqr.html",
+      "postCount": 6,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DbZIUOKFYqR"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DbYv0-xILrf",
       "status": "ok",
       "error": null,
@@ -52,15 +61,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbYv0-xILrf"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DbWddJZmZcq",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbwddjzmzcq.html",
-      "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbWddJZmZcq"
     },
     {
       "username": "allaan.oct",
