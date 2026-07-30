@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T18:23:12.350Z",
+  "generatedAt": "2026-07-30T21:00:02.035Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -9,15 +9,15 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH",
       "sourcePostId": "18092775755377721",
-      "sourcePriority": 135,
+      "sourcePriority": 145,
       "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbZIUOKFYqR",
-      "sourcePostId": "18107906036106071",
+      "sourceUrl": "https://www.threads.com/@github/post/DbbiFaXgaMA",
+      "sourcePostId": "18143500750558801",
       "sourcePriority": 135,
       "relatedPostCount": 6,
       "queuedCount": 0,
@@ -35,13 +35,23 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH"
     },
     {
-      "url": "https://www.threads.com/@github/post/DbZIUOKFYqR",
+      "url": "https://www.threads.com/@github/post/DbbiFaXgaMA",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbziuokfyqr.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbifaxgama.html",
       "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbZIUOKFYqR"
+      "sourceUrl": "https://www.threads.com/@github/post/DbbiFaXgaMA"
+    },
+    {
+      "username": "owntheblueprint",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "owntheblueprint",
+      "discoveredVia": "github"
     }
   ],
   "posts": []
