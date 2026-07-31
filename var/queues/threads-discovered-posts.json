@@ -1,16 +1,26 @@
 {
-  "generatedAt": "2026-07-31T00:04:46.038Z",
+  "generatedAt": "2026-07-31T18:26:39.904Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH",
-      "sourcePostId": "18092775755377721",
-      "sourcePriority": 145,
-      "relatedPostCount": 7,
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C",
+      "sourcePostId": "18089019146424180",
+      "sourcePriority": 165,
+      "relatedPostCount": 8,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbdrOB0FMXb",
+      "sourcePostId": "18137420608604515",
+      "sourcePriority": 165,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -18,30 +28,77 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbbiFaXgaMA",
       "sourcePostId": "18143500750558801",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourcePriority": 145,
+      "relatedPostCount": 7,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH",
+      "sourcePostId": "18092775755377721",
+      "sourcePriority": 145,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DbabMCNIGYH",
+      "url": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbabmcnigyh.html",
-      "postCount": 7,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbdrr2dfg8c.html",
+      "postCount": 8,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DbdrOB0FMXb",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbdrob0fmxb.html",
+      "postCount": 6,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbdrOB0FMXb"
     },
     {
       "url": "https://www.threads.com/@github/post/DbbiFaXgaMA",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbbifaxgama.html",
-      "postCount": 6,
+      "postCount": 7,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DbbiFaXgaMA"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DbabMCNIGYH",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbabmcnigyh.html",
+      "postCount": 8,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH"
+    },
+    {
+      "username": "aislopslayer",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aislopslayer-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "aislopslayer",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "uttamm_gupta",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/uttamm_gupta-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "uttamm_gupta",
+      "discoveredVia": "claudeai"
     },
     {
       "username": "owntheblueprint",
@@ -52,7 +109,43 @@
       "postCount": 4,
       "discoveryAuthor": "owntheblueprint",
       "discoveredVia": "github"
+    },
+    {
+      "username": "threada.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threada.ai-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "threada.ai",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-uttamm_gupta-quote-e59457da77",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "uttamm_gupta",
+      "url": "https://www.threads.com/@uttamm_gupta/post/DbdRJilDijw",
+      "postId": "18455943412142714",
+      "text": "Most people think AI is only for engineers. That’s why they never start. And miss the biggest shift happening right now. You don’t need to learn to train models or become “purely technical” to use AI effectively. You need a clear roadmap. So I put together a practical AI roadmap for non-technical people 👇 Just what actually works in real-world workflows. And most importantly: How to go from trying prompts to actually using AI in your daily work",
+      "publishedAt": "2026-07-31T12:30:10.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 112,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@uttamm_gupta/post/DbdwUi4kprQ",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
