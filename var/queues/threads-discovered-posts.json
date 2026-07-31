@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:26:39.904Z",
+  "generatedAt": "2026-07-31T20:57:48.754Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C",
       "sourcePostId": "18089019146424180",
       "sourcePriority": 165,
-      "relatedPostCount": 8,
+      "relatedPostCount": 4,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbdrr2dfg8c.html",
-      "postCount": 8,
+      "postCount": 4,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C"
     },
@@ -101,16 +101,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "owntheblueprint",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "owntheblueprint",
-      "discoveredVia": "github"
-    },
-    {
       "username": "threada.ai",
       "tab": "threads",
       "status": "ok",
@@ -133,7 +123,6 @@
       "publishedAt": "2026-07-31T12:30:10.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 112,
       "autoHarvested": true,
