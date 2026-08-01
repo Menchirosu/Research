@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T00:04:41.208Z",
+  "generatedAt": "2026-08-01T18:04:55.394Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -10,8 +10,8 @@
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C",
       "sourcePostId": "18089019146424180",
-      "sourcePriority": 165,
-      "relatedPostCount": 9,
+      "sourcePriority": 175,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,8 +19,8 @@
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbdrOB0FMXb",
       "sourcePostId": "18137420608604515",
-      "sourcePriority": 165,
-      "relatedPostCount": 6,
+      "sourcePriority": 175,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -32,15 +32,6 @@
       "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH",
-      "sourcePostId": "18092775755377721",
-      "sourcePriority": 145,
-      "relatedPostCount": 8,
-      "queuedCount": 0,
-      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -49,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbdrr2dfg8c.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C"
     },
@@ -58,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbdrob0fmxb.html",
-      "postCount": 6,
+      "postCount": 7,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbdrOB0FMXb"
     },
@@ -72,69 +63,15 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbbiFaXgaMA"
     },
     {
-      "url": "https://www.threads.com/@github/post/DbabMCNIGYH",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbabmcnigyh.html",
-      "postCount": 8,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DbabMCNIGYH"
-    },
-    {
-      "username": "aislopslayer",
+      "username": "edgenuityonly",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aislopslayer-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "aislopslayer",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "uttamm_gupta",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/uttamm_gupta-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "uttamm_gupta",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "threada.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threada.ai-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/edgenuityonly-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "threada.ai",
-      "discoveredVia": "github"
+      "discoveryAuthor": "edgenuityonly",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-uttamm_gupta-quote-e59457da77",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "uttamm_gupta",
-      "url": "https://www.threads.com/@uttamm_gupta/post/DbdRJilDijw",
-      "postId": "18455943412142714",
-      "text": "Most people think AI is only for engineers. That’s why they never start. And miss the biggest shift happening right now. You don’t need to learn to train models or become “purely technical” to use AI effectively. You need a clear roadmap. So I put together a practical AI roadmap for non-technical people 👇 Just what actually works in real-world workflows. And most importantly: How to go from trying prompts to actually using AI in your daily work",
-      "publishedAt": "2026-07-31T12:30:10.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 112,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@uttamm_gupta/post/DbdwUi4kprQ",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
