@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-08-01T20:42:39.116Z",
+  "generatedAt": "2026-08-01T23:59:22.894Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai"
+    "claudeai",
+    "github"
   ],
   "roots": [
     {
@@ -10,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C",
       "sourcePostId": "18089019146424180",
       "sourcePriority": 175,
-      "relatedPostCount": 11,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -22,6 +23,15 @@
       "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Dbg1XU3DArk",
+      "sourcePostId": "18126695998671450",
+      "sourcePriority": 135,
+      "relatedPostCount": 8,
+      "queuedCount": 0,
+      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -30,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbdrr2dfg8c.html",
-      "postCount": 11,
+      "postCount": 12,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dbdrr2dFG8C"
     },
@@ -42,6 +52,25 @@
       "postCount": 7,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbdrOB0FMXb"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/Dbg1XU3DArk",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dbg1xu3dark.html",
+      "postCount": 8,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Dbg1XU3DArk"
+    },
+    {
+      "username": "legrt.606",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/legrt.606-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "legrt.606",
+      "discoveredVia": "claudeai"
     },
     {
       "username": "edgenuityonly",
