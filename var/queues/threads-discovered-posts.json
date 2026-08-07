@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T20:33:40.634Z",
+  "generatedAt": "2026-08-07T23:36:36.042Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,10 +8,19 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbtLxptIJ-q",
-      "sourcePostId": "18612780118010151",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk",
+      "sourcePostId": "18557199838072953",
       "sourcePriority": 175,
-      "relatedPostCount": 26,
+      "relatedPostCount": 20,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTb6knfPh",
+      "sourcePostId": "18333465031286513",
+      "sourcePriority": 165,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -27,13 +36,22 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DbtLxptIJ-q",
+      "url": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbtlxptij-q.html",
-      "postCount": 26,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbwtbennaxk.html",
+      "postCount": 20,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbtLxptIJ-q"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DbwTb6knfPh",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbwtb6knfph.html",
+      "postCount": 12,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTb6knfPh"
     },
     {
       "url": "https://www.threads.com/@github/post/DbtQk87DAH8",
@@ -45,45 +63,71 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbtQk87DAH8"
     },
     {
-      "username": "isabella.13141516",
+      "username": "chriscelaya",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/isabella.13141516-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/chriscelaya-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "isabella.13141516",
+      "discoveryAuthor": "chriscelaya",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "ai_brain_fog",
+      "username": "arihantdeva",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ai_brain_fog-threads-rendered.html",
-      "postCount": 14,
-      "discoveryAuthor": "ai_brain_fog",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "whitegun.suh",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/whitegun.suh-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/arihantdeva-threads-rendered.html",
       "postCount": 6,
-      "discoveryAuthor": "whitegun.suh",
+      "discoveryAuthor": "arihantdeva",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "pravin_mp_",
+      "username": "devrimcacal",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/pravin_mp_-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/devrimcacal-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "pravin_mp_",
+      "discoveryAuthor": "devrimcacal",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "skydrms_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/skydrms_-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "skydrms_",
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-skydrms_-quote-0d053522e4",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "skydrms_",
+      "url": "https://www.threads.com/@skydrms_/post/DbuWsbnESUS",
+      "postId": "18138417424579148",
+      "text": "Kimi K3 is now rolling out in GitHub Copilot, marking another important milestone in the evolution of AI-powered software development. As open-weight foundation models continue to advance, developers are gaining access to more capable, flexible, and cost-efficient coding assistants within the tools they use every day.",
+      "publishedAt": "2026-08-07T03:46:05.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 93,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@skydrms_/post/DbuWsbnESUS",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @github"
+    }
+  ]
 }
