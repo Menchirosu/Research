@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:51:40.236Z",
+  "generatedAt": "2026-08-07T01:43:00.993Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -45,23 +45,23 @@
       "sourceUrl": "https://www.threads.com/@github/post/DbtQk87DAH8"
     },
     {
+      "username": "alekoi.en",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/alekoi.en-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "alekoi.en",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "vsapptip",
       "tab": "threads",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/vsapptip-threads-rendered.html",
-      "postCount": 7,
+      "postCount": 8,
       "discoveryAuthor": "vsapptip",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "whitegun.suh",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/whitegun.suh-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "whitegun.suh",
       "discoveredVia": "claudeai"
     },
     {
