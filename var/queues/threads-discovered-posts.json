@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T17:37:58.408Z",
+  "generatedAt": "2026-08-08T20:21:37.056Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk",
       "sourcePostId": "18557199838072953",
       "sourcePriority": 175,
-      "relatedPostCount": 35,
+      "relatedPostCount": 33,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbwtbennaxk.html",
-      "postCount": 35,
+      "postCount": 33,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk"
     },
@@ -44,16 +44,6 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTb6knfPh"
     },
     {
-      "username": "chriscelaya",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/chriscelaya-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "chriscelaya",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "dantsai123",
       "tab": "threads",
       "status": "ok",
@@ -61,6 +51,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/dantsai123-threads-rendered.html",
       "postCount": 10,
       "discoveryAuthor": "dantsai123",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "chriscelaya",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/chriscelaya-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "chriscelaya",
       "discoveredVia": "claudeai"
     },
     {
@@ -74,13 +74,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "zzwave_1114",
+      "username": "eddbasi",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/zzwave_1114-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "zzwave_1114",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/eddbasi-threads-rendered.html",
+      "postCount": 2,
+      "discoveryAuthor": "eddbasi",
       "discoveredVia": "claudeai"
     }
   ],
