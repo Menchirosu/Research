@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T23:31:50.856Z",
+  "generatedAt": "2026-08-09T17:38:14.540Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk",
       "sourcePostId": "18557199838072953",
       "sourcePriority": 175,
-      "relatedPostCount": 32,
+      "relatedPostCount": 34,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbwtbennaxk.html",
-      "postCount": 32,
+      "postCount": 34,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk"
     },
@@ -44,35 +44,51 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTb6knfPh"
     },
     {
-      "username": "dantsai123",
+      "username": "fatihh_sagcan",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dantsai123-threads-rendered.html",
-      "postCount": 10,
-      "discoveryAuthor": "dantsai123",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/fatihh_sagcan-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "fatihh_sagcan",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "thelancecarlson",
+      "username": "promptschmiede",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/thelancecarlson-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "thelancecarlson",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "madnmentor",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/madnmentor-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "madnmentor",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptschmiede-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "promptschmiede",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-promptschmiede-quote-5b13229238",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "promptschmiede",
+      "url": "https://www.threads.com/@promptschmiede/post/Db0SGHQFpy8",
+      "postId": "18190806268383416",
+      "text": "Das Ding ist doch. Was hat es denn jetzt genau mit Ai auf sich? Was ist so revolutionär? Kommt die Revolution noch? Oder haben wir zu viel erwartet? Keine Frage. Tools wie ChatGPT sind sehr nützlich und ich möchte es nicht mehr missen. Aber es zu vergleichen mit der Erfindung der Dampfmaschine oder des Internets? Was denkt ihr? Translate",
+      "publishedAt": "2026-08-09T11:01:02.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 116,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@promptschmiede/post/Db0GMfaiNPj",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
