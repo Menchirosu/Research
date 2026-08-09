@@ -1,59 +1,9 @@
 {
-  "generatedAt": "2026-08-09T20:23:36.316Z",
+  "generatedAt": "2026-08-09T23:33:50.761Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [
-    "claudeai"
-  ],
-  "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk",
-      "sourcePostId": "18557199838072953",
-      "sourcePriority": 175,
-      "relatedPostCount": 34,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTb6knfPh",
-      "sourcePostId": "18333465031286513",
-      "sourcePriority": 175,
-      "relatedPostCount": 15,
-      "queuedCount": 0,
-      "rootResolved": true
-    }
-  ],
-  "diagnostics": [
-    {
-      "url": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbwtbennaxk.html",
-      "postCount": 34,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTbeNnaXk"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DbwTb6knfPh",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dbwtb6knfph.html",
-      "postCount": 15,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DbwTb6knfPh"
-    },
-    {
-      "username": "fatihh_sagcan",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/fatihh_sagcan-threads-rendered.html",
-      "postCount": 9,
-      "discoveryAuthor": "fatihh_sagcan",
-      "discoveredVia": "claudeai"
-    }
-  ],
+  "sourceAccounts": [],
+  "roots": [],
+  "diagnostics": [],
   "posts": [
     {
       "id": "threads-promptschmiede-quote-5b13229238",
