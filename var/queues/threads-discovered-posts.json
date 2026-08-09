@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T17:38:14.540Z",
+  "generatedAt": "2026-08-09T20:23:36.316Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -52,16 +52,6 @@
       "postCount": 9,
       "discoveryAuthor": "fatihh_sagcan",
       "discoveredVia": "claudeai"
-    },
-    {
-      "username": "promptschmiede",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/promptschmiede-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "promptschmiede",
-      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
@@ -76,7 +66,6 @@
       "publishedAt": "2026-08-09T11:01:02.000Z",
       "activityScore": 2,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 116,
       "autoHarvested": true,
