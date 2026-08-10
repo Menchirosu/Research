@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T17:55:36.738Z",
+  "generatedAt": "2026-08-10T20:34:33.503Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -13,6 +13,15 @@
       "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db3nncqGmFW",
+      "sourcePostId": "18101361401246202",
+      "sourcePriority": 165,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
+      "rootResolved": true
     }
   ],
   "diagnostics": [
@@ -24,6 +33,15 @@
       "postCount": 8,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Db3PmNDCKoJ"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/Db3nncqGmFW",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db3nncqgmfw.html",
+      "postCount": 6,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db3nncqGmFW"
     },
     {
       "username": "stanleybystan",
