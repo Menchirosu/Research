@@ -1,0 +1,755 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-08-11T23:42:05.965Z",
+  "completedAt": "2026-08-11T23:43:27.955Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-08-11T23-42-09.497Z-aac4c118.json",
+  "scanWarning": null,
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 2,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 1,
+      "filteredCount": 1,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "github",
+      "count": 1
+    },
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 5,
+    "discovered": 2,
+    "harvested": 2,
+    "total": 7,
+    "eligible": 4,
+    "skipped": 3
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 6,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 2,
+      "engagementScore": 28,
+      "promotionScore": 86,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+        "publishedAt": "2026-08-11T16:58:10.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 34,
+        "commentCount": 3,
+        "repostCount": 2,
+        "shareCount": 0,
+        "text": "Over half of the country's kidney biopsies are processed by Arkana Labs, a team of 100 people in Little Rock, Arkansas. With Claude, they're helping physicians spend more time on patients and less time on paperwork."
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 3,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 1,
+      "promotionScore": 73,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/Db6nKztlQ-a",
+        "publishedAt": "2026-08-11T22:00:36.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 5,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "We want you to decide which session will take the main stage at GitHub Universe. Vote for your favorite at gh.io/shape…"
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 35,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 11,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Tuesday, 11-Aug-26 16:42:36 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AgCCU_pQdSEeD-OD2sHP_KB\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+      "postId": "18149496028519251",
+      "text": "Over half of the country's kidney biopsies are processed by Arkana Labs, a team of 100 people in Little Rock, Arkansas. With Claude, they're helping physicians spend more time on patients and less time on paperwork.",
+      "publishedAt": "2026-08-11T16:58:10.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 165,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-7992e5d450",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+      "postId": "18149496028519251",
+      "text": "Over half of the country's kidney biopsies are processed by Arkana Labs, a team of 100 people in Little Rock, Arkansas. With Claude, they're helping physicians spend more time on patients and less time on paperwork.",
+      "publishedAt": "2026-08-11T16:58:10.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 160,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-reply-058cbbbeb4",
+      "mode": "reply"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+      "postId": "18129887953642456",
+      "text": "How much you can trust an AI depends on what you’re asking. Kyra from the Anthropic education team breaks down the two most common reasons for an AI to be confidently wrong: hallucination and sycophancy.",
+      "publishedAt": "2026-08-11T14:31:25.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 165,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-157d82ba79",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+      "postId": "18129887953642456",
+      "text": "How much you can trust an AI depends on what you’re asking. Kyra from the Anthropic education team breaks down the two most common reasons for an AI to be confidently wrong: hallucination and sycophancy.",
+      "publishedAt": "2026-08-11T14:31:25.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 160,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-reply-e3f9e20bd1",
+      "mode": "reply"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/Db6nKztlQ-a",
+      "postId": "18111773804068334",
+      "text": "We want you to decide which session will take the main stage at GitHub Universe. Vote for your favorite at gh.io/shape…",
+      "publishedAt": "2026-08-11T22:00:36.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-4c49b040e6",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-08-11T23:43:27.951Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+        "sourcePostId": "18149496028519251",
+        "sourcePriority": 165,
+        "relatedPostCount": 8,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+        "sourcePostId": "18129887953642456",
+        "sourcePriority": 165,
+        "relatedPostCount": 7,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/Db6nKztlQ-a",
+        "sourcePostId": "18111773804068334",
+        "sourcePriority": 125,
+        "relatedPostCount": 5,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db6ekhomrqr.html",
+        "postCount": 8,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db5zwvhigik.html",
+        "postCount": 7,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/Db6nKztlQ-a",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-db6nkztlq-a.html",
+        "postCount": 5,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/Db6nKztlQ-a"
+      },
+      {
+        "username": "kernchen013",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/kernchen013-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "kernchen013",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "thejacobpegs",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/thejacobpegs-threads-rendered.html",
+        "postCount": 7,
+        "discoveryAuthor": "thejacobpegs",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "respiro.me",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/respiro.me-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "respiro.me",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "onemorebacktest",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/onemorebacktest-threads-rendered.html",
+        "postCount": 10,
+        "discoveryAuthor": "onemorebacktest",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": [
+      {
+        "id": "threads-onemorebacktest-quote-c51562e389",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "onemorebacktest",
+        "url": "https://www.threads.com/@onemorebacktest/post/Db5z1zYjzPX",
+        "postId": "18133046941616679",
+        "text": "BACKTEST, NOT LIVE: My crypto model returned +78.31%. Then I found the trade hiding inside the total: +160.37%. One trade. The price was real. That was the problem. ↓",
+        "publishedAt": "2026-08-11T14:32:02.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isReplyToUs": false,
+        "priority": 118,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@onemorebacktest/post/Db53lIbj49Q",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      {
+        "id": "threads-verge-quote-99291dd0c0",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "verge",
+        "url": "https://www.threads.com/@verge/post/Db6XtPgj257",
+        "postId": "18455243683185168",
+        "text": "OpenAI’s still the chatbot leader, but the race appears to be tightening fast. theverge.com ChatGPT and Gemini both just passed 1 billion users",
+        "publishedAt": "2026-08-11T19:46:27.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isReplyToUs": false,
+        "priority": 120,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@verge/post/Db5pnI-m9pu",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      }
+    ]
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+      "postId": "18149496028519251",
+      "text": "Over half of the country's kidney biopsies are processed by Arkana Labs, a team of 100 people in Little Rock, Arkansas. With Claude, they're helping physicians spend more time on patients and less time on paperwork.",
+      "publishedAt": "2026-08-11T16:58:10.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 165,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-7992e5d450",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-08-11T23-43-27.954Z-4001466f.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "claudeai",
+        "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+        "postId": "18149496028519251",
+        "text": "Over half of the country's kidney biopsies are processed by Arkana Labs, a team of 100 people in Little Rock, Arkansas. With Claude, they're helping physicians spend more time on patients and less time on paperwork.",
+        "publishedAt": "2026-08-11T16:58:10.000Z",
+        "activityScore": 3,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 165,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-claudeai-quote-7992e5d450",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/Db6nKztlQ-a",
+        "postId": "18111773804068334",
+        "text": "We want you to decide which session will take the main stage at GitHub Universe. Vote for your favorite at gh.io/shape…",
+        "publishedAt": "2026-08-11T22:00:36.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-4c49b040e6",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "id": "threads-onemorebacktest-quote-c51562e389",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "onemorebacktest",
+        "url": "https://www.threads.com/@onemorebacktest/post/Db5z1zYjzPX",
+        "postId": "18133046941616679",
+        "text": "BACKTEST, NOT LIVE: My crypto model returned +78.31%. Then I found the trade hiding inside the total: +160.37%. One trade. The price was real. That was the problem. ↓",
+        "publishedAt": "2026-08-11T14:32:02.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isReplyToUs": false,
+        "priority": 118,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@onemorebacktest/post/Db53lIbj49Q",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    },
+    {
+      "target": {
+        "id": "threads-verge-quote-99291dd0c0",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "verge",
+        "url": "https://www.threads.com/@verge/post/Db6XtPgj257",
+        "postId": "18455243683185168",
+        "text": "OpenAI’s still the chatbot leader, but the race appears to be tightening fast. theverge.com ChatGPT and Gemini both just passed 1 billion users",
+        "publishedAt": "2026-08-11T19:46:27.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isReplyToUs": false,
+        "priority": 120,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@verge/post/Db5pnI-m9pu",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @claudeai"
+      },
+      "reason": "discovered target is not active enough"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Tuesday, 11-Aug-26 16:42:36 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AgCCU_pQdSEeD-OD2sHP_KB\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "ok",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 272
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 16
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 2,
+      "posted": false,
+      "degradedStages": [
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 272
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 16
+        }
+      ]
+    }
+  }
+}
