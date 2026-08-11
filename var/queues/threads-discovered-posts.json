@@ -1,38 +1,95 @@
 {
-  "generatedAt": "2026-08-10T23:38:36.482Z",
+  "generatedAt": "2026-08-11T18:01:36.169Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai"
+    "claudeai",
+    "github"
   ],
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db3PmNDCKoJ",
-      "sourcePostId": "17907671817460793",
-      "sourcePriority": 175,
-      "relatedPostCount": 8,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+      "sourcePostId": "18149496028519251",
+      "sourcePriority": 165,
+      "relatedPostCount": 4,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+      "sourcePostId": "18129887953642456",
+      "sourcePriority": 165,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Db4WXvxlbLG",
+      "sourcePostId": "17981767470056637",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/Db3PmNDCKoJ",
+      "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db3pmndckoj.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db6ekhomrqr.html",
+      "postCount": 4,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db3PmNDCKoJ"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR"
     },
     {
-      "username": "stanleybystan",
+      "url": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db5zwvhigik.html",
+      "postCount": 6,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/Db4WXvxlbLG",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-db4wxvxlblg.html",
+      "postCount": 6,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Db4WXvxlbLG"
+    },
+    {
+      "username": "dicegamble",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/stanleybystan-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "stanleybystan",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dicegamble-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "dicegamble",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "gonintendothreads",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/gonintendothreads-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "gonintendothreads",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "onemorebacktest",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/onemorebacktest-threads-rendered.html",
+      "postCount": 10,
+      "discoveryAuthor": "onemorebacktest",
       "discoveredVia": "claudeai"
     },
     {
@@ -43,8 +100,34 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "owntheblueprint",
-      "discoveredVia": "claudeai"
+      "discoveredVia": "github"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-onemorebacktest-quote-c51562e389",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "onemorebacktest",
+      "url": "https://www.threads.com/@onemorebacktest/post/Db5z1zYjzPX",
+      "postId": "18133046941616679",
+      "text": "BACKTEST, NOT LIVE: My crypto model returned +78.31%. Then I found the trade hiding inside the total: +160.37%. One trade. The price was real. That was the problem. ↓",
+      "publishedAt": "2026-08-11T14:32:02.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 118,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@onemorebacktest/post/Db53lIbj49Q",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
