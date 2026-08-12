@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:43:27.951Z",
+  "generatedAt": "2026-08-12T18:00:37.642Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,19 +8,19 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
-      "sourcePostId": "18149496028519251",
-      "sourcePriority": 165,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
+      "sourcePostId": "18129887953642456",
+      "sourcePriority": 175,
       "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
-      "sourcePostId": "18129887953642456",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+      "sourcePostId": "18149496028519251",
       "sourcePriority": 165,
-      "relatedPostCount": 7,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -28,39 +28,49 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Db6nKztlQ-a",
       "sourcePostId": "18111773804068334",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db6ekhomrqr.html",
-      "postCount": 8,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR"
-    },
-    {
       "url": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db5zwvhigik.html",
-      "postCount": 7,
+      "postCount": 8,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Db5zwvHiGiK"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/Db6EkHomrQR",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db6ekhomrqr.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db6EkHomrQR"
     },
     {
       "url": "https://www.threads.com/@github/post/Db6nKztlQ-a",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-db6nkztlq-a.html",
-      "postCount": 5,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Db6nKztlQ-a"
+    },
+    {
+      "username": "owntheblueprint",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "owntheblueprint",
+      "discoveredVia": "claudeai"
     },
     {
       "username": "kernchen013",
@@ -68,66 +78,12 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/kernchen013-threads-rendered.html",
-      "postCount": 4,
+      "postCount": 5,
       "discoveryAuthor": "kernchen013",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "thejacobpegs",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/thejacobpegs-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "thejacobpegs",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "respiro.me",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/respiro.me-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "respiro.me",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "onemorebacktest",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/onemorebacktest-threads-rendered.html",
-      "postCount": 10,
-      "discoveryAuthor": "onemorebacktest",
       "discoveredVia": "claudeai"
     }
   ],
   "posts": [
-    {
-      "id": "threads-onemorebacktest-quote-c51562e389",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "onemorebacktest",
-      "url": "https://www.threads.com/@onemorebacktest/post/Db5z1zYjzPX",
-      "postId": "18133046941616679",
-      "text": "BACKTEST, NOT LIVE: My crypto model returned +78.31%. Then I found the trade hiding inside the total: +160.37%. One trade. The price was real. That was the problem. ↓",
-      "publishedAt": "2026-08-11T14:32:02.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 118,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@onemorebacktest/post/Db53lIbj49Q",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
     {
       "id": "threads-verge-quote-99291dd0c0",
       "mode": "quote",
