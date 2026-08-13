@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T23:44:33.705Z",
+  "generatedAt": "2026-08-13T18:01:08.242Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,16 +11,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Db9AnK7EbZm",
       "sourcePostId": "18402661831093589",
       "sourcePriority": 175,
-      "relatedPostCount": 20,
-      "queuedCount": 0,
+      "relatedPostCount": 27,
+      "queuedCount": 1,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db9Ax51mz_8",
-      "sourcePostId": "18154601689498369",
-      "sourcePriority": 165,
-      "relatedPostCount": 20,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx",
+      "sourcePostId": "17961971496176934",
+      "sourcePriority": 155,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,7 +29,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/Db82u1yHUq7",
       "sourcePostId": "18008660912954744",
       "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,27 +40,57 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db9ank7ebzm.html",
-      "postCount": 20,
+      "postCount": 27,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Db9AnK7EbZm"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/Db9Ax51mz_8",
+      "url": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db9ax51mz_8.html",
-      "postCount": 20,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db_ukire5qx.html",
+      "postCount": 5,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db9Ax51mz_8"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx"
     },
     {
       "url": "https://www.threads.com/@github/post/Db82u1yHUq7",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-db82u1yhuq7.html",
-      "postCount": 6,
+      "postCount": 7,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Db82u1yHUq7"
+    },
+    {
+      "username": "aiposthub",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aiposthub-threads-rendered.html",
+      "postCount": 15,
+      "discoveryAuthor": "aiposthub",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "imemprende",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/imemprende-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "imemprende",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "theaicontinuum",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/theaicontinuum-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "theaicontinuum",
+      "discoveredVia": "claudeai"
     },
     {
       "username": "proffessah",
@@ -73,5 +103,81 @@
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-aiposthub-quote-41b1379c3a",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "aiposthub",
+      "url": "https://www.threads.com/@aiposthub/post/Db9ZqICkcBE",
+      "postId": "18099318254212794",
+      "text": "Claude 的瀏覽器能力又往前推了一大步。 現在你在 Chrome 裡開的 Claude 工作階段，可以直接延續到桌面版、Web 和手機版。 重點是：對話不會斷。 Translate",
+      "publishedAt": "2026-08-13T00:00:38.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 133,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/Db9AnK7EbZm",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-aiposthub-quote-55d15f068f",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "aiposthub",
+      "url": "https://www.threads.com/@aiposthub/post/Db_Sg71EeyF",
+      "postId": "18023845358914023",
+      "text": "Google 又把 Flash 往「AI Agent」方向推了一大步。⚡ Google 正式公布 Gemini 3.7 Flash，直接稱它是目前最聰明的「workhorse model」，重點鎖定兩件事： Coding + AI Agents。 這次升級我覺得最值得注意的是，它開始更強調「把事情做完」。 Translate",
+      "publishedAt": "2026-08-13T17:36:59.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 129,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@aiposthub/post/Db9ZqICkcBE",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-theaicontinuum-quote-04331a10a6",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "theaicontinuum",
+      "url": "https://www.threads.com/@theaicontinuum/post/Db9tMXTjSpO",
+      "postId": "18009835319941571",
+      "text": "🎧 Spotify Released Xirp For AI Coding Agents Xirp is Spotify’s new environment for running Claude Code, Codex, Gemini CLI, and other coding agents without locking into one tool. 🔷 What It Can Do • Run 50+ agent sessions in parallel • Isolate tasks with Git worktrees • Switch agents without losing context • Run locally or remotely • Connect to shared organizational knowledge",
+      "publishedAt": "2026-08-13T02:51:50.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 98,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@theaicontinuum/post/Db9Fi1tEot1",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
