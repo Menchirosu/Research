@@ -1,58 +1,29 @@
 {
-  "generatedAt": "2026-08-15T17:27:30.321Z",
+  "generatedAt": "2026-08-15T20:14:30.752Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx",
-      "sourcePostId": "17961971496176934",
-      "sourcePriority": 175,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcCAsfvGb-L",
-      "sourcePostId": "18614958580018482",
-      "sourcePriority": 145,
-      "relatedPostCount": 10,
+      "sourceUrl": "https://www.threads.com/@github/post/DcEnaxPCDZ1",
+      "sourcePostId": "18452384353184540",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx",
+      "url": "https://www.threads.com/@github/post/DcEnaxPCDZ1",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db_ukire5qx.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcenaxpcdz1.html",
       "postCount": 5,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DcCAsfvGb-L",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dccasfvgb-l.html",
-      "postCount": 10,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcCAsfvGb-L"
-    },
-    {
-      "username": "_kaipo_808_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_kaipo_808_-threads-rendered.html",
-      "postCount": 1,
-      "discoveryAuthor": "_kaipo_808_",
-      "discoveredVia": "claudeai"
+      "sourceUrl": "https://www.threads.com/@github/post/DcEnaxPCDZ1"
     }
   ],
   "posts": [
@@ -67,7 +38,6 @@
       "publishedAt": "2026-08-15T01:16:18.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 97,
       "autoHarvested": true,
