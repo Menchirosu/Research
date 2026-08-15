@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T23:24:32.017Z",
+  "generatedAt": "2026-08-15T17:27:30.321Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx",
       "sourcePostId": "17961971496176934",
       "sourcePriority": 175,
-      "relatedPostCount": 12,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DcCAsfvGb-L",
       "sourcePostId": "18614958580018482",
       "sourcePriority": 145,
-      "relatedPostCount": 9,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-db_ukire5qx.html",
-      "postCount": 12,
+      "postCount": 5,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Db_UKIRE5qx"
     },
@@ -40,30 +40,46 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dccasfvgb-l.html",
-      "postCount": 9,
+      "postCount": 10,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DcCAsfvGb-L"
     },
     {
-      "username": "fajar_mreza",
+      "username": "_kaipo_808_",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "fajar_mreza",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "mrartifacts",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mrartifacts-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "mrartifacts",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_kaipo_808_-threads-rendered.html",
+      "postCount": 1,
+      "discoveryAuthor": "_kaipo_808_",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-_kaipo_808_-quote-1d57f90c5d",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "_kaipo_808_",
+      "url": "https://www.threads.com/@_kaipo_808_/post/DcCr9K9GpnC",
+      "postId": "18554005675075801",
+      "text": "I think the next big AI gap won't be access. It'll be utilization. The models keep getting more capable and easier to access, but having powerful AI available doesn't mean people or businesses know how to use it well. The real advantage may come from figuring out what to actually do with it.",
+      "publishedAt": "2026-08-15T01:16:18.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 97,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@_kaipo_808_/post/DcCoSUAGtqL",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
