@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T23:22:56.677Z",
+  "generatedAt": "2026-08-16T17:26:09.732Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -26,30 +26,5 @@
       "sourceUrl": "https://www.threads.com/@github/post/DcEnaxPCDZ1"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-_kaipo_808_-quote-1d57f90c5d",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "_kaipo_808_",
-      "url": "https://www.threads.com/@_kaipo_808_/post/DcCr9K9GpnC",
-      "postId": "18554005675075801",
-      "text": "I think the next big AI gap won't be access. It'll be utilization. The models keep getting more capable and easier to access, but having powerful AI available doesn't mean people or businesses know how to use it well. The real advantage may come from figuring out what to actually do with it.",
-      "publishedAt": "2026-08-15T01:16:18.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 97,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@_kaipo_808_/post/DcCoSUAGtqL",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
