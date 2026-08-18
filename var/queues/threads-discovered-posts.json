@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T20:16:11.470Z",
+  "generatedAt": "2026-08-18T23:24:31.320Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -16,11 +16,11 @@
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcMbyP1m6uv",
-      "sourcePostId": "18067477019758860",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
+      "sourcePostId": "17909829870466564",
       "sourcePriority": 155,
-      "relatedPostCount": 8,
-      "queuedCount": 0,
+      "relatedPostCount": 15,
+      "queuedCount": 1,
       "rootResolved": true
     }
   ],
@@ -35,13 +35,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DcMbyP1m6uv",
+      "url": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcmbyp1m6uv.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dclztytdp2l.html",
+      "postCount": 15,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcMbyP1m6uv"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l"
     },
     {
       "username": "george_sl_liu",
@@ -72,6 +72,16 @@
       "postCount": 5,
       "discoveryAuthor": "faessol_",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "testingcatalog",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/testingcatalog-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "testingcatalog",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": [
@@ -93,6 +103,31 @@
       "sourceType": "discovered_rendered_post_page",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-testingcatalog-quote-fc1cfc7dd8",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "testingcatalog",
+      "url": "https://www.threads.com/@testingcatalog/post/DcMdU7qjUQ6",
+      "postId": "18104823158172057",
+      "text": "Claude Cowork is now available on Claude for mobile to all paid plans. Mobile testing time 👀",
+      "publishedAt": "2026-08-18T20:20:53.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 118,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@testingcatalog/post/DcKQjbEAjvU",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
