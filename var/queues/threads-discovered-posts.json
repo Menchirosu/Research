@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-08-17T23:25:21.375Z",
+  "generatedAt": "2026-08-18T17:35:18.702Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo",
+      "sourcePostId": "18136078099610650",
+      "sourcePriority": 155,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
+      "sourcePostId": "17909829870466564",
+      "sourcePriority": 155,
+      "relatedPostCount": 9,
+      "queuedCount": 1,
+      "rootResolved": true
+    },
     {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DcHKCgFD-R8",
@@ -17,6 +36,24 @@
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcmjzm4kqlo.html",
+      "postCount": 5,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dclztytdp2l.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DcHKCgFD-R8",
       "status": "ok",
       "error": null,
@@ -24,7 +61,73 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DcHKCgFD-R8"
+    },
+    {
+      "username": "testingcatalog",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/testingcatalog-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "testingcatalog",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "jacquelinetwillie",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jacquelinetwillie-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "jacquelinetwillie",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "o_shym",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/o_shym-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "o_shym",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "nextmavenai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nextmavenai-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "nextmavenai",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-testingcatalog-quote-816599bec8",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "testingcatalog",
+      "url": "https://www.threads.com/@testingcatalog/post/DcKQjbEAjvU",
+      "postId": "18098005379526970",
+      "text": "ANTHROPIC 🔥: Claude Code got a new /design command in research preview! Design in Claude Code adds an artboard workflow from Claude Design to help users build editable UIs. CCD 👀",
+      "publishedAt": "2026-08-17T23:51:17.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 131,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
