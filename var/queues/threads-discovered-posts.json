@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:20:52.486Z",
+  "generatedAt": "2026-08-20T23:28:06.488Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcRfzc4kezL",
       "sourcePostId": "18145978894556901",
       "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 13,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
+      "sourcePostId": "18628489603055755",
+      "sourcePriority": 165,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,15 +29,6 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ",
       "sourcePostId": "18618464950040989",
       "sourcePriority": 165,
-      "relatedPostCount": 9,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
-      "sourcePostId": "18628489603055755",
-      "sourcePriority": 155,
       "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
@@ -49,9 +49,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrfzc4kezl.html",
-      "postCount": 9,
+      "postCount": 13,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcRfzc4kezL"
+    },
+    {
+      "url": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrf4gng8zx.html",
+      "postCount": 7,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx"
     },
     {
       "url": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ",
@@ -61,15 +70,6 @@
       "postCount": 9,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrf4gng8zx.html",
-      "postCount": 9,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx"
     },
     {
       "url": "https://www.threads.com/@openai/post/DcM0RghjyES",
@@ -101,6 +101,16 @@
       "discoveredVia": "claudeai"
     },
     {
+      "username": "fajar_mreza",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "fajar_mreza",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "shaoshuailu3438",
       "tab": "threads",
       "status": "ok",
@@ -109,42 +119,7 @@
       "postCount": 4,
       "discoveryAuthor": "shaoshuailu3438",
       "discoveredVia": "openai"
-    },
-    {
-      "username": "pinkoceanvs",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/pinkoceanvs-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "pinkoceanvs",
-      "discoveredVia": "openai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-ahmeettcolakk-quote-4bfdf08927",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "ahmeettcolakk",
-      "url": "https://www.threads.com/@ahmeettcolakk/post/DcPQcb0DeOv",
-      "postId": "18111737521812420",
-      "text": "Abi openai neden work kısmı ile codex kısmını birleştirip kota koydun amk derdin mi var ya ne güzel çalışıyoruz işte bırak da alla allaa Translate",
-      "publishedAt": "2026-08-19T22:26:02.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 119,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@ahmeettcolakk/post/DcM1AaCDJYo",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
