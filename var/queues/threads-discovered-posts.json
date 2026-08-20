@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:33:53.728Z",
+  "generatedAt": "2026-08-20T17:37:32.812Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,10 +8,10 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo",
-      "sourcePostId": "18136078099610650",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRF_8dIPLd",
+      "sourcePostId": "18129635878649659",
       "sourcePriority": 175,
-      "relatedPostCount": 12,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,16 +20,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ",
       "sourcePostId": "18618464950040989",
       "sourcePriority": 165,
-      "relatedPostCount": 6,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
-      "sourcePostId": "17909829870466564",
-      "sourcePriority": 155,
-      "relatedPostCount": 22,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -38,140 +29,61 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DcM0RghjyES",
       "sourcePostId": "18114939982948367",
       "sourcePriority": 155,
-      "relatedPostCount": 30,
+      "relatedPostCount": 31,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo",
+      "url": "https://www.threads.com/@claudeai/post/DcRF_8dIPLd",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcmjzm4kqlo.html",
-      "postCount": 12,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrf_8dipld.html",
+      "postCount": 6,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcMJZm4kqLo"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRF_8dIPLd"
     },
     {
       "url": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dcpj5a6j7fz.html",
-      "postCount": 6,
+      "postCount": 9,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DcLztYTDp2l",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dclztytdp2l.html",
-      "postCount": 22,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcLztYTDp2l"
     },
     {
       "url": "https://www.threads.com/@openai/post/DcM0RghjyES",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dcm0rghjyes.html",
-      "postCount": 30,
+      "postCount": 31,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DcM0RghjyES"
     },
     {
-      "username": "msyarizalmn",
+      "username": "shaoshuailu3438",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/msyarizalmn-threads-rendered.html",
-      "postCount": 1,
-      "discoveryAuthor": "msyarizalmn",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "thedenissediaz",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/thedenissediaz-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/shaoshuailu3438-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "thedenissediaz",
-      "discoveredVia": "claudeai"
+      "discoveryAuthor": "shaoshuailu3438",
+      "discoveredVia": "openai"
     },
     {
-      "username": "buildsdan",
+      "username": "ed_cher_",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/buildsdan-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "buildsdan",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "ahmeettcolakk",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ahmeettcolakk-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "ahmeettcolakk",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/ed_cher_-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "ed_cher_",
       "discoveredVia": "openai"
     }
   ],
   "posts": [
-    {
-      "id": "threads-thedenissediaz-quote-b5ea1eb66d",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "thedenissediaz",
-      "url": "https://www.threads.com/@thedenissediaz/post/DcOHYyfjKt6",
-      "postId": "18028448036838575",
-      "text": "Who are my content creator girlies based in London who are also using and learning AI to grow their account? Let's connect 🧡💛",
-      "publishedAt": "2026-08-19T11:47:39.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 102,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@thedenissediaz/post/DcPRyGYDPgi",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
-    {
-      "id": "threads-buildsdan-quote-d61b38cd9c",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "buildsdan",
-      "url": "https://www.threads.com/@buildsdan/post/DcN_JpBCJpv",
-      "postId": "18112025260792538",
-      "text": "How do I actually start with Claude Code? I get this every week. Here's the real answer, including the part nobody mentions: it costs money. Everything you need, start to finish:",
-      "publishedAt": "2026-08-19T10:35:41.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 107,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@buildsdan/post/DcOIyqRCHzN",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    },
     {
       "id": "threads-ahmeettcolakk-quote-4bfdf08927",
       "mode": "quote",
@@ -183,7 +95,6 @@
       "publishedAt": "2026-08-19T22:26:02.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 119,
       "autoHarvested": true,
