@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:37:02.511Z",
+  "generatedAt": "2026-08-21T20:18:38.638Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -39,7 +39,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DcR7C84D5Ln",
       "sourcePostId": "18098350490245621",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -77,7 +77,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcr7c84d5ln.html",
-      "postCount": 5,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DcR7C84D5Ln"
     },
@@ -92,26 +92,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "owntheblueprint",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "owntheblueprint",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "aivis.brutans",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aivis.brutans-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "aivis.brutans",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "fajar_mreza",
       "tab": "threads",
       "status": "ok",
@@ -119,6 +99,26 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
       "postCount": 8,
       "discoveryAuthor": "fajar_mreza",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "dicegamble",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dicegamble-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "dicegamble",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "imchongxian",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/imchongxian-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "imchongxian",
       "discoveredVia": "claudeai"
     }
   ],
@@ -134,7 +134,6 @@
       "publishedAt": "2026-08-21T14:51:32.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 119,
       "autoHarvested": true,
