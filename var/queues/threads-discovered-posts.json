@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-08-20T23:28:06.488Z",
+  "generatedAt": "2026-08-21T17:37:02.511Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai"
+    "openai",
+    "github"
   ],
   "roots": [
     {
@@ -19,8 +20,8 @@
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
       "sourcePostId": "18628489603055755",
-      "sourcePriority": 165,
-      "relatedPostCount": 7,
+      "sourcePriority": 175,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -34,11 +35,11 @@
       "rootResolved": true
     },
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DcM0RghjyES",
-      "sourcePostId": "18114939982948367",
-      "sourcePriority": 155,
-      "relatedPostCount": 31,
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DcR7C84D5Ln",
+      "sourcePostId": "18098350490245621",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -58,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrf4gng8zx.html",
-      "postCount": 7,
+      "postCount": 8,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx"
     },
@@ -72,13 +73,23 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DcPJ5a6j7fZ"
     },
     {
-      "url": "https://www.threads.com/@openai/post/DcM0RghjyES",
+      "url": "https://www.threads.com/@github/post/DcR7C84D5Ln",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dcm0rghjyes.html",
-      "postCount": 31,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DcM0RghjyES"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcr7c84d5ln.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DcR7C84D5Ln"
+    },
+    {
+      "username": "sahilverma.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/sahilverma.ai-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "sahilverma.ai",
+      "discoveredVia": "claudeai"
     },
     {
       "username": "owntheblueprint",
@@ -109,17 +120,33 @@
       "postCount": 8,
       "discoveryAuthor": "fajar_mreza",
       "discoveredVia": "claudeai"
-    },
-    {
-      "username": "shaoshuailu3438",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/shaoshuailu3438-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "shaoshuailu3438",
-      "discoveredVia": "openai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-sahilverma.ai-quote-77ee16d39d",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "sahilverma.ai",
+      "url": "https://www.threads.com/@sahilverma.ai/post/DcTl96tgAoz",
+      "postId": "18138617854517395",
+      "text": "No more cutting out backgrounds. GPT-Image-2 can now generate transparent PNGs directly in the API, in preview. Type a prompt, get an asset you can drop straight onto anything.",
+      "publishedAt": "2026-08-21T14:51:32.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 119,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@sahilverma.ai/post/DcSvJ3BiLBs",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
