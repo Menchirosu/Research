@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T23:27:34.221Z",
+  "generatedAt": "2026-08-22T17:27:39.065Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -26,10 +26,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcUPKV3D8SC",
-      "sourcePostId": "18116884081917942",
+      "sourceUrl": "https://www.threads.com/@github/post/DcWWKwym6_u",
+      "sourcePostId": "18108409804864558",
       "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -54,69 +54,34 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx"
     },
     {
-      "url": "https://www.threads.com/@github/post/DcUPKV3D8SC",
+      "url": "https://www.threads.com/@github/post/DcWWKwym6_u",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcupkv3d8sc.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcwwkwym6_u.html",
+      "postCount": 7,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcUPKV3D8SC"
+      "sourceUrl": "https://www.threads.com/@github/post/DcWWKwym6_u"
     },
     {
-      "username": "sahilverma.ai",
+      "username": "leverageandgrow",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/sahilverma.ai-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "sahilverma.ai",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/leverageandgrow-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "leverageandgrow",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "dicegamble",
+      "username": "shaun11lewis",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/dicegamble-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/shaun11lewis-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "dicegamble",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "imchongxian",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/imchongxian-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "imchongxian",
+      "discoveryAuthor": "shaun11lewis",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-sahilverma.ai-quote-77ee16d39d",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "sahilverma.ai",
-      "url": "https://www.threads.com/@sahilverma.ai/post/DcTl96tgAoz",
-      "postId": "18138617854517395",
-      "text": "No more cutting out backgrounds. GPT-Image-2 can now generate transparent PNGs directly in the API, in preview. Type a prompt, get an asset you can drop straight onto anything.",
-      "publishedAt": "2026-08-21T14:51:32.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 119,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@sahilverma.ai/post/DcSvJ3BiLBs",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
