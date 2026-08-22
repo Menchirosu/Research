@@ -1,86 +1,29 @@
 {
-  "generatedAt": "2026-08-22T17:27:39.065Z",
+  "generatedAt": "2026-08-22T20:15:04.091Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRfzc4kezL",
-      "sourcePostId": "18145978894556901",
-      "sourcePriority": 175,
-      "relatedPostCount": 13,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
-      "sourcePostId": "18628489603055755",
-      "sourcePriority": 175,
-      "relatedPostCount": 8,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcWWKwym6_u",
-      "sourcePostId": "18108409804864558",
-      "sourcePriority": 135,
-      "relatedPostCount": 7,
+      "sourceUrl": "https://www.threads.com/@github/post/DcWuKS5DP1Y",
+      "sourcePostId": "18147319003555016",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DcRfzc4kezL",
+      "url": "https://www.threads.com/@github/post/DcWuKS5DP1Y",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrfzc4kezl.html",
-      "postCount": 13,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRfzc4kezL"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcrf4gng8zx.html",
-      "postCount": 8,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcRf4GnG8zx"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DcWWKwym6_u",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcwwkwym6_u.html",
-      "postCount": 7,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcWWKwym6_u"
-    },
-    {
-      "username": "leverageandgrow",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/leverageandgrow-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcwuks5dp1y.html",
       "postCount": 5,
-      "discoveryAuthor": "leverageandgrow",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "shaun11lewis",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/shaun11lewis-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "shaun11lewis",
-      "discoveredVia": "claudeai"
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DcWuKS5DP1Y"
     }
   ],
   "posts": []
