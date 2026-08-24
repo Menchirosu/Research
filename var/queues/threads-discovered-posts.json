@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:22:08.948Z",
+  "generatedAt": "2026-08-24T23:24:53.788Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DcZG5gYIMsh",
       "sourcePostId": "18339598267254618",
       "sourcePriority": 135,
-      "relatedPostCount": 3,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -21,7 +21,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dczg5gyimsh.html",
-      "postCount": 3,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DcZG5gYIMsh"
     },
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/simonjvenn-threads-rendered.html",
-      "postCount": 2,
+      "postCount": 4,
       "discoveryAuthor": "simonjvenn",
       "discoveredVia": "github"
     }
