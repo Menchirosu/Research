@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:38:52.863Z",
+  "generatedAt": "2026-08-25T20:21:24.182Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DceJ5ehG0PL",
       "sourcePostId": "17953970652234156",
       "sourcePriority": 155,
-      "relatedPostCount": 8,
+      "relatedPostCount": 15,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcej5ehg0pl.html",
-      "postCount": 8,
+      "postCount": 15,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DceJ5ehG0PL"
     },
@@ -73,6 +73,16 @@
       "discoveredVia": "claudeai"
     },
     {
+      "username": "smartleoai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/smartleoai-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "smartleoai",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "mktpavlenko",
       "tab": "threads",
       "status": "ok",
@@ -95,7 +105,6 @@
       "publishedAt": "2026-08-25T16:35:18.000Z",
       "activityScore": 2,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 127,
       "autoHarvested": true,
@@ -103,6 +112,31 @@
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@mktpavlenko/post/DceKYBuDHz3",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-smartleoai-quote-0272c67adb",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "smartleoai",
+      "url": "https://www.threads.com/@smartleoai/post/DcdpZSVDKV9",
+      "postId": "18114009034766105",
+      "text": "🤖 Аренда vs покупка AI: что выгоднее малому бизнесу? ❌ Минусы SaaS-подписок (~$140/мес):• Набор из картинок, текстов и чат-ботов обходится в $20–50 за каждый. • Главный минус: вы платите регулярно, но ничем не владеете. 🤖 Плюсы своих AI-агентов (~$50/мес):• Траты только на сервер, IDE и API-ключи. • Они работают 24/7 и полностью кастомизированы под ваш бизнес. ⚠️ Честная оговорка: ремонт при сбоях — на вас. Если ваше время дорогое, считайте иначе. 🎯 Когда пора мигрировать на своих агентов? Translate",
+      "publishedAt": "2026-08-25T12:33:25.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 111,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@smartleoai/post/DceWbzqESKa",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
