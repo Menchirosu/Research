@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:11:53.428Z",
+  "generatedAt": "2026-08-26T22:39:05.617Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -36,10 +36,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dce7e0SnRX5",
-      "sourcePostId": "18088745543190360",
-      "sourcePriority": 145,
-      "relatedPostCount": 14,
+      "sourceUrl": "https://www.threads.com/@github/post/DchPmvvEizz",
+      "sourcePostId": "18083933831692325",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -73,33 +73,13 @@
       "sourceUrl": "https://www.threads.com/@openai/post/Dce9BusmXsg"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dce7e0SnRX5",
+      "url": "https://www.threads.com/@github/post/DchPmvvEizz",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dce7e0snrx5.html",
-      "postCount": 14,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dchpmvveizz.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dce7e0SnRX5"
-    },
-    {
-      "username": "albannekopunch",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/albannekopunch-threads-rendered.html",
-      "postCount": 1,
-      "discoveryAuthor": "albannekopunch",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "noelhefele",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/noelhefele-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "noelhefele",
-      "discoveredVia": "claudeai"
+      "sourceUrl": "https://www.threads.com/@github/post/DchPmvvEizz"
     },
     {
       "username": "sakthiwashere",
@@ -120,33 +100,27 @@
       "postCount": 5,
       "discoveryAuthor": "aiquickspin",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "jgsaade",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jgsaade-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "jgsaade",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "369.1986",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/369.1986-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "369.1986",
+      "discoveredVia": "openai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-aiquickspin-quote-5ba09877aa",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "aiquickspin",
-      "url": "https://www.threads.com/@aiquickspin/post/DceZl-EjWrr",
-      "postId": "18113322170003402",
-      "text": "🚨 HUGE OpenAI scoop OpenAI has reportedly completed a new pretraining run codenamed “Bel” — said to be the successor to “Doug” and potentially the foundation behind Astra and GPT-6. The reported scale is wild: 10T+ parameters. If the report is accurate, Bel could be more than just another GPT generation — it may be intended as a foundation for models beyond GPT-6, potentially reaching the threshold of much more capable AI. And Anthropic may be facing a serious compute disadvantage.",
-      "publishedAt": "2026-08-25T19:34:35.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 94,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@aiquickspin/post/DcfLWI-iBss",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
