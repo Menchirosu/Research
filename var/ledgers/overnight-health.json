@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-24T23:24:53.789Z",
+  "updatedAt": "2026-08-26T19:11:53.433Z",
   "lastStatus": "degraded",
   "consecutiveByStage": {
     "config": 0,
     "state": 0,
-    "scan": 9,
-    "discovery": 306,
+    "scan": 10,
+    "discovery": 307,
     "ranking": 0,
-    "draft": 0,
+    "draft": 1,
     "publish": 0,
     "persist": 0
   }
