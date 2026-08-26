@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:21:24.182Z",
+  "generatedAt": "2026-08-26T00:16:56.398Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,8 +11,8 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DceJ5ehG0PL",
       "sourcePostId": "17953970652234156",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
-      "queuedCount": 0,
+      "relatedPostCount": 22,
+      "queuedCount": 1,
       "rootResolved": true
     },
     {
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DceJ6MAG57y",
       "sourcePostId": "18027826619891632",
       "sourcePriority": 155,
-      "relatedPostCount": 8,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcej5ehg0pl.html",
-      "postCount": 15,
+      "postCount": 22,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DceJ5ehG0PL"
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcej6mag57y.html",
-      "postCount": 8,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DceJ6MAG57y"
     },
@@ -63,6 +63,26 @@
       "sourceUrl": "https://www.threads.com/@github/post/DceC-wEG8Ud"
     },
     {
+      "username": "attainable_health_and_fitness",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/attainable_health_and_fitness-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "attainable_health_and_fitness",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "albannekopunch",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/albannekopunch-threads-rendered.html",
+      "postCount": 1,
+      "discoveryAuthor": "albannekopunch",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "iamkjashby",
       "tab": "threads",
       "status": "ok",
@@ -73,23 +93,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "smartleoai",
+      "username": "noelhefele",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/smartleoai-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "smartleoai",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "mktpavlenko",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mktpavlenko-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "mktpavlenko",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/noelhefele-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "noelhefele",
       "discoveredVia": "claudeai"
     }
   ],
@@ -129,7 +139,6 @@
       "publishedAt": "2026-08-25T12:33:25.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 111,
       "autoHarvested": true,
@@ -137,6 +146,31 @@
       "sourceType": "discovered_rendered_profile_post",
       "sourceHost": "www.threads.com",
       "referenceUrl": "https://www.threads.com/@smartleoai/post/DceWbzqESKa",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    },
+    {
+      "id": "threads-attainable_health_and_fitness-quote-caf0b0c15b",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "attainable_health_and_fitness",
+      "url": "https://www.threads.com/@attainable_health_and_fitness/post/DcctRaijmff",
+      "postId": "18067245164574326",
+      "text": "For all of us ditching @callawaygolf and @goodgood may I present a company who has been amazing. @pinsandaces enters the chat. They sent me a gold bag since mine is it eh background of the videos I post for my free fitness programs, and I also will post about golf occasionally. My yougest was hospitalized after I received the bag and I haven’t been able to post much because of the 12 week treatment we are on. They have been incredibly understanding and supportive. Code Allison20",
+      "publishedAt": "2026-08-25T03:48:04.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 100,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_post_page",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@claudeai/post/DceJ5ehG0PL",
       "targetOrigin": "discovered",
       "tier": "secondary",
       "allowReplies": false,
