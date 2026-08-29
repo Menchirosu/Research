@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T02:39:09.595Z",
+  "generatedAt": "2026-08-29T04:04:04.589Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,7 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DclxjBCoMA5",
       "sourcePostId": "18075463499378530",
       "sourcePriority": 175,
-      "relatedPostCount": 8,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dclxjbcoma5.html",
-      "postCount": 8,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DclxjBCoMA5"
     },
@@ -92,13 +92,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "strukov.max",
+      "username": "fajar_mreza",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/strukov.max-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "strukov.max",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "fajar_mreza",
       "discoveredVia": "claudeai"
     },
     {
@@ -112,13 +112,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "fajar_mreza",
+      "username": "strukov.max",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "fajar_mreza",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/strukov.max-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "strukov.max",
       "discoveredVia": "claudeai"
     }
   ],
