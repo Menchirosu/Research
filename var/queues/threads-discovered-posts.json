@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T00:56:31.811Z",
+  "generatedAt": "2026-08-29T02:39:09.595Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs",
       "sourcePostId": "18037789079637171",
       "sourcePriority": 175,
-      "relatedPostCount": 26,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/Dcjdq46j9sm",
       "sourcePostId": "17866940574641972",
       "sourcePriority": 175,
-      "relatedPostCount": 23,
+      "relatedPostCount": 25,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcjer0tkdcs.html",
-      "postCount": 26,
+      "postCount": 29,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs"
     },
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dcjdq46j9sm.html",
-      "postCount": 23,
+      "postCount": 25,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Dcjdq46j9sm"
     },
@@ -92,16 +92,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "claude.news",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/claude.news-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "claude.news",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "strukov.max",
       "tab": "threads",
       "status": "ok",
@@ -112,13 +102,23 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "aicaution.ca",
+      "username": "orionalteriamb",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aicaution.ca-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/orionalteriamb-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "aicaution.ca",
+      "discoveryAuthor": "orionalteriamb",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "fajar_mreza",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "fajar_mreza",
       "discoveredVia": "claudeai"
     }
   ],
