@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T06:49:46.971Z",
+  "generatedAt": "2026-08-29T00:56:31.811Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -9,28 +9,28 @@
   "roots": [
     {
       "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DclxjBCoMA5",
+      "sourcePostId": "18075463499378530",
+      "sourcePriority": 175,
+      "relatedPostCount": 8,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs",
       "sourcePostId": "18037789079637171",
       "sourcePriority": 175,
-      "relatedPostCount": 3,
+      "relatedPostCount": 26,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Dcjdq46j9sm",
-      "sourcePostId": "18113548415285044",
+      "sourcePostId": "17866940574641972",
       "sourcePriority": 175,
-      "relatedPostCount": 21,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcji8DUmwN2",
-      "sourcePostId": "18095892326530773",
-      "sourcePriority": 165,
-      "relatedPostCount": 20,
+      "relatedPostCount": 23,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -46,11 +46,20 @@
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DclxjBCoMA5",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dclxjbcoma5.html",
+      "postCount": 8,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DclxjBCoMA5"
+    },
+    {
       "url": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcjer0tkdcs.html",
-      "postCount": 3,
+      "postCount": 26,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs"
     },
@@ -59,18 +68,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dcjdq46j9sm.html",
-      "postCount": 21,
+      "postCount": 23,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Dcjdq46j9sm"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/Dcji8DUmwN2",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcji8dumwn2.html",
-      "postCount": 20,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcji8DUmwN2"
     },
     {
       "url": "https://www.threads.com/@github/post/DcjOEyBjOxU",
@@ -82,70 +82,45 @@
       "sourceUrl": "https://www.threads.com/@github/post/DcjOEyBjOxU"
     },
     {
-      "username": "369.1986",
+      "username": "luis_ramos505",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/369.1986-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/luis_ramos505-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "369.1986",
+      "discoveryAuthor": "luis_ramos505",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "koba_breezelife",
+      "username": "claude.news",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/koba_breezelife-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "koba_breezelife",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "duweneto",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/duweneto-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "duweneto",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "fajar_mreza",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/claude.news-threads-rendered.html",
       "postCount": 8,
-      "discoveryAuthor": "fajar_mreza",
-      "discoveredVia": "openai"
+      "discoveryAuthor": "claude.news",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "strukov.max",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/strukov.max-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "strukov.max",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "aicaution.ca",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aicaution.ca-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "aicaution.ca",
+      "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-koba_breezelife-quote-f48575b266",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "koba_breezelife",
-      "url": "https://www.threads.com/@koba_breezelife/post/Dcj82Unk6Fj",
-      "postId": "17904051669480715",
-      "text": "🌱【KOBAKOBA WORLD｜個人研究・次世代資源循環型施設構想】 もし国・自治体・大学・企業・地域が連携し、約10年をかけて「日本の最新技術を統合した次世代資源循環型施設」をつくるとしたら？ ―廃棄物処理・高効率発電・熱利用・水素・アンモニア・蓄電・AI・デジタルツイン・防災・農業・福祉を統合する地域循環モデルの条件付き研究― 📅調査基準：2026年8月28日時点 🔬こば研究員｜個人研究 🌱KOBAKOBA WORLD 📚 ⸻ 【研究上の位置づけ】 本研究は、特定の自治体が実際に計画している施設を評価したり、特定の候補地や企業、技術方式を推奨したりするものではない。 一市民による個人研究として、 「もし約10年という時間を確保し、安全性・環境保全・住民参加・経済性を十分に検証しながら、2026年時点の実用技術と、今後実用化が期待される技術を組み合わせた資源循環型施設を日本で整備するとしたら、どのような工程と施設構成が考えられるのか」 を検討する。 重要なのは、最新技術を可能な限り大量に導入することではない。 Translate",
-      "publishedAt": "2026-08-27T23:18:51.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 131,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@koba_breezelife/post/Dcjnfvlkxx0",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
