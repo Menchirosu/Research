@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-08-29T04:04:04.589Z",
+  "generatedAt": "2026-08-29T19:40:07.830Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai",
     "github"
   ],
   "roots": [
@@ -12,34 +11,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DclxjBCoMA5",
       "sourcePostId": "18075463499378530",
       "sourcePriority": 175,
-      "relatedPostCount": 9,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs",
-      "sourcePostId": "18037789079637171",
-      "sourcePriority": 175,
-      "relatedPostCount": 29,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/Dcjdq46j9sm",
-      "sourcePostId": "17866940574641972",
-      "sourcePriority": 175,
-      "relatedPostCount": 25,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcjOEyBjOxU",
-      "sourcePostId": "18415533298152283",
-      "sourcePriority": 145,
-      "relatedPostCount": 7,
+      "sourceUrl": "https://www.threads.com/@github/post/DcoXbeOjQIf",
+      "sourcePostId": "18124267222880509",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,36 +31,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dclxjbcoma5.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DclxjBCoMA5"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs",
+      "url": "https://www.threads.com/@github/post/DcoXbeOjQIf",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcjer0tkdcs.html",
-      "postCount": 29,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcjer0Tkdcs"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/Dcjdq46j9sm",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dcjdq46j9sm.html",
-      "postCount": 25,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/Dcjdq46j9sm"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DcjOEyBjOxU",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcjoeybjoxu.html",
-      "postCount": 7,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcoxbeojqif.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcjOEyBjOxU"
+      "sourceUrl": "https://www.threads.com/@github/post/DcoXbeOjQIf"
     },
     {
       "username": "luis_ramos505",
@@ -100,27 +63,33 @@
       "postCount": 8,
       "discoveryAuthor": "fajar_mreza",
       "discoveredVia": "claudeai"
-    },
-    {
-      "username": "orionalteriamb",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/orionalteriamb-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "orionalteriamb",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "strukov.max",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/strukov.max-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "strukov.max",
-      "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-fajar_mreza-quote-23bbfd199e",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "fajar_mreza",
+      "url": "https://www.threads.com/@fajar_mreza/post/DcoSXEmFHOH",
+      "postId": "18013667213948790",
+      "text": "AI sering membuat frontend yang terasa “template”. Impeccable memberi coding agent bahasa desain yang bisa diaudit: 1 skill, 23 command, live browser iteration, dan 61 detector deterministik. /impeccable init membuat PRODUCT.md + DESIGN.md . Lalu gunakan audit, critique, polish, harden, atau live untuk UX, a11y, performa, dan responsive behavior. Detector CLI/extension berjalan tanpa LLM/API key. Apache-2.0. Menarik untuk membuat hasil vibe-coding lebih konsisten. Screenshot repo resmi 👇 Translate design.md design.md",
+      "publishedAt": "2026-08-29T15:43:47.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 115,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@fajar_mreza/post/DcnGoSblD-M",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
