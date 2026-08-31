@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T01:11:15.619Z",
+  "generatedAt": "2026-08-31T21:52:04.124Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,23 +7,33 @@
   "roots": [
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcrJCOHmRFP",
-      "sourcePostId": "17909490816466148",
+      "sourceUrl": "https://www.threads.com/@github/post/Dctu-2lmfJe",
+      "sourcePostId": "17881016100620635",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DcrJCOHmRFP",
+      "url": "https://www.threads.com/@github/post/Dctu-2lmfJe",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcrjcohmrfp.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dctu-2lmfje.html",
+      "postCount": 7,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DcrJCOHmRFP"
+      "sourceUrl": "https://www.threads.com/@github/post/Dctu-2lmfJe"
+    },
+    {
+      "username": "369.1986",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/369.1986-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "369.1986",
+      "discoveredVia": "github"
     }
   ],
   "posts": []
