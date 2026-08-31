@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T21:52:04.124Z",
+  "generatedAt": "2026-08-31T23:32:49.094Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/369.1986-threads-rendered.html",
-      "postCount": 5,
+      "postCount": 4,
       "discoveryAuthor": "369.1986",
       "discoveredVia": "github"
     }
