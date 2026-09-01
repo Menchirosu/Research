@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T23:32:49.094Z",
+  "generatedAt": "2026-09-01T01:43:29.049Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/Dctu-2lmfJe",
       "sourcePostId": "17881016100620635",
       "sourcePriority": 125,
-      "relatedPostCount": 7,
+      "relatedPostCount": 4,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -21,7 +21,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dctu-2lmfje.html",
-      "postCount": 7,
+      "postCount": 4,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Dctu-2lmfJe"
     },
