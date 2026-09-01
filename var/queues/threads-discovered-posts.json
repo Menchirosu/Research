@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:50:39.107Z",
+  "generatedAt": "2026-09-01T22:17:37.197Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPo7aEZvU",
       "sourcePostId": "18120623669507830",
       "sourcePriority": 175,
-      "relatedPostCount": 28,
+      "relatedPostCount": 30,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,16 +20,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPqObkTzr",
       "sourcePostId": "18116738809941293",
       "sourcePriority": 175,
-      "relatedPostCount": 15,
+      "relatedPostCount": 16,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dctu-2lmfJe",
-      "sourcePostId": "17881016100620635",
-      "sourcePriority": 125,
-      "relatedPostCount": 8,
+      "sourceUrl": "https://www.threads.com/@github/post/Dcwk_nADqxl",
+      "sourcePostId": "18113062087807197",
+      "sourcePriority": 145,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcwpo7aezvu.html",
-      "postCount": 28,
+      "postCount": 30,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPo7aEZvU"
     },
@@ -49,18 +49,38 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcwpqobktzr.html",
-      "postCount": 15,
+      "postCount": 16,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPqObkTzr"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dctu-2lmfJe",
+      "url": "https://www.threads.com/@github/post/Dcwk_nADqxl",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dctu-2lmfje.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcwk_nadqxl.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dctu-2lmfJe"
+      "sourceUrl": "https://www.threads.com/@github/post/Dcwk_nADqxl"
+    },
+    {
+      "username": "the_lightmapper",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/the_lightmapper-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "the_lightmapper",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "jeanmichel.ia",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jeanmichel.ia-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "jeanmichel.ia",
+      "discoveredVia": "claudeai"
     },
     {
       "username": "muningis",
@@ -80,26 +100,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/kapisch_ai-threads-rendered.html",
       "postCount": 6,
       "discoveryAuthor": "kapisch_ai",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "afterthedemo.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/afterthedemo.ai-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "afterthedemo.ai",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "wasiuhq",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/wasiuhq-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "wasiuhq",
       "discoveredVia": "claudeai"
     }
   ],
