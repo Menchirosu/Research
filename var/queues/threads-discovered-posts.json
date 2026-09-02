@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T19:41:57.671Z",
+  "generatedAt": "2026-09-02T22:14:11.711Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ",
       "sourcePostId": "17991744306037962",
       "sourcePriority": 155,
-      "relatedPostCount": 12,
+      "relatedPostCount": 19,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS",
       "sourcePostId": "18016242113737018",
       "sourcePriority": 155,
-      "relatedPostCount": 12,
+      "relatedPostCount": 17,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy817sg2tj.html",
-      "postCount": 12,
+      "postCount": 19,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ"
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy82jkg9bs.html",
-      "postCount": 12,
+      "postCount": 17,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS"
     },
@@ -73,16 +73,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "rafaystillalive",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/rafaystillalive-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "rafaystillalive",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "life_of_legend___",
       "tab": "threads",
       "status": "ok",
@@ -90,6 +80,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/life_of_legend___-threads-rendered.html",
       "postCount": 5,
       "discoveryAuthor": "life_of_legend___",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "rafaystillalive",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/rafaystillalive-threads-rendered.html",
+      "postCount": 3,
+      "discoveryAuthor": "rafaystillalive",
       "discoveredVia": "claudeai"
     },
     {
@@ -115,7 +115,6 @@
       "publishedAt": "2026-09-02T16:13:04.000Z",
       "activityScore": 3,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 143,
       "autoHarvested": true,
