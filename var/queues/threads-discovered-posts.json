@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:54:04.644Z",
+  "generatedAt": "2026-09-02T19:41:57.671Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,19 +8,19 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPo7aEZvU",
-      "sourcePostId": "18120623669507830",
-      "sourcePriority": 175,
-      "relatedPostCount": 27,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ",
+      "sourcePostId": "17991744306037962",
+      "sourcePriority": 155,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPqObkTzr",
-      "sourcePostId": "18116738809941293",
-      "sourcePriority": 175,
-      "relatedPostCount": 16,
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS",
+      "sourcePostId": "18016242113737018",
+      "sourcePriority": 155,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -28,80 +28,106 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Dcw44JcjNds",
       "sourcePostId": "17991368301011170",
-      "sourcePriority": 135,
-      "relatedPostCount": 7,
+      "sourcePriority": 145,
+      "relatedPostCount": 22,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DcwPo7aEZvU",
+      "url": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcwpo7aezvu.html",
-      "postCount": 27,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy817sg2tj.html",
+      "postCount": 12,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPo7aEZvU"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DcwPqObkTzr",
+      "url": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcwpqobktzr.html",
-      "postCount": 16,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy82jkg9bs.html",
+      "postCount": 12,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DcwPqObkTzr"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS"
     },
     {
       "url": "https://www.threads.com/@github/post/Dcw44JcjNds",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dcw44jcjnds.html",
-      "postCount": 7,
+      "postCount": 22,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Dcw44JcjNds"
     },
     {
-      "username": "jeanmichel.ia",
+      "username": "salarshamas",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jeanmichel.ia-threads-rendered.html",
-      "postCount": 9,
-      "discoveryAuthor": "jeanmichel.ia",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/salarshamas-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "salarshamas",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "raj.put.606",
+      "username": "rafaystillalive",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/raj.put.606-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/rafaystillalive-threads-rendered.html",
+      "postCount": 2,
+      "discoveryAuthor": "rafaystillalive",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "life_of_legend___",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/life_of_legend___-threads-rendered.html",
       "postCount": 5,
-      "discoveryAuthor": "raj.put.606",
+      "discoveryAuthor": "life_of_legend___",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "nightwizard33",
+      "username": "runninwithit",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nightwizard33-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "nightwizard33",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "muningis",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/muningis-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "muningis",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/runninwithit-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "runninwithit",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-runninwithit-quote-b6d19b2be0",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "runninwithit",
+      "url": "https://www.threads.com/@runninwithit/post/Dcyo4_2FLvI",
+      "postId": "17982825506886368",
+      "text": "Google will overtake Anthropic at some point. It’s only a matter of time. And Google has the ecosystem Anthropic craves. As soon as Google drops the equivalent of Fable at 1/4 of the cost, they’ll eat Anthropic up like milk and cookies. They basically just beat Opus 5 with 3.8 flash 😂",
+      "publishedAt": "2026-09-02T16:13:04.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 143,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@runninwithit/post/Dcy-5ZxFLID",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @claudeai"
+    }
+  ]
 }
