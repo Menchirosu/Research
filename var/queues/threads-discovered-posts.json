@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T01:01:03.828Z",
+  "generatedAt": "2026-09-03T19:43:34.416Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -10,8 +10,8 @@
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS",
       "sourcePostId": "18016242113737018",
-      "sourcePriority": 165,
-      "relatedPostCount": 7,
+      "sourcePriority": 175,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,16 +20,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ",
       "sourcePostId": "17991744306037962",
       "sourcePriority": 155,
-      "relatedPostCount": 26,
+      "relatedPostCount": 23,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DczZb5YmREY",
-      "sourcePostId": "18005520905779482",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/Dc1j-lbjxO2",
+      "sourcePostId": "18109587620097186",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy82jkg9bs.html",
-      "postCount": 7,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS"
     },
@@ -49,84 +49,59 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy817sg2tj.html",
-      "postCount": 26,
+      "postCount": 23,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy817sG2tJ"
     },
     {
-      "url": "https://www.threads.com/@github/post/DczZb5YmREY",
+      "url": "https://www.threads.com/@github/post/Dc1j-lbjxO2",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dczzb5ymrey.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc1j-lbjxo2.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DczZb5YmREY"
+      "sourceUrl": "https://www.threads.com/@github/post/Dc1j-lbjxO2"
     },
     {
-      "username": "salarshamas",
+      "username": "digitaltrends",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/salarshamas-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/digitaltrends-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "salarshamas",
+      "discoveryAuthor": "digitaltrends",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "life_of_legend___",
+      "username": "tdsci_official",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/life_of_legend___-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "life_of_legend___",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/tdsci_official-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "tdsci_official",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "rafaystillalive",
+      "username": "toritarol",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/rafaystillalive-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/toritarol-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "rafaystillalive",
+      "discoveryAuthor": "toritarol",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "runninwithit",
+      "username": "fajar_mreza",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/runninwithit-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "runninwithit",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "fajar_mreza",
       "discoveredVia": "claudeai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-runninwithit-quote-b6d19b2be0",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "runninwithit",
-      "url": "https://www.threads.com/@runninwithit/post/Dcyo4_2FLvI",
-      "postId": "17982825506886368",
-      "text": "Google will overtake Anthropic at some point. It’s only a matter of time. And Google has the ecosystem Anthropic craves. As soon as Google drops the equivalent of Fable at 1/4 of the cost, they’ll eat Anthropic up like milk and cookies. They basically just beat Opus 5 with 3.8 flash 😂",
-      "publishedAt": "2026-09-02T16:13:04.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 143,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@runninwithit/post/Dcy-5ZxFLID",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
