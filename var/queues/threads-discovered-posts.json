@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:43:34.416Z",
+  "generatedAt": "2026-09-03T22:07:18.550Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS",
       "sourcePostId": "18016242113737018",
       "sourcePriority": 175,
-      "relatedPostCount": 9,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dcy82jkg9bs.html",
-      "postCount": 9,
+      "postCount": 5,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dcy82jKG9BS"
     },
@@ -63,16 +63,6 @@
       "sourceUrl": "https://www.threads.com/@github/post/Dc1j-lbjxO2"
     },
     {
-      "username": "digitaltrends",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/digitaltrends-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "digitaltrends",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "tdsci_official",
       "tab": "threads",
       "status": "ok",
@@ -83,16 +73,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "toritarol",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/toritarol-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "toritarol",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "fajar_mreza",
       "tab": "threads",
       "status": "ok",
@@ -100,6 +80,26 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/fajar_mreza-threads-rendered.html",
       "postCount": 8,
       "discoveryAuthor": "fajar_mreza",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "i_am__paul",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/i_am__paul-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "i_am__paul",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "rwinrmndal_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/rwinrmndal_-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "rwinrmndal_",
       "discoveredVia": "claudeai"
     }
   ],
