@@ -1,69 +1,8 @@
 {
-  "generatedAt": "2026-09-04T22:00:28.268Z",
+  "generatedAt": "2026-09-05T00:42:52.688Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [
-    "openai",
-    "github"
-  ],
-  "roots": [
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
-      "sourcePostId": "18119627000479155",
-      "sourcePriority": 175,
-      "relatedPostCount": 5,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
-      "sourcePostId": "18108139274589024",
-      "sourcePriority": 125,
-      "relatedPostCount": 7,
-      "queuedCount": 0,
-      "rootResolved": true
-    }
-  ],
-  "diagnostics": [
-    {
-      "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dc4ydbejp4d.html",
-      "postCount": 5,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc4tb4ifsbz.html",
-      "postCount": 7,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ"
-    },
-    {
-      "username": "raprealai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/raprealai-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "raprealai",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "malikontechology",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/malikontechology-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "malikontechology",
-      "discoveredVia": "openai"
-    }
-  ],
+  "sourceAccounts": [],
+  "roots": [],
+  "diagnostics": [],
   "posts": []
 }
