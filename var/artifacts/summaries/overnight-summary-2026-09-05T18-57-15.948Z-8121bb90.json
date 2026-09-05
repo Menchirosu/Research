@@ -1,0 +1,645 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-09-05T18:56:24.161Z",
+  "completedAt": "2026-09-05T18:57:15.947Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-09-05T18-56-26.683Z-4134c44d.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 0,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 3,
+    "discovered": 1,
+    "harvested": 1,
+    "total": 4,
+    "eligible": 2,
+    "skipped": 2
+  },
+  "watchlistAccounts": [
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 1,
+      "engagementScore": 100,
+      "promotionScore": 100,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+        "publishedAt": "2026-09-04T21:44:56.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 927,
+        "commentCount": 64,
+        "repostCount": 99,
+        "shareCount": 102,
+        "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT and Codex. It’s also live in the API. It might take a few days to roll out to our Plus and Business users, but we are working har"
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 5,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 10,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 100,
+      "promotionScore": 93,
+      "demotionRisk": "low",
+      "status": "rising",
+      "recommendation": "promote-to-primary",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
+        "publishedAt": "2026-09-04T21:01:06.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@github/post/Dc4Tb4iFSBZ\" role=\"link\" tabindex=\"0\"> 21h Drop your GitHubUniverse alias in the comments ⬇️ Don't forget to grab your pass or sign up to join us virtually githubuniverse.com… <a class=\"x1i10hfl x1qjc9v5 xj"
+      }
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 5,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 10,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 4,
+      "promotionScore": 61,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@perplexity/post/Dc4VbIZkvry",
+        "publishedAt": "2026-09-04T21:18:30.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@perplexity/post/Dc4VbIZkvry\" role=\"link\" tabindex=\"0\"> 21h Tulip is Perplexity’s lightweight Rust gRPC inference server that sits between Ivy and the ROSE engine. It collects incoming requests, batches them, and sends "
+      }
+    },
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 12,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 35,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Saturday, 05-Sep-26 11:56:42 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"Aei-cUHvELSaC_7G9-m2dhL\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+      "postId": "18119627000479155",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT and Codex. It’s also live in the API. It might take a few days to roll out to our Plus and Business users, but we are working hard to get it out as soon as possible. Thank you for your patience. Here’s a peek at what people are building ➡️",
+      "publishedAt": "2026-09-04T21:44:56.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-80d92f317c",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+      "postId": "18119627000479155",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT and Codex. It’s also live in the API. It might take a few days to roll out to our Plus and Business users, but we are working hard to get it out as soon as possible. Thank you for your patience. Here’s a peek at what people are building ➡️",
+      "publishedAt": "2026-09-04T21:44:56.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 170,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-reply-596d671480",
+      "mode": "reply"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
+      "postId": "18108139274589024",
+      "text": "/@github/post/Dc4Tb4iFSBZ\" role=\"link\" tabindex=\"0\"> 21h Drop your GitHubUniverse alias in the comments ⬇️ Don't forget to grab your pass or sign up to join us virtually githubuniverse.com… <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x5yr21d xh8yej3\" href=\"",
+      "publishedAt": "2026-09-04T21:01:06.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-1f1c539917",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-09-05T18:57:15.944Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "openai",
+      "github"
+    ],
+    "roots": [
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+        "sourcePostId": "18119627000479155",
+        "sourcePriority": 175,
+        "relatedPostCount": 47,
+        "queuedCount": 1,
+        "rootResolved": true
+      },
+      {
+        "author": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
+        "sourcePostId": "18108139274589024",
+        "sourcePriority": 125,
+        "relatedPostCount": 8,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dc4ydbejp4d.html",
+        "postCount": 47,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d"
+      },
+      {
+        "url": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc4tb4ifsbz.html",
+        "postCount": 8,
+        "sourceAuthor": "github",
+        "sourceUrl": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ"
+      },
+      {
+        "username": "willfrancis",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/willfrancis-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "willfrancis",
+        "discoveredVia": "openai"
+      },
+      {
+        "username": "koba_breezelife",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/koba_breezelife-threads-rendered.html",
+        "postCount": 9,
+        "discoveryAuthor": "koba_breezelife",
+        "discoveredVia": "openai"
+      },
+      {
+        "username": "aironsoftlab",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/aironsoftlab-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "aironsoftlab",
+        "discoveredVia": "openai"
+      },
+      {
+        "username": "davidrizzo356",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/davidrizzo356-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "davidrizzo356",
+        "discoveredVia": "openai"
+      }
+    ],
+    "posts": [
+      {
+        "id": "threads-willfrancis-quote-071af275ec",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "willfrancis",
+        "url": "https://www.threads.com/@willfrancis/post/Dc4Hcbuj6wn",
+        "postId": "17924058849421310",
+        "text": "GPT-6 Astra is coming! I had early access and have been pushing it to the limits of what AI is capable of. Knowledge work, coding, game development and creative tasks. Here’s what I’ve found - both good and bad - with OpenAI’s new model for ChatGPT and Codex. #chatgpt #openai #ai #artificialintelligence #aitools",
+        "publishedAt": "2026-09-04T19:16:17.000Z",
+        "activityScore": 2,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 100,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_post_page",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @openai"
+      }
+    ]
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+      "postId": "18119627000479155",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT and Codex. It’s also live in the API. It might take a few days to roll out to our Plus and Business users, but we are working hard to get it out as soon as possible. Thank you for your patience. Here’s a peek at what people are building ➡️",
+      "publishedAt": "2026-09-04T21:44:56.000Z",
+      "activityScore": 4,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 175,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-80d92f317c",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-09-05T18-57-15.947Z-df60c356.json",
+      "errorStage": "draft",
+      "error": "Threads-targeted drafts still need at least one supporting scan source.",
+      "target": {
+        "platform": "threads",
+        "author": "openai",
+        "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+        "postId": "18119627000479155",
+        "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT and Codex. It’s also live in the API. It might take a few days to roll out to our Plus and Business users, but we are working hard to get it out as soon as possible. Thank you for your patience. Here’s a peek at what people are building ➡️",
+        "publishedAt": "2026-09-04T21:44:56.000Z",
+        "activityScore": 4,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 175,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-openai-quote-80d92f317c",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
+        "postId": "18108139274589024",
+        "text": "/@github/post/Dc4Tb4iFSBZ\" role=\"link\" tabindex=\"0\"> 21h Drop your GitHubUniverse alias in the comments ⬇️ Don't forget to grab your pass or sign up to join us virtually githubuniverse.com… <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1rg5ohu x1a2a7pz x5yr21d xh8yej3\" href=\"",
+        "publishedAt": "2026-09-04T21:01:06.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-1f1c539917",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    },
+    {
+      "target": {
+        "id": "threads-willfrancis-quote-071af275ec",
+        "mode": "quote",
+        "platform": "threads",
+        "author": "willfrancis",
+        "url": "https://www.threads.com/@willfrancis/post/Dc4Hcbuj6wn",
+        "postId": "17924058849421310",
+        "text": "GPT-6 Astra is coming! I had early access and have been pushing it to the limits of what AI is capable of. Knowledge work, coding, game development and creative tasks. Here’s what I’ve found - both good and bad - with OpenAI’s new model for ChatGPT and Codex. #chatgpt #openai #ai #artificialintelligence #aitools",
+        "publishedAt": "2026-09-04T19:16:17.000Z",
+        "activityScore": 2,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 100,
+        "autoHarvested": true,
+        "sourceProvider": "threads",
+        "sourceType": "discovered_rendered_post_page",
+        "sourceHost": "www.threads.com",
+        "referenceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+        "targetOrigin": "discovered",
+        "tier": "secondary",
+        "allowReplies": false,
+        "thresholdOverride": false,
+        "reason": "discovered near @openai"
+      },
+      "reason": "discovered target priority is too low"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Saturday, 05-Sep-26 11:56:42 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"Aei-cUHvELSaC_7G9-m2dhL\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Threads-targeted drafts still need at least one supporting scan source."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 6
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 333
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 1,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 6
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 333
+        }
+      ]
+    }
+  }
+}
