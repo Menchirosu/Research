@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T18:57:15.944Z",
+  "generatedAt": "2026-09-05T21:51:13.122Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,16 +11,16 @@
       "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
       "sourcePostId": "18119627000479155",
       "sourcePriority": 175,
-      "relatedPostCount": 47,
-      "queuedCount": 1,
+      "relatedPostCount": 6,
+      "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
-      "sourcePostId": "18108139274589024",
+      "sourceUrl": "https://www.threads.com/@github/post/Dc6xCTInS5O",
+      "sourcePostId": "17860144857692840",
       "sourcePriority": 125,
-      "relatedPostCount": 8,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -31,85 +31,19 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dc4ydbejp4d.html",
-      "postCount": 47,
+      "postCount": 6,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ",
+      "url": "https://www.threads.com/@github/post/Dc6xCTInS5O",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc4tb4ifsbz.html",
-      "postCount": 8,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc4Tb4iFSBZ"
-    },
-    {
-      "username": "willfrancis",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/willfrancis-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "willfrancis",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "koba_breezelife",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/koba_breezelife-threads-rendered.html",
-      "postCount": 9,
-      "discoveryAuthor": "koba_breezelife",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "aironsoftlab",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aironsoftlab-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "aironsoftlab",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "davidrizzo356",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/davidrizzo356-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc6xctins5o.html",
       "postCount": 5,
-      "discoveryAuthor": "davidrizzo356",
-      "discoveredVia": "openai"
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Dc6xCTInS5O"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-willfrancis-quote-071af275ec",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "willfrancis",
-      "url": "https://www.threads.com/@willfrancis/post/Dc4Hcbuj6wn",
-      "postId": "17924058849421310",
-      "text": "GPT-6 Astra is coming! I had early access and have been pushing it to the limits of what AI is capable of. Knowledge work, coding, game development and creative tasks. Here’s what I’ve found - both good and bad - with OpenAI’s new model for ChatGPT and Codex. #chatgpt #openai #ai #artificialintelligence #aitools",
-      "publishedAt": "2026-09-04T19:16:17.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isVerified": true,
-      "isReplyToUs": false,
-      "priority": 100,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_post_page",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
