@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T00:42:47.360Z",
+  "generatedAt": "2026-09-06T19:01:07.952Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,14 +11,14 @@
       "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
       "sourcePostId": "18119627000479155",
       "sourcePriority": 175,
-      "relatedPostCount": 46,
+      "relatedPostCount": 43,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc7MB1gnbHw",
-      "sourcePostId": "18108068369149378",
+      "sourceUrl": "https://www.threads.com/@github/post/Dc9IV-KgJo9",
+      "sourcePostId": "18168882703460572",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -31,39 +31,55 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dc4ydbejp4d.html",
-      "postCount": 46,
+      "postCount": 43,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dc7MB1gnbHw",
+      "url": "https://www.threads.com/@github/post/Dc9IV-KgJo9",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc7mb1gnbhw.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc9iv-kgjo9.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc7MB1gnbHw"
+      "sourceUrl": "https://www.threads.com/@github/post/Dc9IV-KgJo9"
     },
     {
-      "username": "aironsoftlab",
+      "username": "nahiddotai",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aironsoftlab-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "aironsoftlab",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "davidrizzo356",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/davidrizzo356-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "davidrizzo356",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nahiddotai-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "nahiddotai",
       "discoveredVia": "openai"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "threads-nahiddotai-quote-e0bdf96ae8",
+      "mode": "quote",
+      "platform": "threads",
+      "author": "nahiddotai",
+      "url": "https://www.threads.com/@nahiddotai/post/Dc8q8jmlbmw",
+      "postId": "17909153259495852",
+      "text": "I don't care who wins the Fable vs Astra benchmark war.. I just want the model that follows my rules without arguing or refusing to work and right now that is ASTRA I've had a joy in using Astra most of today Sharing more early impressions later this week so stay tuned (and follow) for that!",
+      "publishedAt": "2026-09-06T13:43:28.000Z",
+      "activityScore": 3,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 152,
+      "autoHarvested": true,
+      "sourceProvider": "threads",
+      "sourceType": "discovered_rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "referenceUrl": "https://www.threads.com/@nahiddotai/post/Dc7wNT4jg8p",
+      "targetOrigin": "discovered",
+      "tier": "secondary",
+      "allowReplies": false,
+      "thresholdOverride": false,
+      "reason": "discovered near @openai"
+    }
+  ]
 }
