@@ -1,58 +1,29 @@
 {
-  "generatedAt": "2026-09-06T19:01:07.952Z",
+  "generatedAt": "2026-09-06T21:53:26.689Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "openai",
     "github"
   ],
   "roots": [
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
-      "sourcePostId": "18119627000479155",
-      "sourcePriority": 175,
-      "relatedPostCount": 43,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc9IV-KgJo9",
-      "sourcePostId": "18168882703460572",
-      "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "sourceUrl": "https://www.threads.com/@github/post/Dc9agX7j_w4",
+      "sourcePostId": "18157367266441815",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@openai/post/Dc4YdbEjP4d",
+      "url": "https://www.threads.com/@github/post/Dc9agX7j_w4",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dc4ydbejp4d.html",
-      "postCount": 43,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/Dc4YdbEjP4d"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/Dc9IV-KgJo9",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc9iv-kgjo9.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dc9agx7j_w4.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dc9IV-KgJo9"
-    },
-    {
-      "username": "nahiddotai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nahiddotai-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "nahiddotai",
-      "discoveredVia": "openai"
+      "sourceUrl": "https://www.threads.com/@github/post/Dc9agX7j_w4"
     }
   ],
   "posts": [
@@ -67,7 +38,6 @@
       "publishedAt": "2026-09-06T13:43:28.000Z",
       "activityScore": 3,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 152,
       "autoHarvested": true,
