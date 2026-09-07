@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T00:45:49.324Z",
+  "generatedAt": "2026-09-07T20:27:20.434Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -9,7 +9,7 @@
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Dc9agX7j_w4",
       "sourcePostId": "18157367266441815",
-      "sourcePriority": 135,
+      "sourcePriority": 145,
       "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
@@ -26,30 +26,5 @@
       "sourceUrl": "https://www.threads.com/@github/post/Dc9agX7j_w4"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-nahiddotai-quote-e0bdf96ae8",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "nahiddotai",
-      "url": "https://www.threads.com/@nahiddotai/post/Dc8q8jmlbmw",
-      "postId": "17909153259495852",
-      "text": "I don't care who wins the Fable vs Astra benchmark war.. I just want the model that follows my rules without arguing or refusing to work and right now that is ASTRA I've had a joy in using Astra most of today Sharing more early impressions later this week so stay tuned (and follow) for that!",
-      "publishedAt": "2026-09-06T13:43:28.000Z",
-      "activityScore": 3,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 152,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@nahiddotai/post/Dc7wNT4jg8p",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
