@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-09-08T01:00:35.885Z",
+  "generatedAt": "2026-09-08T19:49:22.568Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DdCPjPNIGbf",
+      "sourcePostId": "18107901415945853",
+      "sourcePriority": 175,
+      "relatedPostCount": 11,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdAV2b8CQ2L",
-      "sourcePostId": "18143555161565207",
+      "sourceUrl": "https://www.threads.com/@github/post/DdCTn9TFKy2",
+      "sourcePostId": "17944251216069050",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -17,13 +27,32 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DdAV2b8CQ2L",
+      "url": "https://www.threads.com/@claudeai/post/DdCPjPNIGbf",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddav2b8cq2l.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-ddcpjpnigbf.html",
+      "postCount": 11,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DdCPjPNIGbf"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DdCTn9TFKy2",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddctn9tfky2.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdAV2b8CQ2L"
+      "sourceUrl": "https://www.threads.com/@github/post/DdCTn9TFKy2"
+    },
+    {
+      "username": "stradigos",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/stradigos-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "stradigos",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
