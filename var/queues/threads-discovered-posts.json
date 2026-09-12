@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:57:40.798Z",
+  "generatedAt": "2026-09-12T19:08:14.149Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -12,16 +12,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DdHo9ZGER0s",
       "sourcePostId": "18109029244870915",
       "sourcePriority": 175,
-      "relatedPostCount": 16,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DdHN2R9m6OF",
-      "sourcePostId": "18133136446655539",
-      "sourcePriority": 175,
-      "relatedPostCount": 7,
+      "relatedPostCount": 18,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,16 +21,16 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DdH_IXYj0yu",
       "sourcePostId": "18140385058581123",
       "sourcePriority": 155,
-      "relatedPostCount": 28,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdJ-HrKmHwo",
-      "sourcePostId": "18098350490245621",
-      "sourcePriority": 125,
-      "relatedPostCount": 7,
+      "sourceUrl": "https://www.threads.com/@github/post/DdLwjPdm6_f",
+      "sourcePostId": "17980680564071393",
+      "sourcePriority": 135,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -50,102 +41,48 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-ddho9zger0s.html",
-      "postCount": 16,
+      "postCount": 18,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DdHo9ZGER0s"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DdHN2R9m6OF",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddhn2r9m6of.html",
-      "postCount": 7,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DdHN2R9m6OF"
     },
     {
       "url": "https://www.threads.com/@openai/post/DdH_IXYj0yu",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddh_ixyj0yu.html",
-      "postCount": 28,
+      "postCount": 29,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DdH_IXYj0yu"
     },
     {
-      "url": "https://www.threads.com/@github/post/DdJ-HrKmHwo",
+      "url": "https://www.threads.com/@github/post/DdLwjPdm6_f",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddj-hrkmhwo.html",
-      "postCount": 7,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddlwjpdm6_f.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdJ-HrKmHwo"
+      "sourceUrl": "https://www.threads.com/@github/post/DdLwjPdm6_f"
     },
     {
-      "username": "debuguy.dev",
+      "username": "promptslove",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/debuguy.dev-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "debuguy.dev",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "promptslove",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "suldo",
+      "username": "mktpavlenko",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/suldo-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "suldo",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "ackerkath",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ackerkath-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "ackerkath",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "codingmermaid.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/codingmermaid.ai-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "codingmermaid.ai",
-      "discoveredVia": "openai"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mktpavlenko-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "mktpavlenko",
+      "discoveredVia": "github"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-debuguy.dev-quote-02cb870519",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "debuguy.dev",
-      "url": "https://www.threads.com/@debuguy.dev/post/DdIeugsIEJH",
-      "postId": "18126497149697329",
-      "text": "Claude Code Build Day 已經上線囉！ 歡迎大家組隊報名 Translate luma.com Taipei | Claude Code Build Day · Luma",
-      "publishedAt": "2026-09-11T03:47:33.000Z",
-      "activityScore": 2,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 124,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@debuguy.dev/post/DdJwHcLn5zO",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @claudeai"
-    }
-  ]
+  "posts": []
 }
