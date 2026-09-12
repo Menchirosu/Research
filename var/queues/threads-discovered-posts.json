@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:09:25.010Z",
+  "generatedAt": "2026-09-12T00:57:40.798Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -112,13 +112,13 @@
       "discoveredVia": "openai"
     },
     {
-      "username": "mayouziseymu81",
+      "username": "codingmermaid.ai",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mayouziseymu81-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/codingmermaid.ai-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "mayouziseymu81",
+      "discoveryAuthor": "codingmermaid.ai",
       "discoveredVia": "openai"
     }
   ],
