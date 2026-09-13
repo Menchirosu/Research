@@ -1,29 +1,58 @@
 {
-  "generatedAt": "2026-09-13T19:17:31.926Z",
+  "generatedAt": "2026-09-13T22:00:02.553Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "openai",
     "github"
   ],
   "roots": [
     {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DdPZeKhkQZI",
+      "sourcePostId": "18177383308439469",
+      "sourcePriority": 175,
+      "relatedPostCount": 11,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DdPKG4mGAwO",
       "sourcePostId": "18098811845061287",
-      "sourcePriority": 135,
-      "relatedPostCount": 5,
+      "sourcePriority": 145,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@openai/post/DdPZeKhkQZI",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddpzekhkqzi.html",
+      "postCount": 11,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DdPZeKhkQZI"
+    },
+    {
       "url": "https://www.threads.com/@github/post/DdPKG4mGAwO",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddpkg4mgawo.html",
-      "postCount": 5,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DdPKG4mGAwO"
+    },
+    {
+      "username": "promptslove",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 16,
+      "discoveryAuthor": "promptslove",
+      "discoveredVia": "openai"
     }
   ],
   "posts": []
