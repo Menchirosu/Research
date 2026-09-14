@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:52:30.028Z",
+  "generatedAt": "2026-09-14T22:54:26.642Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -43,16 +43,6 @@
       "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DdPmfEDndXG"
-    },
-    {
-      "username": "promptslove",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 11,
-      "discoveryAuthor": "promptslove",
-      "discoveredVia": "openai"
     }
   ],
   "posts": [
@@ -67,7 +57,6 @@
       "publishedAt": "2026-09-14T08:07:54.000Z",
       "activityScore": 1,
       "active": true,
-      "isVerified": true,
       "isReplyToUs": false,
       "priority": 107,
       "autoHarvested": true,
