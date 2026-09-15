@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:16:20.622Z",
+  "generatedAt": "2026-09-15T20:07:14.133Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -8,67 +8,80 @@
   "roots": [
     {
       "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg",
+      "sourcePostId": "18175055131391073",
+      "sourcePriority": 175,
+      "relatedPostCount": 11,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DdPZeKhkQZI",
       "sourcePostId": "18177383308439469",
       "sourcePriority": 175,
-      "relatedPostCount": 16,
+      "relatedPostCount": 17,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdPmfEDndXG",
-      "sourcePostId": "18066921923746511",
-      "sourcePriority": 135,
-      "relatedPostCount": 6,
+      "sourceUrl": "https://www.threads.com/@github/post/DdUbvB-D8bo",
+      "sourcePostId": "18165370447483837",
+      "sourcePriority": 145,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@openai/post/DdTEdmVGzPg",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddtedmvgzpg.html",
+      "postCount": 11,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg"
+    },
+    {
       "url": "https://www.threads.com/@openai/post/DdPZeKhkQZI",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddpzekhkqzi.html",
-      "postCount": 16,
+      "postCount": 17,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DdPZeKhkQZI"
     },
     {
-      "url": "https://www.threads.com/@github/post/DdPmfEDndXG",
+      "url": "https://www.threads.com/@github/post/DdUbvB-D8bo",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddpmfedndxg.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddubvb-d8bo.html",
+      "postCount": 11,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdPmfEDndXG"
+      "sourceUrl": "https://www.threads.com/@github/post/DdUbvB-D8bo"
+    },
+    {
+      "username": "_theashchronicles_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_theashchronicles_-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "_theashchronicles_",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "promptslove",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 16,
+      "discoveryAuthor": "promptslove",
+      "discoveredVia": "openai"
     }
   ],
-  "posts": [
-    {
-      "id": "threads-promptslove-quote-91f20f9079",
-      "mode": "quote",
-      "platform": "threads",
-      "author": "promptslove",
-      "url": "https://www.threads.com/@promptslove/post/DdQq6ADmtVq",
-      "postId": "18091218944175458",
-      "text": "47 places to launch your startup 1. Product Hunt (DR 91) 2. Indie Hackers (DR 81) 3. Hacker News (DR 91) 4. BetaList (DR 76) 5. SourceForge (DR 92) 6. Uneed (DR 75) 7. Peerlist (DR 77) 8. Microlaunch (DR 64) 9. AlternativeTo (DR 80) 10. Dev Hunt (DR 63) 11. SaaSHub (DR 80) 12. Launching Next (DR 54) 13. StartupBase (DR 73) 14. Tiny Startups (DR 71)",
-      "publishedAt": "2026-09-14T08:07:54.000Z",
-      "activityScore": 1,
-      "active": true,
-      "isReplyToUs": false,
-      "priority": 107,
-      "autoHarvested": true,
-      "sourceProvider": "threads",
-      "sourceType": "discovered_rendered_profile_post",
-      "sourceHost": "www.threads.com",
-      "referenceUrl": "https://www.threads.com/@promptslove/post/DdPfz6qmt5m",
-      "targetOrigin": "discovered",
-      "tier": "secondary",
-      "allowReplies": false,
-      "thresholdOverride": false,
-      "reason": "discovered near @openai"
-    }
-  ]
+  "posts": []
 }
