@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:07:14.133Z",
+  "generatedAt": "2026-09-15T22:36:51.238Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,16 +11,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg",
       "sourcePostId": "18175055131391073",
       "sourcePriority": 175,
-      "relatedPostCount": 11,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DdPZeKhkQZI",
-      "sourcePostId": "18177383308439469",
-      "sourcePriority": 175,
-      "relatedPostCount": 17,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,18 +31,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddtedmvgzpg.html",
-      "postCount": 11,
+      "postCount": 12,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DdPZeKhkQZI",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddpzekhkqzi.html",
-      "postCount": 17,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DdPZeKhkQZI"
     },
     {
       "url": "https://www.threads.com/@github/post/DdUbvB-D8bo",
@@ -61,6 +43,16 @@
       "postCount": 11,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DdUbvB-D8bo"
+    },
+    {
+      "username": "m.vedenin",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/m.vedenin-threads-rendered.html",
+      "postCount": 1,
+      "discoveryAuthor": "m.vedenin",
+      "discoveredVia": "openai"
     },
     {
       "username": "_theashchronicles_",
@@ -78,7 +70,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 16,
+      "postCount": 13,
       "discoveryAuthor": "promptslove",
       "discoveredVia": "openai"
     }
