@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:36:51.238Z",
+  "generatedAt": "2026-09-16T01:10:36.699Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -17,10 +17,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdUbvB-D8bo",
-      "sourcePostId": "18165370447483837",
-      "sourcePriority": 145,
-      "relatedPostCount": 11,
+      "sourceUrl": "https://www.threads.com/@github/post/DdVB0NMDaqX",
+      "sourcePostId": "18267153358305303",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -36,23 +36,13 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg"
     },
     {
-      "url": "https://www.threads.com/@github/post/DdUbvB-D8bo",
+      "url": "https://www.threads.com/@github/post/DdVB0NMDaqX",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddubvb-d8bo.html",
-      "postCount": 11,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddvb0nmdaqx.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdUbvB-D8bo"
-    },
-    {
-      "username": "m.vedenin",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/m.vedenin-threads-rendered.html",
-      "postCount": 1,
-      "discoveryAuthor": "m.vedenin",
-      "discoveredVia": "openai"
+      "sourceUrl": "https://www.threads.com/@github/post/DdVB0NMDaqX"
     },
     {
       "username": "_theashchronicles_",
@@ -62,6 +52,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/_theashchronicles_-threads-rendered.html",
       "postCount": 6,
       "discoveryAuthor": "_theashchronicles_",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "m.vedenin",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/m.vedenin-threads-rendered.html",
+      "postCount": 1,
+      "discoveryAuthor": "m.vedenin",
       "discoveredVia": "openai"
     },
     {
