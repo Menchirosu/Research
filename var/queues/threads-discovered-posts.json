@@ -1,10 +1,9 @@
 {
-  "generatedAt": "2026-09-16T19:59:50.181Z",
+  "generatedAt": "2026-09-16T22:32:54.513Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai",
-    "github"
+    "openai"
   ],
   "roots": [
     {
@@ -30,15 +29,15 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg",
       "sourcePostId": "18175055131391073",
       "sourcePriority": 175,
-      "relatedPostCount": 14,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdW4H_MmtFn",
-      "sourcePostId": "18144927979576298",
-      "sourcePriority": 125,
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DdXVb2tkbRi",
+      "sourcePostId": "17922913998200750",
+      "sourcePriority": 155,
       "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
@@ -68,18 +67,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddtedmvgzpg.html",
-      "postCount": 14,
+      "postCount": 6,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DdTEdmVGzPg"
     },
     {
-      "url": "https://www.threads.com/@github/post/DdW4H_MmtFn",
+      "url": "https://www.threads.com/@openai/post/DdXVb2tkbRi",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddw4h_mmtfn.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-ddxvb2tkbri.html",
       "postCount": 5,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdW4H_MmtFn"
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DdXVb2tkbRi"
     },
     {
       "username": "sobolev.ai",
