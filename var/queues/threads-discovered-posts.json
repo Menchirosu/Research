@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:35:11.797Z",
+  "generatedAt": "2026-09-18T01:07:41.139Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DdZXbvcm4g6",
       "sourcePostId": "18106920365229130",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-ddzxbvcm4g6.html",
-      "postCount": 13,
+      "postCount": 14,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DdZXbvcm4g6"
     },
@@ -112,13 +112,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "aroonfintech_atlas",
+      "username": "chepurnk",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aroonfintech_atlas-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "aroonfintech_atlas",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/chepurnk-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "chepurnk",
       "discoveredVia": "claudeai"
     }
   ],
