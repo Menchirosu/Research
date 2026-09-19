@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:16:59.116Z",
+  "generatedAt": "2026-09-19T22:00:48.912Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DdckNLvlcSU",
       "sourcePostId": "18027978593689863",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,39 +40,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddcknlvlcsu.html",
-      "postCount": 6,
+      "postCount": 9,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DdckNLvlcSU"
-    },
-    {
-      "username": "ondrejtucny",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ondrejtucny-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "ondrejtucny",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "lukeivers",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/lukeivers-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "lukeivers",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "youki.pt.cpp",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/youki.pt.cpp-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "youki.pt.cpp",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "promptslove",
@@ -80,8 +50,28 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 9,
+      "postCount": 11,
       "discoveryAuthor": "promptslove",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "nextoraytchannel",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nextoraytchannel-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "nextoraytchannel",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "tomzhang.cn",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/tomzhang.cn-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "tomzhang.cn",
       "discoveredVia": "claudeai"
     }
   ],
