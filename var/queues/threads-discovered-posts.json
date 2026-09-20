@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:00:48.912Z",
+  "generatedAt": "2026-09-20T00:48:31.314Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -17,10 +17,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdckNLvlcSU",
-      "sourcePostId": "18027978593689863",
+      "sourceUrl": "https://www.threads.com/@github/post/DdfMwLqndeX",
+      "sourcePostId": "17972878551159041",
       "sourcePriority": 125,
-      "relatedPostCount": 9,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -36,13 +36,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DdcBhVQjoN2"
     },
     {
-      "url": "https://www.threads.com/@github/post/DdckNLvlcSU",
+      "url": "https://www.threads.com/@github/post/DdfMwLqndeX",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddcknlvlcsu.html",
-      "postCount": 9,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddfmwlqndex.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdckNLvlcSU"
+      "sourceUrl": "https://www.threads.com/@github/post/DdfMwLqndeX"
     },
     {
       "username": "promptslove",
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 11,
+      "postCount": 12,
       "discoveryAuthor": "promptslove",
       "discoveredVia": "claudeai"
     },
