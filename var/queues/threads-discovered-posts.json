@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-09-25T23:00:34.383Z",
+  "generatedAt": "2026-09-26T01:16:45.214Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
-    "github"
+    "claudeai"
   ],
   "roots": [
     {
@@ -11,25 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DduIFveoJsj",
       "sourcePostId": "18178375153429614",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Ddph-8AG8wR",
-      "sourcePostId": "18074699582749264",
-      "sourcePriority": 155,
-      "relatedPostCount": 13,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Ddpgy8YgaIO",
-      "sourcePostId": "18109221749582513",
-      "sourcePriority": 125,
-      "relatedPostCount": 16,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,27 +21,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dduifveojsj.html",
-      "postCount": 15,
+      "postCount": 14,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DduIFveoJsj"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/Ddph-8AG8wR",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-ddph-8ag8wr.html",
-      "postCount": 13,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Ddph-8AG8wR"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/Ddpgy8YgaIO",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddpgy8ygaio.html",
-      "postCount": 16,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Ddpgy8YgaIO"
     },
     {
       "username": "george_sl_liu",
