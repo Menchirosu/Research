@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-09-26T01:16:45.214Z",
+  "generatedAt": "2026-09-26T19:40:10.460Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai"
+    "claudeai",
+    "github"
   ],
   "roots": [
     {
@@ -10,7 +11,16 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DduIFveoJsj",
       "sourcePostId": "18178375153429614",
       "sourcePriority": 155,
-      "relatedPostCount": 14,
+      "relatedPostCount": 15,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DdwzHwsGYYe",
+      "sourcePostId": "18493960054097935",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -21,49 +31,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dduifveojsj.html",
-      "postCount": 14,
+      "postCount": 15,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DduIFveoJsj"
     },
     {
-      "username": "george_sl_liu",
-      "tab": "threads",
+      "url": "https://www.threads.com/@github/post/DdwzHwsGYYe",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/george_sl_liu-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddwzhwsgyye.html",
       "postCount": 5,
-      "discoveryAuthor": "george_sl_liu",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "promptslove",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "promptslove",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "ojas_create",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ojas_create-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "ojas_create",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "alekseipetrov.me",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/alekseipetrov.me-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "alekseipetrov.me",
-      "discoveredVia": "claudeai"
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DdwzHwsGYYe"
     }
   ],
   "posts": []
