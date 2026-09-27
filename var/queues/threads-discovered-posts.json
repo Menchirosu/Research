@@ -1,67 +1,38 @@
 {
-  "generatedAt": "2026-09-27T01:09:56.433Z",
+  "generatedAt": "2026-09-27T20:01:03.924Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DduIFveoJsj",
-      "sourcePostId": "18178375153429614",
-      "sourcePriority": 155,
-      "relatedPostCount": 14,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdwzHwsGYYe",
-      "sourcePostId": "18493960054097935",
+      "sourceUrl": "https://www.threads.com/@github/post/DdzT4q4mbMH",
+      "sourcePostId": "18090821009209276",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 7,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DduIFveoJsj",
+      "url": "https://www.threads.com/@github/post/DdzT4q4mbMH",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dduifveojsj.html",
-      "postCount": 14,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DduIFveoJsj"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/DdwzHwsGYYe",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddwzhwsgyye.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddzt4q4mbmh.html",
+      "postCount": 7,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdwzHwsGYYe"
+      "sourceUrl": "https://www.threads.com/@github/post/DdzT4q4mbMH"
     },
     {
-      "username": "sung.kim.mw",
+      "username": "owntheblueprint",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/sung.kim.mw-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "sung.kim.mw",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "imsahilshah",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/imsahilshah-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "imsahilshah",
+      "discoveryAuthor": "owntheblueprint",
       "discoveredVia": "github"
     }
   ],
