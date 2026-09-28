@@ -1,14 +1,33 @@
 {
-  "generatedAt": "2026-09-28T01:28:00.154Z",
+  "generatedAt": "2026-09-28T22:29:59.211Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1ymiBkROK",
+      "sourcePostId": "18019492745726367",
+      "sourcePriority": 155,
+      "relatedPostCount": 21,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1zBotm7Ww",
+      "sourcePostId": "18344883109269656",
+      "sourcePriority": 155,
+      "relatedPostCount": 25,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdzT4q4mbMH",
-      "sourcePostId": "18090821009209276",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd10eaSGcPj",
+      "sourcePostId": "18352394056220975",
       "sourcePriority": 125,
       "relatedPostCount": 7,
       "queuedCount": 0,
@@ -17,23 +36,71 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DdzT4q4mbMH",
+      "url": "https://www.threads.com/@claudeai/post/Dd1ymiBkROK",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-ddzt4q4mbmh.html",
-      "postCount": 7,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DdzT4q4mbMH"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dd1ymibkrok.html",
+      "postCount": 21,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1ymiBkROK"
     },
     {
-      "username": "owntheblueprint",
+      "url": "https://www.threads.com/@claudeai/post/Dd1zBotm7Ww",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dd1zbotm7ww.html",
+      "postCount": 25,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1zBotm7Ww"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/Dd10eaSGcPj",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd10easgcpj.html",
+      "postCount": 7,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd10eaSGcPj"
+    },
+    {
+      "username": "mikeruizxyz",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/owntheblueprint-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/mikeruizxyz-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "owntheblueprint",
-      "discoveredVia": "github"
+      "discoveryAuthor": "mikeruizxyz",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "onemanfullstack",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/onemanfullstack-threads-rendered.html",
+      "postCount": 3,
+      "discoveryAuthor": "onemanfullstack",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "suldo",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/suldo-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "suldo",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "erdem.metin.tr",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/erdem.metin.tr-threads-rendered.html",
+      "postCount": 2,
+      "discoveryAuthor": "erdem.metin.tr",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
