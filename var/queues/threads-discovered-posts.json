@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T21:21:08.138Z",
+  "generatedAt": "2026-09-29T23:20:28.790Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -83,23 +83,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "simplyaishow",
+      "username": "dfstudiodesigner",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/simplyaishow-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "simplyaishow",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "jhonmezaa",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jhonmezaa-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "jhonmezaa",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dfstudiodesigner-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "dfstudiodesigner",
       "discoveredVia": "claudeai"
     }
   ],
