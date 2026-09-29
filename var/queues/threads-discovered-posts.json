@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T02:31:30.472Z",
+  "generatedAt": "2026-09-29T21:21:08.138Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1ymiBkROK",
       "sourcePostId": "18019492745726367",
       "sourcePriority": 155,
-      "relatedPostCount": 21,
+      "relatedPostCount": 20,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -26,10 +26,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd10eaSGcPj",
-      "sourcePostId": "18352394056220975",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd4rqbdjHFk",
+      "sourcePostId": "18372382576208415",
       "sourcePriority": 125,
-      "relatedPostCount": 7,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dd1ymibkrok.html",
-      "postCount": 21,
+      "postCount": 20,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1ymiBkROK"
     },
@@ -54,52 +54,52 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1zBotm7Ww"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dd10eaSGcPj",
+      "url": "https://www.threads.com/@github/post/Dd4rqbdjHFk",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd10easgcpj.html",
-      "postCount": 7,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd4rqbdjhfk.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd10eaSGcPj"
+      "sourceUrl": "https://www.threads.com/@github/post/Dd4rqbdjHFk"
     },
     {
-      "username": "mikeruizxyz",
+      "username": "pendakwahteknologi",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mikeruizxyz-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "mikeruizxyz",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/pendakwahteknologi-threads-rendered.html",
+      "postCount": 9,
+      "discoveryAuthor": "pendakwahteknologi",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "onemanfullstack",
+      "username": "masahirochaen",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/onemanfullstack-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "onemanfullstack",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/masahirochaen-threads-rendered.html",
+      "postCount": 11,
+      "discoveryAuthor": "masahirochaen",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "suldo",
+      "username": "simplyaishow",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/suldo-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "suldo",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/simplyaishow-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "simplyaishow",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "erdem.metin.tr",
+      "username": "jhonmezaa",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/erdem.metin.tr-threads-rendered.html",
-      "postCount": 2,
-      "discoveryAuthor": "erdem.metin.tr",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jhonmezaa-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "jhonmezaa",
       "discoveredVia": "claudeai"
     }
   ],
