@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T23:20:28.790Z",
+  "generatedAt": "2026-09-30T01:53:54.131Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -26,8 +26,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd4rqbdjHFk",
-      "sourcePostId": "18372382576208415",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd5Bhl3lrq-",
+      "sourcePostId": "17897142138607324",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -54,13 +54,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd1zBotm7Ww"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dd4rqbdjHFk",
+      "url": "https://www.threads.com/@github/post/Dd5Bhl3lrq-",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd4rqbdjhfk.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd5bhl3lrq.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd4rqbdjHFk"
+      "sourceUrl": "https://www.threads.com/@github/post/Dd5Bhl3lrq-"
     },
     {
       "username": "pendakwahteknologi",
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/pendakwahteknologi-threads-rendered.html",
-      "postCount": 9,
+      "postCount": 6,
       "discoveryAuthor": "pendakwahteknologi",
       "discoveredVia": "claudeai"
     },
