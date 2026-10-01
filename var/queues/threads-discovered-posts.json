@@ -1,39 +1,106 @@
 {
-  "generatedAt": "2026-10-01T01:52:08.917Z",
+  "generatedAt": "2026-10-01T21:44:25.582Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "claudeai",
     "github"
   ],
   "roots": [
     {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hkdFkR8K",
+      "sourcePostId": "17961723648197986",
+      "sourcePriority": 155,
+      "relatedPostCount": 16,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hpzbmw-f",
+      "sourcePostId": "17889564627457422",
+      "sourcePriority": 155,
+      "relatedPostCount": 9,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd656z2FLN1",
-      "sourcePostId": "18074995067462483",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd9cLlPFSDF",
+      "sourcePostId": "18090797066479931",
       "sourcePriority": 125,
-      "relatedPostCount": 7,
+      "relatedPostCount": 13,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/Dd656z2FLN1",
+      "url": "https://www.threads.com/@claudeai/post/Dd9hkdFkR8K",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd656z2fln1.html",
-      "postCount": 7,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd656z2FLN1"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dd9hkdfkr8k.html",
+      "postCount": 16,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hkdFkR8K"
     },
     {
-      "username": "imsahilshah",
+      "url": "https://www.threads.com/@claudeai/post/Dd9hpzbmw-f",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dd9hpzbmw-f.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hpzbmw-f"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/Dd9cLlPFSDF",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd9cllpfsdf.html",
+      "postCount": 13,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd9cLlPFSDF"
+    },
+    {
+      "username": "nextoraytchannel",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/imsahilshah-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nextoraytchannel-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "nextoraytchannel",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "promptslove",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "promptslove",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "david.the.canuck",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/david.the.canuck-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "imsahilshah",
-      "discoveredVia": "github"
+      "discoveryAuthor": "david.the.canuck",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "aadhunik.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aadhunik.ai-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "aadhunik.ai",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
