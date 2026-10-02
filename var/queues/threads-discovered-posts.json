@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T23:37:43.971Z",
+  "generatedAt": "2026-10-02T02:04:22.675Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hkdFkR8K",
       "sourcePostId": "17961723648197986",
       "sourcePriority": 155,
-      "relatedPostCount": 16,
+      "relatedPostCount": 17,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -26,10 +26,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd9cLlPFSDF",
-      "sourcePostId": "18090797066479931",
+      "sourceUrl": "https://www.threads.com/@github/post/Dd-LrHXFY6W",
+      "sourcePostId": "18431955997178027",
       "sourcePriority": 125,
-      "relatedPostCount": 13,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dd9hkdfkr8k.html",
-      "postCount": 16,
+      "postCount": 17,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hkdFkR8K"
     },
@@ -54,13 +54,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dd9hpzbmw-f"
     },
     {
-      "url": "https://www.threads.com/@github/post/Dd9cLlPFSDF",
+      "url": "https://www.threads.com/@github/post/Dd-LrHXFY6W",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd9cllpfsdf.html",
-      "postCount": 13,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dd-lrhxfy6w.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/Dd9cLlPFSDF"
+      "sourceUrl": "https://www.threads.com/@github/post/Dd-LrHXFY6W"
     },
     {
       "username": "nextoraytchannel",
