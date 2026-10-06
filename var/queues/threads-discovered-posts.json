@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T21:33:59.464Z",
+  "generatedAt": "2026-10-06T23:30:37.296Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -17,10 +17,10 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DeKh4y0mRzR",
-      "sourcePostId": "18096212636540296",
+      "sourceUrl": "https://www.threads.com/@github/post/DeKzn_7kiqh",
+      "sourcePostId": "18086220056295317",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -36,13 +36,13 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DeHz9VVgNwZ"
     },
     {
-      "url": "https://www.threads.com/@github/post/DeKh4y0mRzR",
+      "url": "https://www.threads.com/@github/post/DeKzn_7kiqh",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dekh4y0mrzr.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dekzn_7kiqh.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DeKh4y0mRzR"
+      "sourceUrl": "https://www.threads.com/@github/post/DeKzn_7kiqh"
     },
     {
       "username": "gemaifinds",
@@ -53,36 +53,6 @@
       "postCount": 4,
       "discoveryAuthor": "gemaifinds",
       "discoveredVia": "claudeai"
-    },
-    {
-      "username": "raybeak",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/raybeak-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "raybeak",
-      "discoveredVia": "github"
-    },
-    {
-      "username": "ai.ai576",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ai.ai576-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "ai.ai576",
-      "discoveredVia": "github"
-    },
-    {
-      "username": "polyakov_dev",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/polyakov_dev-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "polyakov_dev",
-      "discoveredVia": "github"
     }
   ],
   "posts": []
