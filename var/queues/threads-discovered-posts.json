@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T23:30:37.296Z",
+  "generatedAt": "2026-10-07T02:10:33.295Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -43,16 +43,6 @@
       "postCount": 5,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DeKzn_7kiqh"
-    },
-    {
-      "username": "gemaifinds",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/gemaifinds-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "gemaifinds",
-      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
