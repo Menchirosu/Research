@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:59:14.475Z",
+  "generatedAt": "2026-10-09T00:06:02.678Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -35,8 +35,8 @@
     },
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DePq6MBmTLj",
-      "sourcePostId": "18105728483360417",
+      "sourceUrl": "https://www.threads.com/@github/post/DeP_gPfnc41",
+      "sourcePostId": "18191209129392193",
       "sourcePriority": 125,
       "relatedPostCount": 5,
       "queuedCount": 0,
@@ -72,13 +72,13 @@
       "sourceUrl": "https://www.threads.com/@github/post/DeM9LOgjBSz"
     },
     {
-      "url": "https://www.threads.com/@github/post/DePq6MBmTLj",
+      "url": "https://www.threads.com/@github/post/DeP_gPfnc41",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-depq6mbmtlj.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dep_gpfnc41.html",
       "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DePq6MBmTLj"
+      "sourceUrl": "https://www.threads.com/@github/post/DeP_gPfnc41"
     },
     {
       "username": "kufutw",
