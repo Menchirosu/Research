@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T00:06:02.678Z",
+  "generatedAt": "2026-10-09T02:51:01.420Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -81,16 +81,6 @@
       "sourceUrl": "https://www.threads.com/@github/post/DeP_gPfnc41"
     },
     {
-      "username": "kufutw",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kufutw-threads-rendered.html",
-      "postCount": 14,
-      "discoveryAuthor": "kufutw",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "hemanthvasi",
       "tab": "threads",
       "status": "ok",
@@ -108,16 +98,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/nivyaherthread-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "nivyaherthread",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "nahiddotai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/nahiddotai-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "nahiddotai",
       "discoveredVia": "claudeai"
     }
   ],
