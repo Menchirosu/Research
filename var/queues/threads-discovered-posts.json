@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T23:46:02.299Z",
+  "generatedAt": "2026-10-10T02:11:02.239Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DeSALBnoP7W",
       "sourcePostId": "17919742989446513",
       "sourcePriority": 155,
-      "relatedPostCount": 7,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DeSGmPYlfcM",
       "sourcePostId": "18142299250610597",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-desalbnop7w.html",
-      "postCount": 7,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DeSALBnoP7W"
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-desgmpylfcm.html",
-      "postCount": 5,
+      "postCount": 6,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DeSGmPYlfcM"
     },
@@ -52,6 +52,26 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/niteover-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "niteover",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "sultanov.xo",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/sultanov.xo-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "sultanov.xo",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "jccheong",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jccheong-threads-rendered.html",
+      "postCount": 8,
+      "discoveryAuthor": "jccheong",
       "discoveredVia": "claudeai"
     }
   ],
