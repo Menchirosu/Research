@@ -1,21 +1,11 @@
 {
-  "generatedAt": "2026-10-11T01:39:08.158Z",
+  "generatedAt": "2026-10-11T20:53:17.295Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "openai",
     "github"
   ],
   "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DeSALBnoP7W",
-      "sourcePostId": "17919742989446513",
-      "sourcePriority": 155,
-      "relatedPostCount": 14,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
     {
       "author": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DeUbjW0kp0R",
@@ -37,15 +27,6 @@
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DeSALBnoP7W",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-desalbnop7w.html",
-      "postCount": 14,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DeSALBnoP7W"
-    },
-    {
       "url": "https://www.threads.com/@openai/post/DeUbjW0kp0R",
       "status": "ok",
       "error": null,
@@ -64,43 +45,13 @@
       "sourceUrl": "https://www.threads.com/@github/post/DeUlDHNjMoq"
     },
     {
-      "username": "jccheong",
+      "username": "kuo_sir",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jccheong-threads-rendered.html",
-      "postCount": 8,
-      "discoveryAuthor": "jccheong",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "laurenpena993",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/laurenpena993-threads-rendered.html",
-      "postCount": 3,
-      "discoveryAuthor": "laurenpena993",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "billiam_is_tired",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/billiam_is_tired-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "billiam_is_tired",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "ai.jitsuyo.laboratory",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ai.jitsuyo.laboratory-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "ai.jitsuyo.laboratory",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kuo_sir-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "kuo_sir",
       "discoveredVia": "openai"
     }
   ],
