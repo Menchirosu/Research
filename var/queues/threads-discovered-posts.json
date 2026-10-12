@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T23:21:21.273Z",
+  "generatedAt": "2026-10-12T02:09:44.771Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -43,16 +43,6 @@
       "postCount": 7,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DeUlDHNjMoq"
-    },
-    {
-      "username": "kuo_sir",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kuo_sir-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "kuo_sir",
-      "discoveredVia": "openai"
     }
   ],
   "posts": []
