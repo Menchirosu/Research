@@ -1,29 +1,68 @@
 {
-  "generatedAt": "2026-10-13T03:25:00.972Z",
+  "generatedAt": "2026-10-13T21:47:34.963Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
+    "openai",
     "github"
   ],
   "roots": [
     {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DecKIBCGxpz",
+      "sourcePostId": "18072055400491021",
+      "sourcePriority": 155,
+      "relatedPostCount": 15,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DealA71k2hE",
-      "sourcePostId": "18103527038626063",
+      "sourceUrl": "https://www.threads.com/@github/post/DechogijPcL",
+      "sourcePostId": "18103652918637037",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 6,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DealA71k2hE",
+      "url": "https://www.threads.com/@openai/post/DecKIBCGxpz",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-deala71k2he.html",
-      "postCount": 5,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-deckibcgxpz.html",
+      "postCount": 15,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DecKIBCGxpz"
+    },
+    {
+      "url": "https://www.threads.com/@github/post/DechogijPcL",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dechogijpcl.html",
+      "postCount": 6,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DealA71k2hE"
+      "sourceUrl": "https://www.threads.com/@github/post/DechogijPcL"
+    },
+    {
+      "username": "pepepsister",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/pepepsister-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "pepepsister",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "arhitektahaosa",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/arhitektahaosa-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "arhitektahaosa",
+      "discoveredVia": "openai"
     }
   ],
   "posts": []
