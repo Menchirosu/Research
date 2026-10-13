@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:47:34.963Z",
+  "generatedAt": "2026-10-13T23:33:29.717Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -62,6 +62,26 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/arhitektahaosa-threads-rendered.html",
       "postCount": 6,
       "discoveryAuthor": "arhitektahaosa",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "9to5mac",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/9to5mac-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "9to5mac",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "jxiidxii",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jxiidxii-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "jxiidxii",
       "discoveredVia": "openai"
     }
   ],
