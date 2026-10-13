@@ -1,8 +1,30 @@
 {
-  "generatedAt": "2026-10-12T23:34:32.764Z",
+  "generatedAt": "2026-10-13T01:45:33.563Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [],
-  "roots": [],
-  "diagnostics": [],
+  "sourceAccounts": [
+    "github"
+  ],
+  "roots": [
+    {
+      "author": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DealA71k2hE",
+      "sourcePostId": "18103527038626063",
+      "sourcePriority": 125,
+      "relatedPostCount": 5,
+      "queuedCount": 0,
+      "rootResolved": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://www.threads.com/@github/post/DealA71k2hE",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-deala71k2he.html",
+      "postCount": 5,
+      "sourceAuthor": "github",
+      "sourceUrl": "https://www.threads.com/@github/post/DealA71k2hE"
+    }
+  ],
   "posts": []
 }
