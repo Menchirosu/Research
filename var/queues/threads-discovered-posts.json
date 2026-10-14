@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:33:29.717Z",
+  "generatedAt": "2026-10-14T01:41:53.009Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "openai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DecKIBCGxpz",
       "sourcePostId": "18072055400491021",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-deckibcgxpz.html",
-      "postCount": 15,
+      "postCount": 14,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DecKIBCGxpz"
     },
@@ -62,26 +62,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/arhitektahaosa-threads-rendered.html",
       "postCount": 6,
       "discoveryAuthor": "arhitektahaosa",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "9to5mac",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/9to5mac-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "9to5mac",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "jxiidxii",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jxiidxii-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "jxiidxii",
       "discoveredVia": "openai"
     }
   ],
