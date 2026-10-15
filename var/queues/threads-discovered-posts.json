@@ -1,27 +1,26 @@
 {
-  "generatedAt": "2026-10-15T01:18:26.191Z",
+  "generatedAt": "2026-10-15T20:15:45.997Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai",
     "github"
   ],
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dee2Py7DS0e",
-      "sourcePostId": "18152567551533745",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DehPH9Mm0DO",
+      "sourcePostId": "17992857999113206",
       "sourcePriority": 155,
-      "relatedPostCount": 14,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DecKIBCGxpz",
-      "sourcePostId": "18072055400491021",
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dee2Py7DS0e",
+      "sourcePostId": "18152567551533745",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 15,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,48 +29,68 @@
       "sourceUrl": "https://www.threads.com/@github/post/DefpbviACDB",
       "sourcePostId": "18125179885927798",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DehPH9Mm0DO",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dehph9mm0do.html",
+      "postCount": 9,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DehPH9Mm0DO"
+    },
+    {
       "url": "https://www.threads.com/@claudeai/post/Dee2Py7DS0e",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dee2py7ds0e.html",
-      "postCount": 14,
+      "postCount": 15,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dee2Py7DS0e"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DecKIBCGxpz",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-deckibcgxpz.html",
-      "postCount": 13,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DecKIBCGxpz"
     },
     {
       "url": "https://www.threads.com/@github/post/DefpbviACDB",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-defpbviacdb.html",
-      "postCount": 5,
+      "postCount": 10,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DefpbviACDB"
     },
     {
-      "username": "vjdonoso",
+      "username": "dorian.liriano",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/vjdonoso-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dorian.liriano-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "vjdonoso",
+      "discoveryAuthor": "dorian.liriano",
       "discoveredVia": "claudeai"
+    },
+    {
+      "username": "promptslove",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "promptslove",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "jesunahmadushno",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jesunahmadushno-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "jesunahmadushno",
+      "discoveredVia": "github"
     }
   ],
   "posts": []
