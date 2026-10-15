@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T20:15:45.997Z",
+  "generatedAt": "2026-10-15T22:49:37.933Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -78,7 +78,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 7,
+      "postCount": 10,
       "discoveryAuthor": "promptslove",
       "discoveredVia": "claudeai"
     },
