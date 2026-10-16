@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T22:49:37.933Z",
+  "generatedAt": "2026-10-16T01:03:06.827Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DehPH9Mm0DO",
       "sourcePostId": "17992857999113206",
       "sourcePriority": 155,
-      "relatedPostCount": 9,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dehph9mm0do.html",
-      "postCount": 9,
+      "postCount": 10,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DehPH9Mm0DO"
     },
@@ -80,6 +80,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
       "postCount": 10,
       "discoveryAuthor": "promptslove",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "gemaifinds",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/gemaifinds-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "gemaifinds",
       "discoveredVia": "claudeai"
     },
     {
