@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:11:36.669Z",
+  "generatedAt": "2026-10-17T21:55:54.729Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -21,7 +21,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DekBZzlEhEN",
       "sourcePostId": "18112798028036132",
       "sourcePriority": 155,
-      "relatedPostCount": 10,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -50,7 +50,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dekbzzlehen.html",
-      "postCount": 10,
+      "postCount": 12,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DekBZzlEhEN"
     },
@@ -74,16 +74,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "ai_brain_fog",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ai_brain_fog-threads-rendered.html",
-      "postCount": 16,
-      "discoveryAuthor": "ai_brain_fog",
-      "discoveredVia": "openai"
-    },
-    {
       "username": "wraithioner",
       "tab": "threads",
       "status": "ok",
@@ -101,6 +91,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/kad_kadhirvelpolymath-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "kad_kadhirvelpolymath",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "franckparienti",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/franckparienti-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "franckparienti",
       "discoveredVia": "openai"
     }
   ],
