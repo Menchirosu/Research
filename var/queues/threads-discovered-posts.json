@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T22:23:14.567Z",
+  "generatedAt": "2026-10-17T01:10:40.683Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -112,13 +112,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "gemaifinds",
+      "username": "valizuld",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/gemaifinds-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "gemaifinds",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/valizuld-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "valizuld",
       "discoveredVia": "claudeai"
     }
   ],
