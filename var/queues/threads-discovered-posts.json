@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:22:05.514Z",
+  "generatedAt": "2026-10-18T22:08:49.504Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "github"
@@ -7,33 +7,23 @@
   "roots": [
     {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DepRtNPlSl1",
-      "sourcePostId": "17992329729052353",
+      "sourceUrl": "https://www.threads.com/@github/post/DeptvD7GVDr",
+      "sourcePostId": "18134185769498928",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@github/post/DepRtNPlSl1",
+      "url": "https://www.threads.com/@github/post/DeptvD7GVDr",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-deprtnplsl1.html",
-      "postCount": 6,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-deptvd7gvdr.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DepRtNPlSl1"
-    },
-    {
-      "username": "_manavm_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_manavm_-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "_manavm_",
-      "discoveredVia": "github"
+      "sourceUrl": "https://www.threads.com/@github/post/DeptvD7GVDr"
     }
   ],
   "posts": []
