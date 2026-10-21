@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:31:06.511Z",
+  "generatedAt": "2026-10-21T22:57:34.223Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DexIUFOm41n",
       "sourcePostId": "18118414309970045",
       "sourcePriority": 155,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,7 +29,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/DexIq-oHeHS",
       "sourcePostId": "18094931837184898",
       "sourcePriority": 125,
-      "relatedPostCount": 5,
+      "relatedPostCount": 3,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -49,7 +49,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dexiufom41n.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DexIUFOm41n"
     },
@@ -58,9 +58,19 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dexiq-ohehs.html",
-      "postCount": 5,
+      "postCount": 3,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/DexIq-oHeHS"
+    },
+    {
+      "username": "yetzero",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/yetzero-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "yetzero",
+      "discoveredVia": "claudeai"
     }
   ],
   "posts": []
