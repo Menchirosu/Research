@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T20:18:03.135Z",
+  "generatedAt": "2026-10-23T22:48:47.587Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,14 +11,14 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/De2T4TFEj7-",
       "sourcePostId": "18252624448310211",
       "sourcePriority": 155,
-      "relatedPostCount": 9,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DezzaqEG5f3",
-      "sourcePostId": "18557199838072953",
+      "sourcePostId": "18145139506721775",
       "sourcePriority": 155,
       "relatedPostCount": 18,
       "queuedCount": 0,
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-de2t4tfej7.html",
-      "postCount": 9,
+      "postCount": 12,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/De2T4TFEj7-"
     },
@@ -68,28 +68,8 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/_manavm_-threads-rendered.html",
-      "postCount": 7,
+      "postCount": 6,
       "discoveryAuthor": "_manavm_",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "vladmoseev",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/vladmoseev-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "vladmoseev",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "mohitsharmaai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mohitsharmaai-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "mohitsharmaai",
       "discoveredVia": "claudeai"
     },
     {
