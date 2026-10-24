@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T19:23:49.358Z",
+  "generatedAt": "2026-10-24T22:11:32.807Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,16 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/De2T4TFEj7-",
       "sourcePostId": "18252624448310211",
       "sourcePriority": 155,
-      "relatedPostCount": 11,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DezzaqEG5f3",
-      "sourcePostId": "18557199838072953",
-      "sourcePriority": 155,
-      "relatedPostCount": 15,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -40,18 +31,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-de2t4tfej7.html",
-      "postCount": 11,
+      "postCount": 12,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/De2T4TFEj7-"
-    },
-    {
-      "url": "https://www.threads.com/@claudeai/post/DezzaqEG5f3",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dezzaqeg5f3.html",
-      "postCount": 15,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DezzaqEG5f3"
     },
     {
       "url": "https://www.threads.com/@github/post/De3NMPwAB4Q",
@@ -61,16 +43,6 @@
       "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/De3NMPwAB4Q"
-    },
-    {
-      "username": "_manavm_",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/_manavm_-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "_manavm_",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "bound_mexico",
