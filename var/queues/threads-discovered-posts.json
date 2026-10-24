@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:48:47.587Z",
+  "generatedAt": "2026-10-24T01:26:12.704Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/_manavm_-threads-rendered.html",
-      "postCount": 6,
+      "postCount": 5,
       "discoveryAuthor": "_manavm_",
       "discoveredVia": "claudeai"
     },
