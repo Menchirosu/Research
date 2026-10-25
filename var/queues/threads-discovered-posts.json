@@ -1,68 +1,29 @@
 {
-  "generatedAt": "2026-10-25T00:54:58.199Z",
+  "generatedAt": "2026-10-25T19:30:44.709Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
-    "claudeai",
     "github"
   ],
   "roots": [
     {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/De2T4TFEj7-",
-      "sourcePostId": "18252624448310211",
-      "sourcePriority": 155,
-      "relatedPostCount": 11,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
       "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/De3NMPwAB4Q",
-      "sourcePostId": "18013620863963787",
+      "sourceUrl": "https://www.threads.com/@github/post/De7b2H5GYt2",
+      "sourcePostId": "18033899573887635",
       "sourcePriority": 125,
-      "relatedPostCount": 8,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/De2T4TFEj7-",
+      "url": "https://www.threads.com/@github/post/De7b2H5GYt2",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-de2t4tfej7.html",
-      "postCount": 11,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/De2T4TFEj7-"
-    },
-    {
-      "url": "https://www.threads.com/@github/post/De3NMPwAB4Q",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-de3nmpwab4q.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-de7b2h5gyt2.html",
+      "postCount": 5,
       "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/De3NMPwAB4Q"
-    },
-    {
-      "username": "bound_mexico",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/bound_mexico-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "bound_mexico",
-      "discoveredVia": "github"
-    },
-    {
-      "username": "designs.to.deploy",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/designs.to.deploy-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "designs.to.deploy",
-      "discoveredVia": "github"
+      "sourceUrl": "https://www.threads.com/@github/post/De7b2H5GYt2"
     }
   ],
   "posts": []
