@@ -1,27 +1,35 @@
 {
-  "generatedAt": "2026-10-30T02:27:54.921Z",
+  "generatedAt": "2026-10-30T21:26:22.956Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
-    "openai",
-    "github"
+    "openai"
   ],
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
-      "sourcePostId": "18051643730819106",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
+      "sourcePostId": "17940430065381252",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfC2DntGobp",
-      "sourcePostId": "18036906050848532",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
+      "sourcePostId": "18051643730819106",
       "sourcePriority": 155,
-      "relatedPostCount": 17,
+      "relatedPostCount": 14,
+      "queuedCount": 0,
+      "rootResolved": true
+    },
+    {
+      "author": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+      "sourcePostId": "18076835675746190",
+      "sourcePriority": 155,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,75 +38,86 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DfFnTsuEgzk",
       "sourcePostId": "18119689847325470",
       "sourcePriority": 155,
-      "relatedPostCount": 12,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DfFlcUkAOJR",
-      "sourcePostId": "17989691649119426",
-      "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 13,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
+      "url": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfh6f_0gt1w.html",
+      "postCount": 10,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W"
+    },
+    {
       "url": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dffj5_aetbb.html",
-      "postCount": 15,
+      "postCount": 14,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DfC2DntGobp",
+      "url": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfc2dntgobp.html",
-      "postCount": 17,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfC2DntGobp"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dfibm3udw5a.html",
+      "postCount": 8,
+      "sourceAuthor": "openai",
+      "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A"
     },
     {
       "url": "https://www.threads.com/@openai/post/DfFnTsuEgzk",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dffntsuegzk.html",
-      "postCount": 12,
+      "postCount": 13,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DfFnTsuEgzk"
     },
     {
-      "url": "https://www.threads.com/@github/post/DfFlcUkAOJR",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-dfflcukaojr.html",
-      "postCount": 6,
-      "sourceAuthor": "github",
-      "sourceUrl": "https://www.threads.com/@github/post/DfFlcUkAOJR"
-    },
-    {
-      "username": "wheelsee",
+      "username": "nextoraytchannel",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/wheelsee-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nextoraytchannel-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "wheelsee",
+      "discoveryAuthor": "nextoraytchannel",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "devmachinist",
+      "username": "japangors",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/devmachinist-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "devmachinist",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/japangors-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "japangors",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "promptslove",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 16,
+      "discoveryAuthor": "promptslove",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "aadhunik.ai",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aadhunik.ai-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "aadhunik.ai",
       "discoveredVia": "claudeai"
     }
   ],
