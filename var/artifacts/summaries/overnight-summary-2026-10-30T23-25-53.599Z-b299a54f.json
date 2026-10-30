@@ -1,0 +1,690 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-10-30T23:24:35.845Z",
+  "completedAt": "2026-10-30T23:25:53.599Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-10-30T23-24-39.021Z-085a0999.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 0,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 5,
+    "discovered": 0,
+    "harvested": 0,
+    "total": 5,
+    "eligible": 4,
+    "skipped": 1
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 6,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
+        "publishedAt": "2026-10-30T15:30:14.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@claudeai/post/DfH6F_0Gt1W\" role=\"link\" tabindex=\"0\"> 7h Every year, Michael Alcorn’s holiday decorations get a little more elaborate. This year, with help from Claude, he built a cauldron that casts spells. 40 6 claude"
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+        "publishedAt": "2026-10-30T20:23:06.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@openai/post/DfIbm3uDw5A\" role=\"link\" tabindex=\"0\"> 3h There are many futures. Which do you want to build? 22 4 2 3 openai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd"
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 3,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 1,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 73,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DfIucIsAZcn",
+        "publishedAt": "2026-10-30T23:08:07.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@github/post/DfIucIsAZcn\" role=\"link\" tabindex=\"0\"> 16m Have you opened the GitHub Copilot app today? A pumpkin-spicy game awaits. 🎃 🎮 1 github <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10"
+      }
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 7,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 60,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@perplexity/post/DfF3YveEqCB",
+        "publishedAt": "2026-10-29T20:28:05.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@perplexity/post/DfF3YveEqCB\" role=\"link\" tabindex=\"0\"> 1d Perplexity x Lewis Hamilton co-designed helmet for the Austin GP. 215 2 8 2 perplexity <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10"
+      }
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 31,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Friday, 30-Oct-26 16:25:01 PDT.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":0,\"fbtrace_id\":\"AgIAaF4seC-t903IWZB0KTH\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
+      "postId": "17941433715385320",
+      "text": "/@claudeai/post/DfH6F_0Gt1W\" role=\"link\" tabindex=\"0\"> 7h Every year, Michael Alcorn’s holiday decorations get a little more elaborate. This year, with help from Claude, he built a cauldron that casts spells. 40 6 claudeai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+      "publishedAt": "2026-10-30T15:30:14.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-7e20bb30ec",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
+      "postId": "18051643730819106",
+      "text": "/@claudeai/post/DfFj5_aETbB\" role=\"link\" tabindex=\"0\"> 1d A few upgrades to the Claude mobile apps this week. • On iPad and iPhone Duo, what Claude makes opens beside the chat • You can stay signed into more than one account on iOS and Android • On Chromebooks and foldables, Claude on Android works like a laptop app • Voice mode answers sooner, and on iPhone it works with Apple CarPlay • The app is now available in 24 more languages, 33 in all • Pull down to search is coming soon to iPhone and iPad What would you like to see next? 544 57 26 33 Log in to see more from claudeai. Log in © 2026 Threads Terms Privacy Policy Cookies Policy Report a problem Say more with Threads Join Threads to share thoughts, find out what's going on, follow your people and more. Continue with Instagram",
+      "publishedAt": "2026-10-29T17:39:07.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-36ebb9651a",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+      "postId": "18076835675746190",
+      "text": "/@openai/post/DfIbm3uDw5A\" role=\"link\" tabindex=\"0\"> 3h There are many futures. Which do you want to build? 22 4 2 3 openai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+      "publishedAt": "2026-10-30T20:23:06.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-e58cc0fb28",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DfFnTsuEgzk",
+      "postId": "18119689847325470",
+      "text": "/@openai/post/DfFnTsuEgzk\" role=\"link\" tabindex=\"0\"> 1d Pro 🎁 <a class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1fmog5m xu25z0z x140muxe xo1y3bh x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lliihq x5yr21d xeq5yr9\" href=\"",
+      "publishedAt": "2026-10-29T18:07:36.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-9fd0805f4c",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "github",
+      "url": "https://www.threads.com/@github/post/DfIucIsAZcn",
+      "postId": "18008057951791117",
+      "text": "/@github/post/DfIucIsAZcn\" role=\"link\" tabindex=\"0\"> 16m Have you opened the GitHub Copilot app today? A pumpkin-spicy game awaits. 🎃 🎮 1 github <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+      "publishedAt": "2026-10-30T23:08:07.000Z",
+      "activityScore": 1,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 125,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "secondary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-github-quote-664d6fbbdb",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-10-30T23:25:53.595Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai",
+      "openai"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
+        "sourcePostId": "17941433715385320",
+        "sourcePriority": 155,
+        "relatedPostCount": 11,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
+        "sourcePostId": "18051643730819106",
+        "sourcePriority": 155,
+        "relatedPostCount": 15,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+        "sourcePostId": "18076835675746190",
+        "sourcePriority": 155,
+        "relatedPostCount": 9,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DfFnTsuEgzk",
+        "sourcePostId": "18119689847325470",
+        "sourcePriority": 155,
+        "relatedPostCount": 13,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfh6f_0gt1w.html",
+        "postCount": 11,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dffj5_aetbb.html",
+        "postCount": 15,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB"
+      },
+      {
+        "url": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dfibm3udw5a.html",
+        "postCount": 9,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A"
+      },
+      {
+        "url": "https://www.threads.com/@openai/post/DfFnTsuEgzk",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dffntsuegzk.html",
+        "postCount": 13,
+        "sourceAuthor": "openai",
+        "sourceUrl": "https://www.threads.com/@openai/post/DfFnTsuEgzk"
+      },
+      {
+        "username": "nextoraytchannel",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/nextoraytchannel-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "nextoraytchannel",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "japangors",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/japangors-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "japangors",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "promptslove",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+        "postCount": 16,
+        "discoveryAuthor": "promptslove",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "cooljerrett",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/cooljerrett-threads-rendered.html",
+        "postCount": 6,
+        "discoveryAuthor": "cooljerrett",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": []
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "openai",
+      "url": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+      "postId": "18076835675746190",
+      "text": "/@openai/post/DfIbm3uDw5A\" role=\"link\" tabindex=\"0\"> 3h There are many futures. Which do you want to build? 22 4 2 3 openai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+      "publishedAt": "2026-10-30T20:23:06.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-openai-quote-e58cc0fb28",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-10-30T23-25-53.598Z-82c8bc9f.json",
+      "errorStage": "draft",
+      "error": "Threads-targeted drafts still need at least one supporting scan source.",
+      "target": {
+        "platform": "threads",
+        "author": "openai",
+        "url": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
+        "postId": "18076835675746190",
+        "text": "/@openai/post/DfIbm3uDw5A\" role=\"link\" tabindex=\"0\"> 3h There are many futures. Which do you want to build? 22 4 2 3 openai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+        "publishedAt": "2026-10-30T20:23:06.000Z",
+        "activityScore": 2,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 155,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-openai-quote-e58cc0fb28",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [
+    {
+      "target": {
+        "platform": "threads",
+        "author": "github",
+        "url": "https://www.threads.com/@github/post/DfIucIsAZcn",
+        "postId": "18008057951791117",
+        "text": "/@github/post/DfIucIsAZcn\" role=\"link\" tabindex=\"0\"> 16m Have you opened the GitHub Copilot app today? A pumpkin-spicy game awaits. 🎃 🎮 1 github <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+        "publishedAt": "2026-10-30T23:08:07.000Z",
+        "activityScore": 1,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 125,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "secondary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-github-quote-664d6fbbdb",
+        "mode": "quote"
+      },
+      "reason": "secondary watchlist post is not active enough yet"
+    }
+  ],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Friday, 30-Oct-26 16:25:01 PDT.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":0,\"fbtrace_id\":\"AgIAaF4seC-t903IWZB0KTH\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Threads-targeted drafts still need at least one supporting scan source."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 39
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 493
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 14
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 0,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 39
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 493
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 14
+        }
+      ]
+    }
+  }
+}
