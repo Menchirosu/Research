@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:25:53.595Z",
+  "generatedAt": "2026-10-31T02:07:07.175Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -9,7 +9,7 @@
     {
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
-      "sourcePostId": "17941433715385320",
+      "sourcePostId": "17940430065381252",
       "sourcePriority": 155,
       "relatedPostCount": 11,
       "queuedCount": 0,
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB",
       "sourcePostId": "18051643730819106",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -29,7 +29,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
       "sourcePostId": "18076835675746190",
       "sourcePriority": 155,
-      "relatedPostCount": 9,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -38,7 +38,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DfFnTsuEgzk",
       "sourcePostId": "18119689847325470",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -58,7 +58,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dffj5_aetbb.html",
-      "postCount": 15,
+      "postCount": 14,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfFj5_aETbB"
     },
@@ -67,7 +67,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dfibm3udw5a.html",
-      "postCount": 9,
+      "postCount": 11,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A"
     },
@@ -76,7 +76,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dffntsuegzk.html",
-      "postCount": 13,
+      "postCount": 14,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DfFnTsuEgzk"
     },
@@ -111,14 +111,14 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "cooljerrett",
+      "username": "kilimanjarohiker",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/cooljerrett-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "cooljerrett",
-      "discoveredVia": "claudeai"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kilimanjarohiker-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "kilimanjarohiker",
+      "discoveredVia": "openai"
     }
   ],
   "posts": []
