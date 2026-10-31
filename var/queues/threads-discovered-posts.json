@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:26:56.416Z",
+  "generatedAt": "2026-10-31T22:58:20.445Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -9,7 +9,7 @@
     {
       "author": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
-      "sourcePostId": "17940430065381252",
+      "sourcePostId": "17941433715385320",
       "sourcePriority": 155,
       "relatedPostCount": 15,
       "queuedCount": 0,
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
       "sourcePostId": "18076835675746190",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
+      "relatedPostCount": 16,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dfibm3udw5a.html",
-      "postCount": 15,
+      "postCount": 16,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A"
     },
@@ -50,28 +50,18 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/kimmonismus-threads-rendered.html",
-      "postCount": 8,
+      "postCount": 7,
       "discoveryAuthor": "kimmonismus",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "kilimanjarohiker",
+      "username": "aiintegratorapp",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kilimanjarohiker-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aiintegratorapp-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "kilimanjarohiker",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "desde2023.ai",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/desde2023.ai-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "desde2023.ai",
+      "discoveryAuthor": "aiintegratorapp",
       "discoveredVia": "openai"
     },
     {
@@ -82,6 +72,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/super.intelligencee-threads-rendered.html",
       "postCount": 0,
       "discoveryAuthor": "super.intelligencee",
+      "discoveredVia": "openai"
+    },
+    {
+      "username": "kitscepter111",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kitscepter111-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "kitscepter111",
       "discoveredVia": "openai"
     }
   ],
