@@ -1,79 +1,8 @@
 {
-  "generatedAt": "2026-11-01T01:58:17.299Z",
+  "generatedAt": "2026-11-01T21:03:39.872Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [
-    "claudeai",
-    "openai"
-  ],
-  "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
-      "sourcePostId": "17941433715385320",
-      "sourcePriority": 155,
-      "relatedPostCount": 15,
-      "queuedCount": 0,
-      "rootResolved": true
-    },
-    {
-      "author": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
-      "sourcePostId": "18076835675746190",
-      "sourcePriority": 155,
-      "relatedPostCount": 16,
-      "queuedCount": 0,
-      "rootResolved": true
-    }
-  ],
-  "diagnostics": [
-    {
-      "url": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfh6f_0gt1w.html",
-      "postCount": 15,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfH6F_0Gt1W"
-    },
-    {
-      "url": "https://www.threads.com/@openai/post/DfIbm3uDw5A",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dfibm3udw5a.html",
-      "postCount": 16,
-      "sourceAuthor": "openai",
-      "sourceUrl": "https://www.threads.com/@openai/post/DfIbm3uDw5A"
-    },
-    {
-      "username": "kimmonismus",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kimmonismus-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "kimmonismus",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "aiintegratorapp",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aiintegratorapp-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "aiintegratorapp",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "kitscepter111",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kitscepter111-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "kitscepter111",
-      "discoveredVia": "openai"
-    }
-  ],
+  "sourceAccounts": [],
+  "roots": [],
+  "diagnostics": [],
   "posts": []
 }
