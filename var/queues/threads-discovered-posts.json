@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T22:58:20.445Z",
+  "generatedAt": "2026-11-01T01:58:17.299Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -62,16 +62,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/aiintegratorapp-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "aiintegratorapp",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "super.intelligencee",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/super.intelligencee-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "super.intelligencee",
       "discoveredVia": "openai"
     },
     {
