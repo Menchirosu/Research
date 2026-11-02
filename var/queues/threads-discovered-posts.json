@@ -1,8 +1,50 @@
 {
-  "generatedAt": "2026-11-02T02:10:39.235Z",
+  "generatedAt": "2026-11-02T23:50:49.764Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [],
-  "roots": [],
-  "diagnostics": [],
+  "sourceAccounts": [
+    "claudeai"
+  ],
+  "roots": [
+    {
+      "author": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfQEROqIB9x",
+      "sourcePostId": "18229978837330656",
+      "sourcePriority": 155,
+      "relatedPostCount": 15,
+      "queuedCount": 0,
+      "rootResolved": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://www.threads.com/@claudeai/post/DfQEROqIB9x",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfqeroqib9x.html",
+      "postCount": 15,
+      "sourceAuthor": "claudeai",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfQEROqIB9x"
+    },
+    {
+      "username": "vaisov",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/vaisov-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "vaisov",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "_manavm_",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/_manavm_-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "_manavm_",
+      "discoveredVia": "claudeai"
+    }
+  ],
   "posts": []
 }
