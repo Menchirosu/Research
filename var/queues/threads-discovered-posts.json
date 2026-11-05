@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:41:20.415Z",
+  "generatedAt": "2026-11-05T03:18:51.746Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfU44kGjnSp",
       "sourcePostId": "18415803823081027",
       "sourcePriority": 155,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfSNaXxoOmw",
       "sourcePostId": "17907606054656866",
       "sourcePriority": 155,
-      "relatedPostCount": 11,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfu44kgjnsp.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfU44kGjnSp"
     },
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfsnaxxoomw.html",
-      "postCount": 11,
+      "postCount": 12,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfSNaXxoOmw"
     },
@@ -74,13 +74,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "cekprofileku",
+      "username": "jim_higgins_",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/cekprofileku-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "cekprofileku",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jim_higgins_-threads-rendered.html",
+      "postCount": 16,
+      "discoveryAuthor": "jim_higgins_",
       "discoveredVia": "claudeai"
     }
   ],
