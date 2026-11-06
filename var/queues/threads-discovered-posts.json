@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T22:38:34.794Z",
+  "generatedAt": "2026-11-06T00:39:31.225Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfXppAqIEaw",
       "sourcePostId": "18107126687636483",
       "sourcePriority": 155,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfXoOIuEXu-",
       "sourcePostId": "18022646150730595",
       "sourcePriority": 155,
-      "relatedPostCount": 14,
+      "relatedPostCount": 16,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfxppaqieaw.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfXppAqIEaw"
     },
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfxooiuexu.html",
-      "postCount": 14,
+      "postCount": 16,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfXoOIuEXu-"
     },
@@ -64,6 +64,16 @@
       "discoveredVia": "claudeai"
     },
     {
+      "username": "jakemarsh",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/jakemarsh-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "jakemarsh",
+      "discoveredVia": "claudeai"
+    },
+    {
       "username": "tiller_money",
       "tab": "threads",
       "status": "ok",
@@ -71,16 +81,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/tiller_money-threads-rendered.html",
       "postCount": 10,
       "discoveryAuthor": "tiller_money",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "jpbaloga",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/jpbaloga-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "jpbaloga",
       "discoveredVia": "claudeai"
     }
   ],
