@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T04:31:22.114Z",
+  "generatedAt": "2026-11-10T22:15:16.004Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -7,80 +7,70 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfiBPlOEQZG",
-      "sourcePostId": "17900721921397189",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfkchzQEXbw",
+      "sourcePostId": "17924732376448305",
       "sourcePriority": 155,
-      "relatedPostCount": 20,
+      "relatedPostCount": 16,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfiB3Onm8sr",
-      "sourcePostId": "18098357108663325",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfkcvQHmzd_",
+      "sourcePostId": "17975049633180521",
       "sourcePriority": 155,
-      "relatedPostCount": 19,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/DfiBPlOEQZG",
+      "url": "https://www.threads.com/@claudeai/post/DfkchzQEXbw",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfibploeqzg.html",
-      "postCount": 20,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfkchzqexbw.html",
+      "postCount": 16,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfiBPlOEQZG"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfkchzQEXbw"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DfiB3Onm8sr",
+      "url": "https://www.threads.com/@claudeai/post/DfkcvQHmzd_",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfib3onm8sr.html",
-      "postCount": 19,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfkcvqhmzd_.html",
+      "postCount": 14,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfiB3Onm8sr"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/DfkcvQHmzd_"
     },
     {
-      "username": "mikeruizxyz",
+      "username": "promptslove",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mikeruizxyz-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "mikeruizxyz",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 10,
+      "discoveryAuthor": "promptslove",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "cekprofileku",
+      "username": "xpk_03",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/cekprofileku-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/xpk_03-threads-rendered.html",
       "postCount": 5,
-      "discoveryAuthor": "cekprofileku",
+      "discoveryAuthor": "xpk_03",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "gabrielgtapps",
+      "username": "ryanmichaeltn",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/gabrielgtapps-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "gabrielgtapps",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "mu.fnord",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/mu.fnord-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "mu.fnord",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/ryanmichaeltn-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "ryanmichaeltn",
       "discoveredVia": "claudeai"
     }
   ],
