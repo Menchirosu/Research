@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:15:16.004Z",
+  "generatedAt": "2026-11-11T00:22:10.917Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfkchzQEXbw",
       "sourcePostId": "17924732376448305",
       "sourcePriority": 155,
-      "relatedPostCount": 16,
+      "relatedPostCount": 15,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfkcvQHmzd_",
       "sourcePostId": "17975049633180521",
       "sourcePriority": 155,
-      "relatedPostCount": 14,
+      "relatedPostCount": 15,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfkchzqexbw.html",
-      "postCount": 16,
+      "postCount": 15,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfkchzQEXbw"
     },
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfkcvqhmzd_.html",
-      "postCount": 14,
+      "postCount": 15,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DfkcvQHmzd_"
     },
