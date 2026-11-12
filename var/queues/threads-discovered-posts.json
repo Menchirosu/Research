@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:40:17.936Z",
+  "generatedAt": "2026-11-12T22:40:29.610Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -7,60 +7,50 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dfnu8iBEffa",
-      "sourcePostId": "17926391712434486",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5XH3kbeW",
+      "sourcePostId": "17932248627424619",
       "sourcePriority": 155,
-      "relatedPostCount": 8,
+      "relatedPostCount": 3,
       "queuedCount": 0,
       "rootResolved": true
     },
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfkchzQEXbw",
-      "sourcePostId": "17924732376448305",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5dddm5Mj",
+      "sourcePostId": "18642824581057040",
       "sourcePriority": 155,
-      "relatedPostCount": 18,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/Dfnu8iBEffa",
+      "url": "https://www.threads.com/@claudeai/post/Dfp5XH3kbeW",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfnu8ibeffa.html",
-      "postCount": 8,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfp5xh3kbew.html",
+      "postCount": 3,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Dfnu8iBEffa"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5XH3kbeW"
     },
     {
-      "url": "https://www.threads.com/@claudeai/post/DfkchzQEXbw",
+      "url": "https://www.threads.com/@claudeai/post/Dfp5dddm5Mj",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfkchzqexbw.html",
-      "postCount": 18,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfp5dddm5mj.html",
+      "postCount": 10,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfkchzQEXbw"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5dddm5Mj"
     },
     {
-      "username": "gemaifinds",
+      "username": "theabiodun",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/gemaifinds-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/theabiodun-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "gemaifinds",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "aimanops",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aimanops-threads-rendered.html",
-      "postCount": 11,
-      "discoveryAuthor": "aimanops",
+      "discoveryAuthor": "theabiodun",
       "discoveredVia": "claudeai"
     }
   ],
