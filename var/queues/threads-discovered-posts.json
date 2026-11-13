@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:50:27.903Z",
+  "generatedAt": "2026-11-13T03:15:59.738Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5XH3kbeW",
       "sourcePostId": "17932248627424619",
       "sourcePriority": 155,
-      "relatedPostCount": 3,
+      "relatedPostCount": 18,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfp5xh3kbew.html",
-      "postCount": 3,
+      "postCount": 18,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5XH3kbeW"
     },
@@ -44,13 +44,43 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Dfp5dddm5Mj"
     },
     {
-      "username": "theabiodun",
+      "username": "kjhenseler",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/theabiodun-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kjhenseler-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "kjhenseler",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "kirbyhogenmiller",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kirbyhogenmiller-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "theabiodun",
+      "discoveryAuthor": "kirbyhogenmiller",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "obykaby",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/obykaby-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "obykaby",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "yariknearsci",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/yariknearsci-threads-rendered.html",
+      "postCount": 6,
+      "discoveryAuthor": "yariknearsci",
       "discoveredVia": "claudeai"
     }
   ],
