@@ -1,30 +1,8 @@
 {
-  "generatedAt": "2026-11-15T02:27:39.085Z",
+  "generatedAt": "2026-11-15T21:38:06.303Z",
   "mode": "threads-discovered-queue",
-  "sourceAccounts": [
-    "claudeai"
-  ],
-  "roots": [
-    {
-      "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfsFq58ICR2",
-      "sourcePostId": "18232169887334891",
-      "sourcePriority": 155,
-      "relatedPostCount": 17,
-      "queuedCount": 0,
-      "rootResolved": true
-    }
-  ],
-  "diagnostics": [
-    {
-      "url": "https://www.threads.com/@claudeai/post/DfsFq58ICR2",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dfsfq58icr2.html",
-      "postCount": 17,
-      "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/DfsFq58ICR2"
-    }
-  ],
+  "sourceAccounts": [],
+  "roots": [],
+  "diagnostics": [],
   "posts": []
 }
