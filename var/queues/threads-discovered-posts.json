@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T01:59:42.216Z",
+  "generatedAt": "2026-11-18T04:04:11.604Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -30,7 +30,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/Df3LKLkj5ND",
       "sourcePostId": "18099240119133454",
       "sourcePriority": 155,
-      "relatedPostCount": 10,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -39,7 +39,7 @@
       "sourceUrl": "https://www.threads.com/@github/post/Df2kAoJn_6o",
       "sourcePostId": "18114974596887468",
       "sourcePriority": 125,
-      "relatedPostCount": 6,
+      "relatedPostCount": 8,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -68,7 +68,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-df3lklkj5nd.html",
-      "postCount": 10,
+      "postCount": 11,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Df3LKLkj5ND"
     },
@@ -77,7 +77,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-github-post-df2kaojn_6o.html",
-      "postCount": 6,
+      "postCount": 8,
       "sourceAuthor": "github",
       "sourceUrl": "https://www.threads.com/@github/post/Df2kAoJn_6o"
     },
@@ -92,16 +92,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "vyro.101",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/vyro.101-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "vyro.101",
-      "discoveredVia": "openai"
-    },
-    {
       "username": "ai_unclesam",
       "tab": "threads",
       "status": "ok",
@@ -112,14 +102,14 @@
       "discoveredVia": "openai"
     },
     {
-      "username": "ianthomashealy.author",
+      "username": "vyro.101",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ianthomashealy.author-threads-rendered.html",
-      "postCount": 6,
-      "discoveryAuthor": "ianthomashealy.author",
-      "discoveredVia": "github"
+      "cachePath": "/home/runner/work/Research/Research/var/cache/vyro.101-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "vyro.101",
+      "discoveredVia": "openai"
     }
   ],
   "posts": []
