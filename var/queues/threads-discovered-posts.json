@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:29:12.921Z",
+  "generatedAt": "2026-11-20T23:01:51.934Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -8,10 +8,10 @@
   "roots": [
     {
       "author": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Df41DxKoEu7",
-      "sourcePostId": "18001251645046409",
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Df-DNYaIAcV",
+      "sourcePostId": "18128896058486927",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 11,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -20,68 +20,68 @@
       "sourceUrl": "https://www.threads.com/@openai/post/Df72UKWkz2P",
       "sourcePostId": "18030111104923936",
       "sourcePriority": 155,
-      "relatedPostCount": 15,
+      "relatedPostCount": 14,
       "queuedCount": 0,
       "rootResolved": true
     }
   ],
   "diagnostics": [
     {
-      "url": "https://www.threads.com/@claudeai/post/Df41DxKoEu7",
+      "url": "https://www.threads.com/@claudeai/post/Df-DNYaIAcV",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-df41dxkoeu7.html",
-      "postCount": 13,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-df-dnyaiacv.html",
+      "postCount": 11,
       "sourceAuthor": "claudeai",
-      "sourceUrl": "https://www.threads.com/@claudeai/post/Df41DxKoEu7"
+      "sourceUrl": "https://www.threads.com/@claudeai/post/Df-DNYaIAcV"
     },
     {
       "url": "https://www.threads.com/@openai/post/Df72UKWkz2P",
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-df72ukwkz2p.html",
-      "postCount": 15,
+      "postCount": 14,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/Df72UKWkz2P"
     },
     {
-      "username": "ahuuae",
+      "username": "ai_basics",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ahuuae-threads-rendered.html",
-      "postCount": 9,
-      "discoveryAuthor": "ahuuae",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/ai_basics-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "ai_basics",
       "discoveredVia": "claudeai"
     },
     {
-      "username": "iamak010",
+      "username": "neirostil",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/iamak010-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "iamak010",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/neirostil-threads-rendered.html",
+      "postCount": 7,
+      "discoveryAuthor": "neirostil",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "insightex.si",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/insightex.si-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "insightex.si",
       "discoveredVia": "openai"
     },
     {
-      "username": "meta.ai",
+      "username": "aitesteddaily",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/meta.ai-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aitesteddaily-threads-rendered.html",
       "postCount": 5,
-      "discoveryAuthor": "meta.ai",
-      "discoveredVia": "openai"
-    },
-    {
-      "username": "promptslove",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 16,
-      "discoveryAuthor": "promptslove",
+      "discoveryAuthor": "aitesteddaily",
       "discoveredVia": "openai"
     }
   ],
