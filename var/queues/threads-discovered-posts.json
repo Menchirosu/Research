@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T01:01:59.539Z",
+  "generatedAt": "2026-11-21T03:50:44.816Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -52,16 +52,6 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/ai_basics-threads-rendered.html",
       "postCount": 4,
       "discoveryAuthor": "ai_basics",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "promptslove",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
-      "postCount": 16,
-      "discoveryAuthor": "promptslove",
       "discoveredVia": "claudeai"
     },
     {
