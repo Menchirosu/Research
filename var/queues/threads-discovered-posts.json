@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T23:01:51.934Z",
+  "generatedAt": "2026-11-21T01:01:59.539Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -11,7 +11,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/Df-DNYaIAcV",
       "sourcePostId": "18128896058486927",
       "sourcePriority": 155,
-      "relatedPostCount": 11,
+      "relatedPostCount": 9,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -31,7 +31,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-df-dnyaiacv.html",
-      "postCount": 11,
+      "postCount": 9,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/Df-DNYaIAcV"
     },
@@ -55,13 +55,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "neirostil",
+      "username": "promptslove",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/neirostil-threads-rendered.html",
-      "postCount": 7,
-      "discoveryAuthor": "neirostil",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/promptslove-threads-rendered.html",
+      "postCount": 16,
+      "discoveryAuthor": "promptslove",
       "discoveredVia": "claudeai"
     },
     {
@@ -70,7 +70,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/insightex.si-threads-rendered.html",
-      "postCount": 0,
+      "postCount": 4,
       "discoveryAuthor": "insightex.si",
       "discoveredVia": "openai"
     },
