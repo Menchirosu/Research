@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T22:07:31.888Z",
+  "generatedAt": "2026-11-22T00:01:27.334Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DgAb_rAkrEU",
       "sourcePostId": "18087000722711486",
       "sourcePriority": 155,
-      "relatedPostCount": 9,
+      "relatedPostCount": 10,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,19 +40,19 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dgab_rakreu.html",
-      "postCount": 9,
+      "postCount": 10,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DgAb_rAkrEU"
     },
     {
-      "username": "0xtibox03",
+      "username": "tokendept",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/0xtibox03-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/tokendept-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "0xtibox03",
-      "discoveredVia": "claudeai"
+      "discoveryAuthor": "tokendept",
+      "discoveredVia": "openai"
     },
     {
       "username": "promptslove",
