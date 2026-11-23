@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:22:41.027Z",
+  "generatedAt": "2026-11-23T00:34:29.540Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai",
@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.threads.com/@openai/post/DgAb_rAkrEU",
       "sourcePostId": "18087000722711486",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 12,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -40,7 +40,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-openai-post-dgab_rakreu.html",
-      "postCount": 13,
+      "postCount": 12,
       "sourceAuthor": "openai",
       "sourceUrl": "https://www.threads.com/@openai/post/DgAb_rAkrEU"
     },
@@ -75,13 +75,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "wetrio.agency",
+      "username": "nextammy",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/wetrio.agency-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nextammy-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "wetrio.agency",
+      "discoveryAuthor": "nextammy",
       "discoveredVia": "claudeai"
     }
   ],
