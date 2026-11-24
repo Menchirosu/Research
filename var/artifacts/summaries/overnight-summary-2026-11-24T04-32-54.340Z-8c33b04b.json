@@ -1,0 +1,553 @@
+{
+  "mode": "overnight",
+  "topic": "hot AI coding workflows right now",
+  "startedAt": "2026-11-24T04:32:01.807Z",
+  "completedAt": "2026-11-24T04:32:54.339Z",
+  "publishEnabled": true,
+  "watchlistFile": "config/threads-watchlist.json",
+  "seededPostsFile": "config/seeded-posts.json",
+  "discoveredPostsFile": "/home/runner/work/Research/Research/var/queues/threads-discovered-posts.json",
+  "scanPath": "/home/runner/work/Research/Research/var/artifacts/scans/scan-2026-11-24T04-32-05.622Z-97e79a37.json",
+  "scanWarning": "Scan did not clear the minimum independent source gate (2).",
+  "error": null,
+  "hardFailure": null,
+  "status": "degraded",
+  "caps": {
+    "runsPerWindow": 3,
+    "maxPostActionsPerRun": 1,
+    "maxReplyActionsPerRun": 2,
+    "rollingWindowHours": 24,
+    "originalBudget": 3,
+    "interactionBudget": 12
+  },
+  "sourceCount": 1,
+  "providerErrors": [],
+  "providerDiagnostics": [
+    {
+      "provider": "reddit",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    },
+    {
+      "provider": "hackernews",
+      "status": "fulfilled",
+      "rawCount": 10,
+      "filteredCount": 1,
+      "error": null
+    },
+    {
+      "provider": "github",
+      "status": "fulfilled",
+      "rawCount": 0,
+      "filteredCount": 0,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "provider": "hackernews",
+      "count": 1
+    }
+  ],
+  "targetSummary": {
+    "watchlistAccounts": 9,
+    "seeded": 0,
+    "watchlistTargets": 2,
+    "discovered": 0,
+    "harvested": 0,
+    "total": 2,
+    "eligible": 2,
+    "skipped": 0
+  },
+  "watchlistAccounts": [
+    {
+      "username": "claudeai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "strong Claude Code and builder-discourse source",
+      "profileUrl": "https://www.threads.com/@claudeai",
+      "freshProfilePosts": 2,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 6,
+      "quoteTargetCount": 2,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 75,
+      "demotionRisk": "medium",
+      "status": "rising",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
+        "publishedAt": "2026-11-23T20:02:18.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@claudeai/post/DgGMTbxgdJg\" role=\"link\" tabindex=\"0\"> 8h CRISPR started as a strange repeat pattern in bacterial DNA that took years to explain. Claude recently flagged a similar-looking pattern in viral DNA. Anthropic "
+      }
+    },
+    {
+      "username": "github",
+      "tier": "secondary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "GitHub product and Copilot-adjacent account with strong builder reach",
+      "profileUrl": "https://www.threads.com/@github",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 9,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 63,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@github/post/DgGm8a2lR5o",
+        "publishedAt": "2026-11-23T23:55:05.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@github/post/DgGm8a2lR5o\" role=\"link\" tabindex=\"0\"> 4h GitHub now recognizes ACCESSIBILITY .md files on repo overview pages. Now your project can document its accessibility goals and expectations. Here's the guidance so"
+      }
+    },
+    {
+      "username": "windsurf",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "AI coding-tool account; watch quietly until fresh Threads activity comes back",
+      "profileUrl": "https://www.threads.com/@windsurf",
+      "freshProfilePosts": 1,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 61,
+      "demotionRisk": "medium",
+      "status": "stable",
+      "recommendation": "keep",
+      "latestFreshPost": {
+        "permalink": "https://www.threads.com/@windsurf/post/DgB-CFKEdXK",
+        "publishedAt": "2026-11-22T04:40:38.000Z",
+        "sourceType": "rendered_profile_post",
+        "likeCount": 0,
+        "commentCount": 0,
+        "repostCount": 0,
+        "shareCount": 0,
+        "text": "/@windsurf/post/DgB-CFKEdXK\" role=\"link\" tabindex=\"0\"> 1d A beautiful Sunday walk from home to the beach. Enoshima and Mount Fuji looking stunning under the clear blue sky. ☀️🌊🗻 #zushihayama windsurf <a class=\"x1i10hfl"
+      }
+    },
+    {
+      "username": "openai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "core model and product-launch account",
+      "profileUrl": "https://www.threads.com/@openai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 8,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 35,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "anthropicai",
+      "tier": "primary",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": false,
+      "notes": "lab account; often relevant even when public Threads activity is sparse",
+      "profileUrl": "https://www.threads.com/@anthropicai",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 0,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 33,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "review-primary",
+      "latestFreshPost": null
+    },
+    {
+      "username": "karpathy",
+      "tier": "candidate",
+      "lane": "ai-builder",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "high-signal individual builder/researcher account; promotion should stay evidence-based",
+      "profileUrl": "https://www.threads.com/@karpathy",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 5,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "perplexity",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "useful when search, agents, and tool-usage discourse overlaps with builder workflows",
+      "profileUrl": "https://www.threads.com/@perplexity",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 10,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 30,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    },
+    {
+      "username": "grok",
+      "tier": "candidate",
+      "lane": "ai-platform",
+      "enabled": true,
+      "verifiedExpected": true,
+      "verifiedObserved": true,
+      "notes": "broader AI product voice; watch for major model and platform discourse, not default overnight replies",
+      "profileUrl": "https://www.threads.com/@grok",
+      "freshProfilePosts": 0,
+      "freshReplyPosts": 0,
+      "harvestedPosts": 4,
+      "quoteTargetCount": 0,
+      "replyTargetCount": 0,
+      "engagementScore": 0,
+      "promotionScore": 29,
+      "demotionRisk": "high",
+      "status": "stale",
+      "recommendation": "keep",
+      "latestFreshPost": null
+    }
+  ],
+  "discoveryErrors": [
+    {
+      "username": "anthropicai",
+      "errors": [
+        {
+          "source": "rendered",
+          "message": "No public posts were extracted from the rendered profile view."
+        },
+        {
+          "source": "api",
+          "message": "HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Monday, 23-Nov-26 20:32:26 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":0,\"fbtrace_id\":\"A7sbfG7aqaKWHNczcwDmwnn\"}}"
+        }
+      ],
+      "fallbackDiagnostics": [
+        {
+          "username": "anthropicai",
+          "tab": "threads",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-threads-rendered.html",
+          "postCount": 0
+        },
+        {
+          "username": "anthropicai",
+          "tab": "replies",
+          "status": "ok",
+          "error": null,
+          "cachePath": "/home/runner/work/Research/Research/var/cache/anthropicai-replies-rendered.html",
+          "postCount": 0
+        }
+      ]
+    }
+  ],
+  "discoveredTargets": [
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
+      "postId": "18650276653039388",
+      "text": "/@claudeai/post/DgGMTbxgdJg\" role=\"link\" tabindex=\"0\"> 8h CRISPR started as a strange repeat pattern in bacterial DNA that took years to explain. Claude recently flagged a similar-looking pattern in viral DNA. Anthropic scientists are now running experiments to learn whether it works anything like it. 96 10 11 2 claudeai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+      "publishedAt": "2026-11-23T20:02:18.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-0d0851e529",
+      "mode": "quote"
+    },
+    {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs",
+      "postId": "18105322787647266",
+      "text": "/@claudeai/post/DgFuoKfkaqs\" role=\"link\" tabindex=\"0\"> 12h Last month we released Claude Fable 5.2, Claude Duet, and Personal Finance in Claude, plus a few smaller updates you may have missed. 784 58 21 35 Log in to see more from claudeai. Log in © 2026 Threads Terms Privacy Policy Cookies Policy Report a problem Say more with Threads Join Threads to share thoughts, find out what’s going on, follow your people and more. Continue with Instagram",
+      "publishedAt": "2026-11-23T15:45:04.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-bb3ffc622e",
+      "mode": "quote"
+    }
+  ],
+  "discoveredQueue": {
+    "generatedAt": "2026-11-24T04:32:54.335Z",
+    "mode": "threads-discovered-queue",
+    "sourceAccounts": [
+      "claudeai"
+    ],
+    "roots": [
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
+        "sourcePostId": "18650276653039388",
+        "sourcePriority": 155,
+        "relatedPostCount": 13,
+        "queuedCount": 0,
+        "rootResolved": true
+      },
+      {
+        "author": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs",
+        "sourcePostId": "18105322787647266",
+        "sourcePriority": 155,
+        "relatedPostCount": 28,
+        "queuedCount": 0,
+        "rootResolved": true
+      }
+    ],
+    "diagnostics": [
+      {
+        "url": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dggmtbxgdjg.html",
+        "postCount": 13,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg"
+      },
+      {
+        "url": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dgfuokfkaqs.html",
+        "postCount": 28,
+        "sourceAuthor": "claudeai",
+        "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs"
+      },
+      {
+        "username": "hokangustavsson",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/hokangustavsson-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "hokangustavsson",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "ituzov.dev",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/ituzov.dev-threads-rendered.html",
+        "postCount": 4,
+        "discoveryAuthor": "ituzov.dev",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "test.cb09020",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/test.cb09020-threads-rendered.html",
+        "postCount": 5,
+        "discoveryAuthor": "test.cb09020",
+        "discoveredVia": "claudeai"
+      },
+      {
+        "username": "neirostil",
+        "tab": "threads",
+        "status": "ok",
+        "error": null,
+        "cachePath": "/home/runner/work/Research/Research/var/cache/neirostil-threads-rendered.html",
+        "postCount": 7,
+        "discoveryAuthor": "neirostil",
+        "discoveredVia": "claudeai"
+      }
+    ],
+    "posts": []
+  },
+  "selected": {
+    "postTarget": {
+      "platform": "threads",
+      "author": "claudeai",
+      "url": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
+      "postId": "18650276653039388",
+      "text": "/@claudeai/post/DgGMTbxgdJg\" role=\"link\" tabindex=\"0\"> 8h CRISPR started as a strange repeat pattern in bacterial DNA that took years to explain. Claude recently flagged a similar-looking pattern in viral DNA. Anthropic scientists are now running experiments to learn whether it works anything like it. 96 10 11 2 claudeai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+      "publishedAt": "2026-11-23T20:02:18.000Z",
+      "activityScore": 2,
+      "active": true,
+      "isVerified": true,
+      "isReplyToUs": false,
+      "priority": 155,
+      "targetOrigin": "watchlist",
+      "sourceProvider": "threads",
+      "sourceType": "rendered_profile_post",
+      "sourceHost": "www.threads.com",
+      "tier": "primary",
+      "allowReplies": true,
+      "thresholdOverride": false,
+      "reason": null,
+      "id": "threads-claudeai-quote-0d0851e529",
+      "mode": "quote"
+    },
+    "replyTargets": []
+  },
+  "actions": [
+    {
+      "kind": "quote",
+      "status": "skipped",
+      "draftPath": "/home/runner/work/Research/Research/var/artifacts/drafts/draft-2026-11-24T04-32-54.337Z-85170c93.json",
+      "errorStage": "draft",
+      "error": "Draft is too similar to a recent published post.",
+      "target": {
+        "platform": "threads",
+        "author": "claudeai",
+        "url": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
+        "postId": "18650276653039388",
+        "text": "/@claudeai/post/DgGMTbxgdJg\" role=\"link\" tabindex=\"0\"> 8h CRISPR started as a strange repeat pattern in bacterial DNA that took years to explain. Claude recently flagged a similar-looking pattern in viral DNA. Anthropic scientists are now running experiments to learn whether it works anything like it. 96 10 11 2 claudeai <a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1lku1pv xhgddhk xj2mjn9 x1citr7e x1rq5sj\" href=\"",
+        "publishedAt": "2026-11-23T20:02:18.000Z",
+        "activityScore": 2,
+        "active": true,
+        "isVerified": true,
+        "isReplyToUs": false,
+        "priority": 155,
+        "targetOrigin": "watchlist",
+        "sourceProvider": "threads",
+        "sourceType": "rendered_profile_post",
+        "sourceHost": "www.threads.com",
+        "tier": "primary",
+        "allowReplies": true,
+        "thresholdOverride": false,
+        "reason": null,
+        "id": "threads-claudeai-quote-0d0851e529",
+        "mode": "quote"
+      }
+    }
+  ],
+  "skippedTargets": [],
+  "touchedLedgerPath": "/home/runner/work/Research/Research/var/ledgers/overnight-touched.json",
+  "errorBuckets": {
+    "config": [],
+    "state": [],
+    "scan": [
+      "Scan did not clear the minimum independent source gate (2)."
+    ],
+    "discovery": [
+      "Watchlist discovery issue for @anthropicai: No public posts were extracted from the rendered profile view.; HTTP 400 for https://graph.threads.net/profile_posts?access_token=THAAXukZCFjffhBYlkxSDNmQUlwNVdJMlhOWFBPM2JLU0lKTFJsTzdvVFR0SDE3eTFLM0l4N1JsZAzQ5VG91aGFrNUNMNTFrVnpnWF9pa183WjFEdjZAyTTllZAGo2ZAUpPRE5HaGpYYUd1dllOeGFQblhrc19HQlJqOVBpd1FKMEpPZAnFLRXVQajVOYm1UMG9CWjQZD&username=anthropicai&fields=id%2Cpermalink%2Cusername%2Ctext%2Ctimestamp%2Cshortcode%2Cmedia_type%2Chas_replies%2Cis_quote_post%2Cquoted_post%2Cis_verified%2Cprofile_picture_url&limit=5: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 30-Jun-26 08:42:55 PDT. The current time is Monday, 23-Nov-26 20:32:26 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":0,\"fbtrace_id\":\"A7sbfG7aqaKWHNczcwDmwnn\"}}"
+    ],
+    "ranking": [],
+    "draft": [
+      "Draft is too similar to a recent published post."
+    ],
+    "publish": [],
+    "persist": []
+  },
+  "health": {
+    "status": "degraded",
+    "scan": "degraded",
+    "discovery": "degraded",
+    "draft": "degraded",
+    "publish": "ok",
+    "state": "ok",
+    "needsAttention": true,
+    "repeatedDegradations": [
+      {
+        "stage": "scan",
+        "consecutiveRuns": 31
+      },
+      {
+        "stage": "discovery",
+        "consecutiveRuns": 563
+      },
+      {
+        "stage": "draft",
+        "consecutiveRuns": 18
+      }
+    ],
+    "morningReport": {
+      "scanned": true,
+      "discoveredTargets": 0,
+      "posted": false,
+      "degradedStages": [
+        "scan",
+        "discovery",
+        "draft"
+      ],
+      "needsAttention": [
+        {
+          "stage": "scan",
+          "consecutiveRuns": 31
+        },
+        {
+          "stage": "discovery",
+          "consecutiveRuns": 563
+        },
+        {
+          "stage": "draft",
+          "consecutiveRuns": 18
+        }
+      ]
+    }
+  }
+}
