@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:32:54.335Z",
+  "generatedAt": "2026-11-24T06:50:33.314Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg",
       "sourcePostId": "18650276653039388",
       "sourcePriority": 155,
-      "relatedPostCount": 13,
+      "relatedPostCount": 5,
       "queuedCount": 0,
       "rootResolved": true
     },
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs",
       "sourcePostId": "18105322787647266",
       "sourcePriority": 155,
-      "relatedPostCount": 28,
+      "relatedPostCount": 27,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -30,7 +30,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dggmtbxgdjg.html",
-      "postCount": 13,
+      "postCount": 5,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgGMTbxgdJg"
     },
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dgfuokfkaqs.html",
-      "postCount": 28,
+      "postCount": 27,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs"
     },
@@ -54,26 +54,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "ituzov.dev",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/ituzov.dev-threads-rendered.html",
-      "postCount": 4,
-      "discoveryAuthor": "ituzov.dev",
-      "discoveredVia": "claudeai"
-    },
-    {
-      "username": "test.cb09020",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/test.cb09020-threads-rendered.html",
-      "postCount": 5,
-      "discoveryAuthor": "test.cb09020",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "neirostil",
       "tab": "threads",
       "status": "ok",
@@ -81,6 +61,26 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/neirostil-threads-rendered.html",
       "postCount": 7,
       "discoveryAuthor": "neirostil",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "nlimiton",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nlimiton-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "nlimiton",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "hiheat.music",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/hiheat.music-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "hiheat.music",
       "discoveredVia": "claudeai"
     }
   ],
