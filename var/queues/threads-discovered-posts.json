@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T03:17:28.226Z",
+  "generatedAt": "2026-11-25T05:17:29.165Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs",
       "sourcePostId": "18105322787647266",
       "sourcePriority": 155,
-      "relatedPostCount": 31,
+      "relatedPostCount": 29,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -39,7 +39,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dgfuokfkaqs.html",
-      "postCount": 31,
+      "postCount": 29,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs"
     },
@@ -64,16 +64,6 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "tstzjon",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/tstzjon-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "tstzjon",
-      "discoveredVia": "claudeai"
-    },
-    {
       "username": "pintusaru",
       "tab": "threads",
       "status": "ok",
@@ -81,6 +71,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/pintusaru-threads-rendered.html",
       "postCount": 0,
       "discoveryAuthor": "pintusaru",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "tstzjon",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/tstzjon-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "tstzjon",
       "discoveredVia": "claudeai"
     }
   ],
