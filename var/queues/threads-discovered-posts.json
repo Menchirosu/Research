@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:19:52.152Z",
+  "generatedAt": "2026-11-25T03:17:28.226Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -19,7 +19,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs",
       "sourcePostId": "18105322787647266",
       "sourcePriority": 155,
-      "relatedPostCount": 30,
+      "relatedPostCount": 31,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -39,19 +39,9 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dgfuokfkaqs.html",
-      "postCount": 30,
+      "postCount": 31,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgFuoKfkaqs"
-    },
-    {
-      "username": "aitesteddaily",
-      "tab": "threads",
-      "status": "ok",
-      "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/aitesteddaily-threads-rendered.html",
-      "postCount": 0,
-      "discoveryAuthor": "aitesteddaily",
-      "discoveredVia": "claudeai"
     },
     {
       "username": "zeter1992",
@@ -64,13 +54,13 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "pintusaru",
+      "username": "aitesteddaily",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/pintusaru-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/aitesteddaily-threads-rendered.html",
       "postCount": 0,
-      "discoveryAuthor": "pintusaru",
+      "discoveryAuthor": "aitesteddaily",
       "discoveredVia": "claudeai"
     },
     {
@@ -81,6 +71,16 @@
       "cachePath": "/home/runner/work/Research/Research/var/cache/tstzjon-threads-rendered.html",
       "postCount": 0,
       "discoveryAuthor": "tstzjon",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "pintusaru",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/pintusaru-threads-rendered.html",
+      "postCount": 0,
+      "discoveryAuthor": "pintusaru",
       "discoveredVia": "claudeai"
     }
   ],
