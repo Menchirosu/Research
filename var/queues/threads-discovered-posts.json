@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T00:26:11.154Z",
+  "generatedAt": "2026-11-28T02:26:16.557Z",
   "mode": "threads-discovered-queue",
   "sourceAccounts": [
     "claudeai"
@@ -10,7 +10,7 @@
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgQVYBljJao",
       "sourcePostId": "18204267991383955",
       "sourcePriority": 155,
-      "relatedPostCount": 5,
+      "relatedPostCount": 25,
       "queuedCount": 0,
       "rootResolved": true
     }
@@ -21,7 +21,7 @@
       "status": "ok",
       "error": null,
       "cachePath": "/home/runner/work/Research/Research/var/cache/threads-post-https-www.threads.com-claudeai-post-dgqvybljjao.html",
-      "postCount": 5,
+      "postCount": 25,
       "sourceAuthor": "claudeai",
       "sourceUrl": "https://www.threads.com/@claudeai/post/DgQVYBljJao"
     },
@@ -36,13 +36,33 @@
       "discoveredVia": "claudeai"
     },
     {
-      "username": "kiruhino",
+      "username": "nextammy",
       "tab": "threads",
       "status": "ok",
       "error": null,
-      "cachePath": "/home/runner/work/Research/Research/var/cache/kiruhino-threads-rendered.html",
+      "cachePath": "/home/runner/work/Research/Research/var/cache/nextammy-threads-rendered.html",
       "postCount": 4,
-      "discoveryAuthor": "kiruhino",
+      "discoveryAuthor": "nextammy",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "dragon.5254889",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/dragon.5254889-threads-rendered.html",
+      "postCount": 4,
+      "discoveryAuthor": "dragon.5254889",
+      "discoveredVia": "claudeai"
+    },
+    {
+      "username": "kk_mindset",
+      "tab": "threads",
+      "status": "ok",
+      "error": null,
+      "cachePath": "/home/runner/work/Research/Research/var/cache/kk_mindset-threads-rendered.html",
+      "postCount": 5,
+      "discoveryAuthor": "kk_mindset",
       "discoveredVia": "claudeai"
     }
   ],
